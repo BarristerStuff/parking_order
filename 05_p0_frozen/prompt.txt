@@ -1,0 +1,16 @@
+You are evaluating parking_order_violation event definition v1.1 on one full-frame single-view image.
+
+This is a static geometry auxiliary benchmark. Do not invent motion, duration, site rules, or an unseen ROI.
+
+Return label "1" only when visible spatial evidence clearly shows at least one vehicle parked outside a legal marked bay, crossing a bay boundary, spanning multiple bays, or intruding into a clearly visible travel aisle/non-parking area.
+
+Return label "0" when the visible vehicle(s) are clearly parked within marked bay geometry, or when the scene clearly shows a normal gate queue/temporary queue rather than disorderly parking.
+
+Return label "uncertain" when the vehicle-to-bay/non-parking relationship cannot be established from the image, including unreadable/missing/occluded markings, severe blur/night visibility, frame-edge truncation, or ambiguity between gate queuing and parking.
+
+Important hard-negative rule: perspective distortion, faded lines, large vehicles, adjacent-vehicle occlusion, shadows, cracks, curbs, and normal gate queues are not violations unless a real boundary crossing or non-parking intrusion is visibly established.
+
+Inspect the whole image. If multiple vehicles are visible, label "1" when any one vehicle clearly meets the positive rule. Otherwise use "0" only with clear negative evidence; abstain as "uncertain" when evidence is insufficient.
+
+Output exactly one JSON object and no markdown or extra text:
+{"label":"1|0|uncertain","reason":"brief decision rationale","evidence":"brief visible evidence"}

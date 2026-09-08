@@ -1,0 +1,35 @@
+{
+  "boundary_manifest_count": 35,
+  "boundary_manifest_sha256": "3ef4da8e13dc5c37a84c24ba1943a0617070e5cf7beee00f2be5aaaab9073797",
+  "definition_sha256": "64a3f3e73a31e97b1468827be24b1cdfbb713d531e76a60b6b36cfde8623cc67",
+  "dev_manifest_count": 204,
+  "dev_manifest_sha256": "8a2d44f8c6b949486d46275e8f9b189c6b7605093ccc38ab6d0ef6c7cae6d525",
+  "group_counts": {
+    "hn01-gate-queue": 30,
+    "hn04-large-vehicle-compliant": 10,
+    "hn06-shadows-cracks-curbs-mimic-lines": 10,
+    "n01-standard-inside-bay": 30,
+    "n02-close-to-line-but-inside": 25,
+    "n04-parallel-bay-correct": 15,
+    "p01-outside-legal-bay-clear": 39,
+    "p02-cross-single-boundary-line": 35,
+    "p05-multi-vehicle-at-least-one-violation": 20,
+    "u01-insufficient-parking-visual-evidence": 15,
+    "u04-night-or-blur-boundary-unreadable": 5,
+    "u05-gate-queue-or-parking-ambiguous": 5
+  },
+  "gt_basis": "generation_intent_shadow",
+  "gt_counts": {
+    "negative": 120,
+    "positive": 59,
+    "uncertain": 25
+  },
+  "gt_review_status": "unreviewed",
+  "holdout_consumed": false,
+  "primary_binary_count": 179,
+  "prompt_sha256": "a6ae853aad36ed5e0ecf3856761b7ae34d0cf6933218ad68f3901dfa7cf1458d",
+  "source_manifest_count": 239,
+  "source_manifest_sha256": "ac4796d5f5d03c837f87056865c53d06e9823b58e6e3ee3e1e98bc226e9e8ee0",
+  "status": "prepared",
+  "val_consumed": false
+}

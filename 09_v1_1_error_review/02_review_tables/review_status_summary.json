@@ -1,0 +1,48 @@
+{
+  "as_of": "2026-09-07",
+  "review_total": 152,
+  "reviewed_count": 0,
+  "needs_human_review_count": 152,
+  "fn_total": 89,
+  "fn_reviewed_count": 0,
+  "needs_human_review_fn": 89,
+  "fp_total": 3,
+  "gt_uncertain_total": 25,
+  "tp_control_total": 5,
+  "tn_control_total": 30,
+  "fn_taxonomy": {
+    "FN_A_clear_gross_violation": null,
+    "FN_B_moderate_violation": null,
+    "FN_C_minor_line_contact": null,
+    "FN_D_generation_intent_mismatch": null,
+    "FN_E_not_judgable": null
+  },
+  "attribution": {
+    "GENUINE_MODEL_FN": null,
+    "DEFINITION_BOUNDARY_FN": null,
+    "GENERATION_INTENT_MISMATCH_FN": null,
+    "INSUFFICIENT_EVIDENCE_FN": null,
+    "NEEDS_HUMAN_REVIEW_FN": 89
+  },
+  "derived_metrics": {
+    "MINOR_LINE_ONLY_COUNT": null,
+    "MINOR_LINE_ONLY_RATE": null,
+    "CLEAR_GROSS_VIOLATION_COUNT": null,
+    "CLEAR_GROSS_VIOLATION_DETECTED": null,
+    "CLEAR_GROSS_VIOLATION_RECALL": null,
+    "P02_MINOR_LINE_RATE": null,
+    "MULTI_VEHICLE_REVIEW_COUNT": 20,
+    "MULTI_VEHICLE_CLEAR_VIOLATION_COUNT": null,
+    "MULTI_VEHICLE_CLEAR_VIOLATION_DETECTED": null
+  },
+  "gt_uncertain_visual_outcomes": {
+    "uncertain_correct_as_uncertain": null,
+    "intent_should_be_negative": null,
+    "intent_should_be_positive": null
+  },
+  "null_semantics": "Not visually adjudicated; null must not be interpreted as zero.",
+  "blocking_condition": "Both available Codex image-rendering channels failed before pixels could be inspected.",
+  "final_decision": "INSUFFICIENT_EVIDENCE",
+  "decision_confidence": "high"
+}
+

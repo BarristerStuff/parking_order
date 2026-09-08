@@ -1,0 +1,48 @@
+{
+  "task": "parking_order_violation",
+  "stage": "P0",
+  "event_definition_version": "v1.1",
+  "endpoint": "http://192.168.20.62:11434/api/generate",
+  "model": "qwen3.5:4b",
+  "allowed_split": "train",
+  "split_literal_mapping": {"train": "DEV", "validation": "VAL", "holdout": "HOLDOUT"},
+  "dataset_root": "/home/yanbo/net_vlm_xunjian_dataset",
+  "input_mode": "full_frame_single_view",
+  "preprocess": {
+    "canvas_width": 448,
+    "canvas_height": 336,
+    "resize_mode": "letterbox_full_frame",
+    "letterbox_color": [0, 0, 0],
+    "jpeg_quality": 70
+  },
+  "ollama_request": {
+    "stream": false,
+    "think": false,
+    "keep_alive": "15m",
+    "format": {
+      "type": "object",
+      "properties": {
+        "label": {"type": "string", "enum": ["1", "0", "uncertain"]},
+        "reason": {"type": "string"},
+        "evidence": {"type": "string"}
+      },
+      "required": ["label", "reason", "evidence"]
+    },
+    "options": {
+      "temperature": 0,
+      "seed": 20260903,
+      "num_ctx": 4096,
+      "num_predict": 180
+    }
+  },
+  "max_workers": 4,
+  "timeout_seconds": 180,
+  "max_retries": 1,
+  "gt_basis": "generation_intent",
+  "gt_review_status": "unreviewed",
+  "binary_metric_policy": "GT uncertain, model uncertain, parse failures, and inference failures are excluded from TP/FP/TN/FN and reported separately.",
+  "val_consumed": false,
+  "holdout_consumed": false,
+  "forbidden_stages": ["P1", "P2", "P3", "P4"],
+  "created_date": "2026-09-03"
+}

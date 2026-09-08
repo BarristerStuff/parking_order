@@ -1,0 +1,32 @@
+{
+  "allowed_split": "train_DEV_only",
+  "cache_source": "F2_EXISTING_DETECTOR_RUN",
+  "debug_count": 10,
+  "debug_manifest_sha256": "a2b7a0e7a4143b1bf4d5cf1324dda48f6ab90254f44ba504b1cd11de1521373b",
+  "debug_primary_binary_count": 0,
+  "definition_sha256": "64a3f3e73a31e97b1468827be24b1cdfbb713d531e76a60b6b36cfde8623cc67",
+  "dev_manifest_sha256": "cab3cb40780888e0016c70bf966597e83a9f0b41da25ae5df6f73112785ee997",
+  "f2_config_sha256": "c927e6edef16feb836fa3fcb2edee923caf05fa4ad4b09693a03b545ad2b56a2",
+  "f2_predictions_sha256": "f1dcf2210d3ad248450f9f792ae01a782f1759f2d8c020e7d88a8a40d035f8c9",
+  "geometry_params_sha256": "42e6a6e84d9c471ffb951b9fe898ed44af187ce43921dc59bdbdf08085036d72",
+  "holdout_consumed": false,
+  "pilot_count": 60,
+  "pilot_group_counts": {
+    "hn01-gate-queue": 8,
+    "hn04-large-vehicle-compliant": 3,
+    "n01-standard-inside-bay": 6,
+    "n02-close-to-line-but-inside": 3,
+    "p01-outside-legal-bay-clear": 20,
+    "p05-multi-vehicle-at-least-one-violation": 20
+  },
+  "pilot_gt_counts": {
+    "negative": 20,
+    "positive": 40
+  },
+  "pilot_manifest_sha256": "2f2f8de90026ed5edd7c00b4e64b16d59fa502010078955c7a7d9339e5afcce0",
+  "prompt_sha256": "a6ae853aad36ed5e0ecf3856761b7ae34d0cf6933218ad68f3901dfa7cf1458d",
+  "stage": "P3L_A_GEOMETRY_ONLY",
+  "val_consumed": false,
+  "yolo_checkpoint_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "yolo_rerun": false
+}

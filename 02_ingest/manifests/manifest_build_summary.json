@@ -1,0 +1,22 @@
+{
+  "capture_batch": "20260902_ai_generated_parking_order_violation_pov_b1_397",
+  "dev_count": 239,
+  "gt_basis": "generation_intent",
+  "gt_review_status": "unreviewed",
+  "holdout_consumed": false,
+  "label_count": 397,
+  "mapping_count": 397,
+  "role_counts": {
+    "hard_negative": 80,
+    "negative": 120,
+    "positive": 157,
+    "uncertain": 40
+  },
+  "split_count": 397,
+  "split_counts": {
+    "holdout": 78,
+    "train": 239,
+    "validation": 80
+  },
+  "val_consumed": false
+}

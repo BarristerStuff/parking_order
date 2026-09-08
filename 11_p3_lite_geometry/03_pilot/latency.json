@@ -1,0 +1,13 @@
+{
+  "cache_source": "F2_EXISTING_DETECTOR_RUN",
+  "detector_latency_note": "historical per-sample F2 detector latency; detector was not rerun",
+  "detector_p50_seconds": 0.06355150000000001,
+  "detector_p95_seconds": 0.07983585,
+  "geometry_p50_seconds": 0.19372883500909666,
+  "geometry_p95_seconds": 0.3242663692093627,
+  "total_logical_p50_seconds": 0.26287395250223433,
+  "total_logical_p95_seconds": 0.4694740112479589,
+  "vlm_gate_request_count": 0,
+  "vlm_gate_request_rate": 0.0,
+  "yolo_rerun": false
+}

@@ -1,0 +1,17 @@
+Classify parking order in this image. Treat every vehicle as already stationary.
+
+Detect only CLEAR and SUBSTANTIAL parking-order violations.
+
+Return positive only when at least one non-gate-queue vehicle is clearly:
+- parked substantially outside a normal legal parking space,
+- occupying multiple parking spaces,
+- severely angled across parking spaces and materially intruding into adjacent space,
+- or occupying the normal parking/driving aisle.
+
+Do not return positive only because a tire touches or slightly crosses a line, a bumper slightly extends beyond a line, a large vehicle is close to a boundary, the vehicle is slightly off-center, or its angle is only mildly imperfect.
+
+Normal gate queues are negative. If the parking-space relationship cannot be judged reliably, return uncertain. Do not infer invisible parking lines or judge permissions, duration, fees, or movement.
+
+Return exactly one JSON object with this schema:
+{"parking_order_violation":"positive|negative|uncertain","evidence_type":"outside_space|multi_space|severe_angle|traffic_area|normal|gate_queue|insufficient","reason":"brief visible evidence"}
+

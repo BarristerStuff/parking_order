@@ -1,0 +1,13 @@
+group_key,count,gt_1,gt_0,gt_uncertain,pred_1,pred_0,pred_uncertain,failures,TP,FP,TN,FN,decisive_binary_count,precision,recall,f1,accuracy,specificity,fpr,balanced_accuracy
+hn01-gate-queue,30,0,30,0,0,30,0,0,0,0,30,0,30,,,,1.0,1.0,0.0,
+hn04-large-vehicle-compliant,10,0,10,0,1,9,0,0,0,1,9,0,10,0.0,,,0.9,0.9,0.1,
+hn06-shadows-cracks-curbs-mimic-lines,10,0,10,0,0,10,0,0,0,0,10,0,10,,,,1.0,1.0,0.0,
+n01-standard-inside-bay,30,0,30,0,0,30,0,0,0,0,30,0,30,,,,1.0,1.0,0.0,
+n02-close-to-line-but-inside,25,0,25,0,2,23,0,0,0,2,23,0,25,0.0,,,0.92,0.92,0.08,
+n04-parallel-bay-correct,15,0,15,0,0,15,0,0,0,0,15,0,15,,,,1.0,1.0,0.0,
+p01-outside-legal-bay-clear,39,39,0,0,3,36,0,0,3,0,0,36,39,1.0,0.07692307692307693,0.14285714285714288,0.07692307692307693,,,
+p02-cross-single-boundary-line,35,35,0,0,2,33,0,0,2,0,0,33,35,1.0,0.05714285714285714,0.1081081081081081,0.05714285714285714,,,
+p05-multi-vehicle-at-least-one-violation,20,20,0,0,0,20,0,0,0,0,0,20,20,,0.0,,0.0,,,
+u01-insufficient-parking-visual-evidence,15,0,0,15,0,15,0,0,0,0,0,0,0,,,,,,,
+u04-night-or-blur-boundary-unreadable,5,0,0,5,0,5,0,0,0,0,0,0,0,,,,,,,
+u05-gate-queue-or-parking-ambiguous,5,0,0,5,0,5,0,0,0,0,0,0,0,,,,,,,

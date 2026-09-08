@@ -1,0 +1,27 @@
+{
+  "coverage_limitations": [
+    "DEV has no faded-line group (hn02 is VAL); it was not accessed.",
+    "DEV has no perspective group (hn03 is HOLDOUT); it was not accessed.",
+    "DEV multi-vehicle p05 is positive-only and fully covered in FN/TP, not TN controls."
+  ],
+  "holdout_consumed": false,
+  "queue_counts": {
+    "FN": 89,
+    "FP": 3,
+    "GT_UNCERTAIN": 25,
+    "TN_CONTROL": 30,
+    "TP": 5
+  },
+  "random_seed": 20260907,
+  "review_total": 152,
+  "tn_control_group_counts": {
+    "hn01-gate-queue": 5,
+    "hn04-large-vehicle-compliant": 5,
+    "hn06-shadows-cracks-curbs-mimic-lines": 5,
+    "n01-standard-inside-bay": 5,
+    "n02-close-to-line-but-inside": 5,
+    "n04-parallel-bay-correct": 5
+  },
+  "tn_control_strategy": "Five fixed-seed samples from each available DEV TN subtype.",
+  "val_consumed": false
+}

@@ -1,0 +1,16 @@
+{
+  "audit_date": "2026-09-07",
+  "dataset_error_count": 0,
+  "dataset_status": "valid",
+  "dataset_warning_count": 687,
+  "holdout_consumed": false,
+  "ollama_called": false,
+  "project_code_modified": false,
+  "project_file_count": 1636,
+  "project_tree_sha256_after": "e7cb1ef92f1af22b4333a7a9e53f3a95c3c56bc1971d51f8dd53fcf221263846",
+  "project_tree_sha256_before": "e7cb1ef92f1af22b4333a7a9e53f3a95c3c56bc1971d51f8dd53fcf221263846",
+  "server_files_modified": false,
+  "ssh_used": false,
+  "val_consumed": false,
+  "yolo_rerun": false
+}

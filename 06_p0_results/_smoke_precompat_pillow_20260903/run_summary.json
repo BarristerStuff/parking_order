@@ -1,0 +1,12 @@
+{
+  "allowed_split": "train",
+  "holdout_consumed": false,
+  "manifest_count": 239,
+  "new_result_count": 1,
+  "new_status_counts": {
+    "inference_failure": 1
+  },
+  "result_count": 1,
+  "status": "partial",
+  "val_consumed": false
+}

@@ -1,0 +1,50 @@
+{
+  "FINAL_STATUS": "P3_LITE_GEOMETRY_NOT_VIABLE",
+  "FULL_DEV_EXECUTED": false,
+  "GEOMETRY_COVERAGE": 0.03333333333333333,
+  "GEOMETRY_PILOT_F1": 0.0,
+  "GEOMETRY_PILOT_FN": 40,
+  "GEOMETRY_PILOT_FP": 0,
+  "GEOMETRY_PILOT_GATE_FPR": 0.0,
+  "GEOMETRY_PILOT_NEGATIVE_FPR": 0.0,
+  "GEOMETRY_PILOT_P01_RECALL": 0.0,
+  "GEOMETRY_PILOT_P05_RECALL": 0.0,
+  "GEOMETRY_PILOT_PRECISION": 0.0,
+  "GEOMETRY_PILOT_RECALL": 0.0,
+  "GEOMETRY_PILOT_TN": 20,
+  "GEOMETRY_PILOT_TP": 0,
+  "HOLDOUT_CONSUMED": false,
+  "P50_LATENCY": 0.26287395250223433,
+  "P95_LATENCY": 0.4694740112479589,
+  "PILOT_COUNT": 60,
+  "PILOT_GATE_PASSED": false,
+  "PILOT_IMMEDIATE_FAIL": true,
+  "PILOT_IMMEDIATE_FAIL_REASONS": [
+    "positive_recall_below_0.50",
+    "p01_recall_below_0.50"
+  ],
+  "PILOT_PROMISING_CHECKS": {
+    "gate_queue_fpr_lte_0.05": true,
+    "negative_fpr_lte_0.10": true,
+    "p01_recall_gte_0.60": false,
+    "p05_recall_gte_0.50": false,
+    "positive_recall_gte_0.60": false
+  },
+  "READY_FOR_VAL": false,
+  "VAL_CONSUMED": false,
+  "VLM_GATE_REQUEST_COUNT": 0,
+  "VLM_GATE_REQUEST_RATE": 0.0,
+  "YOLO_VEHICLE_DETECTION_RATE": 1.0,
+  "error_category_counts": {
+    "geometry_rule_failure": 2,
+    "line_detection_failure": 12,
+    "slot_structure_failure": 26
+  },
+  "geometry_evidence_sha256": "9d801167e1a6f41057e7d53dff6a62a2d6332ab776aef09caeab7965b3059e56",
+  "geometry_params_sha256": "42e6a6e84d9c471ffb951b9fe898ed44af187ce43921dc59bdbdf08085036d72",
+  "pilot_manifest_sha256": "2f2f8de90026ed5edd7c00b4e64b16d59fa502010078955c7a7d9339e5afcce0",
+  "state_counts": {
+    "insufficient": 58,
+    "normal": 2
+  }
+}

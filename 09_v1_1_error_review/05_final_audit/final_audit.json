@@ -1,0 +1,49 @@
+{
+  "audit_date": "2026-09-07",
+  "final_status": "V1_1_ERROR_REVIEW_COMPLETE",
+  "review_outcome": "INSUFFICIENT_EVIDENCE",
+  "binding_audit_ok": true,
+  "binding_count": 239,
+  "binding_failure_count": 0,
+  "review_package_count": 152,
+  "contact_sheet_count": 19,
+  "contact_sheet_image_verify_ok": true,
+  "visual_adjudication_completed": false,
+  "visual_blocker": {
+    "desktop_view_image": "failed: visualization bwrap could not create read-only .git path",
+    "node_image_emit": "failed: visualization bwrap could not create read-only .agents path"
+  },
+  "immutability_checks": {
+    "formal_event_definition_stat_matches_baseline": true,
+    "formal_labels_stat_matches_baseline": true,
+    "formal_media_stat_matches_baseline": true,
+    "formal_splits_stat_matches_baseline": true,
+    "holdout_seal_stat_matches_baseline": true,
+    "holdout_manifest_stat_matches_baseline": true,
+    "formal_project_root_stat_matches_baseline": true,
+    "p0_predictions_sha256_matches": true,
+    "p0_run_summary_sha256_matches": true,
+    "p0_metrics_sha256_matches": true
+  },
+  "frozen_hashes": {
+    "predictions.jsonl": "b08d2adbc8d558f07ef2d9f1fc0e6b38f522ee26d7c3990e4d16475d1bdd5323",
+    "run_summary.json": "a01f4a51ecca4405e86e266fc5cd0d1ddffc7621e9f21bee8ff8c5523a64361d",
+    "metrics.json": "7437ebda74635121544917bd5bf32145df2929ba66da59eed4c484ee54a1601f"
+  },
+  "dataset_validation": {
+    "status": "valid",
+    "error_count": 0,
+    "warning_count": 687
+  },
+  "DEV_REVIEW_ONLY": true,
+  "VAL_CONSUMED": false,
+  "HOLDOUT_CONSUMED": false,
+  "V1_1_LABELS_MODIFIED": false,
+  "P0_OUTPUT_MODIFIED": false,
+  "PROJECT_CODE_MODIFIED": false,
+  "SERVER_FILES_MODIFIED": false,
+  "OLLAMA_CALLED": false,
+  "git_commit_created": false,
+  "migration_executed": false,
+  "migration_impact_directory_created": false
+}

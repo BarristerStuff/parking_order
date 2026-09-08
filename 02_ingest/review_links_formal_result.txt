@@ -1,0 +1,8 @@
+dry_run: false
+desired_link_count: 397
+created_link_count: 397
+repaired_link_count: 0
+unchanged_link_count: 0
+conflict_count: 0
+error_count: 0
+status: ok

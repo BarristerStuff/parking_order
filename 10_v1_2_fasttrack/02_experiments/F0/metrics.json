@@ -1,0 +1,103 @@
+{
+  "binary": {
+    "FN": 58,
+    "FP": 0,
+    "TN": 120,
+    "TP": 1,
+    "accuracy": 0.6759776536312849,
+    "balanced_accuracy": 0.5084745762711864,
+    "count": 179,
+    "f1": 0.03333333333333333,
+    "fpr": 0.0,
+    "policy": "Positive alarm vs no-positive alarm. Model uncertain is a miss on positive GT and a non-alarm on negative GT; it is also reported separately. Protocol failures make the candidate gate fail.",
+    "precision": 1.0,
+    "recall": 0.01694915254237288,
+    "specificity": 1.0
+  },
+  "boundary_challenge_count": 35,
+  "candidate": "V12_F0_448_DIRECT",
+  "dataset_scope": "DEV/train only",
+  "dev_gate_passed": false,
+  "event_definition_version": "v1.2",
+  "fast_fail_p01_below_0_70": true,
+  "fast_fail_recall_below_0_70": true,
+  "gate_queue": {
+    "FP": 0,
+    "TN": 30,
+    "count": 30,
+    "failure_count": 0,
+    "fpr": 0.0,
+    "model_uncertain_count": 0
+  },
+  "gt_basis": "generation_intent_shadow",
+  "gt_review_status": "unreviewed",
+  "gt_uncertain_count": 25,
+  "hard_negative": {
+    "FP": 0,
+    "TN": 50,
+    "count": 50,
+    "failure_count": 0,
+    "fpr": 0.0,
+    "model_uncertain_count": 0
+  },
+  "holdout_consumed": false,
+  "latency_seconds": {
+    "count": 239,
+    "detector_latency_mean": 0.0,
+    "extra_crop_count": 0,
+    "extra_model_request_count": 0,
+    "extra_physical_request_count": 0,
+    "images_per_logical_request": {
+      "max": 1,
+      "mean": 1.0,
+      "min": 1
+    },
+    "max": 12.181513,
+    "mean": 5.073181435146444,
+    "p50": 5.03844,
+    "p90": 5.4109692,
+    "p95": 5.6898014,
+    "physical_request_count": 239,
+    "physical_view_latency": {
+      "count": 239,
+      "max": 12.106047,
+      "mean": 5.010579430962343,
+      "p50": 4.976221,
+      "p90": 5.3486778,
+      "p95": 5.627861899999999
+    }
+  },
+  "model_uncertain_count": 0,
+  "model_uncertain_rate": 0.0,
+  "ordinary_negative": {
+    "FP": 0,
+    "TN": 70,
+    "count": 70,
+    "failure_count": 0,
+    "fpr": 0.0,
+    "model_uncertain_count": 0
+  },
+  "p01_recall": 0.02564102564102564,
+  "p02": {
+    "failure": 0,
+    "model_negative": 35,
+    "model_positive": 0,
+    "model_uncertain": 0,
+    "total": 35
+  },
+  "p05_recall": 0.0,
+  "primary_binary_count": 179,
+  "protocol": {
+    "logical_failure_count": 0,
+    "logical_success_rate": 1.0,
+    "physical_http_success_rate": 1.0,
+    "physical_json_schema_success_rate": 1.0,
+    "physical_semantic_success_rate": 1.0,
+    "physical_view_count": 239
+  },
+  "sample_count": 239,
+  "scope_warning": "Synthetic generation-intent shadow DEV evidence; not per-image Human Gold or production accuracy.",
+  "stage": "V1.2_FASTTRACK_DEV",
+  "task": "parking_order_violation",
+  "val_consumed": false
+}

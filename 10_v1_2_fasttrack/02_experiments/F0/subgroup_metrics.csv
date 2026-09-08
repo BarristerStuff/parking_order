@@ -1,0 +1,13 @@
+group_key,count,v1_2_gt,evaluation_scope,model_positive,model_negative,model_uncertain,failure,positive_alarm_rate
+hn01-gate-queue,30,negative,primary_binary,0,30,0,0,0.0
+hn04-large-vehicle-compliant,10,negative,primary_binary,0,10,0,0,0.0
+hn06-shadows-cracks-curbs-mimic-lines,10,negative,primary_binary,0,10,0,0,0.0
+n01-standard-inside-bay,30,negative,primary_binary,0,30,0,0,0.0
+n02-close-to-line-but-inside,25,negative,primary_binary,0,25,0,0,0.0
+n04-parallel-bay-correct,15,negative,primary_binary,0,15,0,0,0.0
+p01-outside-legal-bay-clear,39,positive,primary_binary,1,38,0,0,0.02564102564102564
+p02-cross-single-boundary-line,35,boundary_unresolved,boundary_challenge,0,35,0,0,0.0
+p05-multi-vehicle-at-least-one-violation,20,positive,primary_binary,0,20,0,0,0.0
+u01-insufficient-parking-visual-evidence,15,uncertain,gt_uncertain,0,15,0,0,0.0
+u04-night-or-blur-boundary-unreadable,5,uncertain,gt_uncertain,1,4,0,0,0.2
+u05-gate-queue-or-parking-ambiguous,5,uncertain,gt_uncertain,0,5,0,0,0.0

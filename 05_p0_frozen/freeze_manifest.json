@@ -1,0 +1,15 @@
+{
+  "allowed_split": "train",
+  "dev_row_count": 239,
+  "files_sha256": {
+    "config.json": "ccef20dc929c70d505dde051c96286912b7d2e7ea444134e11f5b6de33d9d5b3",
+    "p0_dev_manifest.csv": "ac4796d5f5d03c837f87056865c53d06e9823b58e6e3ee3e1e98bc226e9e8ee0",
+    "prompt.txt": "e10649a0025a9168953466dbf491be76964a80d6f7456089e159f0dc43357845"
+  },
+  "freeze_id": "parking_order_violation_v1.1_P0_20260903",
+  "frozen_date": "2026-09-03",
+  "gt_basis": "generation_intent",
+  "holdout_consumed": false,
+  "val_consumed": false,
+  "warning": "Synthetic prompt-derived labels; not human visual gold or production accuracy evidence."
+}

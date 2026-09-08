@@ -1,0 +1,26 @@
+{
+  "count": 239,
+  "detector_latency_mean": 0.0,
+  "extra_crop_count": 0,
+  "extra_model_request_count": 0,
+  "extra_physical_request_count": 0,
+  "images_per_logical_request": {
+    "max": 1,
+    "mean": 1.0,
+    "min": 1
+  },
+  "max": 12.181513,
+  "mean": 5.073181435146444,
+  "p50": 5.03844,
+  "p90": 5.4109692,
+  "p95": 5.6898014,
+  "physical_request_count": 239,
+  "physical_view_latency": {
+    "count": 239,
+    "max": 12.106047,
+    "mean": 5.010579430962343,
+    "p50": 4.976221,
+    "p90": 5.3486778,
+    "p95": 5.627861899999999
+  }
+}

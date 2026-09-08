@@ -1,0 +1,7 @@
+group_key,count,positive_gt_count,negative_gt_count,geometry_positive_count,positive_recall,negative_fpr,geometry_coverage
+hn01-gate-queue,8,0,8,0,0.0,0.0,0.0
+hn04-large-vehicle-compliant,3,0,3,0,0.0,0.0,0.0
+n01-standard-inside-bay,6,0,6,0,0.0,0.0,0.0
+n02-close-to-line-but-inside,3,0,3,0,0.0,0.0,0.0
+p01-outside-legal-bay-clear,20,20,0,0,0.0,0.0,0.0
+p05-multi-vehicle-at-least-one-violation,20,20,0,0,0.0,0.0,0.1

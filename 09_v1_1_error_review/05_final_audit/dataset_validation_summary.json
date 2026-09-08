@@ -1,0 +1,15 @@
+{
+  "command": "cd /home/yanbo/net_vlm_xunjian_dataset && python3 -B tools/validate_dataset.py --json",
+  "run_date": "2026-09-07",
+  "status": "valid",
+  "error_count": 0,
+  "warning_count": 687,
+  "media_count": 7716,
+  "label_count": 6620,
+  "split_count": 3315,
+  "batch_count": 50,
+  "full_hash_check": true,
+  "warnings_modified": false,
+  "note": "Existing warnings were not repaired, as required. This was a dataset-integrity validation, not VAL/HOLDOUT model evaluation or visual consumption."
+}
+

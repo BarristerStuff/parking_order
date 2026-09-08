@@ -1,0 +1,15 @@
+{
+  "CACHE_SOURCE": "F2_EXISTING_DETECTOR_RUN",
+  "YOLO_RERUN": false,
+  "classes": [
+    "bus",
+    "car",
+    "truck"
+  ],
+  "detection_count": 1059,
+  "output_sha256": "98e12b43ab615099db694e7043cb608543a28345a623cc379833e7cfb089907d",
+  "sample_count": 239,
+  "sample_detection_rate": 1.0,
+  "source_config_sha256": "c927e6edef16feb836fa3fcb2edee923caf05fa4ad4b09693a03b545ad2b56a2",
+  "source_predictions_sha256": "f1dcf2210d3ad248450f9f792ae01a782f1759f2d8c020e7d88a8a40d035f8c9"
+}

@@ -1,0 +1,17 @@
+{
+  "allowed_split": "train",
+  "candidate": "V12_F0_448_DIRECT",
+  "extra_crop_count": 0,
+  "extra_model_request_count": 0,
+  "extra_physical_request_count": 0,
+  "holdout_consumed": false,
+  "manifest_count": 239,
+  "new_result_count": 239,
+  "new_status_counts": {
+    "ok": 239
+  },
+  "physical_request_count": 239,
+  "result_count": 239,
+  "status": "completed",
+  "val_consumed": false
+}

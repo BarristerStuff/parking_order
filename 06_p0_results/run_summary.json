@@ -1,0 +1,12 @@
+{
+  "allowed_split": "train",
+  "holdout_consumed": false,
+  "manifest_count": 239,
+  "new_result_count": 238,
+  "new_status_counts": {
+    "ok": 238
+  },
+  "result_count": 239,
+  "status": "completed",
+  "val_consumed": false
+}

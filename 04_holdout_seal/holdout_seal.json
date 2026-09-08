@@ -1,0 +1,36 @@
+{
+  "administrative_hash_verification_is_not_model_consumption": true,
+  "capture_batch": "20260902_ai_generated_parking_order_violation_pov_b1_397",
+  "consumption_definition": "model inference or model-driven inspection",
+  "event_definition_version": "v1.1",
+  "event_name": "parking_order_violation",
+  "gt_basis": "generation_intent",
+  "gt_review_status": "unreviewed",
+  "holdout_consumed": false,
+  "holdout_count": 78,
+  "holdout_group_counts": {
+    "hn03-perspective-looks-like-crossing": 10,
+    "n03-diagonal-bay-correct": 15,
+    "n05-multiple-all-correct": 15,
+    "p04-angled-footprint-outside": 23,
+    "p06-nose-or-tail-intrudes-aisle": 10,
+    "u03-vehicle-cut-by-frame-edge": 5
+  },
+  "holdout_label_counts": {
+    "0": 40,
+    "1": 33,
+    "uncertain": 5
+  },
+  "holdout_manifest": "/home/yanbo/net_vlm_parking_optimization/04_holdout_seal/holdout_manifest.csv",
+  "holdout_manifest_sha256": "f8792c1aa3d747613b2705c5c8d2818983ca0dcdcf94978efcb7c3d6b488c081",
+  "holdout_role_counts": {
+    "hard_negative": 10,
+    "negative": 30,
+    "positive": 33,
+    "uncertain": 5
+  },
+  "scope_warning": "Synthetic generation-intent HOLDOUT; not human visual gold or production accuracy evidence.",
+  "seal_id": "parking_order_violation_v1.1_pov_b1_20260903",
+  "sealed_at": "2026-09-03T17:44:48+08:00",
+  "val_consumed": false
+}

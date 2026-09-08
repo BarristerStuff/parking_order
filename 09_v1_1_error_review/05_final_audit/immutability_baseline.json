@@ -1,0 +1,53 @@
+{
+  "captured_date": "2026-09-07",
+  "frozen_content_sha256": {
+    "/home/yanbo/net_vlm_parking_optimization/06_p0_results/predictions.jsonl": "b08d2adbc8d558f07ef2d9f1fc0e6b38f522ee26d7c3990e4d16475d1bdd5323",
+    "/home/yanbo/net_vlm_parking_optimization/06_p0_results/run_summary.json": "a01f4a51ecca4405e86e266fc5cd0d1ddffc7621e9f21bee8ff8c5523a64361d",
+    "/home/yanbo/net_vlm_parking_optimization/07_error_analysis/metrics.json": "7437ebda74635121544917bd5bf32145df2929ba66da59eed4c484ee54a1601f"
+  },
+  "note": "Formal labels/splits/HOLDOUT/project content was not opened; only file stat metadata was recorded.",
+  "stat_only_records": [
+    {
+      "mode": "0o600",
+      "mtime_ns": 1788424157418034181,
+      "path": "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/event_definitions.md",
+      "size": 23841
+    },
+    {
+      "mode": "0o600",
+      "mtime_ns": 1788428413998718173,
+      "path": "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/labels.csv",
+      "size": 1616253
+    },
+    {
+      "mode": "0o600",
+      "mtime_ns": 1788427459976547685,
+      "path": "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/media.csv",
+      "size": 5424761
+    },
+    {
+      "mode": "0o600",
+      "mtime_ns": 1788428573754081645,
+      "path": "/home/yanbo/net_vlm_xunjian_dataset/01_annotations/splits.csv",
+      "size": 540975
+    },
+    {
+      "mode": "0o444",
+      "mtime_ns": 1788428688974343761,
+      "path": "/home/yanbo/net_vlm_parking_optimization/04_holdout_seal/holdout_seal.json",
+      "size": 1342
+    },
+    {
+      "mode": "0o444",
+      "mtime_ns": 1788428688972343756,
+      "path": "/home/yanbo/net_vlm_parking_optimization/04_holdout_seal/holdout_manifest.csv",
+      "size": 24561
+    },
+    {
+      "mode": "0o775",
+      "mtime_ns": 1787020322187888026,
+      "path": "/home/yanbo/net_vlm_yanboversion/vlm",
+      "size": 4096
+    }
+  ]
+}

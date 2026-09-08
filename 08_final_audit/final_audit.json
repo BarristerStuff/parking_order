@@ -1,0 +1,207 @@
+{
+  "audit_date": "2026-09-03",
+  "consumption": {
+    "HOLDOUT_CONSUMED": false,
+    "VAL_CONSUMED": false,
+    "administrative_hash_verification_is_not_model_consumption": true
+  },
+  "definition_freeze": {
+    "annotation_hashes_match_frozen_registry": true,
+    "dataset_tool_tests": "74/74 OK",
+    "event_definition_version": "v1.1",
+    "event_name": "parking_order_violation",
+    "status": "FROZEN"
+  },
+  "environment": {
+    "current_thread_write_test_ok": true,
+    "cwd": "/home/yanbo/net_vlm_yanboversion",
+    "sandbox_writable_roots_observed": [
+      "/home/yanbo",
+      "/home/yanbo/net_vlm_xunjian_dataset",
+      "/home/yanbo/net_vlm_yanboversion",
+      "/home/yanbo/net_vlm_yanboversion/vlm",
+      "/home/yanbo/net_vlm_parking_optimization",
+      "/tmp"
+    ],
+    "thread_mode": "Local",
+    "vlm_linked_git_worktree": false,
+    "worktree_created": false
+  },
+  "final_dataset_validate": {
+    "batch_count": 50,
+    "error_count": 0,
+    "label_count": 6620,
+    "media_count": 7716,
+    "split_count": 3315,
+    "status": "valid",
+    "warning_count": 687
+  },
+  "forbidden_actions": {
+    "formal_vlm_preexisting_dirty_state_preserved": true,
+    "formal_vlm_status_unchanged_from_initial_observation": true,
+    "git_commit_created": false,
+    "p1_p2_p3_p4_run": false,
+    "server_files_modified": false,
+    "ssh_used": false
+  },
+  "formal_ingest": {
+    "batch_rows": 1,
+    "capture_batch": "20260902_ai_generated_parking_order_violation_pov_b1_397",
+    "cross_split_group_count": 0,
+    "deltas": {
+      "batch_count": 1,
+      "label_count": 397,
+      "media_count": 397,
+      "split_count": 397
+    },
+    "label_rows": 397,
+    "media_rows": 397,
+    "post_ingest_counts": {
+      "batch_count": 50,
+      "label_count": 6620,
+      "media_count": 7716,
+      "split_count": 3315
+    },
+    "pre_ingest_counts_from_confirmed_audit": {
+      "batch_count": 49,
+      "label_count": 6223,
+      "media_count": 7319,
+      "split_count": 2918
+    },
+    "review_symlinks": 397,
+    "split_counts": {
+      "holdout": 78,
+      "train": 239,
+      "validation": 80
+    },
+    "split_rows": 397
+  },
+  "holdout_seal": {
+    "count": 78,
+    "hash_matches": true,
+    "manifest_sha256": "f8792c1aa3d747613b2705c5c8d2818983ca0dcdcf94978efcb7c3d6b488c081",
+    "mode": "0444"
+  },
+  "known_limitations": [
+    "Ground truth is unreviewed synthetic generation intent, not human visual gold.",
+    "No numeric acceptance threshold was supplied.",
+    "Independent visual adjudication was not completed because the desktop image-view sandbox failed; statistical and model-output error analysis is complete."
+  ],
+  "p0": {
+    "frozen_hashes_match": true,
+    "manifest_count": 239,
+    "metrics": {
+      "binary": {
+        "FN": 89,
+        "FP": 3,
+        "TN": 117,
+        "TP": 5,
+        "accuracy": 0.5700934579439252,
+        "balanced_accuracy": 0.5140957446808511,
+        "decisive_binary_count": 214,
+        "f1": 0.09803921568627451,
+        "fpr": 0.025,
+        "precision": 0.625,
+        "recall": 0.05319148936170213,
+        "specificity": 0.975
+      },
+      "binary_gt_count": 214,
+      "binary_gt_model_uncertain_count": 0,
+      "binary_gt_model_uncertain_rate": 0.0,
+      "dataset_scope": "DEV/train only",
+      "event_definition_version": "v1.1",
+      "gate_queue": {
+        "FP": 0,
+        "TN": 30,
+        "count": 30,
+        "decisive_coverage": 1.0,
+        "failure_count": 0,
+        "fpr": 0.0,
+        "model_uncertain_count": 0
+      },
+      "gt_basis": "generation_intent",
+      "gt_counts": {
+        "0": 120,
+        "1": 94,
+        "uncertain": 25
+      },
+      "gt_review_status": "unreviewed",
+      "gt_uncertain_count": 25,
+      "hard_negative": {
+        "FP": 1,
+        "TN": 49,
+        "count": 50,
+        "decisive_coverage": 1.0,
+        "failure_count": 0,
+        "fpr": 0.02,
+        "model_uncertain_count": 0
+      },
+      "holdout_consumed": false,
+      "inference_failure_count": 0,
+      "latency_seconds": {
+        "count": 239,
+        "max": 44.340816,
+        "mean": 29.946019330543933,
+        "median": 29.506709,
+        "min": 9.519752,
+        "p95": 38.0389901
+      },
+      "metric_policy": "TP/FP/TN/FN use only GT 0/1 rows with parsed decisive model 0/1 outputs. GT uncertain, model uncertain, parse failures, and inference failures are separately reported.",
+      "model_label_counts_on_parsed": {
+        "0": 231,
+        "1": 8
+      },
+      "ordinary_negative": {
+        "FP": 2,
+        "TN": 68,
+        "count": 70,
+        "decisive_coverage": 1.0,
+        "failure_count": 0,
+        "fpr": 0.02857142857142857,
+        "model_uncertain_count": 0
+      },
+      "parse_failure_count": 0,
+      "prediction_status_counts": {
+        "ok": 239
+      },
+      "role_counts": {
+        "hard_negative": 50,
+        "negative": 70,
+        "positive": 94,
+        "uncertain": 25
+      },
+      "sample_count": 239,
+      "scope_warning": "Synthetic generation-intent DEV evidence; not human visual gold or production accuracy.",
+      "stage": "P0",
+      "task": "parking_order_violation",
+      "uncertain_rate": 0.0,
+      "val_consumed": false
+    },
+    "p0_tool_tests": "OK",
+    "prediction_count": 239,
+    "prediction_holdout_intersection_count": 0,
+    "prediction_split_counts": {
+      "train": 239
+    },
+    "prediction_status_counts": {
+      "ok": 239
+    },
+    "prediction_val_intersection_count": 0,
+    "scope": "DEV/train only",
+    "unique_prediction_count": 239
+  },
+  "source_quick_recheck": {
+    "corrupt_image_count_from_frozen_inventory": 0,
+    "exact_duplicate_count_from_frozen_inventory_hashes": 0,
+    "failed_generation_count": 3,
+    "failed_generation_slots": [
+      25,
+      107,
+      121
+    ],
+    "planned_slot_count": 400,
+    "prompt_count": 400,
+    "successful_image_count": 397
+  },
+  "status": "passed"
+}

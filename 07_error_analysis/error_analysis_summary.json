@@ -1,0 +1,75 @@
+{
+  "confirmed_facts": {
+    "accuracy_delta_vs_always_negative": 0.009345794392523366,
+    "all_inference_ok": true,
+    "always_negative_binary_accuracy": 0.5607476635514018,
+    "balanced_accuracy_delta_vs_always_negative": 0.014095744680851063,
+    "binary_metrics": {
+      "FN": 89,
+      "FP": 3,
+      "TN": 117,
+      "TP": 5,
+      "accuracy": 0.5700934579439252,
+      "balanced_accuracy": 0.5140957446808511,
+      "decisive_binary_count": 214,
+      "f1": 0.09803921568627451,
+      "fpr": 0.025,
+      "precision": 0.625,
+      "recall": 0.05319148936170213,
+      "specificity": 0.975
+    },
+    "false_positive_groups": {
+      "hn04-large-vehicle-compliant": 1,
+      "n02-close-to-line-but-inside": 2
+    },
+    "gt_uncertain_predicted_zero_count": 25,
+    "model_output_counts": {
+      "0": 231,
+      "1": 8
+    },
+    "model_positive_rate": 0.03347280334728033,
+    "model_uncertain_rate": 0.0,
+    "net_binary_correct_gain_vs_always_negative": 2,
+    "positive_group_recall": {
+      "p01-outside-legal-bay-clear": {
+        "FN": 36,
+        "TP": 3,
+        "count": 39,
+        "recall": 0.07692307692307693
+      },
+      "p02-cross-single-boundary-line": {
+        "FN": 33,
+        "TP": 2,
+        "count": 35,
+        "recall": 0.05714285714285714
+      },
+      "p05-multi-vehicle-at-least-one-violation": {
+        "FN": 20,
+        "TP": 0,
+        "count": 20,
+        "recall": 0.0
+      }
+    },
+    "sample_count": 239
+  },
+  "gt_basis": "generation_intent",
+  "gt_review_status": "unreviewed",
+  "holdout_consumed": false,
+  "reasoned_findings": [
+    "Dominant behavior is negative prediction bias: 231/239 outputs are 0; positive recall is 5/94 while specificity is 117/120.",
+    "The model never abstains, including all 25 generation-intent uncertain rows; zero uncertain rate therefore does not demonstrate uncertainty calibration.",
+    "All three false positives are triggered by perceived diagonal placement or boundary/travel-lane crossing: two n02 close-to-line-but-inside and one hn04 large-vehicle-compliant.",
+    "p05 multi-vehicle-at-least-one-violation has zero recall, indicating difficulty finding a violating vehicle in a multi-vehicle scene under full-frame 448x336 preprocessing.",
+    "Against an always-negative binary baseline, the run gains five true positives but incurs three false positives: only two net additional correct binary decisions out of 214."
+  ],
+  "recommended_next_step_within_current_boundaries": "Human-review DEV mismatch and uncertain queues before any P1 proposal. P1/P2/P3/P4 remain forbidden and were not run.",
+  "scope": "DEV/train only",
+  "stage": "P0",
+  "task": "parking_order_violation",
+  "unverified_hypotheses_and_risks": [
+    "Because labels are unreviewed synthetic generation intent, an intent-FN is not proven to be a visual-model error; the generated image may not realize the requested violation.",
+    "Model explanations for representative intent-FNs state that vehicles are contained within marked bays. These explanations justify a human DEV adjudication queue but are not independent visual ground truth.",
+    "No acceptance thresholds were supplied, so this report does not assign a formal pass/fail gate. For recall-sensitive deployment, observed recall and F1 are plainly inadequate, but production fitness cannot be inferred from this synthetic unreviewed DEV set."
+  ],
+  "val_consumed": false
+}

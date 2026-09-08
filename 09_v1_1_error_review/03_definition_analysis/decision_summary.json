@@ -1,0 +1,15 @@
+{
+  "decision_date": "2026-09-07",
+  "final_decision": "INSUFFICIENT_EVIDENCE",
+  "decision_confidence": "high",
+  "decision_scope": "Whether the available evidence is sufficient to choose KEEP_V1_1 or RECOMMEND_V1_2_MIGRATION",
+  "migration_direction_confidence": "low",
+  "binding_reliable": true,
+  "visual_adjudication_completed": false,
+  "reviewed_count": 0,
+  "needs_human_review_count": 152,
+  "needs_human_review_fn": 89,
+  "migration_impact_created": false,
+  "migration_impact_reason": "The decision is not RECOMMEND_V1_2_MIGRATION, and non-DEV media cannot be visually reviewed in this round.",
+  "metric_warning": "Relabeling v1.1 positives as negatives can mechanically improve some metrics; metric improvement is not valid migration evidence."
+}

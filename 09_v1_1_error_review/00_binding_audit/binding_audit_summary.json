@@ -1,0 +1,42 @@
+{
+  "audit_date": "2026-09-07",
+  "binding_failure_count": 0,
+  "binding_ok": true,
+  "duplicate_manifest_count": 0,
+  "duplicate_prediction_count": 0,
+  "extra_prediction_count": 0,
+  "extra_prediction_media_ids": [],
+  "final_decision_if_failed": "INSUFFICIENT_EVIDENCE",
+  "frozen_hashes_actual": {
+    "/home/yanbo/net_vlm_parking_optimization/06_p0_results/predictions.jsonl": "b08d2adbc8d558f07ef2d9f1fc0e6b38f522ee26d7c3990e4d16475d1bdd5323",
+    "/home/yanbo/net_vlm_parking_optimization/06_p0_results/run_summary.json": "a01f4a51ecca4405e86e266fc5cd0d1ddffc7621e9f21bee8ff8c5523a64361d",
+    "/home/yanbo/net_vlm_parking_optimization/07_error_analysis/metrics.json": "7437ebda74635121544917bd5bf32145df2929ba66da59eed4c484ee54a1601f"
+  },
+  "frozen_hashes_expected": {
+    "/home/yanbo/net_vlm_parking_optimization/06_p0_results/predictions.jsonl": "b08d2adbc8d558f07ef2d9f1fc0e6b38f522ee26d7c3990e4d16475d1bdd5323",
+    "/home/yanbo/net_vlm_parking_optimization/06_p0_results/run_summary.json": "a01f4a51ecca4405e86e266fc5cd0d1ddffc7621e9f21bee8ff8c5523a64361d",
+    "/home/yanbo/net_vlm_parking_optimization/07_error_analysis/metrics.json": "7437ebda74635121544917bd5bf32145df2929ba66da59eed4c484ee54a1601f"
+  },
+  "frozen_hashes_match": true,
+  "holdout_consumed": false,
+  "http_status_policy": "HTTP code was not persisted; frozen status/inference_error were audited.",
+  "manifest_count": 239,
+  "manifest_split_counts": {
+    "train": 239
+  },
+  "missing_prediction_count": 0,
+  "missing_prediction_media_ids": [],
+  "prediction_count": 239,
+  "prediction_holdout_intersection_count": 0,
+  "prediction_split_counts": {
+    "train": 239
+  },
+  "prediction_status_counts": {
+    "ok": 239
+  },
+  "prediction_val_intersection_count": 0,
+  "scope": "DEV/train only",
+  "unique_manifest_media_id_count": 239,
+  "unique_prediction_media_id_count": 239,
+  "val_consumed": false
+}

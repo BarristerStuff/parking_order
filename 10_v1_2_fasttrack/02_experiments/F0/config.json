@@ -1,0 +1,36 @@
+{
+  "task": "parking_order_violation",
+  "stage": "V1.2_FASTTRACK_DEV",
+  "candidate": "V12_F0_448_DIRECT",
+  "event_definition_version": "v1.2",
+  "endpoint": "http://192.168.20.62:11434/api/generate",
+  "model": "qwen3.5:4b",
+  "allowed_split": "train",
+  "dataset_root": "/home/yanbo/net_vlm_xunjian_dataset",
+  "preprocess": {"mode": "direct_resize", "canvas_width": 448, "canvas_height": 336, "jpeg_quality": 70},
+  "ollama_request": {
+    "stream": false,
+    "think": false,
+    "keep_alive": "30m",
+    "format": {
+      "type": "object",
+      "properties": {
+        "parking_order_violation": {"type": "string", "enum": ["positive", "negative", "uncertain"]},
+        "evidence_type": {"type": "string", "enum": ["outside_space", "multi_space", "severe_angle", "traffic_area", "normal", "gate_queue", "insufficient"]},
+        "reason": {"type": "string"}
+      },
+      "required": ["parking_order_violation", "evidence_type", "reason"],
+      "additionalProperties": false
+    },
+    "options": {"temperature": 0, "top_p": 0.9, "num_ctx": 8192, "num_predict": 128}
+  },
+  "max_workers": 4,
+  "timeout_seconds": 240,
+  "max_retries": 1,
+  "gt_basis": "generation_intent_shadow",
+  "gt_review_status": "unreviewed",
+  "val_consumed": false,
+  "holdout_consumed": false,
+  "created_date": "2026-09-07"
+}
+
