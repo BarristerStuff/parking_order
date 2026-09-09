@@ -1,0 +1,27 @@
+{
+  "completed_image_count": 238,
+  "config_sha256": "eadf805f28a20f3d09abff85102c64823035da0bfe90f875393b8b53feafd1d3",
+  "elapsed_seconds": 363.535794,
+  "holdout_image_reads": 0,
+  "inference_input_sha256": "8898d05139e356cec852b47505847c708f5c3a08c24eebfed5040c558d2767a3",
+  "logical_crop_json_success_count": 338,
+  "logical_crop_json_success_rate": 1.0,
+  "logical_crop_request_count": 338,
+  "logical_image_count": 238,
+  "logical_latency_seconds": {
+    "p50": 2.2806145,
+    "p95": 6.245387
+  },
+  "max_ollama_concurrency": 2,
+  "model": "qwen3.5:4b",
+  "physical_json_schema_success_count": 338,
+  "physical_json_schema_success_rate": 1.0,
+  "physical_request_count": 338,
+  "preprocessing_optimization": false,
+  "prompt_optimization": false,
+  "prompt_sha256": "523f635e68cec2ec21fd77724230a76248395ef0b5aca635c53afd5a6bebbed6",
+  "stage": "V2_STEP2_STRONGER_VLM_DEV_BASELINE",
+  "status": "completed",
+  "stop_reason": "",
+  "val_image_reads": 0
+}

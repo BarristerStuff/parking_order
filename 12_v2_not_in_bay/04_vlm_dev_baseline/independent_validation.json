@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "detector_cache_exactly_covers_dev_tokens": true,
+    "dev_manifest_exactly_238": true,
+    "frozen_gt_and_split_unchanged": true,
+    "json_schema_success_100_percent": true,
+    "no_val_or_holdout_manifest_rows": true,
+    "opaque_inference_input_no_label_fields": true,
+    "prediction_set_exactly_covers_dev_tokens": true,
+    "primary_confusion_recomputed": true,
+    "subgroup_table_23_groups": true
+  },
+  "dev_image_count": 238,
+  "error_count": 0,
+  "errors": [],
+  "holdout_image_reads": 0,
+  "prediction_status_counts": {
+    "no_eligible_detection": 1,
+    "ok": 237
+  },
+  "primary_confusion_recomputed": {
+    "fn": 27,
+    "fp": 39,
+    "tn": 106,
+    "tp": 24
+  },
+  "status": "valid",
+  "val_image_reads": 0
+}

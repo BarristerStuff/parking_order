@@ -1,0 +1,10 @@
+{
+  "schema_version": "spatiolm_successor_gate_checkpoint_record_v1",
+  "requested_model": "xiaomi-research/SpatioLM-Understanding-InternVL3.5",
+  "requested_mode": "official BF16 CUDA path",
+  "checkpoint_downloaded": false,
+  "checkpoint_revision": null,
+  "checkpoint_cache_path": null,
+  "status": "NOT_ACCESSED_BLOCKED_NO_CUDA",
+  "reason": "The protocol requires a successful local CUDA preflight before any model download or load attempt."
+}

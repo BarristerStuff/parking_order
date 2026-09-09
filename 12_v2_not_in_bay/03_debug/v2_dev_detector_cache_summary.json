@@ -1,0 +1,35 @@
+{
+  "cache_sha256": "5685faa7c450e598f0e964445178a49bbcdb1d1e6e8fd5688fbdb807188385f9",
+  "cache_source": "V2_DEV_NEW_LOCAL_YOLO11N",
+  "class_counts": {
+    "bus": 2,
+    "car": 1031,
+    "truck": 56
+  },
+  "config_sha256": "eadf805f28a20f3d09abff85102c64823035da0bfe90f875393b8b53feafd1d3",
+  "detection_count": 1089,
+  "detector_checkpoint_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "detector_config": {
+    "checkpoint": "/home/yanbo/net_vlm_person_smoking_optimization/00_assets/person_detector/yolo11n.pt",
+    "checkpoint_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+    "classes": {
+      "2": "car",
+      "5": "bus",
+      "7": "truck"
+    },
+    "confidence_threshold": 0.2,
+    "device": "cpu",
+    "inference_size": 640,
+    "method": "new_v2_dev_only_yolo11n_cache",
+    "python": "/home/yanbo/net_vlm_person_smoking_optimization/.venv_person_detector/bin/python"
+  },
+  "detector_input_sha256": "4762f40e47cee46f773c56b48937070561bf5a6f7d33a7f49b54b095468eba32",
+  "dev_token_count": 238,
+  "f2_rerun": false,
+  "holdout_image_reads": 0,
+  "inference_input_sha256": "8898d05139e356cec852b47505847c708f5c3a08c24eebfed5040c558d2767a3",
+  "sample_detection_rate": 1.0,
+  "stage": "V2_STEP2_STRONGER_VLM_DEV_BASELINE",
+  "v2_dev_detector_run": true,
+  "val_image_reads": 0
+}

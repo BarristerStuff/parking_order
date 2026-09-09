@@ -1,0 +1,5 @@
+scope,v2_gt,count
+gate_queue_secondary,negative,30
+gt_uncertain,uncertain,40
+primary_binary,negative,241
+primary_binary,positive,86

@@ -1,0 +1,29 @@
+{
+  "artifact_version": "v2_perception_ground_band_r0",
+  "eligibility": {
+    "class_name_in": ["car", "bus", "truck"],
+    "bbox_height_fraction_gte": 0.15,
+    "must_not_touch_image_edge": true,
+    "edge_margin_pixels": 1
+  },
+  "selection_when_more_than_three_are_eligible": {
+    "max_vehicles_per_image": 3,
+    "sort_order": [
+      "bbox_area_desc",
+      "confidence_desc",
+      "class_id_asc",
+      "bbox_x1_asc",
+      "bbox_y1_asc",
+      "bbox_x2_asc",
+      "bbox_y2_asc"
+    ],
+    "uses_gt_or_target_bbox_hint": false
+  },
+  "ground_band": {
+    "horizontal_width": "3 * bbox_width, clamped to image bounds",
+    "top": "bbox_vertical_midpoint",
+    "bottom": "min(image_bottom, bbox_bottom + 0.6 * bbox_height)",
+    "max_long_edge": 896,
+    "set_of_mark": "red target box plus dashed tire-contact line at bbox bottom"
+  }
+}

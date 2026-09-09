@@ -1,0 +1,42 @@
+{
+  "status": "valid_with_checkpoint_alert",
+  "error_count": 0,
+  "checks": {
+    "hash_sidecars": true,
+    "schemas": true,
+    "coverage_and_unique_ids": true,
+    "gt_mapping": true,
+    "deterministic_split": true,
+    "group_count_table": true,
+    "gt_statistics": true,
+    "protocol_and_snapshot": true
+  },
+  "source_row_count": 397,
+  "gt_row_count": 397,
+  "split_row_count": 397,
+  "gt_counts": {
+    "gate_queue_secondary:negative": 30,
+    "gt_uncertain:uncertain": 40,
+    "primary_binary:negative": 241,
+    "primary_binary:positive": 86
+  },
+  "split_totals": {
+    "DEV": 238,
+    "VAL": 80,
+    "HOLDOUT": 79
+  },
+  "p05_counts": {
+    "positive": 17,
+    "negative": 3
+  },
+  "checkpoint_4_alert": {
+    "triggered": true,
+    "reason": "per-group 60/20/20 allocation has DEV count below 5",
+    "groups": [
+      "u03-vehicle-cut-by-frame-edge",
+      "u04-night-or-blur-boundary-unreadable",
+      "u05-gate-queue-or-parking-ambiguous"
+    ]
+  },
+  "errors": []
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": "spatiolm_successor_gate_environment_freeze_v1",
+  "generated_at": "2026-09-08T21:05:58+08:00",
+  "status": "NOT_CREATED_BLOCKED_NO_CUDA",
+  "required_inference_mode": "official SpatioLM BF16 single-image CUDA inference",
+  "isolated_python_environment_created": false,
+  "pip_freeze_generated": false,
+  "vendor_repository_cloned": false,
+  "checkpoint_downloaded": false,
+  "cache_populated": false,
+  "reason": "The mandatory GPU preflight failed before environment creation. Creating a CPU-only substitute or downloading a checkpoint that cannot be tested would violate the frozen gate protocol."
+}

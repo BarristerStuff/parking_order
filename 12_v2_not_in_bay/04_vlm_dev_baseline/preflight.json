@@ -1,0 +1,20 @@
+{
+  "config_sha256": "eadf805f28a20f3d09abff85102c64823035da0bfe90f875393b8b53feafd1d3",
+  "crop_selection_protocol_sha256": "0edac81d2ac9b4c10bcb2c98740decec0bba0197c5f99bdb5f1edb999e5847a6",
+  "detector_cache_validation_error_count": 0,
+  "detector_cache_validation_status": "valid",
+  "error_count": 0,
+  "holdout_image_reads": 0,
+  "inference_input_count": 238,
+  "inference_input_sha256": "8898d05139e356cec852b47505847c708f5c3a08c24eebfed5040c558d2767a3",
+  "max_ollama_concurrency": 2,
+  "model": "qwen3.5:4b",
+  "model_requests_started": 0,
+  "ollama_tags_has_model": true,
+  "prompt_sha256": "523f635e68cec2ec21fd77724230a76248395ef0b5aca635c53afd5a6bebbed6",
+  "stage": "V2_STEP2_STRONGER_VLM_DEV_BASELINE",
+  "status": "valid",
+  "target_bbox_hint_present_in_inference_input": false,
+  "tool_freeze_sha256": "dbc5d35af901d49cf2d19ac69dede251e900ff0cc6e104502f1050b75a8033ec",
+  "val_image_reads": 0
+}

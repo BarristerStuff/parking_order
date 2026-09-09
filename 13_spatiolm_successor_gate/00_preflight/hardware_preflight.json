@@ -1,0 +1,30 @@
+{
+  "schema_version": "spatiolm_successor_gate_preflight_v1",
+  "generated_at": "2026-09-08T21:05:58+08:00",
+  "preflight_stage": "before_model_download",
+  "local_inference_only": true,
+  "nvidia_smi": {
+    "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.free,driver_version --format=csv,noheader,nounits",
+    "available": false,
+    "exit_code": 127,
+    "stderr": "/bin/bash: nvidia-smi: command not found"
+  },
+  "cuda_visible_devices": null,
+  "nvidia_device_nodes_present": false,
+  "nvidia_procfs_present": false,
+  "nvidia_kernel_modules_present": false,
+  "pci_display_adapter": "VMware SVGA II Adapter",
+  "python_probe": {
+    "python_version": "Python 3.10.12",
+    "torch_import_succeeded": false,
+    "torch_exception_type": "ModuleNotFoundError",
+    "torch_exception": "No module named 'torch'"
+  },
+  "conclusion": {
+    "cuda_available": false,
+    "final_status": "SPATIOLM_SUCCESSOR_GATE_BLOCKED_NO_CUDA",
+    "formal_gate_started": false,
+    "stop_current_parking_vision_development": false,
+    "reason": "The local VM exposes no NVIDIA CUDA device or driver. The required official BF16 CUDA inference path cannot be attempted."
+  }
+}

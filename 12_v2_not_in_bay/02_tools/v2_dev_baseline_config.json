@@ -1,0 +1,81 @@
+{
+  "stage": "V2_STEP2_STRONGER_VLM_DEV_BASELINE",
+  "candidate": "V2_PERCEPTION_GROUND_BAND_BASELINE_R0",
+  "event_definition_version": "v2.0",
+  "source_type": "AIGC",
+  "gt_basis": "group_intent_v2.0_with_p05_visual_adjudication",
+  "endpoint": "http://192.168.20.62:11434/api/generate",
+  "model": "qwen3.5:4b",
+  "allowed_split": "DEV",
+  "val_access_allowed": false,
+  "holdout_access_allowed": false,
+  "max_workers": 2,
+  "timeout_seconds": 240,
+  "max_retries": 2,
+  "preprocess": {
+    "method": "v2_ground_band_set_of_mark",
+    "max_long_edge": 896,
+    "jpeg_quality": 90,
+    "target_box_color_rgb": [255, 0, 0],
+    "target_box_width": 4,
+    "tire_contact_dash_length": 18,
+    "tire_contact_dash_gap": 10
+  },
+  "eligible_detection": {
+    "allowed_classes": ["car", "bus", "truck"],
+    "minimum_bbox_height_fraction": 0.15,
+    "edge_margin_pixels": 1,
+    "max_vehicles_per_image": 3
+  },
+  "detector": {
+    "method": "new_v2_dev_only_yolo11n_cache",
+    "python": "/home/yanbo/net_vlm_person_smoking_optimization/.venv_person_detector/bin/python",
+    "checkpoint": "/home/yanbo/net_vlm_person_smoking_optimization/00_assets/person_detector/yolo11n.pt",
+    "checkpoint_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+    "classes": {"2": "car", "5": "bus", "7": "truck"},
+    "confidence_threshold": 0.2,
+    "inference_size": 640,
+    "device": "cpu"
+  },
+  "ollama_request": {
+    "stream": false,
+    "think": false,
+    "keep_alive": "30m",
+    "format": {
+      "type": "object",
+      "properties": {
+        "line_under_center": {"type": "string", "enum": ["yes", "no", "unclear"]},
+        "line_left": {"type": "string", "enum": ["yes", "no", "unclear"]},
+        "line_right": {"type": "string", "enum": ["yes", "no", "unclear"]},
+        "markings_visible": {"type": "string", "enum": ["yes", "no", "unclear"]},
+        "on_aisle": {"type": "string", "enum": ["yes", "no", "unclear"]}
+      },
+      "required": [
+        "line_under_center",
+        "line_left",
+        "line_right",
+        "markings_visible",
+        "on_aisle"
+      ],
+      "additionalProperties": false
+    },
+    "options": {
+      "temperature": 0,
+      "top_p": 0.9,
+      "num_ctx": 8192,
+      "num_predict": 96
+    }
+  },
+  "decision_rule": {
+    "spanning_positive": "line_under_center == yes",
+    "outside_positive": "markings_visible == yes AND line_left == no AND line_right == no AND on_aisle == yes",
+    "in_bay_negative": "line_under_center == no AND line_left == yes AND line_right == yes",
+    "otherwise": "uncertain"
+  },
+  "created_date": "2026-09-08",
+  "prompt_optimization": false,
+  "preprocessing_optimization": false,
+  "f2_rerun": false,
+  "val_consumed": false,
+  "holdout_consumed": false
+}

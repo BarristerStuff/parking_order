@@ -1,0 +1,13 @@
+{
+  "automatic_next_step_authorized": false,
+  "decision_rule_version": "user_2026-09-08_step2_instruction_interpreted_with_v2_pilot_safety_fpr_gates",
+  "definition_narrowing_signal": false,
+  "p01_recall_lt_0_70": true,
+  "p02_fpr_lte_0_20": false,
+  "p03_recall_gte_0_70": true,
+  "p04_fpr_gt_0_10": true,
+  "p06_fpr_lte_0_10": false,
+  "primary_negative_fpr_lte_0_10": false,
+  "primary_positive_recall_strictly_gt_0_70": false,
+  "recommendation": "CLOSE_SINGLE_RGB_PLAN__RETURN_TO_USER"
+}

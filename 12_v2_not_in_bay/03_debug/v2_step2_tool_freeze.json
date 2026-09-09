@@ -1,0 +1,33 @@
+{
+  "artifact_version": "parking_order_v2_step2_tools_r0",
+  "status": "FROZEN_BEFORE_FIRST_VLM_REQUEST",
+  "stage": "V2_STEP2_STRONGER_VLM_DEV_BASELINE",
+  "tool_sha256": {
+    "vlm_perception.py": "a7e3da70ab65f3ec0d94922ba7c625ab12bdb1cc5e0098903f8311f96ea1f1ee",
+    "crop_ground_band.py": "3c6c5dd45f3e9d30f42801b28da96d881418c3f8f08aaec2b11315c0fa8f3056",
+    "crop_selection_protocol.json": "0edac81d2ac9b4c10bcb2c98740decec0bba0197c5f99bdb5f1edb999e5847a6",
+    "evaluate.py": "e79ae9d915d8c1e3b3601584904bb2f3edde30fec1536321713ea64ccefbd5ca"
+  },
+  "supporting_tool_sha256": {
+    "build_dev_baseline_inputs.py": "f4e1e1b2f99a9a395452eaac900844ef788bff2941acea21dbad6435cf7ebee2",
+    "build_v2_dev_detector_cache.py": "a7c5c602dc546972255d82a369c95e706a9e336ec158eac3914894f3bce195b9"
+  },
+  "frozen_noncode_sha256": {
+    "prompt_v2_perception.txt": "523f635e68cec2ec21fd77724230a76248395ef0b5aca635c53afd5a6bebbed6",
+    "v2_dev_baseline_config.json": "eadf805f28a20f3d09abff85102c64823035da0bfe90f875393b8b53feafd1d3",
+    "stage2_authorization.md": "683ff873d176987aeaac0b997a772c288e5e065dc39c3e4b7fe9c7179145a313"
+  },
+  "frozen_inputs_sha256": {
+    "v2_dev_evaluation_manifest.csv": "7853bba16669aa412aac73877e3946fd99d55ad476b82b98c3024bc6066cb345",
+    "v2_dev_detector_input.jsonl": "4762f40e47cee46f773c56b48937070561bf5a6f7d33a7f49b54b095468eba32",
+    "v2_dev_inference_input.jsonl": "8898d05139e356cec852b47505847c708f5c3a08c24eebfed5040c558d2767a3",
+    "v2_dev_vehicle_detections.jsonl": "5685faa7c450e598f0e964445178a49bbcdb1d1e6e8fd5688fbdb807188385f9"
+  },
+  "dev_token_count": 238,
+  "val_access_allowed": false,
+  "holdout_access_allowed": false,
+  "prompt_optimization": false,
+  "preprocessing_optimization": false,
+  "f2_rerun": false,
+  "v2_dev_detector_run": true
+}

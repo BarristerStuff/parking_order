@@ -1,0 +1,12 @@
+{
+  "schema_version": "spatiolm_successor_gate_start_record_v1",
+  "GATE_STARTED": false,
+  "timestamp": "2026-09-08T21:05:58+08:00",
+  "model_checkpoint": "xiaomi-research/SpatioLM-Understanding-InternVL3.5",
+  "pilot_manifest_sha256": null,
+  "prompt_sha256": null,
+  "model_revision": null,
+  "code_revision": null,
+  "environment_hash": null,
+  "reason": "SPATIOLM_SUCCESSOR_GATE_BLOCKED_NO_CUDA occurred before pilot freeze, prompt freeze, smoke, and formal inference."
+}

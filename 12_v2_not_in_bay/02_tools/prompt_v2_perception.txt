@@ -1,0 +1,19 @@
+The vehicle inside the red rectangle is already stationary. Inspect only the pavement
+around that vehicle's tires and lower body. Do not infer lines that are not visible.
+
+Answer each item using only yes, no, or unclear:
+
+1. line_under_center: Is a painted parking-bay separator visibly passing UNDER
+   this vehicle, between its left and right tire positions? A line merely touching
+   an outer tire or body edge is not under-center.
+2. line_left: Is a painted parking-bay line visible within about half a car width
+   of the vehicle's LEFT tires, roughly parallel to the vehicle?
+3. line_right: Is a painted parking-bay line visible within about half a car width
+   of the vehicle's RIGHT tires, roughly parallel to the vehicle?
+4. markings_visible: Are painted parking-bay lines visibly present anywhere in
+   this pavement view?
+5. on_aisle: Is this vehicle visibly standing on open driving pavement / an aisle
+   rather than inside a marked parking bay?
+
+Return JSON only, with exactly these five keys:
+{"line_under_center":"yes|no|unclear","line_left":"yes|no|unclear","line_right":"yes|no|unclear","markings_visible":"yes|no|unclear","on_aisle":"yes|no|unclear"}

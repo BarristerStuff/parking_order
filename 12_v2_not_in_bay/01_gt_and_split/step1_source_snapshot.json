@@ -1,0 +1,16 @@
+{
+  "formal_media_mapping": {
+    "path": "/home/yanbo/net_vlm_parking_optimization/02_ingest/manifests/formal_media_mapping.csv",
+    "sha256": "0780f3e659fcae4655ea06b00365f7c8c37c089f44b21453f4eb6acbaa8080a6",
+    "rows": 397
+  },
+  "definition": {
+    "path": "/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/00_definition/vehicle_not_in_bay_v2.0.md",
+    "sha256": "0e9c6b0afc6220f96969ff04f8ed27592c10a64a6e31a7b6cc83d23487032a10"
+  },
+  "p05_visual_review": {
+    "path": "/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/01_gt_and_split/p05_visual_review.csv",
+    "sha256": "ab9931264c72daf17d7df29a5bed99e7c70e49e31f8572cb3125125ba8f006d0",
+    "rows": 20
+  }
+}

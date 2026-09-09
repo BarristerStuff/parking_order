@@ -1,0 +1,60 @@
+{
+  "binding": {
+    "config_sha256": "eadf805f28a20f3d09abff85102c64823035da0bfe90f875393b8b53feafd1d3",
+    "definition_sha256": "0e9c6b0afc6220f96969ff04f8ed27592c10a64a6e31a7b6cc83d23487032a10",
+    "gt_sha256": "321f0994006d2451352f0c48d73911749f6a471d24c16f25808bbf30c31bd353",
+    "prompt_sha256": "523f635e68cec2ec21fd77724230a76248395ef0b5aca635c53afd5a6bebbed6",
+    "split_sha256": "f531aaff35d3940dd17bd57e1f9825903177dcd91d2f7e41d2a598a5a0cfdb24"
+  },
+  "candidate": "V2_PERCEPTION_GROUND_BAND_BASELINE_R0",
+  "decision_path": "/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/04_vlm_dev_baseline/decision.json",
+  "dev_image_count": 238,
+  "gt_basis": "group_intent_v2.0_with_p05_visual_adjudication",
+  "gt_uncertain_excluded_count": 24,
+  "hn01_secondary": {
+    "false_positive_count": 2,
+    "fpr": 0.1111111111111111,
+    "fpr_wilson_95": [
+      0.03101952264561239,
+      0.32799765130178804
+    ],
+    "negative_count": 18
+  },
+  "holdout_consumed": false,
+  "holdout_image_reads": 0,
+  "logical_json_success_rate": 1.0,
+  "model_prediction_counts": {
+    "negative": 109,
+    "positive": 68,
+    "uncertain": 61
+  },
+  "no_eligible_detection_count": 1,
+  "non_ok_result_count": 1,
+  "ollama_logical_crop_requests": 338,
+  "ollama_physical_requests": 338,
+  "physical_json_schema_success_rate": 1.0,
+  "primary_binary": {
+    "fn": 27,
+    "fp": 39,
+    "fpr": 0.2689655172413793,
+    "fpr_wilson_95": [
+      0.20344255259370747,
+      0.3464140496536988
+    ],
+    "precision": 0.38095238095238093,
+    "recall": 0.47058823529411764,
+    "recall_wilson_95": [
+      0.3405299020949959,
+      0.6047669578990353
+    ],
+    "tn": 106,
+    "tp": 24
+  },
+  "production_claim": "NOT_AUTHORIZED",
+  "source_type": "AIGC",
+  "stage": "V2_STEP2_STRONGER_VLM_DEV_BASELINE",
+  "status": "completed",
+  "subgroup_metrics_path": "/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/04_vlm_dev_baseline/subgroup_metrics.csv",
+  "val_consumed": false,
+  "val_image_reads": 0
+}

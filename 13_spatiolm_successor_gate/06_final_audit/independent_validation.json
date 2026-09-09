@@ -1,0 +1,23 @@
+{
+  "schema_version": "spatiolm_successor_gate_independent_blocked_validation_v1",
+  "generated_at": "2026-09-08T21:05:58+08:00",
+  "status": "VALID_NOT_APPLICABLE_FORMAL_GATE_NOT_STARTED",
+  "error_count": 0,
+  "formal_evaluation_possible": false,
+  "checks": {
+    "frozen_definition_sidecar": "passed",
+    "frozen_gt_sidecar": "passed",
+    "frozen_split_sidecar": "passed",
+    "hardware_preflight_final_status": "SPATIOLM_SUCCESSOR_GATE_BLOCKED_NO_CUDA",
+    "formal_gate_started": false,
+    "pilot_manifest_exists": false,
+    "prediction_file_exists": false,
+    "prediction_count": 0,
+    "val_consumed": false,
+    "holdout_consumed": false,
+    "formal_dataset_modified": false,
+    "formal_project_modified_by_this_gate": false,
+    "server_files_modified": false
+  },
+  "interpretation": "This validates the blocked-record state only. It is not a 60-sample metric recomputation and must not be read as a PASS or a model-capability FAIL."
+}

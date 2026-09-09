@@ -1,0 +1,42 @@
+{
+  "schema_version": "spatiolm_successor_gate_input_integrity_v1",
+  "generated_at": "2026-09-08T21:05:58+08:00",
+  "status": "valid",
+  "hash_checks": [
+    {
+      "path": "12_v2_not_in_bay/00_definition/vehicle_not_in_bay_v2.0.md",
+      "sha256": "0e9c6b0afc6220f96969ff04f8ed27592c10a64a6e31a7b6cc83d23487032a10",
+      "sidecar_check": "passed"
+    },
+    {
+      "path": "12_v2_not_in_bay/01_gt_and_split/v2_0_gt.csv",
+      "sha256": "321f0994006d2451352f0c48d73911749f6a471d24c16f25808bbf30c31bd353",
+      "sidecar_check": "passed"
+    },
+    {
+      "path": "12_v2_not_in_bay/01_gt_and_split/v2_split.csv",
+      "sha256": "f531aaff35d3940dd17bd57e1f9825903177dcd91d2f7e41d2a598a5a0cfdb24",
+      "sidecar_check": "passed"
+    }
+  ],
+  "split_counts": {
+    "DEV": 238,
+    "VAL": 80,
+    "HOLDOUT": 79
+  },
+  "dev_only_pilot_source_availability": {
+    "p01_positive": 23,
+    "p03_positive": 18,
+    "p05_positive": 10,
+    "n01_negative": 18,
+    "n02_negative": 15,
+    "n04_negative": 9,
+    "n05_negative": 9,
+    "p04_negative": 14,
+    "p06_negative": 6,
+    "hn01_negative": 18
+  },
+  "pilot_manifest_created": false,
+  "non_dev_label_handling": "No VAL or HOLDOUT labels were selected, emitted, scored, or passed to model inference. Whole-file SHA verification was performed only to bind the frozen input bytes.",
+  "input_gate": "passed"
+}

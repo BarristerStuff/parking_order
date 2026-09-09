@@ -1,0 +1,10 @@
+{
+  "schema_version": "spatiolm_successor_gate_smoke_v1",
+  "smoke_attempted": false,
+  "image_accessed": false,
+  "pilot_image_accessed": false,
+  "val_image_accessed": false,
+  "holdout_image_accessed": false,
+  "status": "NOT_RUN_BLOCKED_NO_CUDA",
+  "reason": "The permitted non-evaluation smoke is downstream of successful local CUDA and official-environment setup."
+}

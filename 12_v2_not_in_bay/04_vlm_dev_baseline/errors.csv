@@ -1,0 +1,2 @@
+media_id,sample_token,group_key,v2_gt,scope,status,model_label,eligible_detection_count,error
+IMG_007706,babb28f796bc063ebb7ad4f57a5b51cb703e893f68a2ef6c0490ca8fc56c2a3e,u03-vehicle-cut-by-frame-edge,uncertain,gt_uncertain,no_eligible_detection,uncertain,0,

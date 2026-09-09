@@ -1,0 +1,24 @@
+group_key,scope,row_count,positive_count,negative_count,uncertain_gt_count,positive_tp,positive_fn,positive_recall,positive_recall_wilson_95,negative_fp,negative_tn,negative_fpr,negative_fpr_wilson_95,prediction_positive_count,prediction_negative_count,prediction_uncertain_count,prediction_uncertain_rate,no_eligible_detection_count,no_eligible_detection_rate,status_ok_count,status_non_ok_count
+hn01-gate-queue,gate_queue_secondary,18,0,18,0,0,0,,,2,16,0.11111111,"[0.03101952264561239, 0.32799765130178804]",2,8,8,0.44444444,0,0.00000000,18,0
+hn02-faded-lines-but-confirmably-inside,primary_binary,6,0,6,0,0,0,,,2,4,0.33333333,"[0.09677141110578041, 0.700006684861608]",2,4,0,0.00000000,0,0.00000000,6,0
+hn03-perspective-looks-like-crossing,primary_binary,6,0,6,0,0,0,,,0,6,0.00000000,"[2.7755575615628914e-17, 0.3903342879021653]",0,4,2,0.33333333,0,0.00000000,6,0
+hn04-large-vehicle-compliant,primary_binary,6,0,6,0,0,0,,,0,6,0.00000000,"[2.7755575615628914e-17, 0.3903342879021653]",0,6,0,0.00000000,0,0.00000000,6,0
+hn05-adjacent-vehicle-occludes-lines,primary_binary,6,0,6,0,0,0,,,1,5,0.16666667,"[0.030053369748306635, 0.5635028221864702]",1,5,0,0.00000000,0,0.00000000,6,0
+hn06-shadows-cracks-curbs-mimic-lines,primary_binary,6,0,6,0,0,0,,,3,3,0.50000000,"[0.1876163064826506, 0.8123836935173494]",3,2,1,0.16666667,0,0.00000000,6,0
+n01-standard-inside-bay,primary_binary,18,0,18,0,0,0,,,5,13,0.27777778,"[0.12499753379553993, 0.5087265656029746]",5,12,1,0.05555556,0,0.00000000,18,0
+n02-close-to-line-but-inside,primary_binary,15,0,15,0,0,0,,,1,14,0.06666667,"[0.011866895493268553, 0.2981652987378003]",1,10,4,0.26666667,0,0.00000000,15,0
+n03-diagonal-bay-correct,primary_binary,9,0,9,0,0,0,,,1,8,0.11111111,"[0.019890887638544907, 0.434999705576656]",1,7,1,0.11111111,0,0.00000000,9,0
+n04-parallel-bay-correct,primary_binary,9,0,9,0,0,0,,,4,5,0.44444444,"[0.18877852109766452, 0.733348706504507]",4,5,0,0.00000000,0,0.00000000,9,0
+n05-multiple-all-correct,primary_binary,9,0,9,0,0,0,,,7,2,0.77777778,"[0.45258896910698887, 0.9367748928821533]",7,2,0,0.00000000,0,0.00000000,9,0
+n06-special-marked-space-geometry-correct,primary_binary,12,0,12,0,0,0,,,3,9,0.25000000,"[0.08894166839405471, 0.5323053349335657]",3,9,0,0.00000000,0,0.00000000,12,0
+p01-outside-legal-bay-clear,primary_binary,23,23,0,0,4,19,0.17391304,"[0.06978653563062565, 0.3713764764022614]",0,0,,,4,3,16,0.69565217,0,0.00000000,23,0
+p02-cross-single-boundary-line,primary_binary,21,0,21,0,0,0,,,5,16,0.23809524,"[0.10628013022636468, 0.4509117368295075]",5,12,4,0.19047619,0,0.00000000,21,0
+p03-span-two-bays,primary_binary,18,18,0,0,13,5,0.72222222,"[0.4912734343970254, 0.8750024662044601]",0,0,,,13,4,1,0.05555556,0,0.00000000,18,0
+p04-angled-footprint-outside,primary_binary,14,0,14,0,0,0,,,4,10,0.28571429,"[0.11721378644576919, 0.5464908432989318]",4,8,2,0.14285714,0,0.00000000,14,0
+p05-multi-vehicle-at-least-one-violation,primary_binary,12,10,2,0,7,3,0.70000000,"[0.39677814746114537, 0.8922087325936989]",0,2,0.00000000,"[0.0, 0.6576197724933469]",7,3,2,0.16666667,0,0.00000000,12,0
+p06-nose-or-tail-intrudes-aisle,primary_binary,6,0,6,0,0,0,,,3,3,0.50000000,"[0.1876163064826506, 0.8123836935173494]",3,3,0,0.00000000,0,0.00000000,6,0
+u01-insufficient-parking-visual-evidence,gt_uncertain,9,0,0,9,0,0,,,0,0,,,0,0,9,1.00000000,0,0.00000000,9,0
+u02-markings-severely-missing-or-occluded,gt_uncertain,6,0,0,6,0,0,,,0,0,,,1,0,5,0.83333333,0,0.00000000,6,0
+u03-vehicle-cut-by-frame-edge,gt_uncertain,3,0,0,3,0,0,,,0,0,,,1,1,1,0.33333333,1,0.33333333,2,1
+u04-night-or-blur-boundary-unreadable,gt_uncertain,3,0,0,3,0,0,,,0,0,,,1,1,1,0.33333333,0,0.00000000,3,0
+u05-gate-queue-or-parking-ambiguous,gt_uncertain,3,0,0,3,0,0,,,0,0,,,0,0,3,1.00000000,0,0.00000000,3,0

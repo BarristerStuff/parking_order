@@ -1,0 +1,12 @@
+{
+  "logical_image_count": 238,
+  "logical_image_latency_seconds": {
+    "p50": 2.2806145,
+    "p95": 6.245387
+  },
+  "physical_request_count": 338,
+  "physical_vlm_request_latency_seconds": {
+    "p50": 2.0605285,
+    "p95": 2.354749
+  }
+}

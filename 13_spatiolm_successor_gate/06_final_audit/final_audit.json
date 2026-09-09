@@ -1,0 +1,27 @@
+{
+  "schema_version": "spatiolm_successor_gate_final_audit_v1",
+  "generated_at": "2026-09-08T21:05:58+08:00",
+  "status": "VALID_BLOCKED_RECORD",
+  "error_count": 0,
+  "final_status": "SPATIOLM_SUCCESSOR_GATE_BLOCKED_NO_CUDA",
+  "formal_gate_started": false,
+  "model_inference_attempted": false,
+  "pilot_manifest_created": false,
+  "prediction_count": 0,
+  "val_consumed": false,
+  "holdout_consumed": false,
+  "val_image_reads": 0,
+  "holdout_image_reads": 0,
+  "formal_dataset_modified": false,
+  "formal_project_modified_by_this_gate": false,
+  "server_files_modified": false,
+  "remote_server_contacted": false,
+  "input_integrity_status": "valid",
+  "preflight_status": "blocked_no_cuda",
+  "independent_blocked_record_validation": "06_final_audit/independent_validation.json",
+  "intentional_absences": [
+    "No isolated environment, vendor clone, cache, pip freeze, checkpoint, pilot manifest, prompt file, predictions, or metrics exists because the protocol stopped before those stages.",
+    "No PASS or model-capability FAIL is asserted."
+  ],
+  "preexisting_formal_project_dirty_worktree_observed": true
+}

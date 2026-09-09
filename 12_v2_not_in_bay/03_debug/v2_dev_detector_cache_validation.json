@@ -1,0 +1,15 @@
+{
+  "cache_image_hashes_rechecked": 238,
+  "cache_paths_under_dataset_root": true,
+  "cache_source": "V2_DEV_NEW_LOCAL_YOLO11N",
+  "cache_token_count": 238,
+  "duplicate_token_count": 0,
+  "error_count": 0,
+  "expected_dev_token_count": 238,
+  "f2_rerun": false,
+  "holdout_image_reads": 0,
+  "inference_input_has_forbidden_fields": false,
+  "status": "valid",
+  "v2_dev_detector_run": true,
+  "val_image_reads": 0
+}
