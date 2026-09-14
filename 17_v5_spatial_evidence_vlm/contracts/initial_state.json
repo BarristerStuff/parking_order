@@ -1,0 +1,13 @@
+{
+  "/home/yanbo/net_vlm_parking_optimization": "?? 14_v3_parked_on_road/\n?? 15_v3_roi_r1/\n?? 16_v4_dynamic_vlm/\n",
+  "/home/yanbo/net_vlm_yanboversion/vlm": " M .gitignore\n M script/server.py\n M script/server_usage.md\n M test_server_gateway.py\n M w_v/realtime_processing.py\n M w_v/realtime_vlm.py\n M w_v/yoloe_gate.py\n D yolo/yoloe\n?? agora_token/\n?? analysis_handler.py\n?? analysis_server.py\n?? analysis_thread.py\n?? config.py\n?? mqtt_handler.py\n?? mqtt_send_img.py\n?? rtc_receiver.py\n?? rtm_sender.py\n?? script/java_backend_api.md\n?? test_display_webrtc.py\n?? test_py.py\n?? test_rtmp.py\n?? test_webrtc.py\n?? test_webrtc_send.py\n?? ultralytics/\n?? video_frame.py\n?? webrtc_receiver.py\n",
+  "python": "/usr/bin/python3",
+  "modules": {
+    "cv2": false,
+    "PIL": true,
+    "numpy": false,
+    "torch": false,
+    "ultralytics": false,
+    "shapely": false
+  }
+}

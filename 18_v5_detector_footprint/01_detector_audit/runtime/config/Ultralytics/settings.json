@@ -1,0 +1,21 @@
+{
+  "settings_version": "0.0.6",
+  "datasets_dir": "/home/yanbo/net_vlm_yanboversion/datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "71772e075d5e8f5b413cbe4ad50d73819e9b7bee47ddac7bd67d3eee4509032b",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "hub": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

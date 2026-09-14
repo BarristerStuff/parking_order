@@ -1,0 +1,30 @@
+{
+  "requests": 108,
+  "per_request_seconds": {
+    "client_elapsed": {
+      "p50": 14.34353482723236,
+      "p95": 16.500446546077725
+    },
+    "queue_wait": {
+      "p50": 370.69042098522186,
+      "p95": 719.7533249020576
+    },
+    "ollama_load": {
+      "p50": 0.468653216,
+      "p95": 0.5431756169999998
+    },
+    "ollama_total": {
+      "p50": 14.381464618,
+      "p95": 16.499931613399998
+    }
+  },
+  "per_image_requests": {
+    "p50": 2.0,
+    "p95": 4.0
+  },
+  "preprocess_seconds_per_image": {
+    "p50": 0.03751802444458008,
+    "p95": 0.05148259401321411
+  },
+  "cold_load_note": "Ollama load_duration is reported by API; no separate warm-up request was subtracted; smoke request is excluded from pilot metrics."
+}

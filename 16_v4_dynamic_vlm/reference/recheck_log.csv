@@ -1,0 +1,5 @@
+recheck_scope,selection_rule,count,review_action,model_output_seen
+positive_vehicle_instances,all explicit positive_road and positive_two_bays rows,32,re-read original full image and target context crop; confirmed visible road or substantive two-bay relation,false
+gate_queue_images,all six hn01 pilot images,6,re-read original full image and context crops; confirmed normal queue context,false
+line_and_minor_negative_images,all p02 and p04 pilot images,6,re-read original full image and context crops; confirmed no substantive two-bay occupancy,false
+nose_tail_negative_images,all p06 pilot images,2,re-read original full image and context crops; confirmed slight nose/tail only,false

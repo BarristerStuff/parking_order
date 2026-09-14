@@ -1,0 +1,95 @@
+{
+  "status": "PENDING",
+  "passed": 55,
+  "failed": [],
+  "detector": {
+    "r0": {
+      "images": 60,
+      "raw_detection_count": 196,
+      "kept_count": 195,
+      "geometric_matches": 155,
+      "coverage_gate_upper_bound_pass": false,
+      "geometric_by_label": {
+        "positive_road": 5,
+        "negative_ordinary_bay": 80,
+        "positive_two_bays": 11,
+        "negative_line_touch": 10,
+        "negative_minor_overrun": 14,
+        "negative_nose_tail_overrun": 11,
+        "negative_gate_queue": 17,
+        "uncertain": 7
+      },
+      "support": {
+        "overall": 240,
+        "positive_road": 14,
+        "negative_ordinary_bay": 120,
+        "positive_two_bays": 18,
+        "negative_line_touch": 10,
+        "negative_minor_overrun": 22,
+        "negative_nose_tail_overrun": 23,
+        "negative_gate_queue": 20,
+        "uncertain": 13
+      },
+      "geometric_coverage": {
+        "overall": 0.6458333333333334,
+        "positive_road": 0.35714285714285715,
+        "negative_ordinary_bay": 0.6666666666666666,
+        "positive_two_bays": 0.6111111111111112,
+        "negative_line_touch": 1.0,
+        "negative_minor_overrun": 0.6363636363636364,
+        "negative_nose_tail_overrun": 0.4782608695652174,
+        "negative_gate_queue": 0.85,
+        "uncertain": 0.5384615384615384
+      },
+      "visually_confirmed_count": null,
+      "visual_status": "PENDING_REVIEW_EVIDENCE",
+      "local_detector_calls_from_success_logs": 60,
+      "true_recall": null,
+      "true_fpr": null
+    },
+    "r1": {
+      "images": 60,
+      "raw_detection_count": 222,
+      "kept_count": 221,
+      "geometric_matches": 178,
+      "coverage_gate_upper_bound_pass": false,
+      "geometric_by_label": {
+        "positive_road": 13,
+        "negative_ordinary_bay": 83,
+        "positive_two_bays": 16,
+        "negative_line_touch": 10,
+        "negative_minor_overrun": 15,
+        "negative_nose_tail_overrun": 11,
+        "negative_gate_queue": 19,
+        "uncertain": 11
+      },
+      "support": {
+        "overall": 240,
+        "positive_road": 14,
+        "negative_ordinary_bay": 120,
+        "positive_two_bays": 18,
+        "negative_line_touch": 10,
+        "negative_minor_overrun": 22,
+        "negative_nose_tail_overrun": 23,
+        "negative_gate_queue": 20,
+        "uncertain": 13
+      },
+      "geometric_coverage": {
+        "overall": 0.7416666666666667,
+        "positive_road": 0.9285714285714286,
+        "negative_ordinary_bay": 0.6916666666666667,
+        "positive_two_bays": 0.8888888888888888,
+        "negative_line_touch": 1.0,
+        "negative_minor_overrun": 0.6818181818181818,
+        "negative_nose_tail_overrun": 0.4782608695652174,
+        "negative_gate_queue": 0.95,
+        "uncertain": 0.8461538461538461
+      },
+      "visually_confirmed_count": null,
+      "visual_status": "PENDING_REVIEW_EVIDENCE",
+      "local_detector_calls_from_success_logs": 60,
+      "true_recall": null,
+      "true_fpr": null
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+  "review_date": "2026-09-10",
+  "reviewer": "AI visual reviewer via view_image; not human gold",
+  "definition": "qualitatively_valid_proxy is visible lower-band/coarse ROI plausibility, never groundvalidated. Unreviewed population is not extrapolated.",
+  "sampling": "16 fixed evenly spaced target indices + 4 first-distinct-risk examples; labels not used to select sample",
+  "reviews": [
+    {
+      "number": 1,
+      "image_id": "IMG_007521",
+      "vehicle_id": "S001",
+      "mask_visual_quality": "plausible_visible_body",
+      "contact_band_quality": "unavailable_geometry_rejected",
+      "mask_method_proxy_quality": "unavailable",
+      "bbox_method_proxy_quality": "qualitatively_valid_proxy",
+      "observations": "黑色SUV可见轮廓大致贴合车身；无橙色候选（切带几何拒绝）。紫色框仅覆盖前轮/前保险杠附近的宽松下部ROI，包含路面，非接地面。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_01.jpg"
+      ]
+    },
+    {
+      "number": 2,
+      "image_id": "IMG_007536",
+      "vehicle_id": "S001",
+      "mask_visual_quality": "plausible_visible_body",
+      "contact_band_quality": "plausible_visible_bottom_only",
+      "mask_method_proxy_quality": "qualitatively_valid_proxy",
+      "bbox_method_proxy_quality": "qualitatively_valid_proxy",
+      "observations": "白色SUV轮廓贴合车身；橙色带沿前轮与下保险杠，遗漏透视后轮接地点，作为可见底带可解释，不能代表整车地面占用。紫框为较宽下部ROI。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_01.jpg"
+      ]
+    },
+    {
+      "number": 3,
+      "image_id": "IMG_007542",
+      "vehicle_id": "S001",
+      "mask_visual_quality": "plausible_visible_body",
+      "contact_band_quality": "plausible_visible_bottom_only",
+      "mask_method_proxy_quality": "qualitatively_valid_proxy",
+      "bbox_method_proxy_quality": "qualitatively_valid_proxy",
+      "observations": "银色轿车可见外轮廓合理；底带覆盖近侧前轮和前保险杠下缘，不覆盖远端轮胎接地。紫框包含下方路面，只有ROI意义。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_01.jpg"
+      ]
+    },
+    {
+      "number": 4,
+      "image_id": "IMG_007599",
+      "vehicle_id": "S001",
+      "mask_visual_quality": "partial_occluded_truncated",
+      "contact_band_quality": "unavailable_geometry_rejected",
+      "mask_method_proxy_quality": "unavailable",
+      "bbox_method_proxy_quality": "uncertain",
+      "observations": "白色轿车左端被图像边缘截断，尾端受黑车遮挡；原mask沿遮挡轮廓并有异常窄连接。无候选。紫框跨到遮挡车辆，不能视为清晰单车底部代理。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_01.jpg"
+      ]
+    },
+    {
+      "number": 5,
+      "image_id": "IMG_007612",
+      "vehicle_id": "S004",
+      "mask_visual_quality": "partial_occluded",
+      "contact_band_quality": "uncertain_occluded_contact",
+      "mask_method_proxy_quality": "uncertain",
+      "bbox_method_proxy_quality": "uncertain",
+      "observations": "后排白车被前排车辆严重遮挡；橙带只落在可见轮胎小片区域，紫框穿过邻车。不能确认完整目标的下部代理质量。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_02.jpg"
+      ]
+    },
+    {
+      "number": 6,
+      "image_id": "IMG_007617",
+      "vehicle_id": "S001",
+      "mask_visual_quality": "plausible_visible_body",
+      "contact_band_quality": "plausible_visible_bottom_only",
+      "mask_method_proxy_quality": "qualitatively_valid_proxy",
+      "bbox_method_proxy_quality": "qualitatively_valid_proxy",
+      "observations": "白色轿车正前方轮廓大致合理；橙带覆盖前保险杠和可见近侧轮胎底部，紫框为前下部粗ROI。仍非真实ground footprint。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_02.jpg"
+      ]
+    },
+    {
+      "number": 7,
+      "image_id": "IMG_007655",
+      "vehicle_id": "S004",
+      "mask_visual_quality": "poor_background_fragment_contamination",
+      "contact_band_quality": "unavailable_geometry_rejected",
+      "mask_method_proxy_quality": "unavailable",
+      "bbox_method_proxy_quality": "qualitatively_valid_proxy",
+      "observations": "白色面包车主体轮廓大致对齐，但左侧出现邻车/镜子附近多余细碎环线，不能当成干净mask。无橙带。紫框在面包车前轮和低保险杠附近，粗ROI视觉可解释。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_02.jpg"
+      ]
+    },
+    {
+      "number": 8,
+      "image_id": "IMG_007647",
+      "vehicle_id": "S001",
+      "mask_visual_quality": "partial_truncated",
+      "contact_band_quality": "uncertain_truncated",
+      "mask_method_proxy_quality": "uncertain",
+      "bbox_method_proxy_quality": "uncertain",
+      "observations": "夜间银车前部在右图像边缘截断；橙带和紫框均被边界切掉。只看到局部，保持不确定。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_02.jpg"
+      ]
+    },
+    {
+      "number": 9,
+      "image_id": "IMG_007580",
+      "vehicle_id": "S004",
+      "mask_visual_quality": "partial_top_truncated_body_lower_visible",
+      "contact_band_quality": "plausible_visible_bottom_only",
+      "mask_method_proxy_quality": "qualitatively_valid_proxy",
+      "bbox_method_proxy_quality": "qualitatively_valid_proxy",
+      "observations": "皮卡车顶被图像上边界截断，但正前方双轮和下保险杠清楚可见；橙带沿前下部、紫框围绕下部，作为局部可见proxy合理。截断风险保留，绝不ground validated。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_03.jpg"
+      ]
+    },
+    {
+      "number": 10,
+      "image_id": "IMG_007634",
+      "vehicle_id": "S003",
+      "mask_visual_quality": "uncertain_low_resolution_occlusion",
+      "contact_band_quality": "uncertain_low_resolution_occlusion",
+      "mask_method_proxy_quality": "uncertain",
+      "bbox_method_proxy_quality": "uncertain",
+      "observations": "远处红车目标小且左下方被白车遮挡；当前真实像素不足以确认轮胎/下缘质量，几何合法不能代替视觉通过。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_03.jpg"
+      ]
+    },
+    {
+      "number": 11,
+      "image_id": "IMG_007672",
+      "vehicle_id": "S003",
+      "mask_visual_quality": "uncertain_low_resolution_occlusion",
+      "contact_band_quality": "uncertain_low_resolution_occlusion",
+      "mask_method_proxy_quality": "uncertain",
+      "bbox_method_proxy_quality": "uncertain",
+      "observations": "远处并排白车相互遮挡；橙色区域与紫框紧邻多个车辆下缘，分辨率不足，未给视觉合理通过。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_03.jpg"
+      ]
+    },
+    {
+      "number": 12,
+      "image_id": "IMG_007417",
+      "vehicle_id": "S002",
+      "mask_visual_quality": "partial_truncated",
+      "contact_band_quality": "unavailable_disconnected_band",
+      "mask_method_proxy_quality": "unavailable",
+      "bbox_method_proxy_quality": "uncertain",
+      "observations": "黑色侧视车辆左端截断，轮胎底端与车身下沿形成分开的低处；未输出橙带。紫框夹带大量路面且目标不完整。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_03.jpg"
+      ]
+    },
+    {
+      "number": 13,
+      "image_id": "IMG_007499",
+      "vehicle_id": "S003",
+      "mask_visual_quality": "poor_background_fragment_contamination",
+      "contact_band_quality": "unavailable_geometry_rejected",
+      "mask_method_proxy_quality": "unavailable",
+      "bbox_method_proxy_quality": "qualitatively_valid_proxy",
+      "observations": "蓝色SUV主体mask大体对齐，左上方连入邻近白车附近的细环/片段，原轮廓非干净单体。无橙带。紫框覆盖SUV近侧前轮和低前部，可作为粗ROI。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_04.jpg"
+      ]
+    },
+    {
+      "number": 14,
+      "image_id": "IMG_007346",
+      "vehicle_id": "S002",
+      "mask_visual_quality": "plausible_visible_body",
+      "contact_band_quality": "plausible_visible_bottom_only",
+      "mask_method_proxy_quality": "qualitatively_valid_proxy",
+      "bbox_method_proxy_quality": "qualitatively_valid_proxy",
+      "observations": "白色轿车轮廓及橙色底带大体贴合可见前轮/前裙；紫框为下部粗ROI，包含投影下的路面。两者仅视觉proxy合理。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_04.jpg"
+      ]
+    },
+    {
+      "number": 15,
+      "image_id": "IMG_007340",
+      "vehicle_id": "S004",
+      "mask_visual_quality": "uncertain_low_resolution_occlusion",
+      "contact_band_quality": "unavailable_geometry_rejected",
+      "mask_method_proxy_quality": "unavailable",
+      "bbox_method_proxy_quality": "uncertain",
+      "observations": "远处货车很小，下部被近处车辆遮挡；底部候选未输出。紫框处真实轮胎/地面不可分辨，不作视觉通过。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_04.jpg"
+      ]
+    },
+    {
+      "number": 16,
+      "image_id": "IMG_007712",
+      "vehicle_id": "S001",
+      "mask_visual_quality": "plausible_visible_body",
+      "contact_band_quality": "plausible_visible_bottom_only",
+      "mask_method_proxy_quality": "qualitatively_valid_proxy",
+      "bbox_method_proxy_quality": "qualitatively_valid_proxy",
+      "observations": "正前方白色SUV可见主体轮廓合理；橙带顺着前裙和前轮低处，紫框覆盖同一区域。整车后部接地不可见，仅proxy合理。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_04.jpg"
+      ]
+    },
+    {
+      "number": 17,
+      "image_id": "IMG_007524",
+      "vehicle_id": "S001",
+      "mask_visual_quality": "plausible_visible_body",
+      "contact_band_quality": "unavailable_disconnected_band",
+      "mask_method_proxy_quality": "unavailable",
+      "bbox_method_proxy_quality": "qualitatively_valid_proxy",
+      "observations": "放大后灰色MPV的可见外轮廓合理；后轮和近侧前轮低处被较高底盘连接，底带若直接连成单polygon会跨越非mask区域。拒绝橙带正确；紫框为宽松前下部ROI。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_05.jpg",
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/risk_17_IMG_007524_S001.jpg"
+      ]
+    },
+    {
+      "number": 18,
+      "image_id": "IMG_007536",
+      "vehicle_id": "S005",
+      "mask_visual_quality": "uncertain_low_resolution_truncation",
+      "contact_band_quality": "uncertain_low_resolution_truncation",
+      "mask_method_proxy_quality": "uncertain",
+      "bbox_method_proxy_quality": "uncertain",
+      "observations": "原始风险小图及5倍插值放大均已查看。目标紧贴边界且像素极少，车轮与阴影不清，橙带与紫框几乎压成细线；放大不增加证据，保持不确定。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_05.jpg",
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/risk_18_IMG_007536_S005.jpg",
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/risk_18_5x_no_new_detail.jpg"
+      ]
+    },
+    {
+      "number": 19,
+      "image_id": "IMG_007620",
+      "vehicle_id": "S004",
+      "mask_visual_quality": "poor_mask_bbox_target_inconsistency",
+      "contact_band_quality": "poor_occlusion_boundary_not_ground",
+      "mask_method_proxy_quality": "poor",
+      "bbox_method_proxy_quality": "poor",
+      "observations": "风险放大明确：青色mask在后方白色车的车窗/上车身，可见下缘是被前方黑车遮挡的边界；橙带落在遮挡边界，不是轮胎/底部。紫色bbox下带却落在前方黑车保险杠。mask/bbox目标归属不一致，两proxy均不可视觉通过。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_05.jpg",
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/risk_19_IMG_007620_S004.jpg"
+      ]
+    },
+    {
+      "number": 20,
+      "image_id": "IMG_007673",
+      "vehicle_id": "S002",
+      "mask_visual_quality": "plausible_body_with_mirror_contour_artifacts",
+      "contact_band_quality": "unavailable_geometry_rejected",
+      "mask_method_proxy_quality": "unavailable",
+      "bbox_method_proxy_quality": "qualitatively_valid_proxy",
+      "observations": "黑色SUV正前方轮廓主体贴合，镜子周围局部细线不够干净；原polygon有几何问题，因此无橙带。紫框与双前轮和低保险杠对齐，仅粗ROI合理。",
+      "evidence": [
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_05.jpg",
+        "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/risk_20_IMG_007673_S002.jpg"
+      ]
+    }
+  ]
+}

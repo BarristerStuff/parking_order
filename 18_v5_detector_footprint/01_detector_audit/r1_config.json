@@ -1,0 +1,20 @@
+{
+  "model": "YOLOE26m",
+  "classes": [
+    "car",
+    "truck",
+    "bus",
+    "pickup truck",
+    "van"
+  ],
+  "imgsz": 640,
+  "conf": 0.25,
+  "iou": 0.7,
+  "max_det": 50,
+  "retina_masks": true,
+  "device": "cpu",
+  "torch_threads": 4,
+  "dedup_iou": 0.8,
+  "weights_sha256": "585f5ec9028fd358035da8d860c27c56be285a795cba2076fba536a4391c2c83",
+  "encoder_sha256": "35d7f213e4d75f38514e4656ad3cb91158bd33e3805d8ac349f23b186f66982f"
+}

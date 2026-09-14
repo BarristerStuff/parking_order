@@ -1,0 +1,213 @@
+[
+  {
+    "name": "queue_unclear_is_conservative_uncertain",
+    "expected_target_ids": ["local_1"],
+    "response": {
+      "targets": [
+        {
+          "target_id": "local_1",
+          "vehicle_valid": "yes",
+          "evidence_sufficient": "yes",
+          "road_or_drive_aisle": "yes",
+          "occupies_two_bays": "no",
+          "in_one_bay_or_designated_area": "no",
+          "minor_line_or_nose_tail_only": "no",
+          "normal_gate_queue": "unclear",
+          "evidence": "Queue relation is not visible enough to rule out a gate queue."
+        }
+      ]
+    },
+    "expected_decision": "uncertain",
+    "expected_reason": "GATE_QUEUE_UNCLEAR"
+  },
+  {
+    "name": "line_touch_is_negative",
+    "expected_target_ids": ["local_1"],
+    "response": {
+      "targets": [
+        {
+          "target_id": "local_1",
+          "vehicle_valid": "yes",
+          "evidence_sufficient": "yes",
+          "road_or_drive_aisle": "no",
+          "occupies_two_bays": "no",
+          "in_one_bay_or_designated_area": "yes",
+          "minor_line_or_nose_tail_only": "yes",
+          "normal_gate_queue": "no",
+          "evidence": "Vehicle remains in one bay; only a line touch is visible."
+        }
+      ]
+    },
+    "expected_decision": "negative",
+    "expected_reason": "WITHIN_ONE_BAY_OR_MINOR_ONLY"
+  },
+  {
+    "name": "two_bay_is_positive",
+    "expected_target_ids": ["local_1"],
+    "response": {
+      "targets": [
+        {
+          "target_id": "local_1",
+          "vehicle_valid": "yes",
+          "evidence_sufficient": "yes",
+          "road_or_drive_aisle": "no",
+          "occupies_two_bays": "yes",
+          "in_one_bay_or_designated_area": "no",
+          "minor_line_or_nose_tail_only": "no",
+          "normal_gate_queue": "no",
+          "evidence": "The full vehicle footprint spans two adjacent marked bays."
+        }
+      ]
+    },
+    "expected_decision": "positive_two_bays",
+    "expected_reason": "OCCUPIES_TWO_BAYS"
+  },
+  {
+    "name": "gate_queue_overrides_road_positive",
+    "expected_target_ids": ["local_1"],
+    "response": {
+      "targets": [
+        {
+          "target_id": "local_1",
+          "vehicle_valid": "yes",
+          "evidence_sufficient": "yes",
+          "road_or_drive_aisle": "yes",
+          "occupies_two_bays": "no",
+          "in_one_bay_or_designated_area": "no",
+          "minor_line_or_nose_tail_only": "no",
+          "normal_gate_queue": "yes",
+          "evidence": "Vehicles form a normal queue at the gate."
+        }
+      ]
+    },
+    "expected_decision": "negative_gate_queue",
+    "expected_reason": "NORMAL_GATE_QUEUE"
+  },
+  {
+    "name": "semantic_conflict_is_uncertain",
+    "expected_target_ids": ["local_1"],
+    "response": {
+      "targets": [
+        {
+          "target_id": "local_1",
+          "vehicle_valid": "yes",
+          "evidence_sufficient": "yes",
+          "road_or_drive_aisle": "no",
+          "occupies_two_bays": "yes",
+          "in_one_bay_or_designated_area": "no",
+          "minor_line_or_nose_tail_only": "yes",
+          "normal_gate_queue": "no",
+          "evidence": "The response asserts both two-bay occupation and minor-only line contact."
+        }
+      ]
+    },
+    "expected_decision": "uncertain",
+    "expected_reason": "SEMANTIC_CONFLICT"
+  },
+  {
+    "name": "multi_car_or_aggregation",
+    "expected_target_ids": ["local_1", "local_2"],
+    "response": {
+      "targets": [
+        {
+          "target_id": "local_1",
+          "vehicle_valid": "yes",
+          "evidence_sufficient": "yes",
+          "road_or_drive_aisle": "no",
+          "occupies_two_bays": "no",
+          "in_one_bay_or_designated_area": "yes",
+          "minor_line_or_nose_tail_only": "no",
+          "normal_gate_queue": "no",
+          "evidence": "First vehicle is clearly inside one marked bay."
+        },
+        {
+          "target_id": "local_2",
+          "vehicle_valid": "yes",
+          "evidence_sufficient": "yes",
+          "road_or_drive_aisle": "yes",
+          "occupies_two_bays": "no",
+          "in_one_bay_or_designated_area": "no",
+          "minor_line_or_nose_tail_only": "no",
+          "normal_gate_queue": "no",
+          "evidence": "Second vehicle is directly in the drive aisle."
+        }
+      ]
+    },
+    "expected_image_decision": "positive"
+  },
+  {
+    "name": "missing_target_is_protocol_failure",
+    "expected_target_ids": ["local_1", "local_2"],
+    "response": {
+      "targets": [
+        {
+          "target_id": "local_1",
+          "vehicle_valid": "yes",
+          "evidence_sufficient": "yes",
+          "road_or_drive_aisle": "no",
+          "occupies_two_bays": "no",
+          "in_one_bay_or_designated_area": "yes",
+          "minor_line_or_nose_tail_only": "no",
+          "normal_gate_queue": "no",
+          "evidence": "Only the first requested target is present."
+        }
+      ]
+    },
+    "expected_protocol_status": "protocol_failure",
+    "expected_image_decision": "uncertain",
+    "expected_issue": "MISSING_TARGET"
+  },
+  {
+    "name": "duplicate_target_is_protocol_failure",
+    "expected_target_ids": ["local_1"],
+    "response": {
+      "targets": [
+        {
+          "target_id": "local_1",
+          "vehicle_valid": "yes",
+          "evidence_sufficient": "yes",
+          "road_or_drive_aisle": "no",
+          "occupies_two_bays": "no",
+          "in_one_bay_or_designated_area": "yes",
+          "minor_line_or_nose_tail_only": "no",
+          "normal_gate_queue": "no",
+          "evidence": "Duplicate output row one."
+        },
+        {
+          "target_id": "local_1",
+          "vehicle_valid": "yes",
+          "evidence_sufficient": "yes",
+          "road_or_drive_aisle": "no",
+          "occupies_two_bays": "no",
+          "in_one_bay_or_designated_area": "yes",
+          "minor_line_or_nose_tail_only": "no",
+          "normal_gate_queue": "no",
+          "evidence": "Duplicate output row two."
+        }
+      ]
+    },
+    "expected_protocol_status": "protocol_failure",
+    "expected_issue": "DUPLICATE_TARGET_ID"
+  },
+  {
+    "name": "invalid_enum_is_protocol_failure",
+    "expected_target_ids": ["local_1"],
+    "response": {
+      "targets": [
+        {
+          "target_id": "local_1",
+          "vehicle_valid": "yes",
+          "evidence_sufficient": "maybe",
+          "road_or_drive_aisle": "no",
+          "occupies_two_bays": "no",
+          "in_one_bay_or_designated_area": "yes",
+          "minor_line_or_nose_tail_only": "no",
+          "normal_gate_queue": "no",
+          "evidence": "Invalid enum fixture."
+        }
+      ]
+    },
+    "expected_protocol_status": "protocol_failure",
+    "expected_issue": "INVALID_ENUM"
+  }
+]

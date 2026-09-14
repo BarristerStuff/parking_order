@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-10",
+  "created_at_unix": 1789016191.8849103,
+  "old_v5_manifest_verified_files": 115,
+  "old_v4_reference_verified_files": 8,
+  "protected_file_count": 1121,
+  "split_counts": {
+    "DEV": 238,
+    "VAL": 80,
+    "HOLDOUT": 79
+  },
+  "allowlist_images": 60,
+  "prior_segmentation_image_count": 60,
+  "prior_footprint_rows": 195,
+  "prior_validated_ground_contact_count": 0,
+  "system_python": "/usr/bin/python3",
+  "system_modules": {
+    "torch": false,
+    "ultralytics": false,
+    "cv2": false,
+    "PIL": true,
+    "numpy": false
+  },
+  "nvidia_device_nodes": [],
+  "nvidia_smi": null,
+  "robot_direct_status": "NO_CONFIRMED_ALLOWED_BUNDLE; current allowed files contain AIGC images only; production runtime data not searched",
+  "ground_geometry_status": "NO_VALIDATED_POLYGON_IN_ALLOWED_V5_OUTPUT; no new ground geometry supplied",
+  "detector_cache_sha256": "5685faa7c450e598f0e964445178a49bbcdb1d1e6e8fd5688fbdb807188385f9"
+}

@@ -1,0 +1,434 @@
+{
+  "status": "NO_QUALIFIED_CANDIDATE",
+  "trials": [
+    {
+      "trial_id": "pilot_r0",
+      "candidate_id": "V4_R0_GLOBAL_TARGET_CONTEXT",
+      "pilot_manifest_sha256": "114f36e0e231bf2318f5df005caaf710f89dcfef9638c1e05fb5fb64413dfce8",
+      "batches_sha256": "d17fe5e515a7482266e86b4f293e842a638b29cfe0bad0777d7440d0e4177a1a",
+      "prompt_sha256": "b936417176acc17fc1e218f9b13f66d861a9e93f7185e5c719756f8c3d54210a",
+      "physical_requests": 108,
+      "successful_http": 107,
+      "parse_ok": 107,
+      "protocol_failures": 1,
+      "max_client_concurrency": 2,
+      "image_alert_confusion": {
+        "tp": 2,
+        "fp": 0,
+        "tn": 22,
+        "fn": 30,
+        "support": 54,
+        "precision": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0,
+          "wilson_95": [
+            0.34238022750665303,
+            1.0
+          ]
+        },
+        "recall": {
+          "numerator": 2,
+          "denominator": 32,
+          "value": 0.0625,
+          "wilson_95": [
+            0.017310567031640967,
+            0.2014712314415458
+          ]
+        },
+        "fpr": {
+          "numerator": 0,
+          "denominator": 22,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.14865487460862087
+          ]
+        }
+      },
+      "vehicle_alert_confusion": {
+        "tp": 1,
+        "fp": 1,
+        "tn": 194,
+        "fn": 31,
+        "support": 227,
+        "precision": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5,
+          "wilson_95": [
+            0.09453120573423074,
+            0.9054687942657693
+          ]
+        },
+        "recall": {
+          "numerator": 1,
+          "denominator": 32,
+          "value": 0.03125,
+          "wilson_95": [
+            0.005537860164003122,
+            0.15744263820012558
+          ]
+        },
+        "fpr": {
+          "numerator": 1,
+          "denominator": 195,
+          "value": 0.005128205128205128,
+          "wilson_95": [
+            0.0009058284432263645,
+            0.028471640698969368
+          ]
+        }
+      },
+      "vehicle_metrics": {
+        "road_positive_alert_recall": {
+          "numerator": 1,
+          "denominator": 14,
+          "value": 0.07142857142857142,
+          "wilson_95": [
+            0.012722215247890939,
+            0.31468704424151117
+          ]
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 1,
+          "denominator": 14,
+          "value": 0.07142857142857142,
+          "wilson_95": [
+            0.012722215247890939,
+            0.31468704424151117
+          ]
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 18,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.17587922364665765
+          ]
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 18,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.17587922364665765
+          ]
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 1,
+          "denominator": 120,
+          "value": 0.008333333333333333,
+          "wilson_95": [
+            0.0014725557333420923,
+            0.045696291245049675
+          ]
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 55,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.06528490111708637
+          ]
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 20,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.16112515805281938
+          ]
+        },
+        "decisive_coverage": {
+          "numerator": 169,
+          "denominator": 227,
+          "value": 0.7444933920704846,
+          "wilson_95": [
+            0.6840148572141528,
+            0.7968346425553802
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 5,
+          "denominator": 240,
+          "value": 0.020833333333333332,
+          "wilson_95": [
+            0.008930796114630168,
+            0.04783337716269703
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 2,
+          "denominator": 240,
+          "value": 0.008333333333333333,
+          "wilson_95": [
+            0.0022882832869742294,
+            0.029869737988891934
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 55,
+          "denominator": 240,
+          "value": 0.22916666666666666,
+          "wilson_95": [
+            0.18050771083268888,
+            0.28635899580232216
+          ]
+        }
+      },
+      "error_category_counts": {
+        "semantic_conflict": 64,
+        "road_relation_error": 4,
+        "null": 3,
+        "unprocessed_target": 2,
+        "two_bay_relation_error": 12,
+        "reference_uncertain": 13,
+        "duplicate_or_wrong_target": 12
+      },
+      "audit_status": "PASS_INTEGRITY",
+      "audit_errors": [],
+      "run_summary_sha256": "45870ab36e84f6022dd1e19609620169c196822a3de5714e5644f12935efa358",
+      "request_log_sha256": "ad2ee11c25676815b45347dedeef7c6cac79b2c1955e67965e9b6d345afb4ac9",
+      "metrics_sha256": "00c8fe4e37f44db1485dac210056c38f05c4d8dede10fa6d941226cf4e56324e"
+    },
+    {
+      "trial_id": "pilot_r1",
+      "candidate_id": "V4_R1_GLOBAL_TARGET_CONTEXT_COMPOSITE",
+      "pilot_manifest_sha256": "114f36e0e231bf2318f5df005caaf710f89dcfef9638c1e05fb5fb64413dfce8",
+      "batches_sha256": "223e19459684b3865e59ad02ae4636c1b552de672860fe0f247c21afa52236c6",
+      "prompt_sha256": "4a77f062155ba310b56694ca15e53c3c7a66c3669f9ab8e0a3f66f0f02f93a7e",
+      "physical_requests": 108,
+      "successful_http": 108,
+      "parse_ok": 108,
+      "protocol_failures": 0,
+      "max_client_concurrency": 2,
+      "image_alert_confusion": {
+        "tp": 3,
+        "fp": 0,
+        "tn": 22,
+        "fn": 29,
+        "support": 54,
+        "precision": {
+          "numerator": 3,
+          "denominator": 3,
+          "value": 1.0,
+          "wilson_95": [
+            0.4385029682449546,
+            1.0
+          ]
+        },
+        "recall": {
+          "numerator": 3,
+          "denominator": 32,
+          "value": 0.09375,
+          "wilson_95": [
+            0.032401551298366194,
+            0.24218154728387864
+          ]
+        },
+        "fpr": {
+          "numerator": 0,
+          "denominator": 22,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.14865487460862087
+          ]
+        }
+      },
+      "vehicle_alert_confusion": {
+        "tp": 2,
+        "fp": 1,
+        "tn": 194,
+        "fn": 30,
+        "support": 227,
+        "precision": {
+          "numerator": 2,
+          "denominator": 3,
+          "value": 0.6666666666666666,
+          "wilson_95": [
+            0.2076596008020477,
+            0.9385080552796037
+          ]
+        },
+        "recall": {
+          "numerator": 2,
+          "denominator": 32,
+          "value": 0.0625,
+          "wilson_95": [
+            0.017310567031640967,
+            0.2014712314415458
+          ]
+        },
+        "fpr": {
+          "numerator": 1,
+          "denominator": 195,
+          "value": 0.005128205128205128,
+          "wilson_95": [
+            0.0009058284432263645,
+            0.028471640698969368
+          ]
+        }
+      },
+      "vehicle_metrics": {
+        "road_positive_alert_recall": {
+          "numerator": 2,
+          "denominator": 14,
+          "value": 0.14285714285714285,
+          "wilson_95": [
+            0.040093921271464966,
+            0.39941379496970353
+          ]
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 2,
+          "denominator": 14,
+          "value": 0.14285714285714285,
+          "wilson_95": [
+            0.040093921271464966,
+            0.39941379496970353
+          ]
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 18,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.17587922364665765
+          ]
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 18,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.17587922364665765
+          ]
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 1,
+          "denominator": 120,
+          "value": 0.008333333333333333,
+          "wilson_95": [
+            0.0014725557333420923,
+            0.045696291245049675
+          ]
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 55,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.06528490111708637
+          ]
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 20,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.16112515805281938
+          ]
+        },
+        "decisive_coverage": {
+          "numerator": 141,
+          "denominator": 227,
+          "value": 0.6211453744493393,
+          "wilson_95": [
+            0.5565185654589123,
+            0.6817401956881536
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 240,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.015753919941558815
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 240,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.015753919941558815
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 89,
+          "denominator": 240,
+          "value": 0.37083333333333335,
+          "wilson_95": [
+            0.3122070088560195,
+            0.43352942046221654
+          ]
+        }
+      },
+      "error_category_counts": {
+        "semantic_conflict": 107,
+        "road_relation_error": 1,
+        "two_bay_relation_error": 6,
+        "reference_uncertain": 13,
+        "duplicate_or_wrong_target": 12
+      },
+      "audit_status": "PASS_INTEGRITY",
+      "audit_errors": [],
+      "run_summary_sha256": "dddca92b8b26fa34b70fb63ba0ef17e1c92f7d3f05e79f9cfb54f18f90a5861b",
+      "request_log_sha256": "d5e346a5aca301508d4c59fd5811a523d694120c9c8b26f1b963383129709018",
+      "metrics_sha256": "09fe5443d911ae4f12ca6df5f16054ad3dcc031ea390e8449e7729bdf784c40b"
+    }
+  ],
+  "smokes": [
+    {
+      "file": "/home/yanbo/net_vlm_parking_optimization/16_v4_dynamic_vlm/logs/smoke-e3a8c7734f424e948323bc4d3d3e5cb2.json",
+      "request_id": "smoke-e3a8c7734f424e948323bc4d3d3e5cb2",
+      "candidate_id": "V4_R0_GLOBAL_TARGET_CONTEXT",
+      "http_status": 200,
+      "target_ids": [
+        "T01",
+        "T02",
+        "T03"
+      ],
+      "image_count": 4,
+      "input_sha256s": [
+        "3358ffc04d73a9e22f2bdc83fdba502df1d7601a796fcda8f43e6b2076f7527d",
+        "6622ff86897930dbff2ddc8d1c31eedb5e1317f508787ab2262aa1db8d8c1492",
+        "c00e60b85852ed1fa3a92c766dad27b6a79310b533859eb29f31de10d8d87e55",
+        "c36b4365d994784500b7700d3687bd67285c857ca043522b340f984b4e3adffe"
+      ],
+      "error": null
+    },
+    {
+      "file": "/home/yanbo/net_vlm_parking_optimization/16_v4_dynamic_vlm/logs/smoke-r1-23539d6aa5814278a368352c53224778.json",
+      "request_id": "smoke-r1-23539d6aa5814278a368352c53224778",
+      "candidate_id": "V4_R1_GLOBAL_TARGET_CONTEXT_COMPOSITE",
+      "http_status": 200,
+      "target_ids": [
+        "T01",
+        "T02",
+        "T03"
+      ],
+      "image_count": 1,
+      "input_sha256s": [
+        "091872877cfd09b764e57318c5400a4c37433b6051ab039959833a9b6033333a"
+      ],
+      "error": null
+    }
+  ],
+  "physical_model_requests_total": 218,
+  "max_client_concurrency": 2,
+  "dev_expansion_executed": false,
+  "reason": "R0 and the single evidence-driven R1 both failed alert recall/coverage gates; no third candidate authorized"
+}

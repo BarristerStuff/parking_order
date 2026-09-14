@@ -1,0 +1,9 @@
+{
+  "candidates": [],
+  "p0_probe": "YOLOE26M_EXISTING_LOCAL_CPU_SINGLE_RUN",
+  "candidate_status": "NONE",
+  "threshold_sweeps": 0,
+  "rules_pilot": "NOT_EXECUTED_P0_STOP",
+  "vlm_verifier": "NOT_EXECUTED_P0_STOP",
+  "winner": null
+}

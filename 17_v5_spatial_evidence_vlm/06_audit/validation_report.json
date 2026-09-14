@@ -1,0 +1,15 @@
+{
+  "scope": "V5_P0_ONLY",
+  "status": "BLOCKED_NOT_CAPABILITY_PASS",
+  "tests": 25,
+  "rules_only_pilot": "NOT_EXECUTED",
+  "vlm": "NOT_EXECUTED",
+  "full_alignment": "NOT_EXECUTED",
+  "ground_contact_validation": "NOT_EXECUTED",
+  "roi_calibration": "NOT_EXECUTED",
+  "independent_real_validation": "NOT_EXECUTED",
+  "new_aigc": "NOT_EXECUTED_P0_STOP",
+  "request_preflight": "NOT_EXECUTED_P0_STOP",
+  "posthoc_engine_hardening": true,
+  "promotion_gate": "NOT_IMPLEMENTED_CURRENT_GATE_REJECTION_ONLY"
+}

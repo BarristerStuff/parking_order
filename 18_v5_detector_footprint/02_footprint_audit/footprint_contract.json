@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "methods": [
+    "mask_bottom_contact_band",
+    "bbox_lower_conservative_proxy"
+  ],
+  "parameters": {
+    "bottom_fraction": 0.2,
+    "epsilon": 1e-09,
+    "bbox_mask_tolerance_pixels": 2.0,
+    "minimum_mask_bbox_extent_iou": 0.8,
+    "minimum_mask_fill_ratio": 0.1,
+    "edge_truncation_pixels": 1.0,
+    "multiple_contours_policy": "reject_candidate_never_merge",
+    "disconnected_band_policy": "reject_candidate_never_bridge",
+    "missing_contour_provenance_policy": "uncertain"
+  },
+  "labels_in_method": false,
+  "ground_contact_polygon": "always null",
+  "footprintIoU": "always null; no geometry GT",
+  "scope": "DIAGNOSTIC_ONLY; no spatial classification",
+  "final_source_policy": "A selected r0/r1_targets.jsonl only; no fallback to 17",
+  "code_sha256": "fc8c4c7abeb586815ed29f001e54afc5088ff45c8af3d97ec4cb0d6e7cb42564",
+  "run_contract_sha256": "53373ffd5efe040aef82e1ff834a124234a09fb08097da072b0305d71a8c0ea1",
+  "contract_sha256": "7348c009011602c45670946313873defb3166727b7da057b8951e6fc0bed16b0"
+}

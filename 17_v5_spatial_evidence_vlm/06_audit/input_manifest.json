@@ -1,0 +1,9 @@
+{
+  "allowed_image_manifest": "/home/yanbo/net_vlm_parking_optimization/17_v5_spatial_evidence_vlm/contracts/input_allowlist.csv",
+  "allowed_image_count": 60,
+  "inference_image_payload": "decoded RGB/BGR pixels only; no reference/group/split/filename fields passed into model.predict",
+  "reference_access": "posthoc evaluator only; segmentation script never reads reference",
+  "forbidden_data_access": "split ID metadata only, no image/label content",
+  "source_type": "AIGC",
+  "source_images_sha_rechecked": true
+}

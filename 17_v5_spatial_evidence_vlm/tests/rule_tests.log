@@ -1,0 +1,7 @@
+./home/yanbo/net_vlm_parking_optimization/17_v5_spatial_evidence_vlm/03_rule_engine/space_rule.py:20: DeprecationWarning: Arrays of 2-dimensional vectors are deprecated. Use arrays of 3-dimensional vectors instead. (deprecated in NumPy 2.0)
+  def cross(a,b,c):return float(np.cross(b-a,c-a))
+.............
+----------------------------------------------------------------------
+Ran 14 tests in 0.007s
+
+OK

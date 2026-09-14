@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "required": [
+    "label",
+    "alert",
+    "reason_code"
+  ],
+  "properties": {
+    "label": {
+      "enum": [
+        "positive_road",
+        "positive_two_bays",
+        "negative_in_bay",
+        "negative_line_touch_or_minor_overrun",
+        "negative_nose_tail_overhang",
+        "negative_gate_queue",
+        "uncertain",
+        "ignore"
+      ]
+    },
+    "alert": {
+      "type": "boolean"
+    },
+    "reason_code": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "pure_replay_status": "PASS",
+  "pure_replay_rows": 442,
+  "mismatches": [],
+  "independent_bbox_formula_status": "PASS",
+  "bbox_formula_mismatches": [],
+  "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+  "code_sha256": "fc8c4c7abeb586815ed29f001e54afc5088ff45c8af3d97ec4cb0d6e7cb42564",
+  "limitation": "Pure method replay tests reproducibility, not independent proof of mask geometry correctness. Independent analytic check is bbox lower 20% only. No pixels, models, network, or physical ground validation."
+}

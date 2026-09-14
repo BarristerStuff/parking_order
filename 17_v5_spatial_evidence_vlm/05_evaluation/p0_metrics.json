@@ -1,0 +1,179 @@
+{
+  "scope": "P0_POSTHOC_DIAGNOSTIC_NOT_CLASSIFICATION",
+  "fixed_snapshot_only": true,
+  "zero_vlm_request_basis": "execution record: no VLM client or request initiated; not inferred from this evaluator",
+  "zero_ground_and_roi_basis": "current raw records all ground_contact null and pilot ROI unavailable; not a reusable downstream evaluator",
+  "images": 60,
+  "mask_valid_among_detections": {
+    "numerator": 195,
+    "denominator": 195,
+    "ratio": 1.0,
+    "wilson95": [
+      0.9806807954262788,
+      1
+    ]
+  },
+  "detector_reference_bbox_match": {
+    "numerator": 155,
+    "denominator": 240,
+    "ratio": 0.6458333333333334,
+    "wilson95": [
+      0.5834633143794731,
+      0.7036084589709056
+    ]
+  },
+  "mask_available_for_reference_bbox_matches": {
+    "numerator": 155,
+    "denominator": 240,
+    "ratio": 0.6458333333333334,
+    "wilson95": [
+      0.5834633143794731,
+      0.7036084589709056
+    ]
+  },
+  "validated_ground_contact_reference_coverage": {
+    "numerator": 0,
+    "denominator": 240,
+    "ratio": 0.0,
+    "wilson95": [
+      0,
+      0.015753919941558815
+    ]
+  },
+  "matched_positive_coverage": {
+    "numerator": 16,
+    "denominator": 32,
+    "ratio": 0.5,
+    "wilson95": [
+      0.33630882869327483,
+      0.6636911713067252
+    ]
+  },
+  "by_reference_label_detector_match_NOT_RECALL": {
+    "negative_gate_queue": {
+      "numerator": 17,
+      "denominator": 20,
+      "ratio": 0.85,
+      "wilson95": [
+        0.6395811352592431,
+        0.9476312541037835
+      ]
+    },
+    "negative_line_touch": {
+      "numerator": 10,
+      "denominator": 10,
+      "ratio": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ]
+    },
+    "negative_minor_overrun": {
+      "numerator": 14,
+      "denominator": 22,
+      "ratio": 0.6363636363636364,
+      "wilson95": [
+        0.42951708090131013,
+        0.8026679532963387
+      ]
+    },
+    "negative_nose_tail_overrun": {
+      "numerator": 11,
+      "denominator": 23,
+      "ratio": 0.4782608695652174,
+      "wilson95": [
+        0.29237157416646653,
+        0.6703726266357259
+      ]
+    },
+    "negative_ordinary_bay": {
+      "numerator": 80,
+      "denominator": 120,
+      "ratio": 0.6666666666666666,
+      "wilson95": [
+        0.5783110162063498,
+        0.7446825949874156
+      ]
+    },
+    "positive_road": {
+      "numerator": 5,
+      "denominator": 14,
+      "ratio": 0.35714285714285715,
+      "wilson95": [
+        0.1634473175355414,
+        0.612355768960926
+      ]
+    },
+    "positive_two_bays": {
+      "numerator": 11,
+      "denominator": 18,
+      "ratio": 0.6111111111111112,
+      "wilson95": [
+        0.3861904160223791,
+        0.7969475342783638
+      ]
+    },
+    "uncertain": {
+      "numerator": 7,
+      "denominator": 13,
+      "ratio": 0.5384615384615384,
+      "wilson95": [
+        0.29143795714506004,
+        0.7679393219046169
+      ]
+    }
+  },
+  "unmatched_reference_count": 85,
+  "unmatched_new_targets_not_confirmed_false_detections": 40,
+  "zero_detection_images": [
+    "IMG_007529",
+    "IMG_007702"
+  ],
+  "road_evidence_coverage": {
+    "numerator": 0,
+    "denominator": 240,
+    "ratio": 0.0,
+    "wilson95": [
+      0,
+      0.015753919941558815
+    ]
+  },
+  "bay_evidence_coverage": {
+    "numerator": 0,
+    "denominator": 240,
+    "ratio": 0.0,
+    "wilson95": [
+      0,
+      0.015753919941558815
+    ]
+  },
+  "two_bay_evidence_coverage": {
+    "numerator": 0,
+    "denominator": 240,
+    "ratio": 0.0,
+    "wilson95": [
+      0,
+      0.015753919941558815
+    ]
+  },
+  "classification_metrics": {
+    "status": "NOT_EXECUTED_P0_STOP",
+    "road_recall": null,
+    "two_bay_recall": null,
+    "ordinary_fpr": null,
+    "line_fpr": null,
+    "nose_tail_fpr": null,
+    "gate_fpr": null,
+    "uncertain_rate": null,
+    "decisive_coverage": null
+  },
+  "latency_seconds": {
+    "median": 0.21595442295074463,
+    "p95_nearest_rank": 0.39909815788269043,
+    "total": 14.5988187789917,
+    "scope": "per_image_predict_extract_overlay_save; excludes model/encoder initialization"
+  },
+  "physical_vlm_requests": 0,
+  "vlm_concurrency": 0,
+  "vlm_latency": null
+}

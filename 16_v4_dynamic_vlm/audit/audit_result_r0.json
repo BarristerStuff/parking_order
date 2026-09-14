@@ -1,0 +1,68 @@
+{
+  "status": "PASS_INTEGRITY",
+  "checks": {
+    "pilot_exactly_60": true,
+    "pilot_dev_allowlist_subset": true,
+    "pilot_forbidden_intersection_empty": true,
+    "all_pilot_split_dev": true,
+    "prepared_exactly_pilot": true,
+    "references_exactly_pilot": true,
+    "predictions_exactly_pilot": true,
+    "reference_count_matches_pilot": true,
+    "reference_files_match_freeze": true,
+    "reference_basis_consistent": true,
+    "all_reviews_complete": true,
+    "prepared_source_hashes_match": true,
+    "batch_size_le_3": true,
+    "cache_and_target_mapping_present": true,
+    "reference_cache_hash_consistent": true,
+    "physical_request_count_matches_summary": true,
+    "request_ids_unique": true,
+    "client_concurrency_declared_le_2": true,
+    "transport_retries_le_one_each": true,
+    "no_semantic_retry_reason": true,
+    "model_success_identity_correct": true,
+    "request_input_hashes_match_files": true,
+    "prompt_does_not_include_dataset_values": true,
+    "evaluation_cache_hashes_match": true,
+    "evaluation_prediction_ids_match": true,
+    "metrics_match_independent_recompute": true
+  },
+  "errors": [],
+  "warnings": [],
+  "findings": {
+    "all_http_success": false,
+    "http_status_counts": {
+      "200": 107,
+      "500": 1
+    },
+    "raw_parse_ok_rate": {
+      "numerator": 107,
+      "denominator": 108
+    },
+    "required_target_schema_coverage": {
+      "numerator": 59,
+      "denominator": 60
+    },
+    "independent_primary_image_confusion": {
+      "tp": 2,
+      "fp": 0,
+      "tn": 22,
+      "fn": 30,
+      "support": 54
+    },
+    "reference_images": 60,
+    "reference_vehicles": 240,
+    "raw_detection_rows": 259,
+    "unique_targets": 252,
+    "duplicate_suppressed": 7,
+    "physical_requests": 108,
+    "parse_ok_requests": 107,
+    "forbidden_intersection_count": 0
+  },
+  "contract_sha256": "c906ef0929364c022e2e7586d677518666eac16ac71d0a4f69d38ae5382a29f4",
+  "pilot_manifest_sha256": "114f36e0e231bf2318f5df005caaf710f89dcfef9638c1e05fb5fb64413dfce8",
+  "reference_freeze_sha256": "1deedf19e3313288e5f1984a4a7bf90fb5e1a66b0d10c92e6b015730c7029cb0",
+  "request_log_sha256": "ad2ee11c25676815b45347dedeef7c6cac79b2c1955e67965e9b6d345afb4ac9",
+  "prediction_sha256": "324519d67b81e53148a5459ac0081339d6e16dda71ce627f8ab05d17dbb44326"
+}

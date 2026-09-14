@@ -1,0 +1,11 @@
+{
+  "status": "valid",
+  "errors": [],
+  "dev_allowlist_rows": 238,
+  "forbidden_metadata_rows": 159,
+  "pilot_rows": 60,
+  "prepared_rows": 60,
+  "val_holdout_decode_performed_by_this_check": false,
+  "source_sha_rechecked_for_dev_pilot": 60,
+  "cache_key_sha_present": 60
+}

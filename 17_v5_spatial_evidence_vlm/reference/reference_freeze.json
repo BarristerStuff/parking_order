@@ -1,0 +1,11 @@
+{
+  "frozen_at_unix": 1789011793.4534433,
+  "basis": "AI_VISUAL_REVIEWED_PROVISIONAL",
+  "human_gold": false,
+  "reused_v4": true,
+  "files": {
+    "reference_images.jsonl": "349da97a1a3a51504f7d7165e967b119b751f746069d14aa00fdcf3d983e85c8",
+    "reference_instances.jsonl": "b9d614ca0be8b0740201e43d3140d9f18dd12638e976ab03b0ce2beccc77be86",
+    "review_log.csv": "d42505129a5e649313fe5d2b00e3e59453af979f9b2f87990d7850a0ef3fc45f"
+  }
+}

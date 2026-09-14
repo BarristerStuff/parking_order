@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "image_id",
+    "vehicle_id",
+    "coordinate_space",
+    "footprint_source",
+    "road_overlap_ratio",
+    "parking_area_overlap_ratio",
+    "bay_overlaps",
+    "best_bay_ratio",
+    "second_bay_ratio",
+    "two_bay_total_ratio",
+    "gate_queue_overlap_ratio",
+    "geometry_quality",
+    "evidence_status",
+    "evidence_reason",
+    "ground_contact_validated",
+    "best_pair_adjacent"
+  ],
+  "properties": {
+    "image_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "vehicle_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "coordinate_space": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "footprint_source": {
+      "type": "string"
+    },
+    "road_overlap_ratio": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "parking_area_overlap_ratio": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "bay_overlaps": {
+      "type": "array"
+    },
+    "best_bay_ratio": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "second_bay_ratio": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "two_bay_total_ratio": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "gate_queue_overlap_ratio": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "geometry_quality": {
+      "type": "string"
+    },
+    "evidence_status": {
+      "type": "string"
+    },
+    "evidence_reason": {
+      "type": "string"
+    },
+    "ground_contact_validated": {
+      "type": "boolean"
+    },
+    "best_pair_adjacent": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

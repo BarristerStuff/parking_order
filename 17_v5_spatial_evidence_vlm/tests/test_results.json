@@ -1,0 +1,14 @@
+[
+  {
+    "file": "/home/yanbo/net_vlm_parking_optimization/17_v5_spatial_evidence_vlm/03_rule_engine/test_space_rule.py",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "...................\n----------------------------------------------------------------------\nRan 19 tests in 0.003s\n\nOK\n"
+  },
+  {
+    "file": "/home/yanbo/net_vlm_parking_optimization/17_v5_spatial_evidence_vlm/tests/test_contracts.py",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.016s\n\nOK\n"
+  }
+]

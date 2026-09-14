@@ -1,0 +1,27 @@
+test_disconnected_band (test_footprint_methods.FootprintTests) ... ok
+test_inconsistent_not_clear (test_footprint_methods.FootprintTests) ... ok
+test_invalid_dimensions (test_footprint_methods.FootprintTests) ... ok
+test_labels_cannot_change_output (test_footprint_methods.FootprintTests) ... ok
+test_missing_mask (test_footprint_methods.FootprintTests) ... ok
+test_multiple_contours (test_footprint_methods.FootprintTests) ... ok
+test_nan_bbox (test_footprint_methods.FootprintTests) ... ok
+test_nonfinite_mask (test_footprint_methods.FootprintTests) ... ok
+test_nonpositive_bbox (test_footprint_methods.FootprintTests) ... ok
+test_out_of_bounds (test_footprint_methods.FootprintTests) ... ok
+test_self_intersection (test_footprint_methods.FootprintTests) ... ok
+test_truncation (test_footprint_methods.FootprintTests) ... ok
+test_two_only_and_null_ground (test_footprint_methods.FootprintTests) ... ok
+test_unknown_provenance (test_footprint_methods.FootprintTests) ... ok
+test_band_subset_and_area (test_audit_integrity.AuditIntegrity) ... ok
+test_final_unique_denominators_and_source (test_audit_integrity.AuditIntegrity) ... ok
+test_fragment_extent_and_reported_fragment (test_audit_integrity.AuditIntegrity) ... ok
+test_frozen_code_hash (test_audit_integrity.AuditIntegrity) ... ok
+test_mask_out_of_bounds_and_degenerate (test_audit_integrity.AuditIntegrity) ... ok
+test_reference_denominators_geometric_only (test_audit_integrity.AuditIntegrity) ... ok
+test_schema_aliases_and_numeric_topology_separation (test_audit_integrity.AuditIntegrity) ... ok
+test_visual_counts_actual_log (test_audit_integrity.AuditIntegrity) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.152s
+
+OK

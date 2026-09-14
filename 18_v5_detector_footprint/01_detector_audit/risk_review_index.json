@@ -1,0 +1,158 @@
+[
+  {
+    "image_id": "IMG_007598",
+    "type": "unmatched_detection",
+    "id": "S001",
+    "bbox": [
+      379.6007385253906,
+      254.32411193847656,
+      450.35101318359375,
+      299.066162109375
+    ],
+    "evidence": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/detection_overlays/final_risks_1.jpg"
+  },
+  {
+    "image_id": "IMG_007548",
+    "type": "unmatched_detection",
+    "id": "S001",
+    "bbox": [
+      1647.361083984375,
+      308.47705078125,
+      1684.657470703125,
+      333.8198547363281
+    ],
+    "evidence": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/detection_overlays/final_risks_1.jpg"
+  },
+  {
+    "image_id": "IMG_007542",
+    "type": "unmatched_detection",
+    "id": "S002",
+    "bbox": [
+      61.952022552490234,
+      246.67828369140625,
+      89.03802490234375,
+      267.5440979003906
+    ],
+    "evidence": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/detection_overlays/final_risks_1.jpg"
+  },
+  {
+    "image_id": "IMG_007542",
+    "type": "unmatched_detection",
+    "id": "S004",
+    "bbox": [
+      300.2928161621094,
+      212.8958740234375,
+      360.1736755371094,
+      273.2401428222656
+    ],
+    "evidence": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/detection_overlays/final_risks_1.jpg"
+  },
+  {
+    "image_id": "IMG_007542",
+    "type": "unmatched_detection",
+    "id": "S005",
+    "bbox": [
+      19.093433380126953,
+      249.0658416748047,
+      50.68722152709961,
+      267.3583679199219
+    ],
+    "evidence": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/detection_overlays/final_risks_1.jpg"
+  },
+  {
+    "image_id": "IMG_007673",
+    "type": "unmatched_detection",
+    "id": "S001",
+    "bbox": [
+      1154.4501953125,
+      296.4366760253906,
+      1209.1514892578125,
+      338.3385009765625
+    ],
+    "evidence": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/detection_overlays/final_risks_1.jpg"
+  },
+  {
+    "image_id": "IMG_007692",
+    "type": "unmatched_detection",
+    "id": "S003",
+    "bbox": [
+      680.9304809570312,
+      244.61279296875,
+      742.3271484375,
+      309.0084228515625
+    ],
+    "evidence": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/detection_overlays/final_risks_1.jpg"
+  },
+  {
+    "image_id": "IMG_007547",
+    "type": "unmatched_reference",
+    "id": "T01",
+    "bbox": [
+      343.408,
+      82.047,
+      1078.945,
+      560.339
+    ],
+    "evidence": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/detection_overlays/final_risks_1.jpg"
+  },
+  {
+    "image_id": "IMG_007601",
+    "type": "unmatched_reference",
+    "id": "T02",
+    "bbox": [
+      465.054,
+      22.062,
+      1428.156,
+      685.538
+    ],
+    "evidence": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/detection_overlays/final_risks_2.jpg"
+  },
+  {
+    "image_id": "IMG_007650",
+    "type": "unmatched_reference",
+    "id": "T04",
+    "bbox": [
+      626.288,
+      148.24,
+      1120.072,
+      548.963
+    ],
+    "evidence": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/detection_overlays/final_risks_2.jpg"
+  },
+  {
+    "image_id": "IMG_007606",
+    "type": "unmatched_reference",
+    "id": "T02",
+    "bbox": [
+      216.558,
+      192.307,
+      520.832,
+      388.52
+    ],
+    "evidence": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/detection_overlays/final_risks_2.jpg"
+  },
+  {
+    "image_id": "IMG_007340",
+    "type": "unmatched_reference",
+    "id": "T05",
+    "bbox": [
+      1583.113,
+      66.216,
+      1918.655,
+      478.739
+    ],
+    "evidence": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/detection_overlays/final_risks_2.jpg"
+  },
+  {
+    "image_id": "IMG_007672",
+    "type": "duplicate_pair",
+    "id": "raw_0006+raw_0007",
+    "bbox": [
+      1609,
+      151,
+      1766,
+      224
+    ],
+    "evidence": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/detection_overlays/final_risks_2.jpg"
+  }
+]

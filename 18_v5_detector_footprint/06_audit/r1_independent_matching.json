@@ -1,0 +1,1476 @@
+[
+  {
+    "image_id": "IMG_007521",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9784782916048729
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007533",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9833907012355019
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007548",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 1,
+        "iou": 0.9641618020788244
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": [
+      0
+    ]
+  },
+  {
+    "image_id": "IMG_007555",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9726215480189438
+      },
+      {
+        "reference_index": 5,
+        "detection_index": 1,
+        "iou": 0.757715552672592
+      }
+    ],
+    "unmatched_reference_indices": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "unmatched_detection_indices": [
+      2
+    ]
+  },
+  {
+    "image_id": "IMG_007554",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 2,
+        "iou": 0.9736717010258432
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.9733671607284339
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 0,
+        "iou": 0.8007501349358634
+      }
+    ],
+    "unmatched_reference_indices": [
+      3
+    ],
+    "unmatched_detection_indices": [
+      3
+    ]
+  },
+  {
+    "image_id": "IMG_007524",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9752652169379001
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007531",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9831857476183238
+      },
+      {
+        "reference_index": 3,
+        "detection_index": 1,
+        "iou": 0.6797600523700038
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 2,
+        "iou": 0.5125385766042562
+      }
+    ],
+    "unmatched_reference_indices": [
+      2
+    ],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007536",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9814400417799826
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 2,
+        "iou": 0.6420282963291265
+      }
+    ],
+    "unmatched_reference_indices": [
+      2
+    ],
+    "unmatched_detection_indices": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "image_id": "IMG_007547",
+    "matches": [
+      {
+        "reference_index": 3,
+        "detection_index": 1,
+        "iou": 0.7696356385472893
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 0,
+        "iou": 0.7405390201692613
+      }
+    ],
+    "unmatched_reference_indices": [
+      0,
+      2
+    ],
+    "unmatched_detection_indices": [
+      2
+    ]
+  },
+  {
+    "image_id": "IMG_007527",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9615671610614724
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.8670480487083769
+      }
+    ],
+    "unmatched_reference_indices": [
+      2,
+      3,
+      4
+    ],
+    "unmatched_detection_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "image_id": "IMG_007529",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9191932219741548
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007542",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.985465384704616
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 2,
+        "iou": 0.7334807444567568
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "image_id": "IMG_007620",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 1,
+        "iou": 0.9823400251729995
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 2,
+        "iou": 0.9719614825586192
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 0,
+        "iou": 0.9460732393014483
+      }
+    ],
+    "unmatched_reference_indices": [
+      3,
+      4
+    ],
+    "unmatched_detection_indices": [
+      3
+    ]
+  },
+  {
+    "image_id": "IMG_007598",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 2,
+        "iou": 0.9770581109917948
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.8754376369982277
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": [
+      0
+    ]
+  },
+  {
+    "image_id": "IMG_007594",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9693305829832022
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.9489529442195233
+      },
+      {
+        "reference_index": 3,
+        "detection_index": 2,
+        "iou": 0.8085557000193514
+      }
+    ],
+    "unmatched_reference_indices": [
+      2,
+      4
+    ],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007599",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 1,
+        "iou": 0.970773287712187
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 0,
+        "iou": 0.9584706478272988
+      }
+    ],
+    "unmatched_reference_indices": [
+      2
+    ],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007603",
+    "matches": [
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.9234544639562228
+      },
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.8878322887552311
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007601",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 3,
+        "iou": 0.9812613910333134
+      },
+      {
+        "reference_index": 3,
+        "detection_index": 0,
+        "iou": 0.9519124719195521
+      },
+      {
+        "reference_index": 8,
+        "detection_index": 1,
+        "iou": 0.9423644564433574
+      },
+      {
+        "reference_index": 6,
+        "detection_index": 4,
+        "iou": 0.9226907497038731
+      },
+      {
+        "reference_index": 5,
+        "detection_index": 5,
+        "iou": 0.8543146747352889
+      },
+      {
+        "reference_index": 4,
+        "detection_index": 2,
+        "iou": 0.7675129823285038
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 6,
+        "iou": 0.5591875418286727
+      }
+    ],
+    "unmatched_reference_indices": [
+      1,
+      7
+    ],
+    "unmatched_detection_indices": [
+      7
+    ]
+  },
+  {
+    "image_id": "IMG_007612",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 5,
+        "iou": 0.9666039518205707
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 2,
+        "iou": 0.9047255542072934
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 1,
+        "iou": 0.8701745124565302
+      },
+      {
+        "reference_index": 4,
+        "detection_index": 0,
+        "iou": 0.8620375192994134
+      },
+      {
+        "reference_index": 3,
+        "detection_index": 3,
+        "iou": 0.856330341235834
+      },
+      {
+        "reference_index": 7,
+        "detection_index": 8,
+        "iou": 0.7146984689764105
+      },
+      {
+        "reference_index": 5,
+        "detection_index": 6,
+        "iou": 0.5068670103856028
+      }
+    ],
+    "unmatched_reference_indices": [
+      6,
+      8
+    ],
+    "unmatched_detection_indices": [
+      4,
+      7,
+      9
+    ]
+  },
+  {
+    "image_id": "IMG_007621",
+    "matches": [
+      {
+        "reference_index": 7,
+        "detection_index": 1,
+        "iou": 0.9556484492547206
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 6,
+        "iou": 0.9487869521386552
+      },
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9418991840048695
+      },
+      {
+        "reference_index": 6,
+        "detection_index": 5,
+        "iou": 0.8908386473708435
+      },
+      {
+        "reference_index": 3,
+        "detection_index": 4,
+        "iou": 0.7111703658333908
+      },
+      {
+        "reference_index": 4,
+        "detection_index": 3,
+        "iou": 0.6860321416677843
+      }
+    ],
+    "unmatched_reference_indices": [
+      1,
+      5,
+      8,
+      9
+    ],
+    "unmatched_detection_indices": [
+      2
+    ]
+  },
+  {
+    "image_id": "IMG_007617",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.958338306670812
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007606",
+    "matches": [
+      {
+        "reference_index": 2,
+        "detection_index": 3,
+        "iou": 0.9568782148385067
+      },
+      {
+        "reference_index": 0,
+        "detection_index": 1,
+        "iou": 0.9549906943798626
+      },
+      {
+        "reference_index": 3,
+        "detection_index": 0,
+        "iou": 0.9341604408398035
+      },
+      {
+        "reference_index": 4,
+        "detection_index": 2,
+        "iou": 0.8742231587257333
+      }
+    ],
+    "unmatched_reference_indices": [
+      1
+    ],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007602",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 1,
+        "iou": 0.9733754059649693
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 0,
+        "iou": 0.7582563255141412
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007611",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9691277028649732
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007650",
+    "matches": [
+      {
+        "reference_index": 1,
+        "detection_index": 0,
+        "iou": 0.9742658914473721
+      },
+      {
+        "reference_index": 0,
+        "detection_index": 1,
+        "iou": 0.9558447305043847
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 2,
+        "iou": 0.9550543749695741
+      }
+    ],
+    "unmatched_reference_indices": [
+      3
+    ],
+    "unmatched_detection_indices": [
+      3
+    ]
+  },
+  {
+    "image_id": "IMG_007655",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9706615155025877
+      },
+      {
+        "reference_index": 3,
+        "detection_index": 3,
+        "iou": 0.9637475675662417
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.9510552268201828
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 2,
+        "iou": 0.9357820904574944
+      }
+    ],
+    "unmatched_reference_indices": [
+      4
+    ],
+    "unmatched_detection_indices": [
+      4
+    ]
+  },
+  {
+    "image_id": "IMG_007652",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 2,
+        "iou": 0.9773537918099928
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 0,
+        "iou": 0.9541777710897167
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.9383285602125596
+      }
+    ],
+    "unmatched_reference_indices": [
+      3,
+      4
+    ],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007664",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 4,
+        "iou": 0.9604615965773106
+      },
+      {
+        "reference_index": 3,
+        "detection_index": 0,
+        "iou": 0.9470834235703982
+      },
+      {
+        "reference_index": 4,
+        "detection_index": 3,
+        "iou": 0.9328907658995628
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 2,
+        "iou": 0.9244317687993524
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.9074972233683211
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": [
+      5
+    ]
+  },
+  {
+    "image_id": "IMG_007658",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9660552055750827
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.9455982734765347
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 3,
+        "iou": 0.9279141596480903
+      },
+      {
+        "reference_index": 3,
+        "detection_index": 2,
+        "iou": 0.9243721960549709
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007647",
+    "matches": [
+      {
+        "reference_index": 2,
+        "detection_index": 2,
+        "iou": 0.9835453916383721
+      },
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9763371130233692
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.9457926158490639
+      }
+    ],
+    "unmatched_reference_indices": [
+      3
+    ],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007665",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9835724206305789
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.9673312211143398
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 2,
+        "iou": 0.9631655444625445
+      }
+    ],
+    "unmatched_reference_indices": [
+      3
+    ],
+    "unmatched_detection_indices": [
+      3
+    ]
+  },
+  {
+    "image_id": "IMG_007661",
+    "matches": [
+      {
+        "reference_index": 2,
+        "detection_index": 1,
+        "iou": 0.9816560152525247
+      },
+      {
+        "reference_index": 0,
+        "detection_index": 2,
+        "iou": 0.9777342955504984
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 0,
+        "iou": 0.9760584653059462
+      }
+    ],
+    "unmatched_reference_indices": [
+      3
+    ],
+    "unmatched_detection_indices": [
+      3
+    ]
+  },
+  {
+    "image_id": "IMG_007580",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 3,
+        "iou": 0.9618199631742372
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 0,
+        "iou": 0.9545437683537067
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.8909781239574207
+      },
+      {
+        "reference_index": 3,
+        "detection_index": 2,
+        "iou": 0.8394738250886221
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": [
+      4
+    ]
+  },
+  {
+    "image_id": "IMG_007585",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9701410562922289
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 2,
+        "iou": 0.917392254634843
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.8679885701479743
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": [
+      3
+    ]
+  },
+  {
+    "image_id": "IMG_007570",
+    "matches": [
+      {
+        "reference_index": 1,
+        "detection_index": 0,
+        "iou": 0.9684743199046079
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 2,
+        "iou": 0.9674241909370227
+      },
+      {
+        "reference_index": 0,
+        "detection_index": 1,
+        "iou": 0.9385446108866928
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007626",
+    "matches": [
+      {
+        "reference_index": 2,
+        "detection_index": 3,
+        "iou": 0.9636694853046179
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 2,
+        "iou": 0.8342908242900814
+      }
+    ],
+    "unmatched_reference_indices": [
+      0,
+      3,
+      4
+    ],
+    "unmatched_detection_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "image_id": "IMG_007634",
+    "matches": [
+      {
+        "reference_index": 1,
+        "detection_index": 0,
+        "iou": 0.9809859145161394
+      },
+      {
+        "reference_index": 4,
+        "detection_index": 2,
+        "iou": 0.8632634171431901
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 1,
+        "iou": 0.8579131825610712
+      },
+      {
+        "reference_index": 0,
+        "detection_index": 4,
+        "iou": 0.8115158189422782
+      },
+      {
+        "reference_index": 5,
+        "detection_index": 6,
+        "iou": 0.7711911937445594
+      },
+      {
+        "reference_index": 7,
+        "detection_index": 5,
+        "iou": 0.7447640312232994
+      },
+      {
+        "reference_index": 9,
+        "detection_index": 3,
+        "iou": 0.5567609991761969
+      }
+    ],
+    "unmatched_reference_indices": [
+      3,
+      6,
+      8
+    ],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007635",
+    "matches": [
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.9437796148666768
+      },
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9241109945096727
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 3,
+        "iou": 0.8580857142806747
+      },
+      {
+        "reference_index": 3,
+        "detection_index": 2,
+        "iou": 0.8094307046220554
+      },
+      {
+        "reference_index": 6,
+        "detection_index": 5,
+        "iou": 0.747833098671352
+      },
+      {
+        "reference_index": 4,
+        "detection_index": 4,
+        "iou": 0.5763755367484619
+      }
+    ],
+    "unmatched_reference_indices": [
+      5
+    ],
+    "unmatched_detection_indices": [
+      6,
+      7
+    ]
+  },
+  {
+    "image_id": "IMG_007672",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 10,
+        "iou": 0.9631007416611642
+      },
+      {
+        "reference_index": 20,
+        "detection_index": 3,
+        "iou": 0.900644804475636
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 0,
+        "iou": 0.8339623227600373
+      },
+      {
+        "reference_index": 19,
+        "detection_index": 9,
+        "iou": 0.8311129664094395
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 2,
+        "iou": 0.8277556815526926
+      },
+      {
+        "reference_index": 3,
+        "detection_index": 1,
+        "iou": 0.751010736367374
+      },
+      {
+        "reference_index": 5,
+        "detection_index": 4,
+        "iou": 0.6929803287544986
+      },
+      {
+        "reference_index": 13,
+        "detection_index": 11,
+        "iou": 0.6680953957190772
+      },
+      {
+        "reference_index": 7,
+        "detection_index": 5,
+        "iou": 0.6241658082369969
+      },
+      {
+        "reference_index": 4,
+        "detection_index": 8,
+        "iou": 0.5818272613045945
+      }
+    ],
+    "unmatched_reference_indices": [
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      21
+    ],
+    "unmatched_detection_indices": [
+      6,
+      7,
+      12
+    ]
+  },
+  {
+    "image_id": "IMG_007673",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 1,
+        "iou": 0.9762782574944608
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": [
+      0
+    ]
+  },
+  {
+    "image_id": "IMG_007417",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9820475369947035
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.9644810474406422
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007450",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 3,
+        "iou": 0.9771544636222095
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 5,
+        "iou": 0.9344168621972873
+      },
+      {
+        "reference_index": 3,
+        "detection_index": 1,
+        "iou": 0.841218596907759
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 0,
+        "iou": 0.8309679719772554
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": [
+      2,
+      4
+    ]
+  },
+  {
+    "image_id": "IMG_007465",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9750751228058551
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 1,
+        "iou": 0.9523384370918453
+      },
+      {
+        "reference_index": 4,
+        "detection_index": 4,
+        "iou": 0.9384892514393245
+      },
+      {
+        "reference_index": 8,
+        "detection_index": 3,
+        "iou": 0.9164542840390845
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 2,
+        "iou": 0.8662989406233181
+      }
+    ],
+    "unmatched_reference_indices": [
+      3,
+      5,
+      6,
+      7
+    ],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007470",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.974746405917882
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007499",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 2,
+        "iou": 0.9635152001041272
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 0,
+        "iou": 0.9618083497247231
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 1,
+        "iou": 0.9464601652851218
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007516",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 1,
+        "iou": 0.9805259840482825
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 0,
+        "iou": 0.96937434574208
+      }
+    ],
+    "unmatched_reference_indices": [
+      2
+    ],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007374",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 1,
+        "iou": 0.9718146981845811
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 0,
+        "iou": 0.8112093229847154
+      }
+    ],
+    "unmatched_reference_indices": [
+      2
+    ],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007396",
+    "matches": [
+      {
+        "reference_index": 1,
+        "detection_index": 4,
+        "iou": 0.9629655316551801
+      },
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.930991581377878
+      },
+      {
+        "reference_index": 3,
+        "detection_index": 2,
+        "iou": 0.8230608815721396
+      },
+      {
+        "reference_index": 4,
+        "detection_index": 1,
+        "iou": 0.6334639041980669
+      }
+    ],
+    "unmatched_reference_indices": [
+      2
+    ],
+    "unmatched_detection_indices": [
+      3
+    ]
+  },
+  {
+    "image_id": "IMG_007328",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 3,
+        "iou": 0.97225449931453
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 1,
+        "iou": 0.9341041000938204
+      },
+      {
+        "reference_index": 3,
+        "detection_index": 2,
+        "iou": 0.9153278818666133
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 0,
+        "iou": 0.9043586494394802
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007346",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 1,
+        "iou": 0.956856690413358
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 0,
+        "iou": 0.9072894738677927
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007347",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9704224817036924
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 2,
+        "iou": 0.9475524290307568
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.7420018437458614
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007326",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 3,
+        "iou": 0.9577311198839894
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 1,
+        "iou": 0.9032203734891436
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 0,
+        "iou": 0.8560671994779375
+      },
+      {
+        "reference_index": 3,
+        "detection_index": 2,
+        "iou": 0.8487330151031973
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": [
+      4
+    ]
+  },
+  {
+    "image_id": "IMG_007322",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9772678395908279
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.9336961640693047
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007340",
+    "matches": [
+      {
+        "reference_index": 3,
+        "detection_index": 4,
+        "iou": 0.9645975197677855
+      },
+      {
+        "reference_index": 0,
+        "detection_index": 1,
+        "iou": 0.9630735708108771
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 0,
+        "iou": 0.9287344289136207
+      },
+      {
+        "reference_index": 2,
+        "detection_index": 2,
+        "iou": 0.8550673015247704
+      }
+    ],
+    "unmatched_reference_indices": [
+      4
+    ],
+    "unmatched_detection_indices": [
+      3
+    ]
+  },
+  {
+    "image_id": "IMG_007684",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9730812936450881
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.8569650112325622
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007682",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9630888848808871
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.9256258919572427
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007692",
+    "matches": [
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.9875027704396415
+      },
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9686333244226395
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": [
+      2
+    ]
+  },
+  {
+    "image_id": "IMG_007702",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9760383218804832
+      }
+    ],
+    "unmatched_reference_indices": [
+      1
+    ],
+    "unmatched_detection_indices": []
+  },
+  {
+    "image_id": "IMG_007707",
+    "matches": [
+      {
+        "reference_index": 2,
+        "detection_index": 4,
+        "iou": 0.9609937027576343
+      },
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.8872716695980891
+      },
+      {
+        "reference_index": 1,
+        "detection_index": 1,
+        "iou": 0.8304878881800322
+      }
+    ],
+    "unmatched_reference_indices": [],
+    "unmatched_detection_indices": [
+      2,
+      3
+    ]
+  },
+  {
+    "image_id": "IMG_007712",
+    "matches": [
+      {
+        "reference_index": 0,
+        "detection_index": 0,
+        "iou": 0.9696542141092662
+      }
+    ],
+    "unmatched_reference_indices": [
+      1
+    ],
+    "unmatched_detection_indices": []
+  }
+]

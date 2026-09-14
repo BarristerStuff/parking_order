@@ -1,0 +1,7 @@
+image_id,reviewer,review_scope,observation,reference_modified
+IMG_007555,coordinator,contact_sheet,foreground pickup lacks detection overlay,false
+IMG_007606,coordinator,contact_sheet,foreground pickup lacks detection overlay,false
+IMG_007684,coordinator,contact_sheet,foreground pickup lacks detection overlay,false
+IMG_007529,independent_auditor,individual_overlay,zero detections despite visible frontal pickup,false
+IMG_007702,independent_auditor,individual_overlay,zero detections despite visible partial foreground vehicle,false
+IMG_007672,independent_auditor,individual_overlay,green mask follows visible body silhouette not physical ground footprint,false

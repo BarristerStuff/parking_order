@@ -1,0 +1,517 @@
+{
+  "generated_at_unix": 1789379804.2829187,
+  "status": "PENDING",
+  "checks": [
+    {
+      "check": "preregistration_hashes",
+      "status": "PASS",
+      "detail": {
+        "expected": 4,
+        "verified": 4,
+        "bad": []
+      }
+    },
+    {
+      "check": "freeze_required_files",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "frozen_matching",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "17_manifest_hashes",
+      "status": "PASS",
+      "detail": {
+        "expected": 115,
+        "verified": 115,
+        "bad": []
+      }
+    },
+    {
+      "check": "16_reference_freeze",
+      "status": "PASS",
+      "detail": {
+        "expected": 8,
+        "verified": 8,
+        "bad": []
+      }
+    },
+    {
+      "check": "protected_keyset_no_silent_missing",
+      "status": "PASS",
+      "detail": {
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "check": "protected_1121_hashes",
+      "status": "PASS",
+      "detail": {
+        "expected": 1121,
+        "verified": 1121,
+        "bad": []
+      }
+    },
+    {
+      "check": "preflight_counts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "allowlist_unique_60_dev",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "allowlist_manifest_identity",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "allowlisted_original_hashes",
+      "status": "PASS",
+      "detail": {
+        "expected": 60,
+        "verified": 60,
+        "bad": []
+      }
+    },
+    {
+      "check": "allowlist_independent_split_metadata",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "git_status_unchanged:/home/yanbo/net_vlm_parking_optimization",
+      "status": "PASS",
+      "detail": {
+        "initial": "?? 14_v3_parked_on_road/\n?? 15_v3_roi_r1/\n?? 16_v4_dynamic_vlm/\n?? 17_v5_spatial_evidence_vlm/\n?? 18_v5_detector_footprint/\n",
+        "current": "?? 14_v3_parked_on_road/\n?? 15_v3_roi_r1/\n?? 16_v4_dynamic_vlm/\n?? 17_v5_spatial_evidence_vlm/\n?? 18_v5_detector_footprint/\n",
+        "returncode": 0
+      }
+    },
+    {
+      "check": "git_status_unchanged:/home/yanbo/net_vlm_yanboversion/vlm",
+      "status": "PASS",
+      "detail": {
+        "initial": " M .gitignore\n M script/server.py\n M script/server_usage.md\n M test_server_gateway.py\n M w_v/realtime_processing.py\n M w_v/realtime_vlm.py\n M w_v/yoloe_gate.py\n D yolo/yoloe\n?? agora_token/\n?? analysis_handler.py\n?? analysis_server.py\n?? analysis_thread.py\n?? config.py\n?? mqtt_handler.py\n?? mqtt_send_img.py\n?? rtc_receiver.py\n?? rtm_sender.py\n?? script/java_backend_api.md\n?? test_display_webrtc.py\n?? test_py.py\n?? test_rtmp.py\n?? test_webrtc.py\n?? test_webrtc_send.py\n?? ultralytics/\n?? video_frame.py\n?? webrtc_receiver.py\n",
+        "current": " M .gitignore\n M script/server.py\n M script/server_usage.md\n M test_server_gateway.py\n M w_v/realtime_processing.py\n M w_v/realtime_vlm.py\n M w_v/yoloe_gate.py\n D yolo/yoloe\n?? agora_token/\n?? analysis_handler.py\n?? analysis_server.py\n?? analysis_thread.py\n?? config.py\n?? mqtt_handler.py\n?? mqtt_send_img.py\n?? rtc_receiver.py\n?? rtm_sender.py\n?? script/java_backend_api.md\n?? test_display_webrtc.py\n?? test_py.py\n?? test_rtmp.py\n?? test_webrtc.py\n?? test_webrtc_send.py\n?? ultralytics/\n?? video_frame.py\n?? webrtc_receiver.py\n",
+        "returncode": 0
+      }
+    },
+    {
+      "check": "reference_allowed_only",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "reference16_17_equal",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "reference_support_frozen",
+      "status": "PASS",
+      "detail": {
+        "positive_road": 14,
+        "negative_ordinary_bay": 120,
+        "positive_two_bays": 18,
+        "negative_line_touch": 10,
+        "negative_minor_overrun": 22,
+        "negative_nose_tail_overrun": 23,
+        "negative_gate_queue": 20,
+        "uncertain": 13
+      }
+    },
+    {
+      "check": "r0_complete_60_images",
+      "status": "PASS",
+      "detail": {
+        "records": 60,
+        "complete": true
+      }
+    },
+    {
+      "check": "r0_independent_matching",
+      "status": "PASS",
+      "detail": {
+        "mismatch_images": []
+      }
+    },
+    {
+      "check": "r0_target_join",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "r0_independent_dedup_and_raw_join",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "r0_image_bindings",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "r0_logs_counts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "r0_freeze",
+      "status": "PASS",
+      "detail": {
+        "expected": 6,
+        "verified": 6,
+        "bad": []
+      }
+    },
+    {
+      "check": "r1_complete_60_images",
+      "status": "PASS",
+      "detail": {
+        "records": 60,
+        "complete": true
+      }
+    },
+    {
+      "check": "r1_independent_matching",
+      "status": "PASS",
+      "detail": {
+        "mismatch_images": []
+      }
+    },
+    {
+      "check": "r1_target_join",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "r1_independent_dedup_and_raw_join",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "r1_image_bindings",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "r1_logs_counts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "r1_freeze",
+      "status": "PASS",
+      "detail": {
+        "expected": 6,
+        "verified": 6,
+        "bad": []
+      }
+    },
+    {
+      "check": "r1_single_main_factor",
+      "status": "PASS",
+      "detail": [
+        "classes"
+      ]
+    },
+    {
+      "check": "r1_rationale_available",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "r1_chronology",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "r1_rationale_factor",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "no_extra_detector_candidates",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "footprint_contract_hash",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "footprint_code_freeze",
+      "status": "PASS",
+      "detail": {
+        "expected": 2,
+        "verified": 2,
+        "bad": []
+      }
+    },
+    {
+      "check": "development_footprint_no_true_ground_claim",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "development_footprint_counts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "development_mask_bottom_contact_band_status_reason_recount",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "development_bbox_lower_conservative_proxy_status_reason_recount",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "development_footprint_allowed_ids",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "development_footprint_source_hash",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "footprint_no_true_ground_claim",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "footprint_counts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "mask_bottom_contact_band_status_reason_recount",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "bbox_lower_conservative_proxy_status_reason_recount",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "footprint_allowed_ids",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "footprint_source_hash",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "footprint_final_not_old_source",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "rule_formal_metrics_null",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "synthetic_result_recount_only",
+      "status": "PASS",
+      "detail": {
+        "note": "artifact recount, not independent geometry execution"
+      }
+    },
+    {
+      "check": "semantic_review:01_detector_audit",
+      "status": "PENDING",
+      "detail": "independent semantic final review still required; existence is not acceptance"
+    },
+    {
+      "check": "semantic_review:03_spatial_evidence",
+      "status": "PENDING",
+      "detail": "independent semantic final review still required; existence is not acceptance"
+    },
+    {
+      "check": "semantic_review:04_rule_engine",
+      "status": "PENDING",
+      "detail": "independent semantic final review still required; existence is not acceptance"
+    },
+    {
+      "check": "semantic_review:05_evaluation",
+      "status": "PENDING",
+      "detail": "independent semantic final review still required; existence is not acceptance"
+    },
+    {
+      "check": "B_final_semantic_artifact_review",
+      "status": "PASS",
+      "detail": {
+        "result_sha256": "47851228022e365b032e1726ea0a7d7561ee8200dbd48bafeaa175b7d401deac",
+        "scope": "diagnostic artifact verification, not independent visual gold"
+      }
+    },
+    {
+      "check": "independent_four_test_suites",
+      "status": "PASS",
+      "detail": {
+        "executed_at_unix": 1789016774.6827118,
+        "passed": true,
+        "suites": [
+          {
+            "suite": "test_matching.py",
+            "returncode": 0,
+            "stdout": "",
+            "stderr": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.000s\n\nOK\n",
+            "python": "/usr/bin/python3"
+          },
+          {
+            "suite": "test_footprint.py",
+            "returncode": 0,
+            "stdout": "",
+            "stderr": "................\n----------------------------------------------------------------------\nRan 16 tests in 0.001s\n\nOK\n",
+            "python": "/usr/bin/python3"
+          },
+          {
+            "suite": "test_contracts.py",
+            "returncode": 0,
+            "stdout": "",
+            "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n",
+            "python": "/usr/bin/python3"
+          },
+          {
+            "suite": "test_synthetic_rules.py",
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.002s\n\nOK\n",
+            "python": "/home/yanbo/net_vlm_garbage_optimization/P3_detector_vlm/.venv_yoloe/bin/python"
+          }
+        ],
+        "guard": "Python audit hook, not OS sandbox; no raw image or model execution intended"
+      }
+    },
+    {
+      "check": "manifest_finalcheck",
+      "status": "PENDING",
+      "detail": "PENDING_FINAL_MANIFEST: contracts/hash_manifest.json; --finalcheck is read-only"
+    }
+  ],
+  "detector_recomputed": {
+    "r0": {
+      "images": 60,
+      "raw_detection_count": 196,
+      "kept_count": 195,
+      "geometric_matches": 155,
+      "coverage_gate_upper_bound_pass": false,
+      "geometric_by_label": {
+        "positive_road": 5,
+        "negative_ordinary_bay": 80,
+        "positive_two_bays": 11,
+        "negative_line_touch": 10,
+        "negative_minor_overrun": 14,
+        "negative_nose_tail_overrun": 11,
+        "negative_gate_queue": 17,
+        "uncertain": 7
+      },
+      "support": {
+        "overall": 240,
+        "positive_road": 14,
+        "negative_ordinary_bay": 120,
+        "positive_two_bays": 18,
+        "negative_line_touch": 10,
+        "negative_minor_overrun": 22,
+        "negative_nose_tail_overrun": 23,
+        "negative_gate_queue": 20,
+        "uncertain": 13
+      },
+      "geometric_coverage": {
+        "overall": 0.6458333333333334,
+        "positive_road": 0.35714285714285715,
+        "negative_ordinary_bay": 0.6666666666666666,
+        "positive_two_bays": 0.6111111111111112,
+        "negative_line_touch": 1.0,
+        "negative_minor_overrun": 0.6363636363636364,
+        "negative_nose_tail_overrun": 0.4782608695652174,
+        "negative_gate_queue": 0.85,
+        "uncertain": 0.5384615384615384
+      },
+      "visually_confirmed_count": null,
+      "visual_status": "PENDING_REVIEW_EVIDENCE",
+      "local_detector_calls_from_success_logs": 60,
+      "true_recall": null,
+      "true_fpr": null
+    },
+    "r1": {
+      "images": 60,
+      "raw_detection_count": 222,
+      "kept_count": 221,
+      "geometric_matches": 178,
+      "coverage_gate_upper_bound_pass": false,
+      "geometric_by_label": {
+        "positive_road": 13,
+        "negative_ordinary_bay": 83,
+        "positive_two_bays": 16,
+        "negative_line_touch": 10,
+        "negative_minor_overrun": 15,
+        "negative_nose_tail_overrun": 11,
+        "negative_gate_queue": 19,
+        "uncertain": 11
+      },
+      "support": {
+        "overall": 240,
+        "positive_road": 14,
+        "negative_ordinary_bay": 120,
+        "positive_two_bays": 18,
+        "negative_line_touch": 10,
+        "negative_minor_overrun": 22,
+        "negative_nose_tail_overrun": 23,
+        "negative_gate_queue": 20,
+        "uncertain": 13
+      },
+      "geometric_coverage": {
+        "overall": 0.7416666666666667,
+        "positive_road": 0.9285714285714286,
+        "negative_ordinary_bay": 0.6916666666666667,
+        "positive_two_bays": 0.8888888888888888,
+        "negative_line_touch": 1.0,
+        "negative_minor_overrun": 0.6818181818181818,
+        "negative_nose_tail_overrun": 0.4782608695652174,
+        "negative_gate_queue": 0.95,
+        "uncertain": 0.8461538461538461
+      },
+      "visually_confirmed_count": null,
+      "visual_status": "PENDING_REVIEW_EVIDENCE",
+      "local_detector_calls_from_success_logs": 60,
+      "true_recall": null,
+      "true_fpr": null
+    }
+  },
+  "reference_support": {
+    "positive_road": 14,
+    "negative_ordinary_bay": 120,
+    "positive_two_bays": 18,
+    "negative_line_touch": 10,
+    "negative_minor_overrun": 22,
+    "negative_nose_tail_overrun": 23,
+    "negative_gate_queue": 20,
+    "uncertain": 13
+  },
+  "physical_remote_model_requests": null,
+  "remote_request_evidence": "No auditor model/network calls. Other workers require implementation/log review, not an OS-level proof.",
+  "auditor_local_detector_calls": 0,
+  "auditor_original_images_decoded": 0,
+  "access_evidence_limit": "Bounded metadata and hash reads; application logs/source cannot prove OS-level isolation or absence of unlogged calls.",
+  "git_limit": "Porcelain equality is not file-content equality; protected hashes cover only the frozen bounded snapshot.",
+  "Recall": null,
+  "FPR": null
+}

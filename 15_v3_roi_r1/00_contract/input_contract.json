@@ -1,0 +1,53 @@
+{
+  "schema_version": "vehicle_parked_on_road_v3_roi_r1_contract_1.0",
+  "vehicle": {
+    "required": ["media_id", "vehicle_id"],
+    "preferred_footprint": {
+      "footprint": [[0, 0], [1, 0], [1, 1], [0, 1]],
+      "coordinate_space": "image|bev",
+      "footprint_source": "segmentation_mask|bev_footprint|image_footprint|bbox_lower"
+    },
+    "legacy_supported_fields": [
+      "mask_polygon_image",
+      "footprint_polygon_image",
+      "footprint_polygon_bev",
+      "bbox_xyxy",
+      "bbox"
+    ],
+    "runtime_context_optional": {
+      "overhang_evidence": "runtime_geometry_nose_tail"
+    }
+  },
+  "roi_config": {
+    "required": [
+      "schema_version",
+      "camera_id",
+      "route_id",
+      "image_size",
+      "coordinate_space",
+      "homography_image_to_bev",
+      "parking_bays",
+      "parking_area",
+      "road_area",
+      "gate_queue_area",
+      "ignore_area",
+      "thresholds"
+    ],
+    "area_format": {
+      "coordinate_space": "image|bev",
+      "polygons": [[[0, 0], [1, 0], [1, 1], [0, 1]]]
+    },
+    "parking_bay_format": {
+      "bay_id": "bay_01",
+      "polygon_image": [[0, 0], [1, 0], [1, 1], [0, 1]],
+      "polygon_bev": [[0, 0], [1, 0], [1, 1], [0, 1]],
+      "adjacent_bay_ids": ["bay_02"],
+      "enabled": true
+    },
+    "geometry_policy": {
+      "supported_polygon_shape": "convex_simple_only",
+      "overlapping_roi_polygons": "allowed_with_union_overlap",
+      "coordinate_space_mismatch": "uncertain_not_positive"
+    }
+  }
+}

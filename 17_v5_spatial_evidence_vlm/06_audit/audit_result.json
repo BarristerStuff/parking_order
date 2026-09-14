@@ -1,0 +1,35 @@
+{
+  "status": "PASS_SCOPED_INTEGRITY",
+  "capability_status": "BLOCKED_NOT_PASSED",
+  "checks": {
+    "allowlist_unique_60_dev": true,
+    "allowlist_source_hashes": true,
+    "reference_hashes": true,
+    "reference_frozen_before_inference": true,
+    "freeze_excludes_self": true,
+    "all_60_images_accounted": true,
+    "counts_raw_dedup": true,
+    "coordinates_and_area": true,
+    "no_fake_ground_contact": true,
+    "missing_roi_not_zero_overlap": true,
+    "p0_gate_closed": true,
+    "matched_numerator_recount": true,
+    "no_classification_metrics_claimed": true,
+    "protected_snapshot_unchanged": true,
+    "production_git_status_unchanged": true,
+    "tests_pass": true,
+    "no_winner": true
+  },
+  "details": {
+    "protected_changed": [],
+    "protected_files_checked": 1005
+  },
+  "scope_limits": [
+    "source hash reads restricted to 60 allowlisted DEV images",
+    "protected snapshot excludes image/video files and most v2 files; no blanket byte-level assertion for all forbidden directories",
+    "network protection is Python-level guard, no packet capture; no VLM runner invoked",
+    "full pixel alignment and all detector misses not reviewed",
+    "candidate thresholds not evaluated",
+    "metrics match recount verifies saved posthoc associations; independent reviewer separately checks matching semantics"
+  ]
+}

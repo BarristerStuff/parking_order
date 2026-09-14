@@ -1,0 +1,33 @@
+{
+  "schema_version": "vehicle_parked_on_road_v3_roi_schema_1.0",
+  "camera_id": "SYNTHETIC_CAMERA_PROTOTYPE_ONLY",
+  "route_id": "SYNTHETIC_ROUTE_PROTOTYPE_ONLY",
+  "image_size": {"width": 1000, "height": 600},
+  "roi_source": "PROTOTYPE_ONLY_SYNTHETIC_FIXTURE",
+  "roi_author": "codex",
+  "roi_date": "2026-09-09",
+  "roi_basis": "Hand-authored geometry for unit tests; not derived from production camera calibration or v2 labels.",
+  "whether_gt_blind": "GT_BLIND_ROI",
+  "homography": null,
+  "parking_bays": [
+    {"bay_id": "bay_01", "polygon_image": [[100, 100], [300, 100], [300, 500], [100, 500]], "polygon_bev": null, "adjacent_bay_ids": ["bay_02"], "enabled": true},
+    {"bay_id": "bay_02", "polygon_image": [[300, 100], [500, 100], [500, 500], [300, 500]], "polygon_bev": null, "adjacent_bay_ids": ["bay_01"], "enabled": true}
+  ],
+  "parking_area": [[[100, 100], [500, 100], [500, 500], [100, 500]]],
+  "road_area": [[[520, 80], [980, 80], [980, 540], [520, 540]]],
+  "gate_queue_area": [[[520, 420], [980, 420], [980, 540], [520, 540]]],
+  "ignore_area": [[[0, 0], [60, 0], [60, 600], [0, 600]]],
+  "thresholds": {
+    "ignore_overlap_ratio": 0.60,
+    "gate_queue_overlap_ratio": 0.50,
+    "road_overlap_ratio": 0.65,
+    "two_bay_each_overlap_ratio": 0.25,
+    "two_bay_total_overlap_ratio": 0.70,
+    "in_bay_overlap_ratio": 0.80,
+    "minor_overrun_primary_bay_ratio": 0.65,
+    "minor_overrun_second_bay_max_ratio": 0.20,
+    "nose_tail_overhang_max_outside_ratio": 0.20,
+    "allow_bbox_road_positive": false,
+    "allow_bbox_two_bay_positive": false
+  }
+}

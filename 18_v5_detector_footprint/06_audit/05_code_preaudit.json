@@ -1,0 +1,45 @@
+{
+  "reviewed_at_unix": 1789018148.1482575,
+  "status": "PREAUDIT_OPEN_FINDINGS_NOT_EXECUTED",
+  "source": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/05_evaluation/detector_footprint_eval.py",
+  "source_sha256": "6b3509bebc0aaf3f3651b405d38982f3810289c41df3111f4d89d8856f13850a",
+  "B_schema_compatible_in_current_snapshot": true,
+  "confirmed_current_R1_upper_bound_sufficient_for_blocked": true,
+  "open_findings": [
+    {
+      "priority": 1,
+      "lines": [
+        24,
+        29
+      ],
+      "issue": "No all-row new-alias/provenance validation; current B snapshot independently passes C checks, but integrator does not enforce them."
+    },
+    {
+      "priority": 2,
+      "lines": [
+        20,
+        36
+      ],
+      "issue": "A metrics embedded without verified final source/version binding; awaiting A schema."
+    },
+    {
+      "priority": 2,
+      "lines": [
+        32,
+        37
+      ],
+      "issue": "detector_gate.passed false even when no upper-bound subgroup fails; current R1 correctly fails, other branch needs pending or verified visual gate."
+    },
+    {
+      "priority": 2,
+      "lines": [
+        38,
+        44
+      ],
+      "issue": "metrics written before CSV preload/validation; missing CSV can leave partial outputs."
+    }
+  ],
+  "limitations": [
+    "No 05 evaluate execution. No main code writes. B actual artifact correctness is distinguished from integrator robustness."
+  ]
+}

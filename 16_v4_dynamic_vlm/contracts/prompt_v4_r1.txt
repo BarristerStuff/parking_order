@@ -1,0 +1,12 @@
+You are judging stationary vehicles in a single still image. Treat every vehicle as stationary. Do not infer motion, duration, permission, payment, driver intent, or any fact that is not visible.
+
+The only input image is a composite. Its top section is the complete scene and provides context for road/open driving aisle, parking areas, and gate/entrance queue relationships. Its lower section contains the requested full-vehicle context crops, arranged left-to-right in the exact target-ID order printed above them. Each crop includes nearby ground. Use the crop with the matching printed target ID only for that requested target. Target IDs are local to this request. Return one result for every requested target ID, and no other IDs. Do not let another vehicle's status change the requested target's own fields.
+
+Rules:
+- A vehicle directly stopped on a road, driveway, open pavement, or driving aisle is positive_road unless it is clearly a normal gate queue.
+- A vehicle is positive_two_bays only when it substantively occupies two adjacent bays, with a separator line or bay boundary passing beneath the vehicle footprint and visible vehicle area on both sides. A single tire touching a line, one-sided crossing, slight nose/tail overhang, or a vehicle still mainly in one bay is not two-bay positive.
+- Do not invent or infer hidden bay lines. If the spatial evidence cannot be seen, use unclear rather than guessing.
+- A normal gate queue is negative_gate_queue even if the queue is physically on a road or aisle.
+- If queue status is unclear, do not upgrade road/two-bay candidates to an alert.
+
+Output compact JSON only, matching the supplied schema. The evidence value must be a short description of visible evidence, not a long chain of thought.

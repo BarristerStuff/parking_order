@@ -1,0 +1,49 @@
+{
+  "written_at_unix": 1789016463.48818,
+  "changed_main_factor": "classes",
+  "before": [
+    "car",
+    "truck",
+    "bus"
+  ],
+  "after": [
+    "car",
+    "truck",
+    "bus",
+    "pickup truck",
+    "van"
+  ],
+  "evidence": [
+    {
+      "image_id": "IMG_007529",
+      "reference_id": "T01",
+      "observation": "Large front-facing pickup has yellow reference box and no detection anywhere in image",
+      "status": "confirmed_detector_miss",
+      "medium": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/detection_overlays/r0_sheet_02.jpg"
+    },
+    {
+      "image_id": "IMG_007531",
+      "reference_id": "T01",
+      "observation": "Foreground grey pickup has yellow reference box without cyan detection",
+      "status": "confirmed_detector_miss",
+      "medium": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/detection_overlays/r0_sheet_02.jpg"
+    },
+    {
+      "image_id": "IMG_007554",
+      "reference_id": "T01",
+      "observation": "Foreground white panel van absent from detections",
+      "status": "confirmed_detector_miss",
+      "medium": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/detection_overlays/r0_sheet_01.jpg"
+    },
+    {
+      "image_id": "IMG_007527",
+      "reference_id": "T01",
+      "observation": "Foreground white panel van absent from detections",
+      "status": "confirmed_detector_miss",
+      "medium": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/detection_overlays/r0_sheet_02.jpg"
+    }
+  ],
+  "hypothesis": "Explicit pickup truck and van prompts may recover visible omitted vehicle subclasses; no guarantee for SUV or tiny background objects",
+  "no_sweep": true,
+  "other_settings_unchanged": true
+}

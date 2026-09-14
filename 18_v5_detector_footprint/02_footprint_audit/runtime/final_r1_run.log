@@ -1,0 +1,50 @@
+{
+  "data_role": "final_selected_detector_diagnostic",
+  "source": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/r1_targets.jsonl",
+  "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+  "unique_vehicles": 221,
+  "method_rows": 442,
+  "image_count": 60,
+  "footprintIoU": null,
+  "ground_validated": 0,
+  "scope": "DIAGNOSTIC_ONLY",
+  "methods": {
+    "mask_bottom_contact_band": {
+      "denominator": 221,
+      "status_counts": {
+        "validated": 0,
+        "proxy": 0,
+        "uncertain": 185,
+        "failed": 36
+      },
+      "reason_counts": {
+        "contour_provenance_unknown": 185,
+        "self_intersection_or_nonadjacent_touch": 42,
+        "band_may_be_disconnected": 9,
+        "edge_truncation_risk": 40,
+        "mask_bbox_extent_inconsistent": 5,
+        "zero_length_edge": 2
+      }
+    },
+    "bbox_lower_conservative_proxy": {
+      "denominator": 221,
+      "status_counts": {
+        "validated": 0,
+        "proxy": 176,
+        "uncertain": 45,
+        "failed": 0
+      },
+      "reason_counts": {
+        "bbox_lower_region_not_a_footprint": 176,
+        "edge_truncation_risk": 45
+      }
+    }
+  },
+  "visual_review": {
+    "reviewed_unique_vehicles": 0,
+    "unreviewed_unique_vehicles": 221
+  },
+  "reference_evaluation": {
+    "status": "pending_A_final_matches; no labels read by methods"
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "dev_group_counts": {
+    "hn01-gate-queue": 18,
+    "hn02-faded-lines-but-confirmably-inside": 6,
+    "hn03-perspective-looks-like-crossing": 6,
+    "hn04-large-vehicle-compliant": 6,
+    "hn05-adjacent-vehicle-occludes-lines": 6,
+    "hn06-shadows-cracks-curbs-mimic-lines": 6,
+    "n01-standard-inside-bay": 18,
+    "n02-close-to-line-but-inside": 15,
+    "n03-diagonal-bay-correct": 9,
+    "n04-parallel-bay-correct": 9,
+    "n05-multiple-all-correct": 9,
+    "n06-special-marked-space-geometry-correct": 12,
+    "p01-outside-legal-bay-clear": 23,
+    "p02-cross-single-boundary-line": 21,
+    "p03-span-two-bays": 18,
+    "p04-angled-footprint-outside": 14,
+    "p05-multi-vehicle-at-least-one-violation": 12,
+    "p06-nose-or-tail-intrudes-aisle": 6,
+    "u01-insufficient-parking-visual-evidence": 9,
+    "u02-markings-severely-missing-or-occluded": 6,
+    "u03-vehicle-cut-by-frame-edge": 3,
+    "u04-night-or-blur-boundary-unreadable": 3,
+    "u05-gate-queue-or-parking-ambiguous": 3
+  },
+  "dev_image_count": 238,
+  "dev_vehicle_detection_count": 1089,
+  "execution_date": "2026-09-09",
+  "group_image_label_counts": {
+    "hn01-gate-queue": {
+      "negative": 1,
+      "uncertain": 17
+    },
+    "hn02-faded-lines-but-confirmably-inside": {
+      "uncertain": 6
+    },
+    "hn03-perspective-looks-like-crossing": {
+      "uncertain": 6
+    },
+    "hn04-large-vehicle-compliant": {
+      "uncertain": 6
+    },
+    "hn05-adjacent-vehicle-occludes-lines": {
+      "uncertain": 6
+    },
+    "hn06-shadows-cracks-curbs-mimic-lines": {
+      "uncertain": 6
+    },
+    "n01-standard-inside-bay": {
+      "uncertain": 18
+    },
+    "n02-close-to-line-but-inside": {
+      "uncertain": 15
+    },
+    "n03-diagonal-bay-correct": {
+      "uncertain": 9
+    },
+    "n04-parallel-bay-correct": {
+      "uncertain": 9
+    },
+    "n05-multiple-all-correct": {
+      "uncertain": 9
+    },
+    "n06-special-marked-space-geometry-correct": {
+      "negative": 1,
+      "uncertain": 11
+    },
+    "p01-outside-legal-bay-clear": {
+      "positive": 1,
+      "uncertain": 22
+    },
+    "p02-cross-single-boundary-line": {
+      "uncertain": 21
+    },
+    "p03-span-two-bays": {
+      "positive": 1,
+      "uncertain": 17
+    },
+    "p04-angled-footprint-outside": {
+      "uncertain": 14
+    },
+    "p05-multi-vehicle-at-least-one-violation": {
+      "uncertain": 12
+    },
+    "p06-nose-or-tail-intrudes-aisle": {
+      "uncertain": 6
+    },
+    "u01-insufficient-parking-visual-evidence": {
+      "uncertain": 9
+    },
+    "u02-markings-severely-missing-or-occluded": {
+      "uncertain": 6
+    },
+    "u03-vehicle-cut-by-frame-edge": {
+      "uncertain": 3
+    },
+    "u04-night-or-blur-boundary-unreadable": {
+      "uncertain": 3
+    },
+    "u05-gate-queue-or-parking-ambiguous": {
+      "uncertain": 3
+    }
+  },
+  "group_vehicle_label_counts": {
+    "hn01-gate-queue": {
+      "negative_gate_queue": 3,
+      "uncertain": 65
+    },
+    "hn02-faded-lines-but-confirmably-inside": {
+      "negative_in_bay": 3,
+      "uncertain": 38
+    },
+    "hn03-perspective-looks-like-crossing": {
+      "negative_line_touch_or_minor_overrun": 1,
+      "uncertain": 23
+    },
+    "hn04-large-vehicle-compliant": {
+      "negative_in_bay": 1,
+      "uncertain": 28
+    },
+    "hn05-adjacent-vehicle-occludes-lines": {
+      "uncertain": 16
+    },
+    "hn06-shadows-cracks-curbs-mimic-lines": {
+      "negative_in_bay": 1,
+      "uncertain": 31
+    },
+    "n01-standard-inside-bay": {
+      "negative_in_bay": 1,
+      "uncertain": 86
+    },
+    "n02-close-to-line-but-inside": {
+      "negative_in_bay": 1,
+      "uncertain": 92
+    },
+    "n03-diagonal-bay-correct": {
+      "negative_in_bay": 1,
+      "uncertain": 45
+    },
+    "n04-parallel-bay-correct": {
+      "negative_in_bay": 1,
+      "uncertain": 42
+    },
+    "n05-multiple-all-correct": {
+      "negative_in_bay": 3,
+      "uncertain": 39
+    },
+    "n06-special-marked-space-geometry-correct": {
+      "negative_in_bay": 1,
+      "uncertain": 30
+    },
+    "p01-outside-legal-bay-clear": {
+      "positive_road": 1,
+      "uncertain": 70
+    },
+    "p02-cross-single-boundary-line": {
+      "negative_line_touch_or_minor_overrun": 1,
+      "uncertain": 109
+    },
+    "p03-span-two-bays": {
+      "positive_two_bays": 1,
+      "uncertain": 93
+    },
+    "p04-angled-footprint-outside": {
+      "uncertain": 71
+    },
+    "p05-multi-vehicle-at-least-one-violation": {
+      "uncertain": 60
+    },
+    "p06-nose-or-tail-intrudes-aisle": {
+      "negative_nose_tail_overhang": 1,
+      "uncertain": 38
+    },
+    "u01-insufficient-parking-visual-evidence": {
+      "uncertain": 29
+    },
+    "u02-markings-severely-missing-or-occluded": {
+      "uncertain": 25
+    },
+    "u03-vehicle-cut-by-frame-edge": {
+      "uncertain": 22
+    },
+    "u04-night-or-blur-boundary-unreadable": {
+      "uncertain": 8
+    },
+    "u05-gate-queue-or-parking-ambiguous": {
+      "uncertain": 8
+    }
+  },
+  "image_label_counts": {
+    "negative": 2,
+    "positive": 2,
+    "uncertain": 234
+  },
+  "image_level_metrics": {
+    "image_negative_fpr": null,
+    "image_positive_recall": null,
+    "multi_vehicle_fpr": null,
+    "multi_vehicle_recall": null
+  },
+  "image_review_coverage_ratio": 0.096639,
+  "metric_blockers": [
+    "FAIL_LABEL_COVERAGE",
+    "FAIL_MISSING_REAL_ROI",
+    "FAIL_DATA_DOMAIN_GAP"
+  ],
+  "metrics_authorized": false,
+  "protocol_metrics": {
+    "inference_failure_count": 0,
+    "latency_p50": null,
+    "latency_p95": null,
+    "note": "No VLM inference was run; protocol success here only covers artifact generation and ROI unit-test protocol.",
+    "parse_failure_count": 0,
+    "protocol_success_rate": 1.0
+  },
+  "reviewed_pilot_image_count": 23,
+  "reviewed_pilot_vehicle_row_count": 85,
+  "source_split_counts": {
+    "DEV": 238,
+    "HOLDOUT": 79,
+    "VAL": 80
+  },
+  "v3_label_coverage": "partial",
+  "vehicle_label_counts": {
+    "negative_gate_queue": 3,
+    "negative_in_bay": 13,
+    "negative_line_touch_or_minor_overrun": 2,
+    "negative_nose_tail_overhang": 1,
+    "positive_road": 1,
+    "positive_two_bays": 1,
+    "uncertain": 1068
+  },
+  "vehicle_level_metrics": {
+    "coverage": 0.078053,
+    "gate_queue_fpr": null,
+    "negative_in_bay_fpr": null,
+    "negative_line_overrun_fpr": null,
+    "negative_nose_tail_overhang_fpr": null,
+    "positive_road_recall": null,
+    "positive_two_bays_recall": null,
+    "uncertain_rate": null
+  },
+  "vehicle_review_coverage_ratio": 0.078053
+}

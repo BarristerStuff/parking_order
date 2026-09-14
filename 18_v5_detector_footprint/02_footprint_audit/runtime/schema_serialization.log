@@ -1,0 +1,40 @@
+{
+  "mask_numeric_validity": {
+    "denominator_unique_targets": 221,
+    "exported_polygon_present": 221,
+    "finite_vertices": 221,
+    "in_image_bounds": 221,
+    "positive_finite_area": 221,
+    "joint_numeric_valid": 221,
+    "numeric_invalid_or_missing": 0,
+    "meaning": "checks serialized polygon numeric values only, not semantic mask accuracy or physical ground contact"
+  },
+  "stricter_polygon_topology_validity": {
+    "denominator_unique_targets": 221,
+    "exported_polygon_pass": 185,
+    "exported_polygon_rejected": 36,
+    "rejection_reason_counts": {
+      "self_intersection_or_nonadjacent_touch": 36,
+      "zero_length_edge": 2
+    },
+    "component_provenance_available": 0,
+    "component_provenance_unavailable": 221,
+    "original_dense_mask_topology_unknown": 221,
+    "meaning": "strict test on exported single polygon; self-touch may arise from flattening multiple original components. Rejection is NOT proof original dense mask failed.",
+    "next_stage_requirement": "retain original dense masks and independent contours/component mapping; no detector rerun in this stage"
+  },
+  "schema_serialization": {
+    "version": 2,
+    "aliases": [
+      "bbox_xyxy",
+      "footprint_source",
+      "ground_contact_status",
+      "quality",
+      "evidence"
+    ],
+    "frozen_method_code_unchanged": true,
+    "frozen_contract_sha256": "7348c009011602c45670946313873defb3166727b7da057b8951e6fc0bed16b0",
+    "schema_adapter_sha256": "75d949879cd4e57ce3e8f88edc6de9d54deddbdc61bc42110c3fc0a6569dad98",
+    "detector_rerun": false
+  }
+}

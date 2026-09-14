@@ -1,0 +1,12 @@
+{
+  "scope": "SYNTHETIC_UNIT_TEST_ONLY_NOT_CLASSIFICATION_ACCURACY",
+  "test_pass_count": 11,
+  "test_count": 11,
+  "formal_pilot_rules_executed": false,
+  "road_recall": null,
+  "two_bay_recall": null,
+  "negative_fpr": null,
+  "gate_queue_fpr": null,
+  "uncertain_rate": null,
+  "spatial_evidence_formal_evaluation": "BLOCKED_NO_TRUSTED_GEOMETRY"
+}

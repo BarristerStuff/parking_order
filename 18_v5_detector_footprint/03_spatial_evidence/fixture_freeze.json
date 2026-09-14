@@ -1,0 +1,9 @@
+{
+  "frozen_at": 1789016405.9978595,
+  "files": {
+    "03_spatial_evidence/synthetic_fixtures.json": "ded293639f2ccf0ab4657f8dd9e4e3f34e44d3367c3a1489e85705b7f8f2ca19",
+    "04_rule_engine/rule_config.json": "4c18672c2dbf9c3e0805b43664752e7227d43a3294beb7408e3984358d79580b",
+    "04_rule_engine/synthetic_core.py": "6c0a6de4af338778b64c86d1e748b13a4ed39fc31ba58e12cb7714c99be3b941",
+    "04_rule_engine/space_rule.py": "0aa40f9b8ecd92bf8694ea16597dc097b401e96dcd635f197f19861a06a0d25c"
+  }
+}

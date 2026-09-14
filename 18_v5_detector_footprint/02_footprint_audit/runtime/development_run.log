@@ -1,0 +1,50 @@
+{
+  "data_role": "development_sanity_NOT_final",
+  "source": "/home/yanbo/net_vlm_parking_optimization/17_v5_spatial_evidence_vlm/01_footprint/footprint_outputs.jsonl",
+  "source_sha256": "da1262635f867fa5074d1f29fa2c6a28e1402ecf24f2c1a0a626387c5ee13172",
+  "unique_vehicles": 195,
+  "method_rows": 390,
+  "image_count": 58,
+  "footprintIoU": null,
+  "ground_validated": 0,
+  "scope": "DIAGNOSTIC_ONLY",
+  "methods": {
+    "mask_bottom_contact_band": {
+      "denominator": 195,
+      "status_counts": {
+        "validated": 0,
+        "proxy": 0,
+        "uncertain": 161,
+        "failed": 34
+      },
+      "reason_counts": {
+        "contour_provenance_unknown": 161,
+        "self_intersection_or_nonadjacent_touch": 40,
+        "band_may_be_disconnected": 9,
+        "edge_truncation_risk": 38,
+        "mask_bbox_extent_inconsistent": 4,
+        "zero_length_edge": 2
+      }
+    },
+    "bbox_lower_conservative_proxy": {
+      "denominator": 195,
+      "status_counts": {
+        "validated": 0,
+        "proxy": 152,
+        "uncertain": 43,
+        "failed": 0
+      },
+      "reason_counts": {
+        "bbox_lower_region_not_a_footprint": 152,
+        "edge_truncation_risk": 43
+      }
+    }
+  },
+  "visual_review": {
+    "reviewed_unique_vehicles": 0,
+    "unreviewed_unique_vehicles": 195
+  },
+  "reference_evaluation": {
+    "status": "pending_A_final_matches; no labels read by methods"
+  }
+}

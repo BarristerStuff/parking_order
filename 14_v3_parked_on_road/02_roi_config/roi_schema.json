@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "vehicle_parked_on_road_v3 ROI configuration",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "camera_id",
+    "route_id",
+    "image_size",
+    "roi_source",
+    "roi_author",
+    "roi_date",
+    "roi_basis",
+    "whether_gt_blind",
+    "homography",
+    "parking_bays",
+    "parking_area",
+    "road_area",
+    "gate_queue_area",
+    "ignore_area",
+    "thresholds"
+  ],
+  "properties": {
+    "schema_version": {"const": "vehicle_parked_on_road_v3_roi_schema_1.0"},
+    "camera_id": {"type": "string", "minLength": 1},
+    "route_id": {"type": "string", "minLength": 1},
+    "image_size": {
+      "type": "object",
+      "required": ["width", "height"],
+      "properties": {
+        "width": {"type": "number", "exclusiveMinimum": 0},
+        "height": {"type": "number", "exclusiveMinimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "roi_source": {"type": "string"},
+    "roi_author": {"type": "string"},
+    "roi_date": {"type": "string"},
+    "roi_basis": {"type": "string"},
+    "whether_gt_blind": {"type": "string", "enum": ["GT_BLIND_ROI", "GT_INFORMED_ROI", "UNKNOWN"]},
+    "homography": {
+      "type": ["array", "null"],
+      "description": "3x3 image-to-BEV transform when available; null for uncalibrated prototype fixtures."
+    },
+    "parking_bays": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["bay_id", "polygon_image", "polygon_bev", "adjacent_bay_ids", "enabled"],
+        "properties": {
+          "bay_id": {"type": "string"},
+          "polygon_image": {"$ref": "#/$defs/polygon"},
+          "polygon_bev": {"$ref": "#/$defs/nullablePolygon"},
+          "adjacent_bay_ids": {"type": "array", "items": {"type": "string"}},
+          "enabled": {"type": "boolean"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "parking_area": {"$ref": "#/$defs/polygonList"},
+    "road_area": {"$ref": "#/$defs/polygonList"},
+    "gate_queue_area": {"$ref": "#/$defs/polygonList"},
+    "ignore_area": {"$ref": "#/$defs/polygonList"},
+    "thresholds": {
+      "type": "object",
+      "required": [
+        "ignore_overlap_ratio",
+        "gate_queue_overlap_ratio",
+        "road_overlap_ratio",
+        "two_bay_each_overlap_ratio",
+        "two_bay_total_overlap_ratio",
+        "in_bay_overlap_ratio",
+        "minor_overrun_primary_bay_ratio",
+        "minor_overrun_second_bay_max_ratio",
+        "nose_tail_overhang_max_outside_ratio",
+        "allow_bbox_road_positive",
+        "allow_bbox_two_bay_positive"
+      ],
+      "properties": {
+        "ignore_overlap_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+        "gate_queue_overlap_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+        "road_overlap_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+        "two_bay_each_overlap_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+        "two_bay_total_overlap_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+        "in_bay_overlap_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+        "minor_overrun_primary_bay_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+        "minor_overrun_second_bay_max_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+        "nose_tail_overhang_max_outside_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+        "allow_bbox_road_positive": {"type": "boolean"},
+        "allow_bbox_two_bay_positive": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "point": {"type": "array", "prefixItems": [{"type": "number"}, {"type": "number"}], "minItems": 2, "maxItems": 2},
+    "polygon": {"type": "array", "items": {"$ref": "#/$defs/point"}, "minItems": 3},
+    "nullablePolygon": {"anyOf": [{"$ref": "#/$defs/polygon"}, {"type": "null"}]},
+    "polygonList": {"type": "array", "items": {"$ref": "#/$defs/polygon"}}
+  },
+  "additionalProperties": false
+}

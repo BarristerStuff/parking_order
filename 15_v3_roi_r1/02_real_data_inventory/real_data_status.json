@@ -1,0 +1,25 @@
+{
+  "R1_REAL_E2E_EVALUATION_BLOCKED": true,
+  "REAL_CAMERA_DATA_AVAILABLE": false,
+  "REAL_FIXED_CAMERA_ROUTE_AVAILABLE": false,
+  "REAL_ROI_CALIBRATION_AVAILABLE": false,
+  "camera_route_inventory_rows": 1,
+  "execution_date": "2026-09-09",
+  "fixed_camera_route_candidates": 0,
+  "model_api_used": false,
+  "notes": [
+    "Parking annotation rows found in media.csv are AIGC for the current parking batch.",
+    "robot_direct and phone_camera directories were inventoried, but no parking-related real camera row was confirmed.",
+    "Project test media paths are not accepted as parking robot_direct evidence without annotation, camera_id, route_id, and ROI calibration."
+  ],
+  "old_v2_val_holdout_media_opened": false,
+  "parking_real_camera_rows": 0,
+  "source_inventory_rows": 412,
+  "source_type_counts": {
+    "ai_generated": 398,
+    "phone_camera": 1,
+    "project_test_media_unknown": 11,
+    "public_dataset": 1,
+    "robot_direct": 1
+  }
+}

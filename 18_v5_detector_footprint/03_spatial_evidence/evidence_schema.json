@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Synthetic image evidence, not pilot predictions",
+  "type": "object",
+  "required": [
+    "scope",
+    "evidence_status",
+    "evidence_reason"
+  ],
+  "properties": {
+    "image_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "vehicle_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "coordinate_space": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "footprint_source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "road_overlap_ratio": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "parking_area_overlap_ratio": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "bay_overlaps": {
+      "type": "array"
+    },
+    "best_bay_ratio": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "second_bay_ratio": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "two_bay_total_ratio": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "gate_queue_overlap_ratio": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "geometry_quality": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ground_contact_validated": {
+      "type": "boolean"
+    },
+    "best_pair_adjacent": {
+      "type": "boolean"
+    },
+    "scope": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

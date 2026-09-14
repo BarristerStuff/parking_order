@@ -1,0 +1,10 @@
+{
+  "images": 60,
+  "batches": 108,
+  "composite_inputs": 108,
+  "target_batch_size": 3,
+  "source_r0_adapted_sha256": "61294e689b21011596175821a8d545e1c695cb0f890b90802a7abfd00ee2abd4",
+  "source_r0_batches_sha256": "d17fe5e515a7482266e86b4f293e842a638b29cfe0bad0777d7440d0e4177a1a",
+  "protocol": "one composite image: scene top + requested context crops below",
+  "source_image_and_crop_geometry_unchanged": true
+}

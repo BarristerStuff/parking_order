@@ -1,0 +1,1 @@
+/home/yanbo/net_vlm_garbage_optimization/P3_detector_vlm/runtime_snapshot/models/mobileclip2_b.ts

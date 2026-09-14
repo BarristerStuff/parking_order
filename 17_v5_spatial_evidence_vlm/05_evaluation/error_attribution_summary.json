@@ -1,0 +1,87 @@
+{
+  "categories": {
+    "detector_miss": {
+      "count": null,
+      "unmatched_reference_candidates": 85,
+      "visually_confirmed_lower_bound": 5,
+      "basis": "five documented partial-review observations; remaining unmatched not individually confirmed"
+    },
+    "duplicate_detection": {
+      "count": null,
+      "algorithmic_suppression_count": 1,
+      "basis": "not independently confirmed duplicate objects"
+    },
+    "false_detection": {
+      "count": null,
+      "basis": "NOT_INDIVIDUALLY_ASSESSED_OR_DOWNSTREAM_NOT_EXECUTED"
+    },
+    "mask_failure": {
+      "count": null,
+      "basis": "NOT_INDIVIDUALLY_ASSESSED_OR_DOWNSTREAM_NOT_EXECUTED"
+    },
+    "footprint_failure": {
+      "count": 240,
+      "basis": "validated_ground_contact_missing"
+    },
+    "coordinate_space_error": {
+      "count": null,
+      "basis": "NOT_INDIVIDUALLY_ASSESSED_OR_DOWNSTREAM_NOT_EXECUTED"
+    },
+    "roi_missing": {
+      "count": 240,
+      "basis": "ROI_missing"
+    },
+    "road_overlap_error": {
+      "count": null,
+      "basis": "NOT_INDIVIDUALLY_ASSESSED_OR_DOWNSTREAM_NOT_EXECUTED"
+    },
+    "two_bay_overlap_error": {
+      "count": null,
+      "basis": "NOT_INDIVIDUALLY_ASSESSED_OR_DOWNSTREAM_NOT_EXECUTED"
+    },
+    "adjacency_error": {
+      "count": null,
+      "basis": "NOT_INDIVIDUALLY_ASSESSED_OR_DOWNSTREAM_NOT_EXECUTED"
+    },
+    "gate_queue_error": {
+      "count": null,
+      "basis": "NOT_INDIVIDUALLY_ASSESSED_OR_DOWNSTREAM_NOT_EXECUTED"
+    },
+    "minor_overrun_false_positive": {
+      "count": null,
+      "basis": "NOT_INDIVIDUALLY_ASSESSED_OR_DOWNSTREAM_NOT_EXECUTED"
+    },
+    "nose_tail_false_positive": {
+      "count": null,
+      "basis": "NOT_INDIVIDUALLY_ASSESSED_OR_DOWNSTREAM_NOT_EXECUTED"
+    },
+    "rule_conflict": {
+      "count": null,
+      "basis": "NOT_INDIVIDUALLY_ASSESSED_OR_DOWNSTREAM_NOT_EXECUTED"
+    },
+    "vlm_veto_error": {
+      "count": null,
+      "basis": "NOT_INDIVIDUALLY_ASSESSED_OR_DOWNSTREAM_NOT_EXECUTED"
+    },
+    "vlm_accept_error": {
+      "count": null,
+      "basis": "NOT_INDIVIDUALLY_ASSESSED_OR_DOWNSTREAM_NOT_EXECUTED"
+    },
+    "vlm_semantic_uncertain": {
+      "count": null,
+      "basis": "NOT_INDIVIDUALLY_ASSESSED_OR_DOWNSTREAM_NOT_EXECUTED"
+    },
+    "protocol_failure": {
+      "count": null,
+      "basis": "NOT_INDIVIDUALLY_ASSESSED_OR_DOWNSTREAM_NOT_EXECUTED"
+    },
+    "reference_uncertain": {
+      "count": 13,
+      "basis": "frozen_reference"
+    },
+    "reference_disputed": {
+      "count": null,
+      "basis": "NOT_INDIVIDUALLY_ASSESSED_OR_DOWNSTREAM_NOT_EXECUTED"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+V4 preflight baseline observed 2026-09-09 (Asia/Shanghai).
+
+/home/yanbo/net_vlm_yanboversion: not a git worktree.
+/home/yanbo/net_vlm_parking_optimization: main...origin/main; pre-V4 untracked directories: 14_v3_parked_on_road/, 15_v3_roi_r1/.
+/home/yanbo/net_vlm_yanboversion/vlm: main...origin/main; pre-existing dirty tracked files: .gitignore, script/server.py, script/server_usage.md, test_server_gateway.py, w_v/realtime_processing.py, w_v/realtime_vlm.py, w_v/yoloe_gate.py; deleted yolo/yoloe; pre-existing untracked files: agora_token/, analysis_handler.py, analysis_server.py, analysis_thread.py, config.py, mqtt_handler.py, mqtt_send_img.py, rtc_receiver.py, rtm_sender.py, script/java_backend_api.md, test_display_webrtc.py, test_py.py, test_rtmp.py, test_webrtc.py, test_webrtc_send.py, ultralytics/, video_frame.py, webrtc_receiver.py.
+No Git commit/push/reset/clean was run by V4.
+
+Frozen input sidecars rechecked before formal requests:
+vehicle_not_in_bay_v2.0.md = 0e9c6b0afc6220f96969ff04f8ed27592c10a64a6e31a7b6cc83d23487032a10
+v2_0_gt.csv = 321f0994006d2451352f0c48d73911749f6a471d24c16f25808bbf30c31bd353
+v2_split.csv = f531aaff35d3940dd17bd57e1f9825903177dcd91d2f7e41d2a598a5a0cfdb24
+v2_dev_vehicle_detections.jsonl = 5685faa7c450e598f0e964445178a49bbcdb1d1e6e8fd5688fbdb807188385f9
+single_rgb_route_closure.md = 5f07aaa9fc40a0ced4b02fb06a453ff26d8307a968287ab1b16d2fb88529e59b
+
+Dataset metadata counts: source mapping 397 rows; split DEV/VAL/HOLDOUT=238/80/79; all DEV media mapped to 00_raw/ai_generated; DEV paths exist; detector cache covers 238 DEV image hashes.
+Ollama preflight: GET /api/tags HTTP 200, qwen3.5:4b present; GET /api/ps HTTP 200. No SSH/tunnel/proxy/CUDA changes.

@@ -1,0 +1,2 @@
+camera_id,route_id,source_path,source_type,parking_related_count,real_camera_count,image_size_set,homography_available,parking_bay_polygon_available,road_polygon_available,gate_queue_polygon_available,status,evidence
+,,,,0,0,,false,false,false,false,BLOCKED_NO_CAMERA_ROUTE_METADATA,No source_inventory row contained camera_id or route_id.

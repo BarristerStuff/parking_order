@@ -1,0 +1,644 @@
+{
+  "evaluated_at_unix": 1789380407.145442,
+  "scope": "AIGC_DIAGNOSTIC_REUSED_V4_PILOT",
+  "reference_basis": "AI_VISUAL_REVIEWED_PROVISIONAL",
+  "human_gold": false,
+  "runs": {
+    "r0": {
+      "config": {
+        "model": "YOLOE26m",
+        "classes": [
+          "car",
+          "truck",
+          "bus"
+        ],
+        "imgsz": 640,
+        "conf": 0.25,
+        "iou": 0.7,
+        "max_det": 50,
+        "retina_masks": true,
+        "device": "cpu",
+        "torch_threads": 4,
+        "dedup_iou": 0.8,
+        "weights_sha256": "585f5ec9028fd358035da8d860c27c56be285a795cba2076fba536a4391c2c83",
+        "encoder_sha256": "35d7f213e4d75f38514e4656ad3cb91158bd33e3805d8ac349f23b186f66982f"
+      },
+      "geometric_association_only": {
+        "road": {
+          "numerator": 5,
+          "denominator": 14,
+          "ratio": 0.35714285714285715,
+          "wilson95": [
+            0.1634473175355414,
+            0.612355768960926
+          ]
+        },
+        "two_bay": {
+          "numerator": 11,
+          "denominator": 18,
+          "ratio": 0.6111111111111112,
+          "wilson95": [
+            0.3861904160223791,
+            0.7969475342783638
+          ]
+        },
+        "overall": {
+          "numerator": 155,
+          "denominator": 240,
+          "ratio": 0.6458333333333334,
+          "wilson95": [
+            0.5834633143794731,
+            0.7036084589709056
+          ]
+        }
+      },
+      "raw_detection_count": 196,
+      "dedup_target_count": 195,
+      "unmatched_reference_candidates": 85,
+      "unmatched_detection_candidates": 40,
+      "max_raw_targets_per_image": 14,
+      "zero_detection_images": 2,
+      "local_detector_calls_from_raw_image_records": 60,
+      "inputs_sha256": "3fd6e69f2c3b3906be1d58802ea2a2d9747520ad807461cd557ab48d98ee371d",
+      "review_metrics": {
+        "images": 60,
+        "raw_detection_count": 196,
+        "detection_count": 195,
+        "duplicate_count": 1,
+        "geometric_matching": {
+          "overall": {
+            "numerator": 155,
+            "denominator": 240,
+            "rate": 0.6458333333333334,
+            "wilson95": [
+              0.5834633143794749,
+              0.7036084589709041
+            ]
+          },
+          "positive_road": {
+            "numerator": 5,
+            "denominator": 14,
+            "rate": 0.35714285714285715,
+            "wilson95": [
+              0.16344731753554492,
+              0.6123557689609198
+            ]
+          },
+          "positive_two_bays": {
+            "numerator": 11,
+            "denominator": 18,
+            "rate": 0.6111111111111112,
+            "wilson95": [
+              0.3861904160223847,
+              0.79694753427836
+            ]
+          }
+        },
+        "confirmed_match_coverage": {
+          "overall": {
+            "numerator": 90,
+            "denominator": 240,
+            "rate": 0.375,
+            "wilson95": [
+              0.31617283473340757,
+              0.43776564525198186
+            ]
+          },
+          "positive_road": {
+            "numerator": 5,
+            "denominator": 14,
+            "rate": 0.35714285714285715,
+            "wilson95": [
+              0.16344731753554492,
+              0.6123557689609198
+            ]
+          },
+          "positive_two_bays": {
+            "numerator": 11,
+            "denominator": 18,
+            "rate": 0.6111111111111112,
+            "wilson95": [
+              0.3861904160223847,
+              0.79694753427836
+            ]
+          }
+        },
+        "reviewed_images": 60,
+        "review_status_counts": {
+          "correct_detection": 90,
+          "confirmed_detector_miss": 23,
+          "unresolved_reference_matching": 168
+        },
+        "gate_status": "BLOCKED"
+      },
+      "log_records": 60
+    },
+    "r1": {
+      "config": {
+        "model": "YOLOE26m",
+        "classes": [
+          "car",
+          "truck",
+          "bus",
+          "pickup truck",
+          "van"
+        ],
+        "imgsz": 640,
+        "conf": 0.25,
+        "iou": 0.7,
+        "max_det": 50,
+        "retina_masks": true,
+        "device": "cpu",
+        "torch_threads": 4,
+        "dedup_iou": 0.8,
+        "weights_sha256": "585f5ec9028fd358035da8d860c27c56be285a795cba2076fba536a4391c2c83",
+        "encoder_sha256": "35d7f213e4d75f38514e4656ad3cb91158bd33e3805d8ac349f23b186f66982f"
+      },
+      "geometric_association_only": {
+        "road": {
+          "numerator": 13,
+          "denominator": 14,
+          "ratio": 0.9285714285714286,
+          "wilson95": [
+            0.6853129557584889,
+            0.9872777847521093
+          ]
+        },
+        "two_bay": {
+          "numerator": 16,
+          "denominator": 18,
+          "ratio": 0.8888888888888888,
+          "wilson95": [
+            0.672002348698212,
+            0.9689804773543876
+          ]
+        },
+        "overall": {
+          "numerator": 178,
+          "denominator": 240,
+          "ratio": 0.7416666666666667,
+          "wilson95": [
+            0.6827876793698161,
+            0.7929312593250971
+          ]
+        }
+      },
+      "raw_detection_count": 222,
+      "dedup_target_count": 221,
+      "unmatched_reference_candidates": 62,
+      "unmatched_detection_candidates": 43,
+      "max_raw_targets_per_image": 14,
+      "zero_detection_images": 0,
+      "local_detector_calls_from_raw_image_records": 60,
+      "inputs_sha256": "084c19acad6bc6afd2196a6868532f60383328652595afb22e828ccf96d433e8",
+      "review_metrics": {
+        "images": 60,
+        "raw_detection_count": 222,
+        "detection_count": 221,
+        "duplicate_count": 1,
+        "geometric_matching": {
+          "overall": {
+            "numerator": 178,
+            "denominator": 240,
+            "rate": 0.7416666666666667,
+            "wilson95": [
+              0.6827876793698179,
+              0.7929312593250958
+            ]
+          },
+          "positive_road": {
+            "numerator": 13,
+            "denominator": 14,
+            "rate": 0.9285714285714286,
+            "wilson95": [
+              0.6853129557584975,
+              0.9872777847521087
+            ]
+          },
+          "positive_two_bays": {
+            "numerator": 16,
+            "denominator": 18,
+            "rate": 0.8888888888888888,
+            "wilson95": [
+              0.6720023486982192,
+              0.9689804773543866
+            ]
+          }
+        },
+        "confirmed_match_coverage": {
+          "overall": {
+            "numerator": 23,
+            "denominator": 240,
+            "rate": 0.09583333333333334,
+            "wilson95": [
+              0.06470910926010524,
+              0.13969197602598749
+            ]
+          },
+          "positive_road": {
+            "numerator": 11,
+            "denominator": 14,
+            "rate": 0.7857142857142857,
+            "wilson95": [
+              0.5241076941340045,
+              0.9242861328730662
+            ]
+          },
+          "positive_two_bays": {
+            "numerator": 5,
+            "denominator": 18,
+            "rate": 0.2777777777777778,
+            "wilson95": [
+              0.12499753379554271,
+              0.5087265656029683
+            ]
+          }
+        },
+        "reviewed_images": 60,
+        "review_status_counts": {
+          "correct_detection": 29,
+          "unresolved_reference_matching": 249,
+          "confirmed_detector_miss": 4,
+          "possible_false_detection": 1,
+          "duplicate_detection": 1
+        },
+        "gate_status": "BLOCKED"
+      },
+      "log_records": 60
+    }
+  },
+  "reviewed_detector_audit": {
+    "metric_name": "AI_PROVISIONAL_REFERENCE_COVERAGE",
+    "human_gold": false,
+    "source_run": "r1",
+    "runs": {
+      "r0": {
+        "images": 60,
+        "raw_detection_count": 196,
+        "detection_count": 195,
+        "duplicate_count": 1,
+        "geometric_matching": {
+          "overall": {
+            "numerator": 155,
+            "denominator": 240,
+            "rate": 0.6458333333333334,
+            "wilson95": [
+              0.5834633143794749,
+              0.7036084589709041
+            ]
+          },
+          "positive_road": {
+            "numerator": 5,
+            "denominator": 14,
+            "rate": 0.35714285714285715,
+            "wilson95": [
+              0.16344731753554492,
+              0.6123557689609198
+            ]
+          },
+          "positive_two_bays": {
+            "numerator": 11,
+            "denominator": 18,
+            "rate": 0.6111111111111112,
+            "wilson95": [
+              0.3861904160223847,
+              0.79694753427836
+            ]
+          }
+        },
+        "confirmed_match_coverage": {
+          "overall": {
+            "numerator": 90,
+            "denominator": 240,
+            "rate": 0.375,
+            "wilson95": [
+              0.31617283473340757,
+              0.43776564525198186
+            ]
+          },
+          "positive_road": {
+            "numerator": 5,
+            "denominator": 14,
+            "rate": 0.35714285714285715,
+            "wilson95": [
+              0.16344731753554492,
+              0.6123557689609198
+            ]
+          },
+          "positive_two_bays": {
+            "numerator": 11,
+            "denominator": 18,
+            "rate": 0.6111111111111112,
+            "wilson95": [
+              0.3861904160223847,
+              0.79694753427836
+            ]
+          }
+        },
+        "reviewed_images": 60,
+        "review_status_counts": {
+          "correct_detection": 90,
+          "confirmed_detector_miss": 23,
+          "unresolved_reference_matching": 168
+        },
+        "gate_status": "BLOCKED"
+      },
+      "r1": {
+        "images": 60,
+        "raw_detection_count": 222,
+        "detection_count": 221,
+        "duplicate_count": 1,
+        "geometric_matching": {
+          "overall": {
+            "numerator": 178,
+            "denominator": 240,
+            "rate": 0.7416666666666667,
+            "wilson95": [
+              0.6827876793698179,
+              0.7929312593250958
+            ]
+          },
+          "positive_road": {
+            "numerator": 13,
+            "denominator": 14,
+            "rate": 0.9285714285714286,
+            "wilson95": [
+              0.6853129557584975,
+              0.9872777847521087
+            ]
+          },
+          "positive_two_bays": {
+            "numerator": 16,
+            "denominator": 18,
+            "rate": 0.8888888888888888,
+            "wilson95": [
+              0.6720023486982192,
+              0.9689804773543866
+            ]
+          }
+        },
+        "confirmed_match_coverage": {
+          "overall": {
+            "numerator": 23,
+            "denominator": 240,
+            "rate": 0.09583333333333334,
+            "wilson95": [
+              0.06470910926010524,
+              0.13969197602598749
+            ]
+          },
+          "positive_road": {
+            "numerator": 11,
+            "denominator": 14,
+            "rate": 0.7857142857142857,
+            "wilson95": [
+              0.5241076941340045,
+              0.9242861328730662
+            ]
+          },
+          "positive_two_bays": {
+            "numerator": 5,
+            "denominator": 18,
+            "rate": 0.2777777777777778,
+            "wilson95": [
+              0.12499753379554271,
+              0.5087265656029683
+            ]
+          }
+        },
+        "reviewed_images": 60,
+        "review_status_counts": {
+          "correct_detection": 29,
+          "unresolved_reference_matching": 249,
+          "confirmed_detector_miss": 4,
+          "possible_false_detection": 1,
+          "duplicate_detection": 1
+        },
+        "gate_status": "BLOCKED"
+      }
+    },
+    "gate_status": "BLOCKED",
+    "footprint_scope": "DIAGNOSTIC_ONLY",
+    "local_detector_calls": 120,
+    "physical_remote_model_requests": 0,
+    "review_complete": true
+  },
+  "r1_changed_main_factors": [
+    "classes"
+  ],
+  "detector_gate": {
+    "passed": false,
+    "geometric_upper_bound_failed_subgroups": [
+      "two_bay",
+      "overall"
+    ],
+    "reason": "Confirmed coverage cannot exceed the frozen geometric associations. See separate visual-audit confirmed coverage; no unmatched instance is declared a miss here."
+  },
+  "footprint": {
+    "source_run": "r1_latest_diagnostic_not_winner",
+    "unique_target_denominator": 221,
+    "method_row_denominator": 442,
+    "methods": {
+      "bbox_lower_conservative_proxy": {
+        "proxy": 176,
+        "uncertain": 45
+      },
+      "mask_bottom_contact_band": {
+        "uncertain": 185,
+        "failed": 36
+      }
+    },
+    "validated_ground_count": 0,
+    "metrics": {
+      "data_role": "latest_completed_R1_diagnostic_NOT_winner",
+      "source": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/r1_targets.jsonl",
+      "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+      "unique_vehicles": 221,
+      "method_rows": 442,
+      "image_count": 60,
+      "footprintIoU": null,
+      "ground_validated": 0,
+      "scope": "DIAGNOSTIC_ONLY",
+      "methods": {
+        "mask_bottom_contact_band": {
+          "denominator": 221,
+          "status_counts": {
+            "validated": 0,
+            "proxy": 0,
+            "uncertain": 185,
+            "failed": 36
+          },
+          "reason_counts": {
+            "contour_provenance_unknown": 185,
+            "self_intersection_or_nonadjacent_touch": 42,
+            "band_may_be_disconnected": 9,
+            "edge_truncation_risk": 40,
+            "mask_bbox_extent_inconsistent": 5,
+            "zero_length_edge": 2
+          },
+          "available": 170,
+          "visually_qualitatively_valid_proxy": 6,
+          "unreviewed": 201
+        },
+        "bbox_lower_conservative_proxy": {
+          "denominator": 221,
+          "status_counts": {
+            "validated": 0,
+            "proxy": 176,
+            "uncertain": 45,
+            "failed": 0
+          },
+          "reason_counts": {
+            "bbox_lower_region_not_a_footprint": 176,
+            "edge_truncation_risk": 45
+          },
+          "available": 221,
+          "visually_qualitatively_valid_proxy": 11,
+          "unreviewed": 201
+        }
+      },
+      "visual_review": {
+        "reviewed_unique_vehicles": 20,
+        "unreviewed_unique_vehicles": 201,
+        "reviewed_method_rows": 40,
+        "review_log_sha256": "86898c85b6bc794bd24d5930287300cc4fd35bc4a2a6c5edfd200b860e6f9482",
+        "note": "Actual view_image review, not geometric heuristics; limited stratified sample, no population extrapolation"
+      },
+      "reference_evaluation": {
+        "matching_source": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/01_detector_audit/r1_matching.jsonl",
+        "matching_sha256": "084c19acad6bc6afd2196a6868532f60383328652595afb22e828ccf96d433e8",
+        "meaning": "qualitatively_valid = visually plausible proxy only, never groundvalidated; available includes uncertain geometry candidates",
+        "reference_type": "AI_VISUAL_REVIEWED_PROVISIONAL; not human gold",
+        "groups": {
+          "road": {
+            "mask_bottom_contact_band": {
+              "denominator": 14,
+              "available": 9,
+              "qualitatively_valid": 2,
+              "unavailable": 5,
+              "available_unreviewed": 7,
+              "available_reviewed_not_qualitatively_valid": 0,
+              "unmatched_reference": 1
+            },
+            "bbox_lower_conservative_proxy": {
+              "denominator": 14,
+              "available": 13,
+              "qualitatively_valid": 4,
+              "unavailable": 1,
+              "available_unreviewed": 9,
+              "available_reviewed_not_qualitatively_valid": 0,
+              "unmatched_reference": 1
+            }
+          },
+          "two_bay": {
+            "mask_bottom_contact_band": {
+              "denominator": 18,
+              "available": 14,
+              "qualitatively_valid": 1,
+              "unavailable": 4,
+              "available_unreviewed": 13,
+              "available_reviewed_not_qualitatively_valid": 0,
+              "unmatched_reference": 2
+            },
+            "bbox_lower_conservative_proxy": {
+              "denominator": 18,
+              "available": 16,
+              "qualitatively_valid": 2,
+              "unavailable": 2,
+              "available_unreviewed": 14,
+              "available_reviewed_not_qualitatively_valid": 0,
+              "unmatched_reference": 2
+            }
+          }
+        },
+        "association_status": "geometric_association_only",
+        "confirmed_matches": false,
+        "matching_review_policy": "A final reviewed association compared separately by main 05; B does not change matching",
+        "input_targets_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+        "matching_target_geometry_consistency": "exactly checked bbox/raw_id/mask and full vehicle sets"
+      },
+      "mask_numeric_validity": {
+        "denominator_unique_targets": 221,
+        "exported_polygon_present": 221,
+        "finite_vertices": 221,
+        "in_image_bounds": 221,
+        "positive_finite_area": 221,
+        "joint_numeric_valid": 221,
+        "numeric_invalid_or_missing": 0,
+        "meaning": "checks serialized polygon numeric values only, not semantic mask accuracy or physical ground contact"
+      },
+      "stricter_polygon_topology_validity": {
+        "denominator_unique_targets": 221,
+        "exported_polygon_pass": 185,
+        "exported_polygon_rejected": 36,
+        "rejection_reason_counts": {
+          "self_intersection_or_nonadjacent_touch": 36,
+          "zero_length_edge": 2
+        },
+        "component_provenance_available": 0,
+        "component_provenance_unavailable": 221,
+        "original_dense_mask_topology_unknown": 221,
+        "meaning": "strict test on exported single polygon; self-touch may arise from flattening multiple original components. Rejection is NOT proof original dense mask failed.",
+        "next_stage_requirement": "retain original dense masks and independent contours/component mapping; no detector rerun in this stage"
+      },
+      "schema_serialization": {
+        "version": 2,
+        "aliases": [
+          "bbox_xyxy",
+          "footprint_source",
+          "ground_contact_status",
+          "quality",
+          "evidence"
+        ],
+        "frozen_method_code_unchanged": true,
+        "frozen_contract_sha256": "7348c009011602c45670946313873defb3166727b7da057b8951e6fc0bed16b0",
+        "schema_adapter_sha256": "75d949879cd4e57ce3e8f88edc6de9d54deddbdc61bc42110c3fc0a6569dad98",
+        "detector_rerun": false
+      },
+      "input_role": "latest_completed_R1_diagnostic_input_NOT_winner",
+      "selection_authority": "Main explicitly authorized completed R1 for diagnostic; not candidate winner claim",
+      "detector_gate_status": "not_claimed_passed; all rows DIAGNOSTIC_ONLY regardless",
+      "allowlist_sha256": "f049aa1543b933fd4cb9dd3fa3182bd868ccd622b65b8a9c453b19c7812c5051",
+      "image_access_verification": {
+        "unique_allowlisted_images_verified_before_decode": 60,
+        "checks": [
+          "image_id",
+          "canonical absolute path",
+          "SHA256"
+        ],
+        "outside_allowlist_images_read": 0
+      }
+    }
+  },
+  "trusted_geometry_available": false,
+  "spatial_evidence_formal_evaluation": "BLOCKED_NO_TRUSTED_GEOMETRY",
+  "rules_only_executed_on_pilot": false,
+  "synthetic_rule_tests": {
+    "scope": "SYNTHETIC_UNIT_TEST_ONLY_NOT_CLASSIFICATION_ACCURACY",
+    "test_pass_count": 11,
+    "test_count": 11,
+    "formal_pilot_rules_executed": false,
+    "road_recall": null,
+    "two_bay_recall": null,
+    "negative_fpr": null,
+    "gate_queue_fpr": null,
+    "uncertain_rate": null,
+    "spatial_evidence_formal_evaluation": "BLOCKED_NO_TRUSTED_GEOMETRY"
+  },
+  "classification_metrics": {
+    "road_recall": null,
+    "two_bay_recall": null,
+    "ordinary_in_bay_fpr": null,
+    "line_minor_fpr": null,
+    "nose_tail_fpr": null,
+    "gate_queue_fpr": null,
+    "uncertain_rate": null
+  },
+  "vlm_executed": false,
+  "physical_model_requests": 0,
+  "physical_model_requests_scope": "REMOTE_VLM_HTTP; execution provenance not a network packet audit",
+  "local_detector_image_calls": 120,
+  "current_status": "V5_DETECTOR_COVERAGE_BLOCKED",
+  "winner": null,
+  "production_integration_ready": false
+}

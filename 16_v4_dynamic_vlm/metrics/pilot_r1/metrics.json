@@ -1,0 +1,6654 @@
+{
+  "status": "completed",
+  "metric_contract": {
+    "source_type": "AIGC",
+    "reference_basis": "caller_supplied_frozen_reference",
+    "human_gold": "caller_supplied_status",
+    "primary_binary_labels": [
+      "positive",
+      "negative"
+    ],
+    "gt_uncertain_and_disputed_excluded_from_primary_binary": true,
+    "alert_denominator_includes_predicted_uncertain_and_protocol_failure": true,
+    "semantic_confusion_requires_clean_explicit_positive_or_negative": true,
+    "confidence_interval": "Wilson 95%",
+    "zero_denominator": null
+  },
+  "counts": {
+    "reference_images": 60,
+    "reference_vehicles": 240,
+    "join_issues": 0,
+    "error_rows": 139
+  },
+  "image": {
+    "reviewed_image_count": 60,
+    "binary_gt_image_count": 54,
+    "alert_confusion": {
+      "tp": 3,
+      "fp": 0,
+      "tn": 22,
+      "fn": 29,
+      "support": 54,
+      "precision": {
+        "numerator": 3,
+        "denominator": 3,
+        "value": 1.0,
+        "wilson_95": [
+          0.4385029682449546,
+          1.0
+        ]
+      },
+      "recall": {
+        "numerator": 3,
+        "denominator": 32,
+        "value": 0.09375,
+        "wilson_95": [
+          0.032401551298366194,
+          0.24218154728387864
+        ]
+      },
+      "fpr": {
+        "numerator": 0,
+        "denominator": 22,
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.14865487460862087
+        ]
+      }
+    },
+    "semantic_confusion": {
+      "tp": 3,
+      "fp": 0,
+      "tn": 1,
+      "fn": 4,
+      "support": 8,
+      "precision": {
+        "numerator": 3,
+        "denominator": 3,
+        "value": 1.0,
+        "wilson_95": [
+          0.4385029682449546,
+          1.0
+        ]
+      },
+      "recall": {
+        "numerator": 3,
+        "denominator": 7,
+        "value": 0.42857142857142855,
+        "wilson_95": [
+          0.15821985525146975,
+          0.7495416354723428
+        ]
+      },
+      "fpr": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.7934506856227626
+        ]
+      }
+    },
+    "decisive_coverage": {
+      "numerator": 8,
+      "denominator": 54,
+      "value": 0.14814814814814814,
+      "wilson_95": [
+        0.07703063137605341,
+        0.26600115283605885
+      ]
+    },
+    "protocol_failure_rate": {
+      "numerator": 0,
+      "denominator": 60,
+      "value": 0.0,
+      "wilson_95": [
+        0.0,
+        0.06017185214208986
+      ]
+    },
+    "uncertain_or_incomplete_rate": {
+      "numerator": 51,
+      "denominator": 60,
+      "value": 0.85,
+      "wilson_95": [
+        0.7388541093022145,
+        0.9190255941983225
+      ]
+    },
+    "gt_uncertain_count": 6,
+    "gt_uncertain_alert_rate": {
+      "numerator": 1,
+      "denominator": 6,
+      "value": 0.16666666666666666,
+      "wilson_95": [
+        0.030053369748306635,
+        0.5635028221864702
+      ]
+    },
+    "gt_disputed_count": 0,
+    "gt_disputed_alert_rate": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null,
+      "wilson_95": null
+    }
+  },
+  "vehicle": {
+    "reviewed_vehicle_count": 240,
+    "binary_gt_vehicle_count": 227,
+    "alert_confusion": {
+      "tp": 2,
+      "fp": 1,
+      "tn": 194,
+      "fn": 30,
+      "support": 227,
+      "precision": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666,
+        "wilson_95": [
+          0.2076596008020477,
+          0.9385080552796037
+        ]
+      },
+      "recall": {
+        "numerator": 2,
+        "denominator": 32,
+        "value": 0.0625,
+        "wilson_95": [
+          0.017310567031640967,
+          0.2014712314415458
+        ]
+      },
+      "fpr": {
+        "numerator": 1,
+        "denominator": 195,
+        "value": 0.005128205128205128,
+        "wilson_95": [
+          0.0009058284432263645,
+          0.028471640698969368
+        ]
+      }
+    },
+    "semantic_confusion": {
+      "tp": 2,
+      "fp": 1,
+      "tn": 132,
+      "fn": 6,
+      "support": 141,
+      "precision": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666,
+        "wilson_95": [
+          0.2076596008020477,
+          0.9385080552796037
+        ]
+      },
+      "recall": {
+        "numerator": 2,
+        "denominator": 8,
+        "value": 0.25,
+        "wilson_95": [
+          0.071479212752109,
+          0.5907245696898311
+        ]
+      },
+      "fpr": {
+        "numerator": 1,
+        "denominator": 133,
+        "value": 0.007518796992481203,
+        "wilson_95": [
+          0.0013284876076292036,
+          0.04135929773926844
+        ]
+      }
+    },
+    "decisive_coverage": {
+      "numerator": 141,
+      "denominator": 227,
+      "value": 0.6211453744493393,
+      "wilson_95": [
+        0.5565185654589123,
+        0.6817401956881536
+      ]
+    },
+    "road_positive_alert_recall": {
+      "numerator": 2,
+      "denominator": 14,
+      "value": 0.14285714285714285,
+      "wilson_95": [
+        0.040093921271464966,
+        0.39941379496970353
+      ]
+    },
+    "road_positive_subtype_accuracy": {
+      "numerator": 2,
+      "denominator": 14,
+      "value": 0.14285714285714285,
+      "wilson_95": [
+        0.040093921271464966,
+        0.39941379496970353
+      ]
+    },
+    "two_bay_positive_alert_recall": {
+      "numerator": 0,
+      "denominator": 18,
+      "value": 0.0,
+      "wilson_95": [
+        0.0,
+        0.17587922364665765
+      ]
+    },
+    "two_bay_positive_subtype_accuracy": {
+      "numerator": 0,
+      "denominator": 18,
+      "value": 0.0,
+      "wilson_95": [
+        0.0,
+        0.17587922364665765
+      ]
+    },
+    "ordinary_parking_fpr": {
+      "numerator": 1,
+      "denominator": 120,
+      "value": 0.008333333333333333,
+      "wilson_95": [
+        0.0014725557333420923,
+        0.045696291245049675
+      ]
+    },
+    "line_minor_nose_tail_fpr": {
+      "numerator": 0,
+      "denominator": 55,
+      "value": 0.0,
+      "wilson_95": [
+        0.0,
+        0.06528490111708637
+      ]
+    },
+    "gate_queue_fpr": {
+      "numerator": 0,
+      "denominator": 20,
+      "value": 0.0,
+      "wilson_95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    "protocol_failure_rate": {
+      "numerator": 0,
+      "denominator": 240,
+      "value": 0.0,
+      "wilson_95": [
+        0.0,
+        0.015753919941558815
+      ]
+    },
+    "visual_uncertain_rate": {
+      "numerator": 0,
+      "denominator": 240,
+      "value": 0.0,
+      "wilson_95": [
+        0.0,
+        0.015753919941558815
+      ]
+    },
+    "semantic_uncertain_rate": {
+      "numerator": 89,
+      "denominator": 240,
+      "value": 0.37083333333333335,
+      "wilson_95": [
+        0.3122070088560195,
+        0.43352942046221654
+      ]
+    },
+    "gt_uncertain_count": 13,
+    "gt_uncertain_alert_rate": {
+      "numerator": 2,
+      "denominator": 13,
+      "value": 0.15384615384615385,
+      "wilson_95": [
+        0.043258178358081184,
+        0.4223463101948254
+      ]
+    },
+    "gt_disputed_count": 0,
+    "gt_disputed_alert_rate": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null,
+      "wilson_95": null
+    }
+  },
+  "detector": {
+    "image_count": 60,
+    "images_with_detector_record": 60,
+    "raw_detection_rows": 259,
+    "unique_candidate_targets": 252,
+    "detector_miss": {
+      "count": 0,
+      "rate": {
+        "numerator": 0,
+        "denominator": 240,
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.015753919941558815
+        ]
+      }
+    },
+    "duplicates": {
+      "count": 7,
+      "rate_over_raw_detection_rows": {
+        "numerator": 7,
+        "denominator": 259,
+        "value": 0.02702702702702703,
+        "wilson_95": [
+          0.013152306696394667,
+          0.0547268585644604
+        ]
+      }
+    },
+    "false_detections": {
+      "count": 12,
+      "rate_over_unique_candidates": {
+        "numerator": 12,
+        "denominator": 252,
+        "value": 0.047619047619047616,
+        "wilson_95": [
+          0.027446934423204533,
+          0.08137615839775514
+        ]
+      }
+    },
+    "unprocessed_targets": {
+      "count": 0,
+      "rate": {
+        "numerator": 0,
+        "denominator": 240,
+        "value": 0.0,
+        "wilson_95": [
+          0.0,
+          0.015753919941558815
+        ]
+      }
+    }
+  },
+  "subgroups": {
+    "image": {
+      "hn01-gate-queue": {
+        "reviewed_image_count": 6,
+        "binary_gt_image_count": 6,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 6,
+          "fn": 0,
+          "support": 6,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 6,
+            "value": 0.0,
+            "wilson_95": [
+              2.7755575615628914e-17,
+              0.3903342879021653
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 6,
+          "value": 0.0,
+          "wilson_95": [
+            2.7755575615628914e-17,
+            0.3903342879021653
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 6,
+          "value": 0.0,
+          "wilson_95": [
+            2.7755575615628914e-17,
+            0.3903342879021653
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 6,
+          "denominator": 6,
+          "value": 1.0,
+          "wilson_95": [
+            0.6096657120978346,
+            1.0
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "hn04-large-vehicle-compliant": {
+        "reviewed_image_count": 1,
+        "binary_gt_image_count": 1,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 1,
+          "fn": 0,
+          "support": 1,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.7934506856227626
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "hn06-shadows-cracks-curbs-mimic-lines": {
+        "reviewed_image_count": 1,
+        "binary_gt_image_count": 1,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 1,
+          "fn": 0,
+          "support": 1,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.7934506856227626
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "n01-standard-inside-bay": {
+        "reviewed_image_count": 1,
+        "binary_gt_image_count": 1,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 1,
+          "fn": 0,
+          "support": 1,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.7934506856227626
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "n02-close-to-line-but-inside": {
+        "reviewed_image_count": 1,
+        "binary_gt_image_count": 1,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 1,
+          "fn": 0,
+          "support": 1,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.7934506856227626
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "n03-diagonal-bay-correct": {
+        "reviewed_image_count": 1,
+        "binary_gt_image_count": 1,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 1,
+          "fn": 0,
+          "support": 1,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.7934506856227626
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "n04-parallel-bay-correct": {
+        "reviewed_image_count": 1,
+        "binary_gt_image_count": 1,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 1,
+          "fn": 0,
+          "support": 1,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.7934506856227626
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "n05-multiple-all-correct": {
+        "reviewed_image_count": 1,
+        "binary_gt_image_count": 1,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 1,
+          "fn": 0,
+          "support": 1,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.7934506856227626
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "n06-special-marked-space-geometry-correct": {
+        "reviewed_image_count": 1,
+        "binary_gt_image_count": 1,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 1,
+          "fn": 0,
+          "support": 1,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.7934506856227626
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "p01-outside-legal-bay-clear": {
+        "reviewed_image_count": 12,
+        "binary_gt_image_count": 12,
+        "alert_confusion": {
+          "tp": 3,
+          "fp": 0,
+          "tn": 0,
+          "fn": 9,
+          "support": 12,
+          "precision": {
+            "numerator": 3,
+            "denominator": 3,
+            "value": 1.0,
+            "wilson_95": [
+              0.4385029682449546,
+              1.0
+            ]
+          },
+          "recall": {
+            "numerator": 3,
+            "denominator": 12,
+            "value": 0.25,
+            "wilson_95": [
+              0.08894166839405471,
+              0.5323053349335657
+            ]
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "semantic_confusion": {
+          "tp": 3,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 3,
+          "precision": {
+            "numerator": 3,
+            "denominator": 3,
+            "value": 1.0,
+            "wilson_95": [
+              0.4385029682449546,
+              1.0
+            ]
+          },
+          "recall": {
+            "numerator": 3,
+            "denominator": 3,
+            "value": 1.0,
+            "wilson_95": [
+              0.4385029682449546,
+              1.0
+            ]
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 3,
+          "denominator": 12,
+          "value": 0.25,
+          "wilson_95": [
+            0.08894166839405471,
+            0.5323053349335657
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 12,
+          "value": 0.0,
+          "wilson_95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 9,
+          "denominator": 12,
+          "value": 0.75,
+          "wilson_95": [
+            0.46769466506643426,
+            0.9110583316059453
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "p02-cross-single-boundary-line": {
+        "reviewed_image_count": 3,
+        "binary_gt_image_count": 3,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 3,
+          "fn": 0,
+          "support": 3,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 3,
+            "value": 0.0,
+            "wilson_95": [
+              5.551115123125783e-17,
+              0.5614970317550454
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0,
+          "wilson_95": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0,
+          "wilson_95": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 3,
+          "denominator": 3,
+          "value": 1.0,
+          "wilson_95": [
+            0.4385029682449546,
+            1.0
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "p03-span-two-bays": {
+        "reviewed_image_count": 12,
+        "binary_gt_image_count": 12,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 12,
+          "support": 12,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0,
+            "wilson_95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 1,
+          "support": 1,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.7934506856227626
+            ]
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 1,
+          "denominator": 12,
+          "value": 0.08333333333333333,
+          "wilson_95": [
+            0.014865094404917095,
+            0.35387991114111694
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 12,
+          "value": 0.0,
+          "wilson_95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 11,
+          "denominator": 12,
+          "value": 0.9166666666666666,
+          "wilson_95": [
+            0.646120088858883,
+            0.9851349055950829
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "p04-angled-footprint-outside": {
+        "reviewed_image_count": 3,
+        "binary_gt_image_count": 3,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 3,
+          "fn": 0,
+          "support": 3,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 3,
+            "value": 0.0,
+            "wilson_95": [
+              5.551115123125783e-17,
+              0.5614970317550454
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 1,
+          "fn": 0,
+          "support": 1,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.7934506856227626
+            ]
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 1,
+          "denominator": 3,
+          "value": 0.3333333333333333,
+          "wilson_95": [
+            0.06149194472039621,
+            0.7923403991979522
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0,
+          "wilson_95": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 2,
+          "denominator": 3,
+          "value": 0.6666666666666666,
+          "wilson_95": [
+            0.2076596008020477,
+            0.9385080552796037
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "p05-multi-vehicle-at-least-one-violation": {
+        "reviewed_image_count": 8,
+        "binary_gt_image_count": 8,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 8,
+          "support": 8,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 8,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.32440756488388023
+            ]
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 3,
+          "support": 3,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 3,
+            "value": 0.0,
+            "wilson_95": [
+              5.551115123125783e-17,
+              0.5614970317550454
+            ]
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 3,
+          "denominator": 8,
+          "value": 0.375,
+          "wilson_95": [
+            0.13684428582359742,
+            0.6942576053973727
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 8,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.32440756488388023
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 5,
+          "denominator": 8,
+          "value": 0.625,
+          "wilson_95": [
+            0.30574239460262737,
+            0.8631557141764026
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "p06-nose-or-tail-intrudes-aisle": {
+        "reviewed_image_count": 2,
+        "binary_gt_image_count": 2,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 2,
+          "fn": 0,
+          "support": 2,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 2,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.6576197724933469
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0,
+          "wilson_95": [
+            0.34238022750665303,
+            1.0
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "u01-insufficient-parking-visual-evidence": {
+        "reviewed_image_count": 2,
+        "binary_gt_image_count": 0,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0,
+          "wilson_95": [
+            0.34238022750665303,
+            1.0
+          ]
+        },
+        "gt_uncertain_count": 2,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "u02-markings-severely-missing-or-occluded": {
+        "reviewed_image_count": 1,
+        "binary_gt_image_count": 0,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "gt_uncertain_count": 1,
+        "gt_uncertain_alert_rate": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "u03-vehicle-cut-by-frame-edge": {
+        "reviewed_image_count": 1,
+        "binary_gt_image_count": 0,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        "gt_uncertain_count": 1,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "u04-night-or-blur-boundary-unreadable": {
+        "reviewed_image_count": 1,
+        "binary_gt_image_count": 0,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        "gt_uncertain_count": 1,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "u05-gate-queue-or-parking-ambiguous": {
+        "reviewed_image_count": 1,
+        "binary_gt_image_count": 0,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "uncertain_or_incomplete_rate": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        "gt_uncertain_count": 1,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      }
+    },
+    "vehicle": {
+      "hn01-gate-queue": {
+        "reviewed_vehicle_count": 20,
+        "binary_gt_vehicle_count": 20,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 20,
+          "fn": 0,
+          "support": 20,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 20,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.16112515805281938
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 10,
+          "fn": 0,
+          "support": 10,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 10,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.2775327998628892
+            ]
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 10,
+          "denominator": 20,
+          "value": 0.5,
+          "wilson_95": [
+            0.2992980081982123,
+            0.7007019918017877
+          ]
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 20,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.16112515805281938
+          ]
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 20,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.16112515805281938
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 20,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.16112515805281938
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 9,
+          "denominator": 20,
+          "value": 0.45,
+          "wilson_95": [
+            0.2581978582556243,
+            0.6579146575496577
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "hn04-large-vehicle-compliant": {
+        "reviewed_vehicle_count": 3,
+        "binary_gt_vehicle_count": 3,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 3,
+          "fn": 0,
+          "support": 3,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 3,
+            "value": 0.0,
+            "wilson_95": [
+              5.551115123125783e-17,
+              0.5614970317550454
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 2,
+          "fn": 0,
+          "support": 2,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 2,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.6576197724933469
+            ]
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 2,
+          "denominator": 3,
+          "value": 0.6666666666666666,
+          "wilson_95": [
+            0.2076596008020477,
+            0.9385080552796037
+          ]
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0,
+          "wilson_95": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ]
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0,
+          "wilson_95": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0,
+          "wilson_95": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 1,
+          "denominator": 3,
+          "value": 0.3333333333333333,
+          "wilson_95": [
+            0.06149194472039621,
+            0.7923403991979522
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "hn06-shadows-cracks-curbs-mimic-lines": {
+        "reviewed_vehicle_count": 5,
+        "binary_gt_vehicle_count": 5,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 5,
+          "fn": 0,
+          "support": 5,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 5,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.43448246478317476
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 1,
+          "fn": 0,
+          "support": 1,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.7934506856227626
+            ]
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 1,
+          "denominator": 5,
+          "value": 0.2,
+          "wilson_95": [
+            0.03622410863243014,
+            0.6244653702374747
+          ]
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 5,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.43448246478317476
+          ]
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 5,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.43448246478317476
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 5,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.43448246478317476
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 4,
+          "denominator": 5,
+          "value": 0.8,
+          "wilson_95": [
+            0.37553462976252533,
+            0.9637758913675698
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "n01-standard-inside-bay": {
+        "reviewed_vehicle_count": 2,
+        "binary_gt_vehicle_count": 2,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 2,
+          "fn": 0,
+          "support": 2,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 2,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.6576197724933469
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 1,
+          "fn": 0,
+          "support": 1,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.7934506856227626
+            ]
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5,
+          "wilson_95": [
+            0.09453120573423074,
+            0.9054687942657693
+          ]
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5,
+          "wilson_95": [
+            0.09453120573423074,
+            0.9054687942657693
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "n02-close-to-line-but-inside": {
+        "reviewed_vehicle_count": 4,
+        "binary_gt_vehicle_count": 4,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 4,
+          "fn": 0,
+          "support": 4,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 4,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.4898908364545973
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 3,
+          "fn": 0,
+          "support": 3,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 3,
+            "value": 0.0,
+            "wilson_95": [
+              5.551115123125783e-17,
+              0.5614970317550454
+            ]
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 3,
+          "denominator": 4,
+          "value": 0.75,
+          "wilson_95": [
+            0.30064184258240184,
+            0.9544127391902995
+          ]
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.4898908364545973
+          ]
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.4898908364545973
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.4898908364545973
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 1,
+          "denominator": 4,
+          "value": 0.25,
+          "wilson_95": [
+            0.04558726080970055,
+            0.6993581574175981
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "n03-diagonal-bay-correct": {
+        "reviewed_vehicle_count": 9,
+        "binary_gt_vehicle_count": 9,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 9,
+          "fn": 0,
+          "support": 9,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 9,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.2991450484195441
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 6,
+          "fn": 0,
+          "support": 6,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 6,
+            "value": 0.0,
+            "wilson_95": [
+              2.7755575615628914e-17,
+              0.3903342879021653
+            ]
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 6,
+          "denominator": 9,
+          "value": 0.6666666666666666,
+          "wilson_95": [
+            0.3542021355803963,
+            0.879416181613089
+          ]
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 9,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.2991450484195441
+          ]
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 9,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.2991450484195441
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 9,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.2991450484195441
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 3,
+          "denominator": 9,
+          "value": 0.3333333333333333,
+          "wilson_95": [
+            0.1205838183869109,
+            0.6457978644196036
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "n04-parallel-bay-correct": {
+        "reviewed_vehicle_count": 1,
+        "binary_gt_vehicle_count": 1,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 1,
+          "fn": 0,
+          "support": 1,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.7934506856227626
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "n05-multiple-all-correct": {
+        "reviewed_vehicle_count": 3,
+        "binary_gt_vehicle_count": 3,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 3,
+          "fn": 0,
+          "support": 3,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 3,
+            "value": 0.0,
+            "wilson_95": [
+              5.551115123125783e-17,
+              0.5614970317550454
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 2,
+          "fn": 0,
+          "support": 2,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 2,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.6576197724933469
+            ]
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 2,
+          "denominator": 3,
+          "value": 0.6666666666666666,
+          "wilson_95": [
+            0.2076596008020477,
+            0.9385080552796037
+          ]
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0,
+          "wilson_95": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ]
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0,
+          "wilson_95": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0,
+          "wilson_95": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 1,
+          "denominator": 3,
+          "value": 0.3333333333333333,
+          "wilson_95": [
+            0.06149194472039621,
+            0.7923403991979522
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "n06-special-marked-space-geometry-correct": {
+        "reviewed_vehicle_count": 3,
+        "binary_gt_vehicle_count": 3,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 3,
+          "fn": 0,
+          "support": 3,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 3,
+            "value": 0.0,
+            "wilson_95": [
+              5.551115123125783e-17,
+              0.5614970317550454
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 2,
+          "fn": 0,
+          "support": 2,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 2,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.6576197724933469
+            ]
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 2,
+          "denominator": 3,
+          "value": 0.6666666666666666,
+          "wilson_95": [
+            0.2076596008020477,
+            0.9385080552796037
+          ]
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0,
+          "wilson_95": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ]
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0,
+          "wilson_95": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0,
+          "wilson_95": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 1,
+          "denominator": 3,
+          "value": 0.3333333333333333,
+          "wilson_95": [
+            0.06149194472039621,
+            0.7923403991979522
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "p01-outside-legal-bay-clear": {
+        "reviewed_vehicle_count": 33,
+        "binary_gt_vehicle_count": 33,
+        "alert_confusion": {
+          "tp": 2,
+          "fp": 1,
+          "tn": 20,
+          "fn": 10,
+          "support": 33,
+          "precision": {
+            "numerator": 2,
+            "denominator": 3,
+            "value": 0.6666666666666666,
+            "wilson_95": [
+              0.2076596008020477,
+              0.9385080552796037
+            ]
+          },
+          "recall": {
+            "numerator": 2,
+            "denominator": 12,
+            "value": 0.16666666666666666,
+            "wilson_95": [
+              0.04696514218385378,
+              0.4480308622529734
+            ]
+          },
+          "fpr": {
+            "numerator": 1,
+            "denominator": 21,
+            "value": 0.047619047619047616,
+            "wilson_95": [
+              0.008455987809826399,
+              0.22669360074122563
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 2,
+          "fp": 1,
+          "tn": 17,
+          "fn": 0,
+          "support": 20,
+          "precision": {
+            "numerator": 2,
+            "denominator": 3,
+            "value": 0.6666666666666666,
+            "wilson_95": [
+              0.2076596008020477,
+              0.9385080552796037
+            ]
+          },
+          "recall": {
+            "numerator": 2,
+            "denominator": 2,
+            "value": 1.0,
+            "wilson_95": [
+              0.34238022750665303,
+              1.0
+            ]
+          },
+          "fpr": {
+            "numerator": 1,
+            "denominator": 18,
+            "value": 0.05555555555555555,
+            "wilson_95": [
+              0.009875190978303097,
+              0.25757300781872594
+            ]
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 20,
+          "denominator": 33,
+          "value": 0.6060606060606061,
+          "wilson_95": [
+            0.43683440819940234,
+            0.7531689256552291
+          ]
+        },
+        "road_positive_alert_recall": {
+          "numerator": 2,
+          "denominator": 12,
+          "value": 0.16666666666666666,
+          "wilson_95": [
+            0.04696514218385378,
+            0.4480308622529734
+          ]
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 2,
+          "denominator": 12,
+          "value": 0.16666666666666666,
+          "wilson_95": [
+            0.04696514218385378,
+            0.4480308622529734
+          ]
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 1,
+          "denominator": 21,
+          "value": 0.047619047619047616,
+          "wilson_95": [
+            0.008455987809826399,
+            0.22669360074122563
+          ]
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 33,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.10426999754245206
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 33,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.10426999754245206
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 11,
+          "denominator": 33,
+          "value": 0.3333333333333333,
+          "wilson_95": [
+            0.19750227679220683,
+            0.5039210557219438
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "p02-cross-single-boundary-line": {
+        "reviewed_vehicle_count": 10,
+        "binary_gt_vehicle_count": 10,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 10,
+          "fn": 0,
+          "support": 10,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 10,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.2775327998628892
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 4,
+          "fn": 0,
+          "support": 4,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 4,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.4898908364545973
+            ]
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 4,
+          "denominator": 10,
+          "value": 0.4,
+          "wilson_95": [
+            0.16818032970623614,
+            0.6873262302663417
+          ]
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 10,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.2775327998628892
+          ]
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 10,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.2775327998628892
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 10,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.2775327998628892
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 6,
+          "denominator": 10,
+          "value": 0.6,
+          "wilson_95": [
+            0.31267376973365824,
+            0.8318196702937638
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "p03-span-two-bays": {
+        "reviewed_vehicle_count": 54,
+        "binary_gt_vehicle_count": 54,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 42,
+          "fn": 12,
+          "support": 54,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0,
+            "wilson_95": [
+              2.7755575615628914e-17,
+              0.24249400665524085
+            ]
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 42,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.08379879086570391
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 29,
+          "fn": 3,
+          "support": 32,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 3,
+            "value": 0.0,
+            "wilson_95": [
+              5.551115123125783e-17,
+              0.5614970317550454
+            ]
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 29,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.11696979849974075
+            ]
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 32,
+          "denominator": 54,
+          "value": 0.5925925925925926,
+          "wilson_95": [
+            0.4596684934349057,
+            0.7132178791408542
+          ]
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 12,
+          "value": 0.0,
+          "wilson_95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 12,
+          "value": 0.0,
+          "wilson_95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 42,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.08379879086570391
+          ]
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 54,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.0664135880908964
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 54,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.0664135880908964
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 22,
+          "denominator": 54,
+          "value": 0.4074074074074074,
+          "wilson_95": [
+            0.2867821208591458,
+            0.5403315065650943
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "p04-angled-footprint-outside": {
+        "reviewed_vehicle_count": 22,
+        "binary_gt_vehicle_count": 22,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 22,
+          "fn": 0,
+          "support": 22,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 22,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.14865487460862087
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 13,
+          "fn": 0,
+          "support": 13,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 13,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.22809537235419838
+            ]
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 13,
+          "denominator": 22,
+          "value": 0.5909090909090909,
+          "wilson_95": [
+            0.3873481847631513,
+            0.7674418380352814
+          ]
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 22,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.14865487460862087
+          ]
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 22,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.14865487460862087
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 22,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.14865487460862087
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 9,
+          "denominator": 22,
+          "value": 0.4090909090909091,
+          "wilson_95": [
+            0.2325581619647187,
+            0.6126518152368488
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "p05-multi-vehicle-at-least-one-violation": {
+        "reviewed_vehicle_count": 35,
+        "binary_gt_vehicle_count": 35,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 27,
+          "fn": 8,
+          "support": 35,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 8,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.32440756488388023
+            ]
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 27,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.12455502974186705
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 26,
+          "fn": 3,
+          "support": 29,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 3,
+            "value": 0.0,
+            "wilson_95": [
+              5.551115123125783e-17,
+              0.5614970317550454
+            ]
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 26,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.1287289218592153
+            ]
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 29,
+          "denominator": 35,
+          "value": 0.8285714285714286,
+          "wilson_95": [
+            0.6731771770095504,
+            0.9189735994629841
+          ]
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 6,
+          "value": 0.0,
+          "wilson_95": [
+            2.7755575615628914e-17,
+            0.3903342879021653
+          ]
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 6,
+          "value": 0.0,
+          "wilson_95": [
+            2.7755575615628914e-17,
+            0.3903342879021653
+          ]
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 27,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.12455502974186705
+          ]
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 35,
+          "value": 0.0,
+          "wilson_95": [
+            6.938893903907228e-18,
+            0.09890099232440402
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 35,
+          "value": 0.0,
+          "wilson_95": [
+            6.938893903907228e-18,
+            0.09890099232440402
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 6,
+          "denominator": 35,
+          "value": 0.17142857142857143,
+          "wilson_95": [
+            0.08102640053701589,
+            0.3268228229904496
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "p06-nose-or-tail-intrudes-aisle": {
+        "reviewed_vehicle_count": 23,
+        "binary_gt_vehicle_count": 23,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 23,
+          "fn": 0,
+          "support": 23,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 23,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.14311661845042686
+            ]
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 16,
+          "fn": 0,
+          "support": 16,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 16,
+            "value": 0.0,
+            "wilson_95": [
+              0.0,
+              0.1936076805344365
+            ]
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 16,
+          "denominator": 23,
+          "value": 0.6956521739130435,
+          "wilson_95": [
+            0.49134243731240795,
+            0.8439597554678597
+          ]
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 23,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.14311661845042686
+          ]
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 23,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.14311661845042686
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 23,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.14311661845042686
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 7,
+          "denominator": 23,
+          "value": 0.30434782608695654,
+          "wilson_95": [
+            0.15604024453214022,
+            0.508657562687592
+          ]
+        },
+        "gt_uncertain_count": 0,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "u01-insufficient-parking-visual-evidence": {
+        "reviewed_vehicle_count": 4,
+        "binary_gt_vehicle_count": 0,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.4898908364545973
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.4898908364545973
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "wilson_95": [
+            0.15003898915214947,
+            0.8499610108478506
+          ]
+        },
+        "gt_uncertain_count": 4,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.4898908364545973
+          ]
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "u02-markings-severely-missing-or-occluded": {
+        "reviewed_vehicle_count": 2,
+        "binary_gt_vehicle_count": 0,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "gt_uncertain_count": 2,
+        "gt_uncertain_alert_rate": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0,
+          "wilson_95": [
+            0.34238022750665303,
+            1.0
+          ]
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "u03-vehicle-cut-by-frame-edge": {
+        "reviewed_vehicle_count": 2,
+        "binary_gt_vehicle_count": 0,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5,
+          "wilson_95": [
+            0.09453120573423074,
+            0.9054687942657693
+          ]
+        },
+        "gt_uncertain_count": 2,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "u04-night-or-blur-boundary-unreadable": {
+        "reviewed_vehicle_count": 3,
+        "binary_gt_vehicle_count": 0,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0,
+          "wilson_95": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0,
+          "wilson_95": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 2,
+          "denominator": 3,
+          "value": 0.6666666666666666,
+          "wilson_95": [
+            0.2076596008020477,
+            0.9385080552796037
+          ]
+        },
+        "gt_uncertain_count": 3,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 3,
+          "value": 0.0,
+          "wilson_95": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ]
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      },
+      "u05-gate-queue-or-parking-ambiguous": {
+        "reviewed_vehicle_count": 2,
+        "binary_gt_vehicle_count": 0,
+        "alert_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "semantic_confusion": {
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0,
+          "support": 0,
+          "precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "recall": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          },
+          "fpr": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95": null
+          }
+        },
+        "decisive_coverage": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "road_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_alert_recall": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "two_bay_positive_subtype_accuracy": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "ordinary_parking_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "line_minor_nose_tail_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "gate_queue_fpr": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        },
+        "protocol_failure_rate": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "visual_uncertain_rate": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "semantic_uncertain_rate": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5,
+          "wilson_95": [
+            0.09453120573423074,
+            0.9054687942657693
+          ]
+        },
+        "gt_uncertain_count": 2,
+        "gt_uncertain_alert_rate": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ]
+        },
+        "gt_disputed_count": 0,
+        "gt_disputed_alert_rate": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": null,
+          "wilson_95": null
+        }
+      }
+    }
+  },
+  "errors": [
+    {
+      "media_id": "IMG_007533",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007533",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007548",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007548",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007555",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007555",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007555",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T07",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007524",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007524",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007531",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007531",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007531",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T04",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "positive_road",
+      "category": "road_relation_error",
+      "detail": "explicit semantic polarity disagrees"
+    },
+    {
+      "media_id": "IMG_007536",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007536",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007547",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007547",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007527",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007527",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007529",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007529",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007542",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007542",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007620",
+      "group": "p03-span-two-bays",
+      "target_id": "T01",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007620",
+      "group": "p03-span-two-bays",
+      "target_id": "T01",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007620",
+      "group": "p03-span-two-bays",
+      "target_id": "T04",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007620",
+      "group": "p03-span-two-bays",
+      "target_id": "T05",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007598",
+      "group": "p03-span-two-bays",
+      "target_id": "T01",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007598",
+      "group": "p03-span-two-bays",
+      "target_id": "T01",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007598",
+      "group": "p03-span-two-bays",
+      "target_id": "T02",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007594",
+      "group": "p03-span-two-bays",
+      "target_id": "T01",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007594",
+      "group": "p03-span-two-bays",
+      "target_id": "T02",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007594",
+      "group": "p03-span-two-bays",
+      "target_id": "T02",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007599",
+      "group": "p03-span-two-bays",
+      "target_id": "T01",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007599",
+      "group": "p03-span-two-bays",
+      "target_id": "T01",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007603",
+      "group": "p03-span-two-bays",
+      "target_id": "T01",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007603",
+      "group": "p03-span-two-bays",
+      "target_id": "T02",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "negative",
+      "category": "two_bay_relation_error",
+      "detail": "explicit semantic polarity disagrees"
+    },
+    {
+      "media_id": "IMG_007601",
+      "group": "p03-span-two-bays",
+      "target_id": "T01",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007601",
+      "group": "p03-span-two-bays",
+      "target_id": "T02",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007601",
+      "group": "p03-span-two-bays",
+      "target_id": "T02",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007601",
+      "group": "p03-span-two-bays",
+      "target_id": "T04",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007601",
+      "group": "p03-span-two-bays",
+      "target_id": "T07",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007612",
+      "group": "p03-span-two-bays",
+      "target_id": "T01",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007612",
+      "group": "p03-span-two-bays",
+      "target_id": "T01",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007612",
+      "group": "p03-span-two-bays",
+      "target_id": "T04",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007612",
+      "group": "p03-span-two-bays",
+      "target_id": "T07",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007621",
+      "group": "p03-span-two-bays",
+      "target_id": "T03",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "negative",
+      "category": "two_bay_relation_error",
+      "detail": "explicit semantic polarity disagrees"
+    },
+    {
+      "media_id": "IMG_007621",
+      "group": "p03-span-two-bays",
+      "target_id": "T04",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007621",
+      "group": "p03-span-two-bays",
+      "target_id": "T07",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007621",
+      "group": "p03-span-two-bays",
+      "target_id": "T09",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007617",
+      "group": "p03-span-two-bays",
+      "target_id": "T01",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007617",
+      "group": "p03-span-two-bays",
+      "target_id": "T01",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007606",
+      "group": "p03-span-two-bays",
+      "target_id": "T03",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "negative",
+      "category": "two_bay_relation_error",
+      "detail": "explicit semantic polarity disagrees"
+    },
+    {
+      "media_id": "IMG_007602",
+      "group": "p03-span-two-bays",
+      "target_id": "T01",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007602",
+      "group": "p03-span-two-bays",
+      "target_id": "T01",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007611",
+      "group": "p03-span-two-bays",
+      "target_id": "T01",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007611",
+      "group": "p03-span-two-bays",
+      "target_id": "T01",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007650",
+      "group": "p05-multi-vehicle-at-least-one-violation",
+      "target_id": "T04",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007650",
+      "group": "p05-multi-vehicle-at-least-one-violation",
+      "target_id": "T04",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007655",
+      "group": "p05-multi-vehicle-at-least-one-violation",
+      "target_id": "T04",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007655",
+      "group": "p05-multi-vehicle-at-least-one-violation",
+      "target_id": "T04",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007652",
+      "group": "p05-multi-vehicle-at-least-one-violation",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007652",
+      "group": "p05-multi-vehicle-at-least-one-violation",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007664",
+      "group": "p05-multi-vehicle-at-least-one-violation",
+      "target_id": "T01",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "negative",
+      "category": "two_bay_relation_error",
+      "detail": "explicit semantic polarity disagrees"
+    },
+    {
+      "media_id": "IMG_007658",
+      "group": "p05-multi-vehicle-at-least-one-violation",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007658",
+      "group": "p05-multi-vehicle-at-least-one-violation",
+      "target_id": "T01",
+      "reference_label": "positive_road",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007658",
+      "group": "p05-multi-vehicle-at-least-one-violation",
+      "target_id": "T04",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007647",
+      "group": "p05-multi-vehicle-at-least-one-violation",
+      "target_id": "T03",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "negative",
+      "category": "two_bay_relation_error",
+      "detail": "explicit semantic polarity disagrees"
+    },
+    {
+      "media_id": "IMG_007665",
+      "group": "p05-multi-vehicle-at-least-one-violation",
+      "target_id": "T03",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "negative",
+      "category": "two_bay_relation_error",
+      "detail": "explicit semantic polarity disagrees"
+    },
+    {
+      "media_id": "IMG_007661",
+      "group": "p05-multi-vehicle-at-least-one-violation",
+      "target_id": "T01",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "positive reference was uncertain, ignored, or not alerted"
+    },
+    {
+      "media_id": "IMG_007661",
+      "group": "p05-multi-vehicle-at-least-one-violation",
+      "target_id": "T01",
+      "reference_label": "positive_two_bays",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007580",
+      "group": "p02-cross-single-boundary-line",
+      "target_id": "T01",
+      "reference_label": "negative_line_touch",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007580",
+      "group": "p02-cross-single-boundary-line",
+      "target_id": "T04",
+      "reference_label": "negative_line_touch",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007585",
+      "group": "p02-cross-single-boundary-line",
+      "target_id": "T01",
+      "reference_label": "negative_line_touch",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007570",
+      "group": "p02-cross-single-boundary-line",
+      "target_id": "T01",
+      "reference_label": "negative_line_touch",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007570",
+      "group": "p02-cross-single-boundary-line",
+      "target_id": "T02",
+      "reference_label": "negative_line_touch",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007570",
+      "group": "p02-cross-single-boundary-line",
+      "target_id": "T03",
+      "reference_label": "negative_line_touch",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007634",
+      "group": "p04-angled-footprint-outside",
+      "target_id": "T01",
+      "reference_label": "negative_minor_overrun",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007634",
+      "group": "p04-angled-footprint-outside",
+      "target_id": "T02",
+      "reference_label": "negative_minor_overrun",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007634",
+      "group": "p04-angled-footprint-outside",
+      "target_id": "T03",
+      "reference_label": "negative_minor_overrun",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007634",
+      "group": "p04-angled-footprint-outside",
+      "target_id": "T04",
+      "reference_label": "negative_minor_overrun",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007634",
+      "group": "p04-angled-footprint-outside",
+      "target_id": "T07",
+      "reference_label": "negative_minor_overrun",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007634",
+      "group": "p04-angled-footprint-outside",
+      "target_id": "T10",
+      "reference_label": "negative_minor_overrun",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007635",
+      "group": "p04-angled-footprint-outside",
+      "target_id": "T01",
+      "reference_label": "negative_minor_overrun",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007635",
+      "group": "p04-angled-footprint-outside",
+      "target_id": "T04",
+      "reference_label": "negative_minor_overrun",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007635",
+      "group": "p04-angled-footprint-outside",
+      "target_id": "T07",
+      "reference_label": "negative_minor_overrun",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007672",
+      "group": "p06-nose-or-tail-intrudes-aisle",
+      "target_id": "T01",
+      "reference_label": "negative_nose_tail_overrun",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007672",
+      "group": "p06-nose-or-tail-intrudes-aisle",
+      "target_id": "T04",
+      "reference_label": "negative_nose_tail_overrun",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007672",
+      "group": "p06-nose-or-tail-intrudes-aisle",
+      "target_id": "T07",
+      "reference_label": "negative_nose_tail_overrun",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007672",
+      "group": "p06-nose-or-tail-intrudes-aisle",
+      "target_id": "T10",
+      "reference_label": "negative_nose_tail_overrun",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007672",
+      "group": "p06-nose-or-tail-intrudes-aisle",
+      "target_id": "T13",
+      "reference_label": "negative_nose_tail_overrun",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007672",
+      "group": "p06-nose-or-tail-intrudes-aisle",
+      "target_id": "T19",
+      "reference_label": "negative_nose_tail_overrun",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007673",
+      "group": "p06-nose-or-tail-intrudes-aisle",
+      "target_id": "T01",
+      "reference_label": "negative_nose_tail_overrun",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007417",
+      "group": "n01-standard-inside-bay",
+      "target_id": "T01",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007450",
+      "group": "n02-close-to-line-but-inside",
+      "target_id": "T01",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007465",
+      "group": "n03-diagonal-bay-correct",
+      "target_id": "T01",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007465",
+      "group": "n03-diagonal-bay-correct",
+      "target_id": "T04",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007465",
+      "group": "n03-diagonal-bay-correct",
+      "target_id": "T07",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007470",
+      "group": "n04-parallel-bay-correct",
+      "target_id": "T01",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007499",
+      "group": "n05-multiple-all-correct",
+      "target_id": "T01",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007516",
+      "group": "n06-special-marked-space-geometry-correct",
+      "target_id": "T01",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007374",
+      "group": "hn04-large-vehicle-compliant",
+      "target_id": "T01",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007396",
+      "group": "hn06-shadows-cracks-curbs-mimic-lines",
+      "target_id": "T01",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007396",
+      "group": "hn06-shadows-cracks-curbs-mimic-lines",
+      "target_id": "T02",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007396",
+      "group": "hn06-shadows-cracks-curbs-mimic-lines",
+      "target_id": "T03",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007396",
+      "group": "hn06-shadows-cracks-curbs-mimic-lines",
+      "target_id": "T04",
+      "reference_label": "negative_ordinary_bay",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007328",
+      "group": "hn01-gate-queue",
+      "target_id": "T01",
+      "reference_label": "negative_gate_queue",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007346",
+      "group": "hn01-gate-queue",
+      "target_id": "T01",
+      "reference_label": "negative_gate_queue",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007347",
+      "group": "hn01-gate-queue",
+      "target_id": "T01",
+      "reference_label": "negative_gate_queue",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007326",
+      "group": "hn01-gate-queue",
+      "target_id": "T01",
+      "reference_label": "negative_gate_queue",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007322",
+      "group": "hn01-gate-queue",
+      "target_id": "T01",
+      "reference_label": "negative_gate_queue",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007340",
+      "group": "hn01-gate-queue",
+      "target_id": "T01",
+      "reference_label": "negative_gate_queue",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007340",
+      "group": "hn01-gate-queue",
+      "target_id": "T02",
+      "reference_label": "negative_gate_queue",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007340",
+      "group": "hn01-gate-queue",
+      "target_id": "T03",
+      "reference_label": "negative_gate_queue",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007340",
+      "group": "hn01-gate-queue",
+      "target_id": "T04",
+      "reference_label": "negative_gate_queue",
+      "prediction_decision": "uncertain",
+      "category": "semantic_conflict",
+      "detail": "deterministic decision rejected contradictory model fields"
+    },
+    {
+      "media_id": "IMG_007684",
+      "group": "u01-insufficient-parking-visual-evidence",
+      "target_id": "T01",
+      "category": "reference_uncertain",
+      "detail": "reference vehicle is uncertain and excluded from primary binary metrics"
+    },
+    {
+      "media_id": "IMG_007684",
+      "group": "u01-insufficient-parking-visual-evidence",
+      "target_id": "T02",
+      "category": "reference_uncertain",
+      "detail": "reference vehicle is uncertain and excluded from primary binary metrics"
+    },
+    {
+      "media_id": "IMG_007682",
+      "group": "u01-insufficient-parking-visual-evidence",
+      "target_id": "T01",
+      "category": "reference_uncertain",
+      "detail": "reference vehicle is uncertain and excluded from primary binary metrics"
+    },
+    {
+      "media_id": "IMG_007682",
+      "group": "u01-insufficient-parking-visual-evidence",
+      "target_id": "T02",
+      "category": "reference_uncertain",
+      "detail": "reference vehicle is uncertain and excluded from primary binary metrics"
+    },
+    {
+      "media_id": "IMG_007692",
+      "group": "u02-markings-severely-missing-or-occluded",
+      "target_id": "T01",
+      "category": "reference_uncertain",
+      "detail": "reference vehicle is uncertain and excluded from primary binary metrics"
+    },
+    {
+      "media_id": "IMG_007692",
+      "group": "u02-markings-severely-missing-or-occluded",
+      "target_id": "T02",
+      "category": "reference_uncertain",
+      "detail": "reference vehicle is uncertain and excluded from primary binary metrics"
+    },
+    {
+      "media_id": "IMG_007702",
+      "group": "u03-vehicle-cut-by-frame-edge",
+      "target_id": "T01",
+      "category": "reference_uncertain",
+      "detail": "reference vehicle is uncertain and excluded from primary binary metrics"
+    },
+    {
+      "media_id": "IMG_007702",
+      "group": "u03-vehicle-cut-by-frame-edge",
+      "target_id": "T02",
+      "category": "reference_uncertain",
+      "detail": "reference vehicle is uncertain and excluded from primary binary metrics"
+    },
+    {
+      "media_id": "IMG_007707",
+      "group": "u04-night-or-blur-boundary-unreadable",
+      "target_id": "T01",
+      "category": "reference_uncertain",
+      "detail": "reference vehicle is uncertain and excluded from primary binary metrics"
+    },
+    {
+      "media_id": "IMG_007707",
+      "group": "u04-night-or-blur-boundary-unreadable",
+      "target_id": "T02",
+      "category": "reference_uncertain",
+      "detail": "reference vehicle is uncertain and excluded from primary binary metrics"
+    },
+    {
+      "media_id": "IMG_007707",
+      "group": "u04-night-or-blur-boundary-unreadable",
+      "target_id": "T03",
+      "category": "reference_uncertain",
+      "detail": "reference vehicle is uncertain and excluded from primary binary metrics"
+    },
+    {
+      "media_id": "IMG_007712",
+      "group": "u05-gate-queue-or-parking-ambiguous",
+      "target_id": "T01",
+      "category": "reference_uncertain",
+      "detail": "reference vehicle is uncertain and excluded from primary binary metrics"
+    },
+    {
+      "media_id": "IMG_007712",
+      "group": "u05-gate-queue-or-parking-ambiguous",
+      "target_id": "T02",
+      "category": "reference_uncertain",
+      "detail": "reference vehicle is uncertain and excluded from primary binary metrics"
+    },
+    {
+      "media_id": "IMG_007555",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T02",
+      "category": "duplicate_or_wrong_target",
+      "detail": "detector/model target is not a reviewed reference vehicle"
+    },
+    {
+      "media_id": "IMG_007555",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T03",
+      "category": "duplicate_or_wrong_target",
+      "detail": "detector/model target is not a reviewed reference vehicle"
+    },
+    {
+      "media_id": "IMG_007555",
+      "group": "p01-outside-legal-bay-clear",
+      "target_id": "T04",
+      "category": "duplicate_or_wrong_target",
+      "detail": "detector/model target is not a reviewed reference vehicle"
+    },
+    {
+      "media_id": "IMG_007612",
+      "group": "p03-span-two-bays",
+      "target_id": "T10",
+      "category": "duplicate_or_wrong_target",
+      "detail": "detector/model target is not a reviewed reference vehicle"
+    },
+    {
+      "media_id": "IMG_007612",
+      "group": "p03-span-two-bays",
+      "target_id": "T11",
+      "category": "duplicate_or_wrong_target",
+      "detail": "detector/model target is not a reviewed reference vehicle"
+    },
+    {
+      "media_id": "IMG_007612",
+      "group": "p03-span-two-bays",
+      "target_id": "T12",
+      "category": "duplicate_or_wrong_target",
+      "detail": "detector/model target is not a reviewed reference vehicle"
+    },
+    {
+      "media_id": "IMG_007612",
+      "group": "p03-span-two-bays",
+      "target_id": "T13",
+      "category": "duplicate_or_wrong_target",
+      "detail": "detector/model target is not a reviewed reference vehicle"
+    },
+    {
+      "media_id": "IMG_007612",
+      "group": "p03-span-two-bays",
+      "target_id": "T14",
+      "category": "duplicate_or_wrong_target",
+      "detail": "detector/model target is not a reviewed reference vehicle"
+    },
+    {
+      "media_id": "IMG_007673",
+      "group": "p06-nose-or-tail-intrudes-aisle",
+      "target_id": "T02",
+      "category": "duplicate_or_wrong_target",
+      "detail": "detector/model target is not a reviewed reference vehicle"
+    },
+    {
+      "media_id": "IMG_007470",
+      "group": "n04-parallel-bay-correct",
+      "target_id": "T02",
+      "category": "duplicate_or_wrong_target",
+      "detail": "detector/model target is not a reviewed reference vehicle"
+    },
+    {
+      "media_id": "IMG_007707",
+      "group": "u04-night-or-blur-boundary-unreadable",
+      "target_id": "T04",
+      "category": "duplicate_or_wrong_target",
+      "detail": "detector/model target is not a reviewed reference vehicle"
+    },
+    {
+      "media_id": "IMG_007707",
+      "group": "u04-night-or-blur-boundary-unreadable",
+      "target_id": "T05",
+      "category": "duplicate_or_wrong_target",
+      "detail": "detector/model target is not a reviewed reference vehicle"
+    }
+  ],
+  "join_issues": []
+}

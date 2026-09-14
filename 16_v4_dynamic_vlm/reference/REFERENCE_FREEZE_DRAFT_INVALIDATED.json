@@ -1,0 +1,14 @@
+{
+  "files": {
+    "detector_review_diagnostics.jsonl": "ba45baf7877cc01e2316bef93fdf0eaba40de960dda95d56e0360ae681b4dc43",
+    "recheck_log.csv": "f39841c917fb8a652490e6d05ce2f0befb078eb1fa61c3508c4b2b37564e8692",
+    "reference_images.csv": "12858af041c4b48a082ffb4178177aa6bdc878973c69cad0f68993d0aa640337",
+    "reference_images.jsonl": "d1f88c3a190231ef2f5da3c9fbf05f19ce68e980b5399be923b35d919999a00f",
+    "reference_instances.csv": "5559ff4b479d997b373d3ce1437092d0f3e7f334e308434eb3f216bef80691ea",
+    "reference_instances.jsonl": "4e8fe714cc784e38b653cd8f7b615c735392b92f1a1a2cf8eeafd3e5bd84a643",
+    "reference_summary.json": "8d732e8460d9278c2cea8b016989d229b368c41e8b7a78cdcf8c8d2e71275d08",
+    "review_log.csv": "d42505129a5e649313fe5d2b00e3e59453af979f9b2f87990d7850a0ef3fc45f"
+  },
+  "frozen_at_unix": 1788947970.2728636,
+  "status": "FROZEN_BEFORE_FORMAL_MODEL_REQUESTS"
+}

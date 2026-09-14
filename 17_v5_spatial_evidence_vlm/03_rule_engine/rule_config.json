@@ -1,0 +1,1 @@
+{"road_overlap_ratio":0.75,"two_bay_each_overlap_ratio":0.25,"two_bay_total_overlap_ratio":0.8,"gate_queue_overlap_ratio":0.6,"in_bay_overlap_ratio":0.85,"minor_overrun_second_bay_max_ratio":0.15,"nose_tail_overhang_max_outside_ratio":0.15,"max_road_for_negative":0.15,"epsilon":1e-6}

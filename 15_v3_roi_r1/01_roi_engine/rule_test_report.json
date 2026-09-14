@@ -1,0 +1,36 @@
+{
+  "execution_date": "2026-09-09",
+  "geometry_tests": {
+    "command": [
+      "python3",
+      "test_geometry_r1.py"
+    ],
+    "returncode": 0,
+    "stdout": "TEST_GEOMETRY_R1_PASSED=6\n"
+  },
+  "py_compile": {
+    "command": [
+      "python3",
+      "-m",
+      "py_compile",
+      "/home/yanbo/net_vlm_parking_optimization/15_v3_roi_r1/01_roi_engine/geometry.py",
+      "/home/yanbo/net_vlm_parking_optimization/15_v3_roi_r1/01_roi_engine/config_validator.py",
+      "/home/yanbo/net_vlm_parking_optimization/15_v3_roi_r1/01_roi_engine/roi_rule_r1.py",
+      "/home/yanbo/net_vlm_parking_optimization/15_v3_roi_r1/01_roi_engine/test_geometry_r1.py",
+      "/home/yanbo/net_vlm_parking_optimization/15_v3_roi_r1/01_roi_engine/test_roi_rule_r1.py"
+    ],
+    "returncode": 0,
+    "stdout": ""
+  },
+  "pytest_used": false,
+  "roi_rule_tests": {
+    "command": [
+      "python3",
+      "test_roi_rule_r1.py"
+    ],
+    "returncode": 0,
+    "stdout": "TEST_ROI_RULE_R1_PASSED=18\n"
+  },
+  "tests_failed": false,
+  "total_tests_passed": 24
+}

@@ -1,0 +1,17 @@
+{
+  "python": "/home/yanbo/net_vlm_garbage_optimization/P3_detector_vlm/.venv_yoloe/bin/python",
+  "torch": "2.13.0+cpu",
+  "ultralytics": "8.4.104",
+  "ultralytics_path": "/home/yanbo/net_vlm_garbage_optimization/P3_detector_vlm/runtime_snapshot/ultralytics/ultralytics/__init__.py",
+  "cv2": "5.0.0",
+  "PIL": "12.2.0",
+  "numpy": "2.2.6",
+  "cuda_available": false,
+  "weights_path": "/home/yanbo/net_vlm_garbage_optimization/P3_detector_vlm/runtime_snapshot/models/yoloe/yoloe-26m-seg.pt",
+  "weights_sha256": "585f5ec9028fd358035da8d860c27c56be285a795cba2076fba536a4391c2c83",
+  "encoder_path": "/home/yanbo/net_vlm_garbage_optimization/P3_detector_vlm/runtime_snapshot/models/mobileclip2_b.ts",
+  "encoder_sha256": "35d7f213e4d75f38514e4656ad3cb91158bd33e3805d8ac349f23b186f66982f",
+  "matches_previous_weights": true,
+  "matches_previous_encoder": true,
+  "runtime_installed_now": false
+}

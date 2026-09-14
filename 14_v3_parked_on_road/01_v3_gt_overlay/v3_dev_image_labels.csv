@@ -1,0 +1,239 @@
+media_id,image_label,positive_vehicle_ids,negative_vehicle_ids,uncertain_vehicle_ids,source_type,split,review_status,label_basis
+IMG_007321,negative,,v01;v02;v03,,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007322,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007323,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007326,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007327,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007328,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007329,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007334,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007335,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007336,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007337,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007340,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007343,uncertain,,,v01;v02;v03;v04;v05;v06,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007344,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007346,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007347,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007348,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007349,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007350,uncertain,,v01;v02;v03,v04,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007354,uncertain,,,v01;v02;v03;v04;v05;v06,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007355,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007357,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007358,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007359,uncertain,,,v01;v02;v03;v04;v05;v06;v07,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007360,uncertain,,v01,v02,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007361,uncertain,,,v01;v02;v03;v04;v05;v06,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007363,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007364,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007366,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007367,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007370,uncertain,,v01,v02,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007371,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007374,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007376,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10;v11;v12;v13;v14,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007377,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007379,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007383,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007384,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007385,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007387,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007388,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007389,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007392,uncertain,,v01,v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007393,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007394,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007396,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007397,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10;v11;v12,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007399,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007400,uncertain,,v02,v01;v03;v04,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007404,uncertain,,,v01;v02;v03;v04;v05;v06,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007405,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007406,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007407,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007410,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007413,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007415,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007416,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007417,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007419,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007421,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007422,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007424,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007425,uncertain,,,v01;v02;v03;v04;v05;v06;v07,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007427,uncertain,,,v01;v02;v03;v04;v05;v06,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007428,uncertain,,,v01;v02;v03;v04;v05;v06;v07,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007429,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007433,uncertain,,v01,v02;v03;v04;v05;v06;v07;v08;v09,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007434,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10;v11;v12,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007435,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007437,uncertain,,,v01;v02;v03;v04;v05;v06,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007439,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007440,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10;v11;v12;v13;v14,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007441,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007442,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007444,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007445,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007446,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007449,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007450,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007453,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007454,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007455,uncertain,,v01,v02,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007457,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007460,uncertain,,,v01;v02;v03;v04;v05;v06;v07,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007463,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007465,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007466,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007467,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007468,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007469,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007470,uncertain,,v01,v02,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007471,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007473,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007475,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007477,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007479,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10;v11,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007480,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10;v11,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007482,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10;v11;v12,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007484,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007485,uncertain,,v01;v02;v03,v04,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007487,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007488,uncertain,,,v01;v02;v03;v04;v05;v06,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007491,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007492,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007494,uncertain,,,v01;v02;v03;v04;v05;v06,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007497,uncertain,,,v01;v02;v03;v04;v05;v06;v07,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007498,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007499,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007500,negative,,v01,,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007503,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007506,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007507,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007508,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007509,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007511,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007512,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007514,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007516,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007517,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007519,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007520,positive,v01,,,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007521,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007524,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007527,uncertain,,,v01;v02;v03;v04;v05;v06,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007529,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007530,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007531,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007533,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007534,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007535,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007536,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007539,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007541,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007542,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007547,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007548,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007549,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007551,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007552,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10;v11;v12;v13;v14;v15,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007554,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007555,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007556,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007558,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007559,uncertain,,v04,v01;v02;v03;v05;v06;v07;v08;v09;v10;v11,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007560,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007562,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007564,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007569,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007570,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007571,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007574,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10;v11;v12;v13;v14;v15,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007575,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007576,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007577,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007580,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007581,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007583,uncertain,,,v01;v02;v03;v04;v05;v06,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007584,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007585,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007586,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007587,uncertain,,,v01;v02;v03;v04;v05;v06,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007588,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007592,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007593,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007594,positive,v02,,v01;v03;v04;v05,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007598,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007599,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007601,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007602,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007603,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007606,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007608,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007609,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007610,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007611,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007612,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10;v11;v12;v13;v14,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007614,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007615,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10;v11,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007617,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007618,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007620,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007621,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007625,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007626,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007627,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007629,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007631,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007632,uncertain,,,v01;v02;v03;v04;v05;v06,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007633,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007634,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10;v11,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007635,uncertain,,,v01;v02;v03;v04;v05;v06;v07,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007637,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007642,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007643,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007644,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007646,uncertain,,,v01;v02;v03;v04;v05;v06,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007647,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007648,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007650,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007652,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007654,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007655,uncertain,,,v01;v02;v03;v04;v05;v06,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007656,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007658,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007659,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007661,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007664,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007665,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007667,uncertain,,v01,v02;v03,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007672,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10;v11;v12;v13;v14;v15;v16;v17;v18;v19;v20;v21;v22,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007673,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007674,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007675,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007676,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007677,uncertain,,,v01,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007678,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007682,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007683,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10;v11,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007684,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007685,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007686,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007687,uncertain,,,v01;v02;v03;v04;v05;v06,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007688,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007692,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007693,uncertain,,,v01;v02;v03,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007694,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007695,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10;v11;v12;v13,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007697,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007700,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007702,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007704,uncertain,,,v01;v02;v03;v04;v05,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007706,uncertain,,,v01;v02;v03;v04;v05;v06;v07;v08;v09;v10;v11;v12;v13;v14;v15,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007707,uncertain,,,v01;v02;v03;v04;v05;v06,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007709,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007710,uncertain,,,v01,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007712,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,PILOT_VISUAL_REVIEWED_FROM_CONTACT_SHEET,limited contact-sheet visual review; not full human gold
+IMG_007713,uncertain,,,v01;v02,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder
+IMG_007714,uncertain,,,v01;v02;v03;v04,AIGC_AI_GENERATED,DEV,BLOCKED_VISUAL_REVIEW,full per-vehicle visual review not completed; uncertain is a safety placeholder

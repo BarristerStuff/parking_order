@@ -1,0 +1,29 @@
+{
+  "candidate_id": "V4_R1_GLOBAL_TARGET_CONTEXT_COMPOSITE",
+  "algorithm_revision": "V4_DYNAMIC_CONTEXT_VLM",
+  "parent_candidate": "V4_R0_GLOBAL_TARGET_CONTEXT",
+  "change_dimension": "input_protocol_only",
+  "hypothesis": "A single composite image with scene and ordered target crops will reduce multi-image target-correspondence errors observed in R0.",
+  "unchanged": [
+    "model=qwen3.5:4b",
+    "endpoint=http://192.168.20.62:11434/api/generate",
+    "temperature=0",
+    "num_ctx=8192",
+    "num_predict=768",
+    "jpeg_quality=90",
+    "scene_long_edge=1024",
+    "crop_long_edge=768",
+    "crop expansion left/right=0.5 bbox width",
+    "crop expansion top=0.25 bbox height",
+    "crop expansion bottom=0.75 bbox height",
+    "target batch size=3",
+    "detector cache and class-agnostic iou=0.80 dedup",
+    "decision contract and frozen reference labels",
+    "same 60 pilot media IDs"
+  ],
+  "protocol": "one JPEG composite per physical request: complete scene at top, requested context crops below in target ID order",
+  "prompt_sha256": "4a77f062155ba310b56694ca15e53c3c7a66c3669f9ab8e0a3f66f0f02f93a7e",
+  "batches_sha256": "223e19459684b3865e59ad02ae4636c1b552de672860fe0f247c21afa52236c6",
+  "prepared_inputs_sha256": "c055fea7dcf79a78fcfc5a979be9eb2f372c3f1f503ec2de6ada2c096be3a506",
+  "frozen_before_r1_smoke": true
+}

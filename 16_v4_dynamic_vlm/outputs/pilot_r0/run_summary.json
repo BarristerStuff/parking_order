@@ -1,0 +1,18 @@
+{
+  "candidate_id": "V4_R0_GLOBAL_TARGET_CONTEXT",
+  "batches_expected": 108,
+  "physical_model_requests": 108,
+  "successful_http_requests": 107,
+  "parse_ok_requests": 107,
+  "protocol_failure_requests": 1,
+  "transport_retries": 0,
+  "images": 60,
+  "target_predictions": 250,
+  "required_target_schema_coverage": 0.9833333333333333,
+  "max_client_concurrency": 2,
+  "elapsed_wall_seconds": 770.2982439994812,
+  "endpoint": "http://192.168.20.62:11434/api/generate",
+  "model": "qwen3.5:4b",
+  "batches_sha256": "d17fe5e515a7482266e86b4f293e842a638b29cfe0bad0777d7440d0e4177a1a",
+  "prompt_sha256": "b936417176acc17fc1e218f9b13f66d861a9e93f7185e5c719756f8c3d54210a"
+}

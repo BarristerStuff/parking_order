@@ -1,0 +1,16 @@
+{
+  "pilot_images": 60,
+  "reviewed_images": 60,
+  "reference_vehicles": 240,
+  "positive_road_vehicles": 14,
+  "positive_two_bay_vehicles": 18,
+  "negative_vehicles": 195,
+  "uncertain_vehicles": 13,
+  "false_detection_targets": 12,
+  "detector_miss_vehicles": 0,
+  "disputed_images": 0,
+  "disputed_vehicles": 0,
+  "basis": "AI_VISUAL_REVIEWED_PROVISIONAL",
+  "human_gold": false,
+  "frozen_at_unix": 1788949014.7651105
+}

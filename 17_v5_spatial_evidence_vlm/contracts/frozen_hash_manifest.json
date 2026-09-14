@@ -1,0 +1,18 @@
+{
+  "phase": "POST_EXECUTION_ARCHIVE_NOT_PREREGISTRATION_PROOF",
+  "created_at": 1789012659.5424318,
+  "pre_inference_reference_proof": "reference/reference_freeze.json plus runtime_preflight.started_at",
+  "files": {
+    "contracts/initial_state.json": "f229aa794e6558d5fabf67883553ecad951ea1e8804c9aa4785c9d42defa20aa",
+    "contracts/pilot_manifest.csv": "114f36e0e231bf2318f5df005caaf710f89dcfef9638c1e05fb5fb64413dfce8",
+    "contracts/protected_hashes_before.json": "be53a960bfd89ee7cdbe1c812e0a93d91f0935c6b9ebb8758d74367c19ed3a0d",
+    "contracts/prepare.py": "dc254ccdae28759738bdc5f4bdca5dac7c8b51d0c3dd0b9e3b7e635439de6971",
+    "contracts/forbidden_split_metadata.csv": "618554e667b3729c97842563c1a0ffb314a42b1672864baf23a45a1892de1161",
+    "contracts/candidate_registry.json": "332b623831326adc9500e0e7c45c5ce74a3db3d7a4f9ce26e9964837c3617e6f",
+    "contracts/run_contract.json": "aa99457e4b7b59a3519f8ff533925813bcd3bde4feedd9e75f86ea7743071b92",
+    "contracts/input_allowlist.csv": "f049aa1543b933fd4cb9dd3fa3182bd868ccd622b65b8a9c453b19c7812c5051",
+    "03_rule_engine/rule_config.json": "4c18672c2dbf9c3e0805b43664752e7227d43a3294beb7408e3984358d79580b",
+    "01_footprint/run_segmentation.py": "c6380478f2a0465af8bd0a453b8da119d4195d6748deaabf42cc92f5515dac0d",
+    "reference/reference_freeze.json": "e69fb323367ff06533dcb2b93a031f03a3c7fba13a65c1a64e776ca021c2cbc8"
+  }
+}

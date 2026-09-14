@@ -1,0 +1,35 @@
+{
+  "status": "PENDING",
+  "checks_passed": 55,
+  "checks_failed": [],
+  "checks_pending": [
+    {
+      "check": "semantic_review:01_detector_audit",
+      "status": "PENDING",
+      "detail": "independent semantic final review still required; existence is not acceptance"
+    },
+    {
+      "check": "semantic_review:03_spatial_evidence",
+      "status": "PENDING",
+      "detail": "independent semantic final review still required; existence is not acceptance"
+    },
+    {
+      "check": "semantic_review:04_rule_engine",
+      "status": "PENDING",
+      "detail": "independent semantic final review still required; existence is not acceptance"
+    },
+    {
+      "check": "semantic_review:05_evaluation",
+      "status": "PENDING",
+      "detail": "independent semantic final review still required; existence is not acceptance"
+    },
+    {
+      "check": "manifest_finalcheck",
+      "status": "PENDING",
+      "detail": "PENDING_FINAL_MANIFEST: contracts/hash_manifest.json; --finalcheck is read-only"
+    }
+  ],
+  "Recall": null,
+  "FPR": null,
+  "business_gate": "NOT_SIGNED_OFF"
+}

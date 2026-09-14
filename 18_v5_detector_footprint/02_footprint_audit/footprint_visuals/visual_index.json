@@ -1,0 +1,222 @@
+[
+  {
+    "number": 1,
+    "image_id": "IMG_007521",
+    "vehicle_id": "S001",
+    "target_index": 0,
+    "sample_basis": "fixed_evenly_spaced",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_01.jpg",
+    "risk_enlargement": null,
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 2,
+    "image_id": "IMG_007536",
+    "vehicle_id": "S001",
+    "target_index": 15,
+    "sample_basis": "fixed_evenly_spaced",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_01.jpg",
+    "risk_enlargement": null,
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 3,
+    "image_id": "IMG_007542",
+    "vehicle_id": "S001",
+    "target_index": 29,
+    "sample_basis": "fixed_evenly_spaced",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_01.jpg",
+    "risk_enlargement": null,
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 4,
+    "image_id": "IMG_007599",
+    "vehicle_id": "S001",
+    "target_index": 44,
+    "sample_basis": "fixed_evenly_spaced",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_01.jpg",
+    "risk_enlargement": null,
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 5,
+    "image_id": "IMG_007612",
+    "vehicle_id": "S004",
+    "target_index": 59,
+    "sample_basis": "fixed_evenly_spaced",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_02.jpg",
+    "risk_enlargement": null,
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 6,
+    "image_id": "IMG_007617",
+    "vehicle_id": "S001",
+    "target_index": 73,
+    "sample_basis": "fixed_evenly_spaced",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_02.jpg",
+    "risk_enlargement": null,
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 7,
+    "image_id": "IMG_007655",
+    "vehicle_id": "S004",
+    "target_index": 88,
+    "sample_basis": "fixed_evenly_spaced",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_02.jpg",
+    "risk_enlargement": null,
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 8,
+    "image_id": "IMG_007647",
+    "vehicle_id": "S001",
+    "target_index": 103,
+    "sample_basis": "fixed_evenly_spaced",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_02.jpg",
+    "risk_enlargement": null,
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 9,
+    "image_id": "IMG_007580",
+    "vehicle_id": "S004",
+    "target_index": 117,
+    "sample_basis": "fixed_evenly_spaced",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_03.jpg",
+    "risk_enlargement": null,
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 10,
+    "image_id": "IMG_007634",
+    "vehicle_id": "S003",
+    "target_index": 132,
+    "sample_basis": "fixed_evenly_spaced",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_03.jpg",
+    "risk_enlargement": null,
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 11,
+    "image_id": "IMG_007672",
+    "vehicle_id": "S003",
+    "target_index": 147,
+    "sample_basis": "fixed_evenly_spaced",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_03.jpg",
+    "risk_enlargement": null,
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 12,
+    "image_id": "IMG_007417",
+    "vehicle_id": "S002",
+    "target_index": 161,
+    "sample_basis": "fixed_evenly_spaced",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_03.jpg",
+    "risk_enlargement": null,
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 13,
+    "image_id": "IMG_007499",
+    "vehicle_id": "S003",
+    "target_index": 176,
+    "sample_basis": "fixed_evenly_spaced",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_04.jpg",
+    "risk_enlargement": null,
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 14,
+    "image_id": "IMG_007346",
+    "vehicle_id": "S002",
+    "target_index": 191,
+    "sample_basis": "fixed_evenly_spaced",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_04.jpg",
+    "risk_enlargement": null,
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 15,
+    "image_id": "IMG_007340",
+    "vehicle_id": "S004",
+    "target_index": 205,
+    "sample_basis": "fixed_evenly_spaced",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_04.jpg",
+    "risk_enlargement": null,
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 16,
+    "image_id": "IMG_007712",
+    "vehicle_id": "S001",
+    "target_index": 220,
+    "sample_basis": "fixed_evenly_spaced",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_04.jpg",
+    "risk_enlargement": null,
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 17,
+    "image_id": "IMG_007524",
+    "vehicle_id": "S001",
+    "target_index": 11,
+    "sample_basis": "risk_first_occurrence",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_05.jpg",
+    "risk_enlargement": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/risk_17_IMG_007524_S001.jpg",
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 18,
+    "image_id": "IMG_007536",
+    "vehicle_id": "S005",
+    "target_index": 19,
+    "sample_basis": "risk_first_occurrence",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_05.jpg",
+    "risk_enlargement": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/risk_18_IMG_007536_S005.jpg",
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 19,
+    "image_id": "IMG_007620",
+    "vehicle_id": "S004",
+    "target_index": 37,
+    "sample_basis": "risk_first_occurrence",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_05.jpg",
+    "risk_enlargement": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/risk_19_IMG_007620_S004.jpg",
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  },
+  {
+    "number": 20,
+    "image_id": "IMG_007673",
+    "vehicle_id": "S002",
+    "target_index": 159,
+    "sample_basis": "risk_first_occurrence",
+    "montage": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_05.jpg",
+    "risk_enlargement": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/risk_20_IMG_007673_S002.jpg",
+    "source_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+    "review_status": "reviewed_pixels_via_view_image"
+  }
+]

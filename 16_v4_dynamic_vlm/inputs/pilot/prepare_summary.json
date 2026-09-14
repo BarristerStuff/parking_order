@@ -1,0 +1,11 @@
+{
+  "images": 60,
+  "batches": 108,
+  "raw_detection_rows": 259,
+  "kept_targets": 252,
+  "suppressed_duplicates": 7,
+  "invalid_raw": 0,
+  "target_batch_size": 3,
+  "dedup_iou_threshold": 0.8,
+  "source_cache_sha256": "5685faa7c450e598f0e964445178a49bbcdb1d1e6e8fd5688fbdb807188385f9"
+}

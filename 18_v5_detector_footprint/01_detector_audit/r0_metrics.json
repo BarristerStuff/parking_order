@@ -1,0 +1,71 @@
+{
+  "images": 60,
+  "raw_detection_count": 196,
+  "detection_count": 195,
+  "duplicate_count": 1,
+  "geometric_matching": {
+    "overall": {
+      "numerator": 155,
+      "denominator": 240,
+      "rate": 0.6458333333333334,
+      "wilson95": [
+        0.5834633143794749,
+        0.7036084589709041
+      ]
+    },
+    "positive_road": {
+      "numerator": 5,
+      "denominator": 14,
+      "rate": 0.35714285714285715,
+      "wilson95": [
+        0.16344731753554492,
+        0.6123557689609198
+      ]
+    },
+    "positive_two_bays": {
+      "numerator": 11,
+      "denominator": 18,
+      "rate": 0.6111111111111112,
+      "wilson95": [
+        0.3861904160223847,
+        0.79694753427836
+      ]
+    }
+  },
+  "confirmed_match_coverage": {
+    "overall": {
+      "numerator": 90,
+      "denominator": 240,
+      "rate": 0.375,
+      "wilson95": [
+        0.31617283473340757,
+        0.43776564525198186
+      ]
+    },
+    "positive_road": {
+      "numerator": 5,
+      "denominator": 14,
+      "rate": 0.35714285714285715,
+      "wilson95": [
+        0.16344731753554492,
+        0.6123557689609198
+      ]
+    },
+    "positive_two_bays": {
+      "numerator": 11,
+      "denominator": 18,
+      "rate": 0.6111111111111112,
+      "wilson95": [
+        0.3861904160223847,
+        0.79694753427836
+      ]
+    }
+  },
+  "reviewed_images": 60,
+  "review_status_counts": {
+    "correct_detection": 90,
+    "confirmed_detector_miss": 23,
+    "unresolved_reference_matching": 168
+  },
+  "gate_status": "BLOCKED"
+}

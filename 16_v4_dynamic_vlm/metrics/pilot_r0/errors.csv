@@ -1,0 +1,111 @@
+media_id,group,target_id,category,reference_label,prediction_decision,detail
+IMG_007533,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,"positive reference was uncertain, ignored, or not alerted"
+IMG_007533,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,deterministic decision rejected contradictory model fields
+IMG_007548,p01-outside-legal-bay-clear,T01,road_relation_error,positive_road,negative,explicit semantic polarity disagrees
+IMG_007555,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,"positive reference was uncertain, ignored, or not alerted"
+IMG_007555,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,deterministic decision rejected contradictory model fields
+IMG_007555,p01-outside-legal-bay-clear,T07,semantic_conflict,negative_ordinary_bay,uncertain,deterministic decision rejected contradictory model fields
+IMG_007554,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,"positive reference was uncertain, ignored, or not alerted"
+IMG_007554,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,deterministic decision rejected contradictory model fields
+IMG_007524,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,"positive reference was uncertain, ignored, or not alerted"
+IMG_007524,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,deterministic decision rejected contradictory model fields
+IMG_007531,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,"positive reference was uncertain, ignored, or not alerted"
+IMG_007531,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,deterministic decision rejected contradictory model fields
+IMG_007531,p01-outside-legal-bay-clear,T04,semantic_conflict,negative_ordinary_bay,uncertain,deterministic decision rejected contradictory model fields
+IMG_007536,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,"positive reference was uncertain, ignored, or not alerted"
+IMG_007536,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,deterministic decision rejected contradictory model fields
+IMG_007547,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,"positive reference was uncertain, ignored, or not alerted"
+IMG_007547,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,deterministic decision rejected contradictory model fields
+IMG_007527,p01-outside-legal-bay-clear,T01,,positive_road,negative,prediction is not protocol-clean; retained in alert denominator
+IMG_007527,p01-outside-legal-bay-clear,T02,,negative_ordinary_bay,negative,prediction is not protocol-clean; retained in alert denominator
+IMG_007527,p01-outside-legal-bay-clear,T03,,negative_ordinary_bay,negative,prediction is not protocol-clean; retained in alert denominator
+IMG_007527,p01-outside-legal-bay-clear,T04,unprocessed_target,negative_ordinary_bay,,prediction is not protocol-clean; retained in alert denominator
+IMG_007527,p01-outside-legal-bay-clear,T05,unprocessed_target,negative_ordinary_bay,,prediction is not protocol-clean; retained in alert denominator
+IMG_007529,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,"positive reference was uncertain, ignored, or not alerted"
+IMG_007529,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,deterministic decision rejected contradictory model fields
+IMG_007542,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,"positive reference was uncertain, ignored, or not alerted"
+IMG_007542,p01-outside-legal-bay-clear,T01,semantic_conflict,positive_road,uncertain,deterministic decision rejected contradictory model fields
+IMG_007620,p03-span-two-bays,T01,semantic_conflict,positive_two_bays,uncertain,"positive reference was uncertain, ignored, or not alerted"
+IMG_007620,p03-span-two-bays,T01,semantic_conflict,positive_two_bays,uncertain,deterministic decision rejected contradictory model fields
+IMG_007620,p03-span-two-bays,T04,semantic_conflict,negative_ordinary_bay,uncertain,deterministic decision rejected contradictory model fields
+IMG_007620,p03-span-two-bays,T05,semantic_conflict,negative_ordinary_bay,uncertain,deterministic decision rejected contradictory model fields
+IMG_007598,p03-span-two-bays,T01,semantic_conflict,positive_two_bays,uncertain,"positive reference was uncertain, ignored, or not alerted"
+IMG_007598,p03-span-two-bays,T01,semantic_conflict,positive_two_bays,uncertain,deterministic decision rejected contradictory model fields
+IMG_007598,p03-span-two-bays,T02,semantic_conflict,negative_ordinary_bay,uncertain,deterministic decision rejected contradictory model fields
+IMG_007594,p03-span-two-bays,T02,two_bay_relation_error,positive_two_bays,negative,explicit semantic polarity disagrees
+IMG_007599,p03-span-two-bays,T01,two_bay_relation_error,positive_two_bays,negative,explicit semantic polarity disagrees
+IMG_007603,p03-span-two-bays,T02,two_bay_relation_error,positive_two_bays,negative,explicit semantic polarity disagrees
+IMG_007601,p03-span-two-bays,T02,two_bay_relation_error,positive_two_bays,negative,explicit semantic polarity disagrees
+IMG_007612,p03-span-two-bays,T01,two_bay_relation_error,positive_two_bays,negative,explicit semantic polarity disagrees
+IMG_007621,p03-span-two-bays,T03,two_bay_relation_error,positive_two_bays,negative,explicit semantic polarity disagrees
+IMG_007617,p03-span-two-bays,T01,two_bay_relation_error,positive_two_bays,negative,explicit semantic polarity disagrees
+IMG_007606,p03-span-two-bays,T03,two_bay_relation_error,positive_two_bays,negative,explicit semantic polarity disagrees
+IMG_007602,p03-span-two-bays,T01,semantic_conflict,positive_two_bays,uncertain,"positive reference was uncertain, ignored, or not alerted"
+IMG_007602,p03-span-two-bays,T01,semantic_conflict,positive_two_bays,uncertain,deterministic decision rejected contradictory model fields
+IMG_007602,p03-span-two-bays,T02,semantic_conflict,negative_ordinary_bay,uncertain,deterministic decision rejected contradictory model fields
+IMG_007611,p03-span-two-bays,T01,semantic_conflict,positive_two_bays,uncertain,"positive reference was uncertain, ignored, or not alerted"
+IMG_007611,p03-span-two-bays,T01,semantic_conflict,positive_two_bays,uncertain,deterministic decision rejected contradictory model fields
+IMG_007650,p05-multi-vehicle-at-least-one-violation,T04,two_bay_relation_error,positive_two_bays,negative,explicit semantic polarity disagrees
+IMG_007655,p05-multi-vehicle-at-least-one-violation,T04,semantic_conflict,positive_two_bays,uncertain,"positive reference was uncertain, ignored, or not alerted"
+IMG_007655,p05-multi-vehicle-at-least-one-violation,T04,semantic_conflict,positive_two_bays,uncertain,deterministic decision rejected contradictory model fields
+IMG_007652,p05-multi-vehicle-at-least-one-violation,T01,road_relation_error,positive_road,negative,explicit semantic polarity disagrees
+IMG_007652,p05-multi-vehicle-at-least-one-violation,T05,road_relation_error,negative_ordinary_bay,positive_road,explicit semantic polarity disagrees
+IMG_007664,p05-multi-vehicle-at-least-one-violation,T01,two_bay_relation_error,positive_two_bays,negative,explicit semantic polarity disagrees
+IMG_007658,p05-multi-vehicle-at-least-one-violation,T01,road_relation_error,positive_road,negative,explicit semantic polarity disagrees
+IMG_007647,p05-multi-vehicle-at-least-one-violation,T03,two_bay_relation_error,positive_two_bays,negative,explicit semantic polarity disagrees
+IMG_007665,p05-multi-vehicle-at-least-one-violation,T03,two_bay_relation_error,positive_two_bays,negative,explicit semantic polarity disagrees
+IMG_007661,p05-multi-vehicle-at-least-one-violation,T01,semantic_conflict,positive_two_bays,uncertain,"positive reference was uncertain, ignored, or not alerted"
+IMG_007661,p05-multi-vehicle-at-least-one-violation,T01,semantic_conflict,positive_two_bays,uncertain,deterministic decision rejected contradictory model fields
+IMG_007580,p02-cross-single-boundary-line,T01,semantic_conflict,negative_line_touch,uncertain,deterministic decision rejected contradictory model fields
+IMG_007580,p02-cross-single-boundary-line,T04,semantic_conflict,negative_line_touch,uncertain,deterministic decision rejected contradictory model fields
+IMG_007570,p02-cross-single-boundary-line,T01,semantic_conflict,negative_line_touch,uncertain,deterministic decision rejected contradictory model fields
+IMG_007570,p02-cross-single-boundary-line,T02,semantic_conflict,negative_line_touch,uncertain,deterministic decision rejected contradictory model fields
+IMG_007570,p02-cross-single-boundary-line,T03,semantic_conflict,negative_line_touch,uncertain,deterministic decision rejected contradictory model fields
+IMG_007634,p04-angled-footprint-outside,T01,semantic_conflict,negative_minor_overrun,uncertain,deterministic decision rejected contradictory model fields
+IMG_007634,p04-angled-footprint-outside,T07,semantic_conflict,negative_minor_overrun,uncertain,deterministic decision rejected contradictory model fields
+IMG_007672,p06-nose-or-tail-intrudes-aisle,T01,semantic_conflict,negative_nose_tail_overrun,uncertain,deterministic decision rejected contradictory model fields
+IMG_007672,p06-nose-or-tail-intrudes-aisle,T07,semantic_conflict,negative_nose_tail_overrun,uncertain,deterministic decision rejected contradictory model fields
+IMG_007673,p06-nose-or-tail-intrudes-aisle,T01,semantic_conflict,negative_nose_tail_overrun,uncertain,deterministic decision rejected contradictory model fields
+IMG_007470,n04-parallel-bay-correct,T01,semantic_conflict,negative_ordinary_bay,uncertain,deterministic decision rejected contradictory model fields
+IMG_007396,hn06-shadows-cracks-curbs-mimic-lines,T01,semantic_conflict,negative_ordinary_bay,uncertain,deterministic decision rejected contradictory model fields
+IMG_007396,hn06-shadows-cracks-curbs-mimic-lines,T04,semantic_conflict,negative_ordinary_bay,uncertain,deterministic decision rejected contradictory model fields
+IMG_007328,hn01-gate-queue,T01,semantic_conflict,negative_gate_queue,uncertain,deterministic decision rejected contradictory model fields
+IMG_007328,hn01-gate-queue,T02,semantic_conflict,negative_gate_queue,uncertain,deterministic decision rejected contradictory model fields
+IMG_007328,hn01-gate-queue,T03,semantic_conflict,negative_gate_queue,uncertain,deterministic decision rejected contradictory model fields
+IMG_007346,hn01-gate-queue,T01,semantic_conflict,negative_gate_queue,uncertain,deterministic decision rejected contradictory model fields
+IMG_007346,hn01-gate-queue,T02,semantic_conflict,negative_gate_queue,uncertain,deterministic decision rejected contradictory model fields
+IMG_007347,hn01-gate-queue,T01,semantic_conflict,negative_gate_queue,uncertain,deterministic decision rejected contradictory model fields
+IMG_007347,hn01-gate-queue,T02,semantic_conflict,negative_gate_queue,uncertain,deterministic decision rejected contradictory model fields
+IMG_007347,hn01-gate-queue,T03,semantic_conflict,negative_gate_queue,uncertain,deterministic decision rejected contradictory model fields
+IMG_007326,hn01-gate-queue,T01,semantic_conflict,negative_gate_queue,uncertain,deterministic decision rejected contradictory model fields
+IMG_007322,hn01-gate-queue,T01,semantic_conflict,negative_gate_queue,uncertain,deterministic decision rejected contradictory model fields
+IMG_007322,hn01-gate-queue,T02,semantic_conflict,negative_gate_queue,uncertain,deterministic decision rejected contradictory model fields
+IMG_007340,hn01-gate-queue,T01,semantic_conflict,negative_gate_queue,uncertain,deterministic decision rejected contradictory model fields
+IMG_007340,hn01-gate-queue,T02,semantic_conflict,negative_gate_queue,uncertain,deterministic decision rejected contradictory model fields
+IMG_007340,hn01-gate-queue,T03,semantic_conflict,negative_gate_queue,uncertain,deterministic decision rejected contradictory model fields
+IMG_007340,hn01-gate-queue,T04,semantic_conflict,negative_gate_queue,uncertain,deterministic decision rejected contradictory model fields
+IMG_007684,u01-insufficient-parking-visual-evidence,T01,reference_uncertain,,,reference vehicle is uncertain and excluded from primary binary metrics
+IMG_007684,u01-insufficient-parking-visual-evidence,T02,reference_uncertain,,,reference vehicle is uncertain and excluded from primary binary metrics
+IMG_007682,u01-insufficient-parking-visual-evidence,T01,reference_uncertain,,,reference vehicle is uncertain and excluded from primary binary metrics
+IMG_007682,u01-insufficient-parking-visual-evidence,T02,reference_uncertain,,,reference vehicle is uncertain and excluded from primary binary metrics
+IMG_007692,u02-markings-severely-missing-or-occluded,T01,reference_uncertain,,,reference vehicle is uncertain and excluded from primary binary metrics
+IMG_007692,u02-markings-severely-missing-or-occluded,T02,reference_uncertain,,,reference vehicle is uncertain and excluded from primary binary metrics
+IMG_007702,u03-vehicle-cut-by-frame-edge,T01,reference_uncertain,,,reference vehicle is uncertain and excluded from primary binary metrics
+IMG_007702,u03-vehicle-cut-by-frame-edge,T02,reference_uncertain,,,reference vehicle is uncertain and excluded from primary binary metrics
+IMG_007707,u04-night-or-blur-boundary-unreadable,T01,reference_uncertain,,,reference vehicle is uncertain and excluded from primary binary metrics
+IMG_007707,u04-night-or-blur-boundary-unreadable,T02,reference_uncertain,,,reference vehicle is uncertain and excluded from primary binary metrics
+IMG_007707,u04-night-or-blur-boundary-unreadable,T03,reference_uncertain,,,reference vehicle is uncertain and excluded from primary binary metrics
+IMG_007712,u05-gate-queue-or-parking-ambiguous,T01,reference_uncertain,,,reference vehicle is uncertain and excluded from primary binary metrics
+IMG_007712,u05-gate-queue-or-parking-ambiguous,T02,reference_uncertain,,,reference vehicle is uncertain and excluded from primary binary metrics
+IMG_007555,p01-outside-legal-bay-clear,T02,duplicate_or_wrong_target,,,detector/model target is not a reviewed reference vehicle
+IMG_007555,p01-outside-legal-bay-clear,T03,duplicate_or_wrong_target,,,detector/model target is not a reviewed reference vehicle
+IMG_007555,p01-outside-legal-bay-clear,T04,duplicate_or_wrong_target,,,detector/model target is not a reviewed reference vehicle
+IMG_007612,p03-span-two-bays,T10,duplicate_or_wrong_target,,,detector/model target is not a reviewed reference vehicle
+IMG_007612,p03-span-two-bays,T11,duplicate_or_wrong_target,,,detector/model target is not a reviewed reference vehicle
+IMG_007612,p03-span-two-bays,T12,duplicate_or_wrong_target,,,detector/model target is not a reviewed reference vehicle
+IMG_007612,p03-span-two-bays,T13,duplicate_or_wrong_target,,,detector/model target is not a reviewed reference vehicle
+IMG_007612,p03-span-two-bays,T14,duplicate_or_wrong_target,,,detector/model target is not a reviewed reference vehicle
+IMG_007673,p06-nose-or-tail-intrudes-aisle,T02,duplicate_or_wrong_target,,,detector/model target is not a reviewed reference vehicle
+IMG_007470,n04-parallel-bay-correct,T02,duplicate_or_wrong_target,,,detector/model target is not a reviewed reference vehicle
+IMG_007707,u04-night-or-blur-boundary-unreadable,T04,duplicate_or_wrong_target,,,detector/model target is not a reviewed reference vehicle
+IMG_007707,u04-night-or-blur-boundary-unreadable,T05,duplicate_or_wrong_target,,,detector/model target is not a reviewed reference vehicle

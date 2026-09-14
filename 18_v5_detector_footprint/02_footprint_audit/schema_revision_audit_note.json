@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-10",
+  "change_type": "serialization_schema_and_representation_diagnostics_only",
+  "requested_by": "main integration review",
+  "method_code_changed": false,
+  "parameters_changed": false,
+  "detector_rerun": false,
+  "aliases_bbox_origin": "R1 original targets, never GT",
+  "numeric_polygon_valid": 221,
+  "strict_exported_polygon_topology_rejected": 36,
+  "original_dense_mask_failures": null,
+  "original_component_provenance_missing": 221,
+  "note": "36 derived-method failed statuses do not mean 36 original mask output failures; all 221 serialized polygons are numeric-valid."
+}

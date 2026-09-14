@@ -1,0 +1,35 @@
+{
+  "executed_at_unix": 1789016774.6827118,
+  "passed": true,
+  "suites": [
+    {
+      "suite": "test_matching.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.000s\n\nOK\n",
+      "python": "/usr/bin/python3"
+    },
+    {
+      "suite": "test_footprint.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "................\n----------------------------------------------------------------------\nRan 16 tests in 0.001s\n\nOK\n",
+      "python": "/usr/bin/python3"
+    },
+    {
+      "suite": "test_contracts.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n",
+      "python": "/usr/bin/python3"
+    },
+    {
+      "suite": "test_synthetic_rules.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.002s\n\nOK\n",
+      "python": "/home/yanbo/net_vlm_garbage_optimization/P3_detector_vlm/.venv_yoloe/bin/python"
+    }
+  ],
+  "guard": "Python audit hook, not OS sandbox; no raw image or model execution intended"
+}

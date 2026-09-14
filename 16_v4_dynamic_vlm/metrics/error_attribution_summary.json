@@ -1,0 +1,25 @@
+{
+  "basis": "R1 pilot evaluator errors plus explicit detector review diagnostics",
+  "categories": {
+    "detector_miss": 0,
+    "duplicate_or_wrong_target": 12,
+    "context_crop_lost_evidence": 0,
+    "insufficient_source_pixels": 0,
+    "road_relation_error": 1,
+    "two_bay_relation_error": 6,
+    "gate_queue_error": 0,
+    "minor_overrun_false_alarm": 0,
+    "semantic_conflict": 107,
+    "protocol_failure": 0,
+    "reference_disputed": 0,
+    "reference_uncertain": 13,
+    "unprocessed_target": 0,
+    "prediction_target_missing": 0
+  },
+  "interpretation": {
+    "semantic_conflict": "model fields contradicted each other and deterministic rule conservatively returned uncertain",
+    "two_bay_relation_error": "positive two-bay reference was not alerted or was assigned a non-positive spatial relation",
+    "road_relation_error": "positive-road reference was not assigned a reliable positive-road decision",
+    "zero_categories": "zero means not observed/attributable in this pilot, not proof of absence in real deployment"
+  }
+}

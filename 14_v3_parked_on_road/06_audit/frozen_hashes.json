@@ -1,0 +1,33 @@
+{
+  "execution_date": "2026-09-09",
+  "files": {
+    "/home/yanbo/net_vlm_parking_optimization/02_ingest/manifests/formal_media_mapping.csv": "0780f3e659fcae4655ea06b00365f7c8c37c089f44b21453f4eb6acbaa8080a6",
+    "/home/yanbo/net_vlm_parking_optimization/08_final_audit/final_report.md": "5adcc73fa994165f43656943a931ce437a3a0bda47230830ac7a85271f99f060",
+    "/home/yanbo/net_vlm_parking_optimization/09_v1_1_error_review/v1_1_error_review_report.md": "71423f044341586c781ffaf514b609bd66973d2000915aee8c7849891c4f3947",
+    "/home/yanbo/net_vlm_parking_optimization/10_v1_2_fasttrack/final_fasttrack_report.md": "254d8342b1d857dd51dfc613856d08f90b69b4c2f4a801a3f4f854796f0b4bfe",
+    "/home/yanbo/net_vlm_parking_optimization/11_p3_lite_geometry/final_report.md": "f50ebbdb0c83ac3479c2e0b9569c1a8cca72da691b00c68f2cb0c0dc6ed77974",
+    "/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/00_definition/vehicle_not_in_bay_v2.0.md": "0e9c6b0afc6220f96969ff04f8ed27592c10a64a6e31a7b6cc83d23487032a10",
+    "/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/01_gt_and_split/STEP1_REPORT.md": "98f8fb95a6e0ebaaafbd214678c9ae1db7f0b0c77aaea0788c8e27cf8f76d78d",
+    "/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/01_gt_and_split/v2_0_gt.csv": "321f0994006d2451352f0c48d73911749f6a471d24c16f25808bbf30c31bd353",
+    "/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/01_gt_and_split/v2_split.csv": "f531aaff35d3940dd17bd57e1f9825903177dcd91d2f7e41d2a598a5a0cfdb24",
+    "/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/03_debug/v2_dev_vehicle_detections.jsonl": "5685faa7c450e598f0e964445178a49bbcdb1d1e6e8fd5688fbdb807188385f9",
+    "/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/04_vlm_dev_baseline/dev_baseline_report.md": "04dd429f32f19bea5c3d58faa9339df680b5da8b52ecf208f3ce6f30e6b16dcb",
+    "/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/04_vlm_dev_baseline/metrics.json": "477137e2a8ab362a737bb7c238c50359163cee0bfff8b9afdb8b5e05ec319b6d",
+    "/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/04_vlm_dev_baseline/single_rgb_route_closure.md": "5f07aaa9fc40a0ced4b02fb06a453ff26d8307a968287ab1b16d2fb88529e59b",
+    "/home/yanbo/net_vlm_parking_optimization/13_spatiolm_successor_gate/final_report.md": "2d91bf5b1df989e24ae134c41966e56cfd71112ef1cad8fbd62db26cbb139072",
+    "/home/yanbo/net_vlm_parking_optimization/README.md": "2815fefaecc3a2a3443ea8977af023055ed615d03f70cde3d0dafe4d828329ca",
+    "/home/yanbo/net_vlm_yanboversion/docs/parking_order/codex-handoff.md": "be53047a90f40eee45dba5d9e017fa0b7b125f75bf853c7e542ab3ba4f91797c",
+    "/home/yanbo/net_vlm_yanboversion/vlm/script/alerts.py": "e83afa81eeeb5cea7bb6bca361fda2a2652b5e1be5fd76aebe8cd56cd9246cb8",
+    "/home/yanbo/net_vlm_yanboversion/vlm/script/prompts.py": "26d9988e7c9a328c8f35bfc5ad5f420ec4b8e82b294d5ffb9d0a6ad1b7e531ee",
+    "/home/yanbo/net_vlm_yanboversion/vlm/script/tts_publisher.py": "7b18494e56d3478eac4601b0adc65f8201e5248ef4828197a69853bb2587fef6",
+    "/home/yanbo/net_vlm_yanboversion/vlm/w_v/realtime_worker.py": "db464bfb8fa464de9bc3e23b7f4d2256c1b9302428e5c6be391d0ec4787977d2",
+    "/home/yanbo/net_vlm_yanboversion/vlm/w_v/yolo_gate.py": "bcdd65d005936431b71ecbf34cebc9fd5795e239b12d33ad146c3204177c6e98"
+  },
+  "hash_algorithm": "sha256",
+  "v2_frozen_files": {
+    "/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/00_definition/vehicle_not_in_bay_v2.0.md": "0e9c6b0afc6220f96969ff04f8ed27592c10a64a6e31a7b6cc83d23487032a10",
+    "/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/01_gt_and_split/v2_0_gt.csv": "321f0994006d2451352f0c48d73911749f6a471d24c16f25808bbf30c31bd353",
+    "/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/01_gt_and_split/v2_split.csv": "f531aaff35d3940dd17bd57e1f9825903177dcd91d2f7e41d2a598a5a0cfdb24",
+    "/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/04_vlm_dev_baseline/metrics.json": "477137e2a8ab362a737bb7c238c50359163cee0bfff8b9afdb8b5e05ec319b6d"
+  }
+}

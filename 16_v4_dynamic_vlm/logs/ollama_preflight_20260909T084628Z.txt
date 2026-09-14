@@ -1,0 +1,4 @@
+curl_rc=0
+models= ['qwen3.5:9b', 'deepseek-coder:6.7b', 'qwen3.5:2b', 'qwen3.5:4b']
+qwen3.5:4b_present= True
+ps_curl_rc=0

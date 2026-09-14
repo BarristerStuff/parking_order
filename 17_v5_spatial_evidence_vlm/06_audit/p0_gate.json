@@ -1,0 +1,17 @@
+{
+  "status": "BLOCKED",
+  "downstream_authorized": false,
+  "reasons": [
+    "BLOCKED_DIAGNOSTIC_GATE_HAS_NO_PROMOTION_AUTHORITY",
+    "BLOCKED_UNRELIABLE_VEHICLE_FOOTPRINT",
+    "BLOCKED_FULL_ALIGNMENT_UNVERIFIED",
+    "BLOCKED_SPATIAL_EVIDENCE"
+  ],
+  "validated_footprint_numerator": 0,
+  "detected_target_denominator": 195,
+  "coverage": 0.0,
+  "threshold": 0.6,
+  "rules_pilot_authorized": false,
+  "vlm_authorized": false,
+  "zero_detection_images_must_not_be_ignored": true
+}

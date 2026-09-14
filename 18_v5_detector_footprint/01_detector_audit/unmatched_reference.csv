@@ -1,0 +1,148 @@
+image_id,observation,run,status,target_id
+IMG_007548,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T01
+IMG_007555,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T01
+IMG_007555,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T05
+IMG_007555,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T06
+IMG_007555,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T07
+IMG_007555,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T08
+IMG_007554,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T01
+IMG_007554,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T04
+IMG_007531,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T01
+IMG_007531,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T03
+IMG_007536,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T03
+IMG_007547,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T01
+IMG_007547,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T03
+IMG_007527,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T01
+IMG_007527,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T03
+IMG_007527,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T04
+IMG_007527,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T05
+IMG_007529,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T01
+IMG_007620,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T04
+IMG_007620,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T05
+IMG_007598,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T02
+IMG_007594,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T03
+IMG_007594,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T04
+IMG_007594,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T05
+IMG_007599,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T01
+IMG_007599,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T03
+IMG_007603,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T02
+IMG_007601,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T02
+IMG_007601,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T08
+IMG_007612,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T07
+IMG_007612,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T09
+IMG_007621,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T02
+IMG_007621,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T06
+IMG_007621,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T09
+IMG_007621,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T10
+IMG_007606,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T02
+IMG_007606,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T03
+IMG_007602,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T01
+IMG_007650,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T04
+IMG_007655,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T04
+IMG_007655,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T05
+IMG_007652,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T01
+IMG_007652,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T04
+IMG_007652,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T05
+IMG_007658,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T01
+IMG_007658,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T03
+IMG_007647,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T04
+IMG_007665,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T04
+IMG_007661,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T04
+IMG_007626,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T01
+IMG_007626,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T04
+IMG_007626,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T05
+IMG_007634,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T02
+IMG_007634,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T04
+IMG_007634,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T07
+IMG_007634,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T09
+IMG_007635,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T06
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T07
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T09
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T10
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T11
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T12
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T13
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T15
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T16
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T17
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T18
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T19
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T22
+IMG_007465,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T04
+IMG_007465,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T06
+IMG_007465,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T07
+IMG_007465,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T08
+IMG_007516,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T03
+IMG_007374,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T03
+IMG_007396,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T03
+IMG_007347,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T03
+IMG_007322,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T02
+IMG_007340,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T05
+IMG_007684,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T01
+IMG_007682,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T01
+IMG_007702,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T01
+IMG_007702,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T02
+IMG_007707,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r0,confirmed_detector_miss,T03
+IMG_007712,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r0,unresolved_reference_matching,T02
+IMG_007555,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T05
+IMG_007555,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T06
+IMG_007555,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T07
+IMG_007555,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T08
+IMG_007554,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T04
+IMG_007531,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T03
+IMG_007536,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T03
+IMG_007547,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r1,confirmed_detector_miss,T01
+IMG_007547,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T03
+IMG_007527,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T03
+IMG_007527,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T04
+IMG_007527,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T05
+IMG_007620,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T04
+IMG_007620,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T05
+IMG_007594,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T03
+IMG_007594,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T05
+IMG_007599,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T03
+IMG_007601,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r1,confirmed_detector_miss,T02
+IMG_007601,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T08
+IMG_007612,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T07
+IMG_007612,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T09
+IMG_007621,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T02
+IMG_007621,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T06
+IMG_007621,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T09
+IMG_007621,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T10
+IMG_007606,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r1,confirmed_detector_miss,T02
+IMG_007650,Explicit visual decision: clearly visible vehicle enclosed by yellow reference lacks a cyan full-vehicle detection.,r1,confirmed_detector_miss,T04
+IMG_007655,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T05
+IMG_007652,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T04
+IMG_007652,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T05
+IMG_007647,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T04
+IMG_007665,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T04
+IMG_007661,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T04
+IMG_007626,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T01
+IMG_007626,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T04
+IMG_007626,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T05
+IMG_007634,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T04
+IMG_007634,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T07
+IMG_007634,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T09
+IMG_007635,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T06
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T07
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T09
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T10
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T11
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T12
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T13
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T15
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T16
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T17
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T18
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T19
+IMG_007672,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T22
+IMG_007465,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T04
+IMG_007465,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T06
+IMG_007465,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T07
+IMG_007465,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T08
+IMG_007516,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T03
+IMG_007374,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T03
+IMG_007396,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T03
+IMG_007340,Explicit visual decision: frozen box appears to enclose a gate booth rather than a vehicle; retained in denominator as a disputed provisional reference and not called a detector miss.,r1,unresolved_reference_matching,T05
+IMG_007702,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T02
+IMG_007712,"Small, occluded, overlapping or ambiguous reference identity/localization; contact sheet insufficient to confirm pairing.",r1,unresolved_reference_matching,T02

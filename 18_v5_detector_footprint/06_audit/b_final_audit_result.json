@@ -1,0 +1,235 @@
+{
+  "generated_at_unix": 1789018045.3669772,
+  "status": "PASS_B_DIAGNOSTIC_ARTIFACT_CHECKS",
+  "whole_run_status": "PENDING_A_REVIEW_05_INTEGRATION_FINAL_MANIFEST",
+  "checks": [
+    {
+      "check": "B_manifest_hashes",
+      "status": "PASS",
+      "detail": {
+        "entries": 14,
+        "bad": [],
+        "scope": "listed artifacts only; visuals separately hashed below"
+      }
+    },
+    {
+      "check": "frozen_method_unchanged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "frozen_contract_payload",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "exact_target_method_cartesian_product",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "source_identity",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "schema_adapter_hash",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "DEV_allowlisted_keys",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "all_442_alias_and_provenance_joins",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "no_ground_promotion",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "mask_bottom_contact_band_recounts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "bbox_lower_conservative_proxy_recounts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "independent_numeric_topology_and_quality",
+      "status": "PASS",
+      "detail": {
+        "numeric_valid": 221,
+        "topology_rejected": 36,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "review_log_binding",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "review_evidence_application",
+      "status": "PASS",
+      "detail": {
+        "documented_reviewed": 20,
+        "bad": [],
+        "evidence_file_hashes": {
+          "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_01.jpg": "69bc8c80bbdb98368636a9fc1c8c80f2d778d6f563280cc193300c2975ff70d0",
+          "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_02.jpg": "630360bc8e9c9fadd11403f36c32a2b0cab6bd0f37decc12d2a4b931819b4368",
+          "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_03.jpg": "694c79b771571e9e1ae396eff5d5bc94ad9bf158dfe4f7bf6ba5bb754f9fd834",
+          "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_04.jpg": "483e39da6fce1dcf4fab342c59dc9d6800e7240510bd387fddbc252509ff750b",
+          "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/montage_05.jpg": "b99e6b589b2e017b9f68265d223869e77cdd5039488dfc0e336954db05c52846",
+          "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/risk_17_IMG_007524_S001.jpg": "db16c01d6030a27be31e9b6548366a51bdf91c0385e515b4bdfcddec6c01df8a",
+          "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/risk_18_IMG_007536_S005.jpg": "772f4a2f28adac097f49add64ed00f45b69bb1f491f5ed2802ae581f97ec7819",
+          "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/risk_18_5x_no_new_detail.jpg": "573c5b15544e05694d408fd7d4632b2996f485709b3b210a6ff14942d37df119",
+          "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/risk_19_IMG_007620_S004.jpg": "f26781e3affdd1ff05562cb9a8e83bfbbe659364104508f821df7ccf517839cd",
+          "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_visuals/risk_20_IMG_007673_S002.jpg": "aedb10328c4d9f8d3456c42a0df604d3952d340f74ffaec2127091849d3ad7fb"
+        },
+        "limit": "Documentary verification, not independently observed B tool calls or C pixel review."
+      }
+    },
+    {
+      "check": "independent_reference_group_recount",
+      "status": "PASS",
+      "detail": {
+        "road": {
+          "mask_bottom_contact_band": {
+            "denominator": 14,
+            "available": 9,
+            "qualitatively_valid": 2,
+            "unavailable": 5,
+            "available_unreviewed": 7,
+            "available_reviewed_not_qualitatively_valid": 0,
+            "unmatched_reference": 1
+          },
+          "bbox_lower_conservative_proxy": {
+            "denominator": 14,
+            "available": 13,
+            "qualitatively_valid": 4,
+            "unavailable": 1,
+            "available_unreviewed": 9,
+            "available_reviewed_not_qualitatively_valid": 0,
+            "unmatched_reference": 1
+          }
+        },
+        "two_bay": {
+          "mask_bottom_contact_band": {
+            "denominator": 18,
+            "available": 14,
+            "qualitatively_valid": 1,
+            "unavailable": 4,
+            "available_unreviewed": 13,
+            "available_reviewed_not_qualitatively_valid": 0,
+            "unmatched_reference": 2
+          },
+          "bbox_lower_conservative_proxy": {
+            "denominator": 18,
+            "available": 16,
+            "qualitatively_valid": 2,
+            "unavailable": 2,
+            "available_unreviewed": 14,
+            "available_reviewed_not_qualitatively_valid": 0,
+            "unmatched_reference": 2
+          }
+        }
+      }
+    },
+    {
+      "check": "B_tests_independent_execution",
+      "status": "PASS",
+      "detail": [
+        {
+          "suite": "test_footprint_methods.py",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.000s\n\nOK\n"
+        },
+        {
+          "suite": "test_audit_integrity.py",
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.152s\n\nOK\n"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "mask_bottom_contact_band": {
+      "statuses": {
+        "uncertain": 185,
+        "failed": 36
+      },
+      "available": 170,
+      "documented_visually_plausible_proxy": 6,
+      "unreviewed": 201
+    },
+    "bbox_lower_conservative_proxy": {
+      "statuses": {
+        "proxy": 176,
+        "uncertain": 45
+      },
+      "available": 221,
+      "documented_visually_plausible_proxy": 11,
+      "unreviewed": 201
+    }
+  },
+  "reference_groups": {
+    "road": {
+      "mask_bottom_contact_band": {
+        "denominator": 14,
+        "available": 9,
+        "qualitatively_valid": 2,
+        "unavailable": 5,
+        "available_unreviewed": 7,
+        "available_reviewed_not_qualitatively_valid": 0,
+        "unmatched_reference": 1
+      },
+      "bbox_lower_conservative_proxy": {
+        "denominator": 14,
+        "available": 13,
+        "qualitatively_valid": 4,
+        "unavailable": 1,
+        "available_unreviewed": 9,
+        "available_reviewed_not_qualitatively_valid": 0,
+        "unmatched_reference": 1
+      }
+    },
+    "two_bay": {
+      "mask_bottom_contact_band": {
+        "denominator": 18,
+        "available": 14,
+        "qualitatively_valid": 1,
+        "unavailable": 4,
+        "available_unreviewed": 13,
+        "available_reviewed_not_qualitatively_valid": 0,
+        "unmatched_reference": 2
+      },
+      "bbox_lower_conservative_proxy": {
+        "denominator": 18,
+        "available": 16,
+        "qualitatively_valid": 2,
+        "unavailable": 2,
+        "available_unreviewed": 14,
+        "available_reviewed_not_qualitatively_valid": 0,
+        "unmatched_reference": 2
+      }
+    }
+  },
+  "C_pixel_review_performed": false,
+  "ground_validated": 0,
+  "footprintIoU": null,
+  "limitations": [
+    "B visual observations are attributed to B, not independently re-observed by C.",
+    "Application evidence cannot prove OS access isolation or absence of unlogged calls.",
+    "14-entry B manifest is a listed-artifact manifest; it excludes visual media, hashed separately by C, and final run manifest remains pending."
+  ]
+}

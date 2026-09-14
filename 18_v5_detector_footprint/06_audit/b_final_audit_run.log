@@ -1,0 +1,39 @@
+{
+  "status": "PASS_B_DIAGNOSTIC_ARTIFACT_CHECKS",
+  "passed": 16,
+  "failed": [],
+  "counts": {
+    "mask_bottom_contact_band": {
+      "statuses": {
+        "uncertain": 185,
+        "failed": 36
+      },
+      "available": 170,
+      "documented_visually_plausible_proxy": 6,
+      "unreviewed": 201
+    },
+    "bbox_lower_conservative_proxy": {
+      "statuses": {
+        "proxy": 176,
+        "uncertain": 45
+      },
+      "available": 221,
+      "documented_visually_plausible_proxy": 11,
+      "unreviewed": 201
+    }
+  },
+  "tests": [
+    {
+      "suite": "test_footprint_methods.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.000s\n\nOK\n"
+    },
+    {
+      "suite": "test_audit_integrity.py",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.152s\n\nOK\n"
+    }
+  ]
+}

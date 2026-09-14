@@ -1,0 +1,72 @@
+{
+  "status": "PASS_INTEGRITY",
+  "checks": {
+    "pilot_exactly_60": true,
+    "pilot_dev_allowlist_subset": true,
+    "pilot_forbidden_intersection_empty": true,
+    "all_pilot_split_dev": true,
+    "prepared_exactly_pilot": true,
+    "references_exactly_pilot": true,
+    "predictions_exactly_pilot": true,
+    "reference_count_matches_pilot": true,
+    "reference_files_match_freeze": true,
+    "reference_basis_consistent": true,
+    "all_reviews_complete": true,
+    "prepared_source_hashes_match": true,
+    "batch_size_le_3": true,
+    "cache_and_target_mapping_present": true,
+    "reference_cache_hash_consistent": true,
+    "physical_request_count_matches_summary": true,
+    "request_ids_unique": true,
+    "client_concurrency_declared_le_2": true,
+    "transport_retries_le_one_each": true,
+    "no_semantic_retry_reason": true,
+    "model_success_identity_correct": true,
+    "request_input_hashes_match_files": true,
+    "prompt_does_not_include_dataset_values": true,
+    "r1_protocol_freeze_present": true,
+    "r1_protocol_hashes_match": true,
+    "r1_only_input_protocol_change_declared": true,
+    "r1_composite_one_image_per_request": true,
+    "r1_candidate_metadata_corrected": true,
+    "evaluation_cache_hashes_match": true,
+    "evaluation_prediction_ids_match": true,
+    "metrics_match_independent_recompute": true
+  },
+  "errors": [],
+  "warnings": [],
+  "findings": {
+    "all_http_success": true,
+    "http_status_counts": {
+      "200": 108
+    },
+    "raw_parse_ok_rate": {
+      "numerator": 108,
+      "denominator": 108
+    },
+    "required_target_schema_coverage": {
+      "numerator": 60,
+      "denominator": 60
+    },
+    "independent_primary_image_confusion": {
+      "tp": 3,
+      "fp": 0,
+      "tn": 22,
+      "fn": 29,
+      "support": 54
+    },
+    "reference_images": 60,
+    "reference_vehicles": 240,
+    "raw_detection_rows": 259,
+    "unique_targets": 252,
+    "duplicate_suppressed": 7,
+    "physical_requests": 108,
+    "parse_ok_requests": 108,
+    "forbidden_intersection_count": 0
+  },
+  "contract_sha256": "c906ef0929364c022e2e7586d677518666eac16ac71d0a4f69d38ae5382a29f4",
+  "pilot_manifest_sha256": "114f36e0e231bf2318f5df005caaf710f89dcfef9638c1e05fb5fb64413dfce8",
+  "reference_freeze_sha256": "1deedf19e3313288e5f1984a4a7bf90fb5e1a66b0d10c92e6b015730c7029cb0",
+  "request_log_sha256": "d5e346a5aca301508d4c59fd5811a523d694120c9c8b26f1b963383129709018",
+  "prediction_sha256": "0b62987327ee903cc240cb74ad1be06e9fee65bd33f88f99a3d421e26e228706"
+}

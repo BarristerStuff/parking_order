@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-10",
+  "scope": "DIAGNOSTIC_ONLY",
+  "detector_calls_by_B": 0,
+  "model_vlm_api_calls_by_B": 0,
+  "downloads_or_installs": 0,
+  "writes_root": "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit",
+  "source_target_sha256": "76b2f0d1343c68ed32c2c4e608f17d8da27079bfa41bd30b5a39adfe53bd446d",
+  "frozen_method_unchanged": true,
+  "files": {
+    "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_contract.json": "a63a65a75c68eb0e38140c4ae050c600f8ed77cd4f749d8917590df5f131e1dc",
+    "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint.py": "fc8c4c7abeb586815ed29f001e54afc5088ff45c8af3d97ec4cb0d6e7cb42564",
+    "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_outputs.jsonl": "9b187a4fbb19859bd2ccb5df141995c3014c2c6c819a2f1da8a7164c643e9bcb",
+    "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_metrics.json": "e0ed116eeafa57d7426d4a56e4d8d86eebc915544a2e3a2046539a85b0a4087a",
+    "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/footprint_report.md": "d42606556653e04153edb679535e711ac12738e5ae4dea91c88167f30f4f278f",
+    "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/visual_review_log.json": "86898c85b6bc794bd24d5930287300cc4fd35bc4a2a6c5edfd200b860e6f9482",
+    "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/mask_representation_diagnostics.jsonl": "9e59546b4e8429427903fe3c0525c19629d74377cd859a35247fee8385cf00b9",
+    "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/serialize_audit.py": "75d949879cd4e57ce3e8f88edc6de9d54deddbdc61bc42110c3fc0a6569dad98",
+    "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/evaluation.py": "0560765c7eef90ef5d4b1320ea513b170ebf7abb373612f167861854ce222551",
+    "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/finalize_audit.py": "1688937448d26510a4f3a2ed7317550b589a4b41edfe395c5d1efa7a4e4e00cb",
+    "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/test_footprint_methods.py": "c4f1c8af34d2f9cc7d6bb92e96b2a7c4ca545316dc5c382452acee530c6f930f",
+    "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/test_audit_integrity.py": "89e59bf506cfe51bb32ca54687981daf2a13a7dc518a5877700165c2742d46c4",
+    "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/schema_revision_audit_note.json": "105b63fdf3f2f58a6c4c9c6cac20584849d162b161eb367ebef2b6c3e55563e4",
+    "/home/yanbo/net_vlm_parking_optimization/18_v5_detector_footprint/02_footprint_audit/runtime/all_tests.log": "d0e48f9b9c60e79178f0bf7ecfeaa1a4ac0b920cd23ebb8afd52f0d3ca4f98da"
+  }
+}

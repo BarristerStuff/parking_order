@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-10",
+  "revision": "V5_SPATIAL_EVIDENCE_VLM",
+  "source": "AIGC",
+  "pilot_images": 60,
+  "dedup_iou": 0.8,
+  "classes": [
+    "car",
+    "truck",
+    "bus"
+  ],
+  "conf": 0.25,
+  "imgsz": 640,
+  "max_det": 50,
+  "footprint_min_coverage": 0.6,
+  "mask_is_ground_footprint": false,
+  "mask_lower_fraction": 0.2,
+  "mask_lower_is_ground_truth": false,
+  "new_images": "NOT_EXECUTED: first assess existing pilot P0; no generation needed if footprint gate blocks",
+  "positive_requires_validated_ground_contact": true,
+  "vlm_max_requests": 300,
+  "vlm_max_concurrency": 2,
+  "inference_reference_access": false
+}

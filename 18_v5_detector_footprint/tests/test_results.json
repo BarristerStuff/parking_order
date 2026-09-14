@@ -1,0 +1,182 @@
+{
+  "executed_at_unix": 1789380363.5471308,
+  "compile": [
+    {
+      "file": "01_detector_audit/finalize_review.py",
+      "ok": true
+    },
+    {
+      "file": "01_detector_audit/make_sheets.py",
+      "ok": true
+    },
+    {
+      "file": "01_detector_audit/matching.py",
+      "ok": true
+    },
+    {
+      "file": "01_detector_audit/render_risk_review.py",
+      "ok": true
+    },
+    {
+      "file": "01_detector_audit/run_detector.py",
+      "ok": true
+    },
+    {
+      "file": "01_detector_audit/test_matching_core.py",
+      "ok": true
+    },
+    {
+      "file": "02_footprint_audit/audit_visuals.py",
+      "ok": true
+    },
+    {
+      "file": "02_footprint_audit/evaluation.py",
+      "ok": true
+    },
+    {
+      "file": "02_footprint_audit/finalize_audit.py",
+      "ok": true
+    },
+    {
+      "file": "02_footprint_audit/footprint.py",
+      "ok": true
+    },
+    {
+      "file": "02_footprint_audit/serialize_audit.py",
+      "ok": true
+    },
+    {
+      "file": "02_footprint_audit/test_audit_integrity.py",
+      "ok": true
+    },
+    {
+      "file": "02_footprint_audit/test_footprint_methods.py",
+      "ok": true
+    },
+    {
+      "file": "03_spatial_evidence/build_fixtures.py",
+      "ok": true
+    },
+    {
+      "file": "03_spatial_evidence/run_synthetic.py",
+      "ok": true
+    },
+    {
+      "file": "04_rule_engine/space_rule.py",
+      "ok": true
+    },
+    {
+      "file": "04_rule_engine/synthetic_core.py",
+      "ok": true
+    },
+    {
+      "file": "05_evaluation/detector_footprint_eval.py",
+      "ok": true
+    },
+    {
+      "file": "05_evaluation/metrics_utils.py",
+      "ok": true
+    },
+    {
+      "file": "06_audit/audit_b_final.py",
+      "ok": true
+    },
+    {
+      "file": "06_audit/audit_v5_p0.py",
+      "ok": true
+    },
+    {
+      "file": "06_audit/recheck_footprint.py",
+      "ok": true
+    },
+    {
+      "file": "06_audit/recheck_tests.py",
+      "ok": true
+    },
+    {
+      "file": "06_audit/test_independent_auditor.py",
+      "ok": true
+    },
+    {
+      "file": "contracts/build_hash_manifest.py",
+      "ok": true
+    },
+    {
+      "file": "contracts/preflight.py",
+      "ok": true
+    },
+    {
+      "file": "tests/run_all_tests.py",
+      "ok": true
+    },
+    {
+      "file": "tests/test_contracts.py",
+      "ok": true
+    },
+    {
+      "file": "tests/test_footprint.py",
+      "ok": true
+    },
+    {
+      "file": "tests/test_integration_guards.py",
+      "ok": true
+    },
+    {
+      "file": "tests/test_matching.py",
+      "ok": true
+    },
+    {
+      "file": "tests/test_metrics.py",
+      "ok": true
+    },
+    {
+      "file": "tests/test_synthetic_rules.py",
+      "ok": true
+    }
+  ],
+  "suites": [
+    {
+      "file": "test_matching.py",
+      "python": "/usr/bin/python3",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.000s\n\nOK\n"
+    },
+    {
+      "file": "test_footprint.py",
+      "python": "/usr/bin/python3",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "........................\n----------------------------------------------------------------------\nRan 24 tests in 0.169s\n\nOK\n"
+    },
+    {
+      "file": "test_contracts.py",
+      "python": "/usr/bin/python3",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.003s\n\nOK\n"
+    },
+    {
+      "file": "test_synthetic_rules.py",
+      "python": "/home/yanbo/net_vlm_garbage_optimization/P3_detector_vlm/.venv_yoloe/bin/python",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.005s\n\nOK\n"
+    },
+    {
+      "file": "test_metrics.py",
+      "python": "/usr/bin/python3",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n"
+    },
+    {
+      "file": "test_integration_guards.py",
+      "python": "/usr/bin/python3",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.497s\n\nOK\n"
+    }
+  ],
+  "passed": true
+}
