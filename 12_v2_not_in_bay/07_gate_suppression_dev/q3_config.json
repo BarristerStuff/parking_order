@@ -1,0 +1,8 @@
+{
+  "model": "qwen3.5:4b",
+  "endpoint": "http://192.168.20.62:11434/api/generate",
+  "max_workers": 2,
+  "q3_requests": 59,
+  "source_predictions_sha256": "2e98a2659a91df8ec4ec23ae2d5a337fb43f850f6ddc6a5679959026ebeabe75",
+  "rule": "Q1=C and Q3=A -> negative_gate_queue; D -> uncertain; B/C -> positive"
+}

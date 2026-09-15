@@ -1,0 +1,129 @@
+{
+  "hn01_fpr": {
+    "denominator": 18,
+    "numerator": 0,
+    "value": 0.0,
+    "wilson_95": [
+      0,
+      0.17587922364665765
+    ]
+  },
+  "hn01_suppression": {
+    "denominator": 15,
+    "numerator": 15,
+    "value": 1.0,
+    "wilson_95": [
+      0.7961166989641515,
+      1
+    ]
+  },
+  "images": 238,
+  "latency_seconds": {
+    "max": 7.911386,
+    "min": 1.392067,
+    "p50": 1.531812,
+    "p95_nearest_rank": 1.74273
+  },
+  "negative_fpr": {
+    "denominator": 143,
+    "numerator": 1,
+    "value": 0.006993006993006993,
+    "wilson_95": [
+      0.0012355058901738283,
+      0.03854521317655134
+    ]
+  },
+  "p01_original_tp_retention": {
+    "denominator": 20,
+    "numerator": 19,
+    "value": 0.95,
+    "wilson_95": [
+      0.763868806553258,
+      0.9911185511992047
+    ]
+  },
+  "p01_retention": {
+    "denominator": 23,
+    "numerator": 19,
+    "value": 0.8260869565217391,
+    "wilson_95": [
+      0.6286235235977385,
+      0.9302134643693744
+    ]
+  },
+  "p01_suppressed_original_tp": [
+    "IMG_007533"
+  ],
+  "prediction_counts": {
+    "negative": 199,
+    "positive": 38,
+    "uncertain": 1
+  },
+  "q3_distribution_by_group": {
+    "hn01-gate-queue": {
+      "A": 16,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "n02-close-to-line-but-inside": {
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "D": 0
+    },
+    "p01-outside-legal-bay-clear": {
+      "A": 1,
+      "B": 22,
+      "C": 0,
+      "D": 0
+    },
+    "u01-insufficient-parking-visual-evidence": {
+      "A": 0,
+      "B": 9,
+      "C": 0,
+      "D": 0
+    },
+    "u02-markings-severely-missing-or-occluded": {
+      "A": 0,
+      "B": 7,
+      "C": 0,
+      "D": 0
+    },
+    "u05-gate-queue-or-parking-ambiguous": {
+      "A": 0,
+      "B": 3,
+      "C": 0,
+      "D": 0
+    }
+  },
+  "q3_requests": 59,
+  "recall": {
+    "denominator": 23,
+    "numerator": 19,
+    "value": 0.8260869565217391,
+    "wilson_95": [
+      0.6286235235977385,
+      0.9302134643693744
+    ]
+  },
+  "schema_successes": 59,
+  "u05_original_q1_c_suppressed": {
+    "denominator": 3,
+    "numerator": 0,
+    "value": 0.0,
+    "wilson_95": [
+      5.551115123125783e-17,
+      0.5614970317550454
+    ]
+  },
+  "uncertain_rate_all": {
+    "denominator": 238,
+    "numerator": 1,
+    "value": 0.004201680672268907,
+    "wilson_95": [
+      0.000742085257523166,
+      0.02341199836891201
+    ]
+  }
+}

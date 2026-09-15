@@ -1,0 +1,9 @@
+{
+  "completed_date": "2026-09-15",
+  "config_sha256": "d2af8497ccdebe71d3929cfd61ffa510e50ff14a8858e727e9f4d3f7026ac27e",
+  "prompt_sha256": "5cc5e33ac9e7a9f99b77100fcb4a83ad557d80901369e593f8cca7d7e2197cdc",
+  "request_count": 59,
+  "schema_successes": 59,
+  "source_predictions_sha256": "2e98a2659a91df8ec4ec23ae2d5a337fb43f850f6ddc6a5679959026ebeabe75",
+  "status": "COMPLETED_DO_NOT_RERUN"
+}
