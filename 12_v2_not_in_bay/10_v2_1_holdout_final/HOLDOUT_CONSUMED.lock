@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETED_DO_NOT_RERUN",
+  "attempt1_interrupted_reason": "ENOSPC",
+  "attempt1_ledger_rows": 215,
+  "attempt2_new_requests": 14,
+  "completed_date": "2026-09-15"
+}

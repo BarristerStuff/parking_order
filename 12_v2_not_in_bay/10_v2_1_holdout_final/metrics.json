@@ -1,0 +1,73 @@
+{
+  "p01_recall": {
+    "n": 8,
+    "d": 8,
+    "rate": 1.0,
+    "wilson95": [
+      0.6755924351161318,
+      1.0
+    ]
+  },
+  "negative_fpr": {
+    "n": 1,
+    "d": 47,
+    "rate": 0.02127659574468085,
+    "wilson95": [
+      0.003765768038596934,
+      0.11112981041628947
+    ]
+  },
+  "hn01_alert_rate": {
+    "n": 0,
+    "d": 6,
+    "rate": 0.0,
+    "wilson95": [
+      0.0,
+      0.39033428790215224
+    ]
+  },
+  "p03_alert_rate": {
+    "n": 0,
+    "d": 6,
+    "rate": 0.0,
+    "wilson95": [
+      0.0,
+      0.39033428790215224
+    ]
+  },
+  "p05_alert_rate": {
+    "n": 0,
+    "d": 4,
+    "rate": 0.0,
+    "wilson95": [
+      0.0,
+      0.48989083645458353
+    ]
+  },
+  "uncertain_rate": {
+    "n": 0,
+    "d": 8,
+    "rate": 0.0,
+    "wilson95": [
+      0.0,
+      0.3244075648838681
+    ]
+  },
+  "images": 79,
+  "new_requests": 14,
+  "gates": {
+    "p01_recall": true,
+    "negative_fpr": true,
+    "hn01_alert_rate": true,
+    "uncertain_rate": true
+  },
+  "latency_seconds_per_image": {
+    "p50": 1.7776742930000182,
+    "p95": 4.208745321701813
+  },
+  "requests_per_image": {
+    "total": 121,
+    "p50": 1,
+    "p95": 2.0
+  }
+}
