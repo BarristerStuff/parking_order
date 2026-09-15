@@ -69,5 +69,56 @@
     "total": 121,
     "p50": 1,
     "p95": 2.0
+  },
+  "uncertain_rate_all_images": {
+    "n": 0,
+    "d": 79,
+    "rate": 0.0,
+    "wilson95": [
+      0.0,
+      0.04567516008173919
+    ]
+  },
+  "dev_comparison_corrected_source": "12_v2_not_in_bay/07_gate_suppression_dev/q3_metrics.json",
+  "dev_q3_corrected": {
+    "p01_recall": {
+      "n": 19,
+      "d": 23,
+      "rate": 0.8260869565217391,
+      "wilson95": [
+        0.6286235235977385,
+        0.9302134643693744
+      ]
+    },
+    "negative_fpr": {
+      "n": 1,
+      "d": 143,
+      "rate": 0.006993006993006993,
+      "wilson95": [
+        0.0012355058901738283,
+        0.03854521317655134
+      ]
+    },
+    "hn01_alert_rate": {
+      "n": 0,
+      "d": 18,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.17587922364665765
+      ]
+    },
+    "uncertain_rate": {
+      "n": 1,
+      "d": 238,
+      "rate": 0.004201680672268907,
+      "wilson95": [
+        0.000742085257523166,
+        0.02341199836891201
+      ]
+    },
+    "negative_fp_media_id": [
+      "IMG_007433"
+    ]
   }
 }

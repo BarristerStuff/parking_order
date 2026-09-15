@@ -30,11 +30,13 @@ Additional single-label reporting: p03 alert rate 0/6 = 0.00% (Wilson [0.00%, 39
 
 ### DEV / VAL / HOLDOUT comparison
 
+**更正（2026-09-15）：** DEV Q3 后数字已按 `07_gate_suppression_dev/q3_metrics.json` 重算并替换。DEV 的 negative FP 为 `IMG_007433`；uncertain 分母为全 DEV 238 张。HOLDOUT uncertain 同时报告全集 79 张分母，避免与 uncertain 组分母混淆。
+
 | Set | p01 recall | negative FPR | hn01 alert rate | uncertain rate |
 |---|---:|---:|---:|---:|
-| DEV (Q3) | 20/20 = 100.00% | 0/179 = 0.00% | 0/18 = 0.00% | 1/199 = 0.50% |
+| DEV (Q3) | 19/23 = 82.61% | 1/143 = 0.70% | 0/18 = 0.00% | 1/238 = 0.42% |
 | VAL (Q3) | 8/8 = 100.00% | 0/48 = 0.00% | 0/6 = 0.00% | 0/80 = 0.00% |
-| HOLDOUT | 8/8 = 100.00% | 1/47 = 2.13% | 0/6 = 0.00% | 0/8 = 0.00% |
+| HOLDOUT | 8/8 = 100.00% | 1/47 = 2.13% | 0/6 = 0.00% | 0/79 = 0.00% (全集；uncertain 组为 0/8) |
 
 ## Inference and decision
 
