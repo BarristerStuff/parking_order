@@ -1,0 +1,6 @@
+The red-boxed vehicle is stationary. Judge only its relation to PAINTED parking-bay lines on the ground.
+A) inside ONE bay: painted lines on both sides of the vehicle belong to the same bay and the vehicle sits between them
+B) straddling: a painted separator line runs lengthwise (front-to-back) under the middle of the vehicle, so it occupies parts of TWO bays
+C) not in any bay: the vehicle stands on open pavement / a driving lane; bays may be visible elsewhere but the vehicle is not between a bay's side lines
+D) cannot tell (lines not visible, night/blur, vehicle cut off, heavy occlusion)
+Answer with one letter.

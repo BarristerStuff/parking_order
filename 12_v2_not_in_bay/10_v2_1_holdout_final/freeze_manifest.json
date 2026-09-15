@@ -1,0 +1,31 @@
+{
+  "allowlist_sha256": "cf6917a5b0db73274ab71f10aa1cd232d0aa919b9228ad68fb5d399fe78fb7c6",
+  "group_counts": {
+    "hn01-gate-queue": 6,
+    "hn02-faded-lines-but-confirmably-inside": 2,
+    "hn03-perspective-looks-like-crossing": 2,
+    "hn04-large-vehicle-compliant": 2,
+    "hn05-adjacent-vehicle-occludes-lines": 2,
+    "hn06-shadows-cracks-curbs-mimic-lines": 2,
+    "n01-standard-inside-bay": 6,
+    "n02-close-to-line-but-inside": 5,
+    "n03-diagonal-bay-correct": 3,
+    "n04-parallel-bay-correct": 3,
+    "n05-multiple-all-correct": 3,
+    "n06-special-marked-space-geometry-correct": 4,
+    "p01-outside-legal-bay-clear": 8,
+    "p02-cross-single-boundary-line": 7,
+    "p03-span-two-bays": 6,
+    "p04-angled-footprint-outside": 4,
+    "p05-multi-vehicle-at-least-one-violation": 4,
+    "p06-nose-or-tail-intrudes-aisle": 2,
+    "u01-insufficient-parking-visual-evidence": 3,
+    "u02-markings-severely-missing-or-occluded": 2,
+    "u03-vehicle-cut-by-frame-edge": 1,
+    "u04-night-or-blur-boundary-unreadable": 1,
+    "u05-gate-queue-or-parking-ambiguous": 1
+  },
+  "gt_sha256": "321f0994006d2451352f0c48d73911749f6a471d24c16f25808bbf30c31bd353",
+  "image_count": 79,
+  "split_sha256": "f531aaff35d3940dd17bd57e1f9825903177dcd91d2f7e41d2a598a5a0cfdb24"
+}

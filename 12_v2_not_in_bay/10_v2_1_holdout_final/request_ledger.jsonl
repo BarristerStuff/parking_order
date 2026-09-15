@@ -1,0 +1,216 @@
+{"event": "request_start", "sample_token": "5139a253b6d1ce8e79162844bc2560fcc29bf55dce700959e77d9e67c22eb95f", "vehicle_rank": 1, "timestamp": 1789465535.8048387}
+{"event": "request_start", "sample_token": "f9356a8ec08462b119432041521ee95bc38aa614c8113840ea2163a9475accfe", "vehicle_rank": 1, "timestamp": 1789465535.8048816}
+{"event": "request_result", "sample_token": "5139a253b6d1ce8e79162844bc2560fcc29bf55dce700959e77d9e67c22eb95f", "vehicle_rank": 1, "timestamp": 1789465537.222659, "answer": "C", "latency_seconds": 1.4176362649996008}
+{"event": "request_start", "sample_token": "5139a253b6d1ce8e79162844bc2560fcc29bf55dce700959e77d9e67c22eb95f", "vehicle_rank": 1, "timestamp": 1789465537.2260964}
+{"event": "request_result", "sample_token": "f9356a8ec08462b119432041521ee95bc38aa614c8113840ea2163a9475accfe", "vehicle_rank": 1, "timestamp": 1789465538.11383, "answer": "C", "latency_seconds": 2.308616170001187}
+{"event": "request_start", "sample_token": "f9356a8ec08462b119432041521ee95bc38aa614c8113840ea2163a9475accfe", "vehicle_rank": 1, "timestamp": 1789465538.1172304}
+{"event": "request_result", "sample_token": "5139a253b6d1ce8e79162844bc2560fcc29bf55dce700959e77d9e67c22eb95f", "vehicle_rank": 1, "timestamp": 1789465538.8623414, "answer": "B", "latency_seconds": 1.6361064570010058}
+{"event": "request_start", "sample_token": "4258c9ddfdf0fa5fd4490e5e20c0ce3b07244de0f782cbaf136e32f2c52c685d", "vehicle_rank": 1, "timestamp": 1789465538.9258082}
+{"event": "request_result", "sample_token": "f9356a8ec08462b119432041521ee95bc38aa614c8113840ea2163a9475accfe", "vehicle_rank": 1, "timestamp": 1789465539.780506, "answer": "B", "latency_seconds": 1.6631761980006559}
+{"event": "request_start", "sample_token": "4b94b3c00ba8a76a41e8be8de629e5378a860ea72b646fc9f2a796cac3ee7e6d", "vehicle_rank": 1, "timestamp": 1789465539.8421047}
+{"event": "request_result", "sample_token": "4258c9ddfdf0fa5fd4490e5e20c0ce3b07244de0f782cbaf136e32f2c52c685d", "vehicle_rank": 1, "timestamp": 1789465540.5503557, "answer": "C", "latency_seconds": 1.6244410679992143}
+{"event": "request_start", "sample_token": "4258c9ddfdf0fa5fd4490e5e20c0ce3b07244de0f782cbaf136e32f2c52c685d", "vehicle_rank": 1, "timestamp": 1789465540.5535736}
+{"event": "request_result", "sample_token": "4b94b3c00ba8a76a41e8be8de629e5378a860ea72b646fc9f2a796cac3ee7e6d", "vehicle_rank": 1, "timestamp": 1789465541.4871, "answer": "C", "latency_seconds": 1.6448537810010748}
+{"event": "request_start", "sample_token": "4b94b3c00ba8a76a41e8be8de629e5378a860ea72b646fc9f2a796cac3ee7e6d", "vehicle_rank": 1, "timestamp": 1789465541.490647}
+{"event": "request_result", "sample_token": "4258c9ddfdf0fa5fd4490e5e20c0ce3b07244de0f782cbaf136e32f2c52c685d", "vehicle_rank": 1, "timestamp": 1789465542.2893317, "answer": "B", "latency_seconds": 1.7356486779990519}
+{"event": "request_start", "sample_token": "4258c9ddfdf0fa5fd4490e5e20c0ce3b07244de0f782cbaf136e32f2c52c685d", "vehicle_rank": 2, "timestamp": 1789465542.3512008}
+{"event": "request_result", "sample_token": "4b94b3c00ba8a76a41e8be8de629e5378a860ea72b646fc9f2a796cac3ee7e6d", "vehicle_rank": 1, "timestamp": 1789465543.0746672, "answer": "B", "latency_seconds": 1.5839322390002053}
+{"event": "request_start", "sample_token": "4b94b3c00ba8a76a41e8be8de629e5378a860ea72b646fc9f2a796cac3ee7e6d", "vehicle_rank": 2, "timestamp": 1789465543.1349566}
+{"event": "request_result", "sample_token": "4258c9ddfdf0fa5fd4490e5e20c0ce3b07244de0f782cbaf136e32f2c52c685d", "vehicle_rank": 2, "timestamp": 1789465543.8284633, "answer": "C", "latency_seconds": 1.4771644319989718}
+{"event": "request_start", "sample_token": "4258c9ddfdf0fa5fd4490e5e20c0ce3b07244de0f782cbaf136e32f2c52c685d", "vehicle_rank": 2, "timestamp": 1789465543.831872}
+{"event": "request_result", "sample_token": "4b94b3c00ba8a76a41e8be8de629e5378a860ea72b646fc9f2a796cac3ee7e6d", "vehicle_rank": 2, "timestamp": 1789465544.6724796, "answer": "C", "latency_seconds": 1.5374108470005012}
+{"event": "request_start", "sample_token": "4b94b3c00ba8a76a41e8be8de629e5378a860ea72b646fc9f2a796cac3ee7e6d", "vehicle_rank": 2, "timestamp": 1789465544.6755123}
+{"event": "request_result", "sample_token": "4258c9ddfdf0fa5fd4490e5e20c0ce3b07244de0f782cbaf136e32f2c52c685d", "vehicle_rank": 2, "timestamp": 1789465545.4554536, "answer": "B", "latency_seconds": 1.6234790440012148}
+{"event": "request_start", "sample_token": "e58d1f33401fb0671f8aabb59abb2f97defe18496aa16b75ad2cb89ac1f302d1", "vehicle_rank": 1, "timestamp": 1789465545.5214992}
+{"event": "request_result", "sample_token": "4b94b3c00ba8a76a41e8be8de629e5378a860ea72b646fc9f2a796cac3ee7e6d", "vehicle_rank": 2, "timestamp": 1789465546.2507234, "answer": "B", "latency_seconds": 1.5751250379998964}
+{"event": "request_start", "sample_token": "8672578a0fad505fac5a631781f63dfe5d5439b3ffcc42e13f35267bf4058878", "vehicle_rank": 1, "timestamp": 1789465546.3169932}
+{"event": "request_result", "sample_token": "e58d1f33401fb0671f8aabb59abb2f97defe18496aa16b75ad2cb89ac1f302d1", "vehicle_rank": 1, "timestamp": 1789465547.14766, "answer": "C", "latency_seconds": 1.6260539430004428}
+{"event": "request_start", "sample_token": "e58d1f33401fb0671f8aabb59abb2f97defe18496aa16b75ad2cb89ac1f302d1", "vehicle_rank": 1, "timestamp": 1789465547.151034}
+{"event": "request_result", "sample_token": "8672578a0fad505fac5a631781f63dfe5d5439b3ffcc42e13f35267bf4058878", "vehicle_rank": 1, "timestamp": 1789465547.9129422, "answer": "C", "latency_seconds": 1.5957689839997329}
+{"event": "request_start", "sample_token": "8672578a0fad505fac5a631781f63dfe5d5439b3ffcc42e13f35267bf4058878", "vehicle_rank": 1, "timestamp": 1789465547.9167073}
+{"event": "request_result", "sample_token": "e58d1f33401fb0671f8aabb59abb2f97defe18496aa16b75ad2cb89ac1f302d1", "vehicle_rank": 1, "timestamp": 1789465548.6687744, "answer": "B", "latency_seconds": 1.5176429830007692}
+{"event": "request_start", "sample_token": "fc3ed29614f9ddaa059b1c63c12195be9c938924de18bdc061c4202411daaf29", "vehicle_rank": 1, "timestamp": 1789465548.7267878}
+{"event": "request_result", "sample_token": "8672578a0fad505fac5a631781f63dfe5d5439b3ffcc42e13f35267bf4058878", "vehicle_rank": 1, "timestamp": 1789465549.4591923, "answer": "B", "latency_seconds": 1.54239380800027}
+{"event": "request_start", "sample_token": "ff0a602e17a29d88005ba4c34738e4109716e0a7b507ba23a1c9141c63b10e21", "vehicle_rank": 1, "timestamp": 1789465549.520613}
+{"event": "request_result", "sample_token": "fc3ed29614f9ddaa059b1c63c12195be9c938924de18bdc061c4202411daaf29", "vehicle_rank": 1, "timestamp": 1789465550.2353537, "answer": "C", "latency_seconds": 1.5084566789992095}
+{"event": "request_start", "sample_token": "fc3ed29614f9ddaa059b1c63c12195be9c938924de18bdc061c4202411daaf29", "vehicle_rank": 1, "timestamp": 1789465550.2386384}
+{"event": "request_result", "sample_token": "ff0a602e17a29d88005ba4c34738e4109716e0a7b507ba23a1c9141c63b10e21", "vehicle_rank": 1, "timestamp": 1789465551.146121, "answer": "C", "latency_seconds": 1.625405138998758}
+{"event": "request_start", "sample_token": "ff0a602e17a29d88005ba4c34738e4109716e0a7b507ba23a1c9141c63b10e21", "vehicle_rank": 1, "timestamp": 1789465551.149311}
+{"event": "request_result", "sample_token": "fc3ed29614f9ddaa059b1c63c12195be9c938924de18bdc061c4202411daaf29", "vehicle_rank": 1, "timestamp": 1789465551.9554245, "answer": "B", "latency_seconds": 1.7166998350003269}
+{"event": "request_start", "sample_token": "fbf0840b5295eebd50448505300464dc7a2963b90f8b16709ec4a1b94e5a4ec5", "vehicle_rank": 1, "timestamp": 1789465552.0216076}
+{"event": "request_result", "sample_token": "ff0a602e17a29d88005ba4c34738e4109716e0a7b507ba23a1c9141c63b10e21", "vehicle_rank": 1, "timestamp": 1789465552.7238562, "answer": "B", "latency_seconds": 1.5744579629990767}
+{"event": "request_start", "sample_token": "e193369ca3e7ed96f96f3b91ec9b44fb9d1cf273355594f42380204426ea137c", "vehicle_rank": 1, "timestamp": 1789465552.7872024}
+{"event": "request_result", "sample_token": "fbf0840b5295eebd50448505300464dc7a2963b90f8b16709ec4a1b94e5a4ec5", "vehicle_rank": 1, "timestamp": 1789465553.4951427, "answer": "A", "latency_seconds": 1.4734199230006197}
+{"event": "request_start", "sample_token": "e95e962fe9682105741238f4453c2639b3616da0f7e09a7d9065f51a6e0995bf", "vehicle_rank": 1, "timestamp": 1789465553.5562885}
+{"event": "request_result", "sample_token": "e193369ca3e7ed96f96f3b91ec9b44fb9d1cf273355594f42380204426ea137c", "vehicle_rank": 1, "timestamp": 1789465554.2575617, "answer": "A", "latency_seconds": 1.4702014670001518}
+{"event": "request_start", "sample_token": "49560707300efb2431c281a83de5b192bcbf7b363113b0b59f55aba896359d31", "vehicle_rank": 1, "timestamp": 1789465554.324118}
+{"event": "request_result", "sample_token": "e95e962fe9682105741238f4453c2639b3616da0f7e09a7d9065f51a6e0995bf", "vehicle_rank": 1, "timestamp": 1789465554.9981422, "answer": "B", "latency_seconds": 1.4415758109989838}
+{"event": "request_start", "sample_token": "ed0b2a74ed4a5e9e50076b06155f968cb218fc7f9474c2bbe5d50e7713bbc1e9", "vehicle_rank": 1, "timestamp": 1789465555.0638492}
+{"event": "request_result", "sample_token": "49560707300efb2431c281a83de5b192bcbf7b363113b0b59f55aba896359d31", "vehicle_rank": 1, "timestamp": 1789465555.8440108, "answer": "A", "latency_seconds": 1.519784587999311}
+{"event": "request_start", "sample_token": "a989130fb9ba8132fbae136253c19c64115dfda6a3d54603ebfa2a697276fb00", "vehicle_rank": 1, "timestamp": 1789465555.9053047}
+{"event": "request_result", "sample_token": "ed0b2a74ed4a5e9e50076b06155f968cb218fc7f9474c2bbe5d50e7713bbc1e9", "vehicle_rank": 1, "timestamp": 1789465556.54905, "answer": "B", "latency_seconds": 1.4850870139998733}
+{"event": "request_start", "sample_token": "e04d0f3a4f8673963d759b1ba3fc278174c4f9124fc60c4ac93804fdd4d8bdcf", "vehicle_rank": 1, "timestamp": 1789465556.6084075}
+{"event": "request_result", "sample_token": "a989130fb9ba8132fbae136253c19c64115dfda6a3d54603ebfa2a697276fb00", "vehicle_rank": 1, "timestamp": 1789465557.3706527, "answer": "A", "latency_seconds": 1.4652207840008487}
+{"event": "request_start", "sample_token": "96068846cd98ccfc95d2aad4e65ee6718638ee5bd1f4ef276ea33aedae784922", "vehicle_rank": 1, "timestamp": 1789465557.4331164}
+{"event": "request_result", "sample_token": "e04d0f3a4f8673963d759b1ba3fc278174c4f9124fc60c4ac93804fdd4d8bdcf", "vehicle_rank": 1, "timestamp": 1789465558.2681725, "answer": "A", "latency_seconds": 1.6596637050006393}
+{"event": "request_start", "sample_token": "c1754715bfe0726147d8f5cc7b2fbdb6a626cfe80773d6d5b5907af8f2d2f8a0", "vehicle_rank": 1, "timestamp": 1789465558.3285778}
+{"event": "request_result", "sample_token": "96068846cd98ccfc95d2aad4e65ee6718638ee5bd1f4ef276ea33aedae784922", "vehicle_rank": 1, "timestamp": 1789465559.0886543, "answer": "A", "latency_seconds": 1.655435202001172}
+{"event": "request_start", "sample_token": "a69fa502b5e9eb5e6ef18a7c94eb7b3c4dad756ca5ff53f40beb6b795eea4da1", "vehicle_rank": 1, "timestamp": 1789465559.149278}
+{"event": "request_result", "sample_token": "c1754715bfe0726147d8f5cc7b2fbdb6a626cfe80773d6d5b5907af8f2d2f8a0", "vehicle_rank": 1, "timestamp": 1789465559.893946, "answer": "A", "latency_seconds": 1.5652460450000945}
+{"event": "request_start", "sample_token": "c1754715bfe0726147d8f5cc7b2fbdb6a626cfe80773d6d5b5907af8f2d2f8a0", "vehicle_rank": 2, "timestamp": 1789465559.953898}
+{"event": "request_result", "sample_token": "a69fa502b5e9eb5e6ef18a7c94eb7b3c4dad756ca5ff53f40beb6b795eea4da1", "vehicle_rank": 1, "timestamp": 1789465560.6331403, "answer": "B", "latency_seconds": 1.4837597530004132}
+{"event": "request_start", "sample_token": "94784a1913e0d6b7b680039795a0a192edb8f74a1140dbb8cf37924fd2ae8552", "vehicle_rank": 1, "timestamp": 1789465560.695866}
+{"event": "request_result", "sample_token": "c1754715bfe0726147d8f5cc7b2fbdb6a626cfe80773d6d5b5907af8f2d2f8a0", "vehicle_rank": 2, "timestamp": 1789465561.4706037, "answer": "A", "latency_seconds": 1.516600525001195}
+{"event": "request_start", "sample_token": "7bf6aa850dc0520e8d02c59a3aab66a37a31bfd7f1d1eca004e3e989ba5d004b", "vehicle_rank": 1, "timestamp": 1789465561.5327823}
+{"event": "request_result", "sample_token": "94784a1913e0d6b7b680039795a0a192edb8f74a1140dbb8cf37924fd2ae8552", "vehicle_rank": 1, "timestamp": 1789465562.2227423, "answer": "B", "latency_seconds": 1.526767903000291}
+{"event": "request_start", "sample_token": "94784a1913e0d6b7b680039795a0a192edb8f74a1140dbb8cf37924fd2ae8552", "vehicle_rank": 2, "timestamp": 1789465562.2835014}
+{"event": "request_result", "sample_token": "7bf6aa850dc0520e8d02c59a3aab66a37a31bfd7f1d1eca004e3e989ba5d004b", "vehicle_rank": 1, "timestamp": 1789465563.1556466, "answer": "A", "latency_seconds": 1.6227430130002176}
+{"event": "request_start", "sample_token": "f47a7280a736261000a58516cc98a8f372f6be8585e03dc6e457a119b2b979f1", "vehicle_rank": 1, "timestamp": 1789465563.2269804}
+{"event": "request_result", "sample_token": "94784a1913e0d6b7b680039795a0a192edb8f74a1140dbb8cf37924fd2ae8552", "vehicle_rank": 2, "timestamp": 1789465563.917705, "answer": "B", "latency_seconds": 1.6340906599998561}
+{"event": "request_start", "sample_token": "3040ce8409df35a1503df1f0b924b9f113c68b95ff51b5200567903b55172e4a", "vehicle_rank": 1, "timestamp": 1789465563.9821417}
+{"event": "request_result", "sample_token": "f47a7280a736261000a58516cc98a8f372f6be8585e03dc6e457a119b2b979f1", "vehicle_rank": 1, "timestamp": 1789465564.6104286, "answer": "A", "latency_seconds": 1.3833286380013305}
+{"event": "request_start", "sample_token": "f47a7280a736261000a58516cc98a8f372f6be8585e03dc6e457a119b2b979f1", "vehicle_rank": 2, "timestamp": 1789465564.672267}
+{"event": "request_result", "sample_token": "3040ce8409df35a1503df1f0b924b9f113c68b95ff51b5200567903b55172e4a", "vehicle_rank": 1, "timestamp": 1789465565.3529527, "answer": "B", "latency_seconds": 1.3706790400010505}
+{"event": "request_start", "sample_token": "17eca2f5c9c4113a83e593d398a0d4cef301c08d8b85a2ee6207f9f6d6801c51", "vehicle_rank": 1, "timestamp": 1789465565.4171593}
+{"event": "request_result", "sample_token": "f47a7280a736261000a58516cc98a8f372f6be8585e03dc6e457a119b2b979f1", "vehicle_rank": 2, "timestamp": 1789465566.1424162, "answer": "A", "latency_seconds": 1.4700409460001538}
+{"event": "request_start", "sample_token": "0112e7900c62224dc550afd0e020538a838d9e99bcbace0e6b6c152e5f744988", "vehicle_rank": 1, "timestamp": 1789465566.21218}
+{"event": "request_result", "sample_token": "17eca2f5c9c4113a83e593d398a0d4cef301c08d8b85a2ee6207f9f6d6801c51", "vehicle_rank": 1, "timestamp": 1789465566.9154067, "answer": "B", "latency_seconds": 1.4981449590013654}
+{"event": "request_start", "sample_token": "17eca2f5c9c4113a83e593d398a0d4cef301c08d8b85a2ee6207f9f6d6801c51", "vehicle_rank": 2, "timestamp": 1789465566.9769883}
+{"event": "request_result", "sample_token": "0112e7900c62224dc550afd0e020538a838d9e99bcbace0e6b6c152e5f744988", "vehicle_rank": 1, "timestamp": 1789465567.7914243, "answer": "B", "latency_seconds": 1.5791395289998036}
+{"event": "request_start", "sample_token": "fe4a1125cb54c30c5657209dbea5bc368eeeffe7eb88d45f0d82204b00f9fb01", "vehicle_rank": 1, "timestamp": 1789465567.853704}
+{"event": "request_result", "sample_token": "17eca2f5c9c4113a83e593d398a0d4cef301c08d8b85a2ee6207f9f6d6801c51", "vehicle_rank": 2, "timestamp": 1789465568.6578832, "answer": "A", "latency_seconds": 1.6807787239995378}
+{"event": "request_start", "sample_token": "4013ad94646bf8980504bf5cd6d53caa1f838a33e7a64fe559e863b8f210db38", "vehicle_rank": 1, "timestamp": 1789465568.7189505}
+{"event": "request_result", "sample_token": "fe4a1125cb54c30c5657209dbea5bc368eeeffe7eb88d45f0d82204b00f9fb01", "vehicle_rank": 1, "timestamp": 1789465569.5554466, "answer": "A", "latency_seconds": 1.701639728000373}
+{"event": "request_start", "sample_token": "2e420db62aa2008e456652b76f3554fdaa62afb939fe471a1662e1543ae8ca21", "vehicle_rank": 1, "timestamp": 1789465569.617189}
+{"event": "request_result", "sample_token": "4013ad94646bf8980504bf5cd6d53caa1f838a33e7a64fe559e863b8f210db38", "vehicle_rank": 1, "timestamp": 1789465570.353371, "answer": "A", "latency_seconds": 1.634320013999968}
+{"event": "request_start", "sample_token": "4013ad94646bf8980504bf5cd6d53caa1f838a33e7a64fe559e863b8f210db38", "vehicle_rank": 2, "timestamp": 1789465570.4135857}
+{"event": "request_result", "sample_token": "2e420db62aa2008e456652b76f3554fdaa62afb939fe471a1662e1543ae8ca21", "vehicle_rank": 1, "timestamp": 1789465571.0715053, "answer": "B", "latency_seconds": 1.4542132830010814}
+{"event": "request_start", "sample_token": "2e420db62aa2008e456652b76f3554fdaa62afb939fe471a1662e1543ae8ca21", "vehicle_rank": 2, "timestamp": 1789465571.1388674}
+{"event": "request_result", "sample_token": "4013ad94646bf8980504bf5cd6d53caa1f838a33e7a64fe559e863b8f210db38", "vehicle_rank": 2, "timestamp": 1789465571.8634126, "answer": "A", "latency_seconds": 1.4497181160004402}
+{"event": "request_start", "sample_token": "47d4eb825dadd64d74981785a3b057daf44143f2aa3115781da47922cbc8a7e5", "vehicle_rank": 1, "timestamp": 1789465571.9302046}
+{"event": "request_result", "sample_token": "2e420db62aa2008e456652b76f3554fdaa62afb939fe471a1662e1543ae8ca21", "vehicle_rank": 2, "timestamp": 1789465572.604389, "answer": "A", "latency_seconds": 1.4654152910006815}
+{"event": "request_start", "sample_token": "3aeb8a3d21872dc16afdd993b57ec38ee97a8077bb59179c724bd1176d3f82f7", "vehicle_rank": 1, "timestamp": 1789465572.6661994}
+{"event": "request_result", "sample_token": "47d4eb825dadd64d74981785a3b057daf44143f2aa3115781da47922cbc8a7e5", "vehicle_rank": 1, "timestamp": 1789465573.4995093, "answer": "A", "latency_seconds": 1.5690946930008067}
+{"event": "request_start", "sample_token": "47d4eb825dadd64d74981785a3b057daf44143f2aa3115781da47922cbc8a7e5", "vehicle_rank": 2, "timestamp": 1789465573.563176}
+{"event": "request_result", "sample_token": "3aeb8a3d21872dc16afdd993b57ec38ee97a8077bb59179c724bd1176d3f82f7", "vehicle_rank": 1, "timestamp": 1789465574.284298, "answer": "A", "latency_seconds": 1.6178926289994706}
+{"event": "request_start", "sample_token": "3aeb8a3d21872dc16afdd993b57ec38ee97a8077bb59179c724bd1176d3f82f7", "vehicle_rank": 2, "timestamp": 1789465574.344219}
+{"event": "request_result", "sample_token": "47d4eb825dadd64d74981785a3b057daf44143f2aa3115781da47922cbc8a7e5", "vehicle_rank": 2, "timestamp": 1789465575.1048133, "answer": "A", "latency_seconds": 1.5415274219994899}
+{"event": "request_start", "sample_token": "1187fe6b255d5ee87d4f59fc5f2a683c935d5772a8873049a853e2873bc28790", "vehicle_rank": 1, "timestamp": 1789465575.1658232}
+{"event": "request_result", "sample_token": "3aeb8a3d21872dc16afdd993b57ec38ee97a8077bb59179c724bd1176d3f82f7", "vehicle_rank": 2, "timestamp": 1789465575.8465614, "answer": "A", "latency_seconds": 1.5022309079995466}
+{"event": "request_start", "sample_token": "823a33f3c75ca265f8a1e877793ae7886f611cf4c27b7e2842322530426d45ba", "vehicle_rank": 1, "timestamp": 1789465575.9098964}
+{"event": "request_result", "sample_token": "1187fe6b255d5ee87d4f59fc5f2a683c935d5772a8873049a853e2873bc28790", "vehicle_rank": 1, "timestamp": 1789465576.6361053, "answer": "A", "latency_seconds": 1.4701173459998245}
+{"event": "request_start", "sample_token": "21d01200396aaf286d278ecce76cc3e0396d424950b71a7d3cb8ad275f199738", "vehicle_rank": 1, "timestamp": 1789465576.699339}
+{"event": "request_result", "sample_token": "823a33f3c75ca265f8a1e877793ae7886f611cf4c27b7e2842322530426d45ba", "vehicle_rank": 1, "timestamp": 1789465577.4350226, "answer": "A", "latency_seconds": 1.5250177249999979}
+{"event": "request_start", "sample_token": "b5d797c12a9f7c7e91423ead73307c8f2c925479b945a374b391eaf158c23446", "vehicle_rank": 1, "timestamp": 1789465577.496432}
+{"event": "request_result", "sample_token": "21d01200396aaf286d278ecce76cc3e0396d424950b71a7d3cb8ad275f199738", "vehicle_rank": 1, "timestamp": 1789465578.2199364, "answer": "A", "latency_seconds": 1.5204393849999178}
+{"event": "request_start", "sample_token": "43d2a9243e399caae8e2b2e320e24b779b8538584182bb3c24d5f307377f7b9f", "vehicle_rank": 1, "timestamp": 1789465578.281993}
+{"event": "request_result", "sample_token": "b5d797c12a9f7c7e91423ead73307c8f2c925479b945a374b391eaf158c23446", "vehicle_rank": 1, "timestamp": 1789465579.0487497, "answer": "A", "latency_seconds": 1.5522004760005075}
+{"event": "request_start", "sample_token": "4c8d02f45fec31a9676e7cea79ffb758886f6168d0cb60e091b860ad230d395a", "vehicle_rank": 1, "timestamp": 1789465579.109754}
+{"event": "request_result", "sample_token": "43d2a9243e399caae8e2b2e320e24b779b8538584182bb3c24d5f307377f7b9f", "vehicle_rank": 1, "timestamp": 1789465579.8870676, "answer": "A", "latency_seconds": 1.6049625310006377}
+{"event": "request_start", "sample_token": "e4bb255312f3d10d4e0c47763220d4f5c9758f20a5e6c81e9e2a352fcfa95883", "vehicle_rank": 1, "timestamp": 1789465579.947413}
+{"event": "request_result", "sample_token": "4c8d02f45fec31a9676e7cea79ffb758886f6168d0cb60e091b860ad230d395a", "vehicle_rank": 1, "timestamp": 1789465580.6815352, "answer": "A", "latency_seconds": 1.571668406999379}
+{"event": "request_start", "sample_token": "a2d6c7ab1c437ce0dd12c6293ead4c79690bd0b8efc5876aac7f7d33b5022699", "vehicle_rank": 1, "timestamp": 1789465580.7410185}
+{"event": "request_result", "sample_token": "e4bb255312f3d10d4e0c47763220d4f5c9758f20a5e6c81e9e2a352fcfa95883", "vehicle_rank": 1, "timestamp": 1789465581.5563774, "answer": "A", "latency_seconds": 1.6088603059997695}
+{"event": "request_start", "sample_token": "27c1665d9965bc76ea486a6e716c598da19604e3d412b34f7523f23f82f2b392", "vehicle_rank": 1, "timestamp": 1789465581.618395}
+{"event": "request_result", "sample_token": "a2d6c7ab1c437ce0dd12c6293ead4c79690bd0b8efc5876aac7f7d33b5022699", "vehicle_rank": 1, "timestamp": 1789465582.4612117, "answer": "A", "latency_seconds": 1.7200768689999677}
+{"event": "request_start", "sample_token": "a2d6c7ab1c437ce0dd12c6293ead4c79690bd0b8efc5876aac7f7d33b5022699", "vehicle_rank": 2, "timestamp": 1789465582.5224645}
+{"event": "request_result", "sample_token": "27c1665d9965bc76ea486a6e716c598da19604e3d412b34f7523f23f82f2b392", "vehicle_rank": 1, "timestamp": 1789465583.2901947, "answer": "A", "latency_seconds": 1.6716971770001692}
+{"event": "request_start", "sample_token": "92eb767f556842b1ee61dc1e440a26a1a60f6a2edf892e72e4a29c9838117e0b", "vehicle_rank": 1, "timestamp": 1789465583.3546455}
+{"event": "request_result", "sample_token": "a2d6c7ab1c437ce0dd12c6293ead4c79690bd0b8efc5876aac7f7d33b5022699", "vehicle_rank": 2, "timestamp": 1789465584.114327, "answer": "A", "latency_seconds": 1.5917273499999283}
+{"event": "request_start", "sample_token": "f895fd5f9d83232f4e929e529c8d3a2d3eff103aa6cd29fd27614a88796ffd9d", "vehicle_rank": 1, "timestamp": 1789465584.1922297}
+{"event": "request_result", "sample_token": "92eb767f556842b1ee61dc1e440a26a1a60f6a2edf892e72e4a29c9838117e0b", "vehicle_rank": 1, "timestamp": 1789465585.0100737, "answer": "A", "latency_seconds": 1.655310014000861}
+{"event": "request_start", "sample_token": "92eb767f556842b1ee61dc1e440a26a1a60f6a2edf892e72e4a29c9838117e0b", "vehicle_rank": 2, "timestamp": 1789465585.0728912}
+{"event": "request_result", "sample_token": "f895fd5f9d83232f4e929e529c8d3a2d3eff103aa6cd29fd27614a88796ffd9d", "vehicle_rank": 1, "timestamp": 1789465585.8375957, "answer": "A", "latency_seconds": 1.6452552629998536}
+{"event": "request_start", "sample_token": "9c96d5b38480a64143b7712c98cda01a4a1524623de4f343525028b2ccf72e04", "vehicle_rank": 1, "timestamp": 1789465585.902183}
+{"event": "request_result", "sample_token": "92eb767f556842b1ee61dc1e440a26a1a60f6a2edf892e72e4a29c9838117e0b", "vehicle_rank": 2, "timestamp": 1789465586.6280577, "answer": "A", "latency_seconds": 1.5550698320002994}
+{"event": "request_start", "sample_token": "8cec4bebad215390b56fe9e6e5c35287e589043ed992daf9fb50a180b6ee7ca7", "vehicle_rank": 1, "timestamp": 1789465586.6886132}
+{"event": "request_result", "sample_token": "9c96d5b38480a64143b7712c98cda01a4a1524623de4f343525028b2ccf72e04", "vehicle_rank": 1, "timestamp": 1789465587.467745, "answer": "A", "latency_seconds": 1.5654372550015978}
+{"event": "request_start", "sample_token": "57b5c019085ffa8fdab1a502bca7dc47a9316763e6e20b4e110888978e362729", "vehicle_rank": 1, "timestamp": 1789465587.550485}
+{"event": "request_result", "sample_token": "8cec4bebad215390b56fe9e6e5c35287e589043ed992daf9fb50a180b6ee7ca7", "vehicle_rank": 1, "timestamp": 1789465588.3146756, "answer": "C", "latency_seconds": 1.6259364699999423}
+{"event": "request_start", "sample_token": "8cec4bebad215390b56fe9e6e5c35287e589043ed992daf9fb50a180b6ee7ca7", "vehicle_rank": 1, "timestamp": 1789465588.3173811}
+{"event": "request_result", "sample_token": "57b5c019085ffa8fdab1a502bca7dc47a9316763e6e20b4e110888978e362729", "vehicle_rank": 1, "timestamp": 1789465589.1395826, "answer": "B", "latency_seconds": 1.5889962290002586}
+{"event": "request_start", "sample_token": "2f6dd8c7f7b1dc80c0b1199d9644fd34b108952e096f9c7858f76927a34e7927", "vehicle_rank": 1, "timestamp": 1789465589.211782}
+{"event": "request_result", "sample_token": "8cec4bebad215390b56fe9e6e5c35287e589043ed992daf9fb50a180b6ee7ca7", "vehicle_rank": 1, "timestamp": 1789465589.9384346, "answer": "B", "latency_seconds": 1.6209693649998371}
+{"event": "request_start", "sample_token": "8cf423ea5d5be88789429980f50c0ef31ea0aad8a4d4dede698bbd3cb8fde18d", "vehicle_rank": 1, "timestamp": 1789465589.9976187}
+{"event": "request_result", "sample_token": "2f6dd8c7f7b1dc80c0b1199d9644fd34b108952e096f9c7858f76927a34e7927", "vehicle_rank": 1, "timestamp": 1789465590.8139064, "answer": "A", "latency_seconds": 1.6019765170003666}
+{"event": "request_start", "sample_token": "840bcd3d87904bb688ac8f22053fe7aaaf290fca69f4a76a8eaa0aa95d43783c", "vehicle_rank": 1, "timestamp": 1789465590.8987033}
+{"event": "request_result", "sample_token": "8cf423ea5d5be88789429980f50c0ef31ea0aad8a4d4dede698bbd3cb8fde18d", "vehicle_rank": 1, "timestamp": 1789465591.736289, "answer": "A", "latency_seconds": 1.7385532579992287}
+{"event": "request_start", "sample_token": "dddf5124ef2980ca694ac5ff14eae06e54f77818d7aa95695302667d2e17f6e1", "vehicle_rank": 1, "timestamp": 1789465591.801477}
+{"event": "request_result", "sample_token": "840bcd3d87904bb688ac8f22053fe7aaaf290fca69f4a76a8eaa0aa95d43783c", "vehicle_rank": 1, "timestamp": 1789465592.5705662, "answer": "A", "latency_seconds": 1.6717667979992257}
+{"event": "request_start", "sample_token": "e58b328a4a52ecc2064f6f4bad4305e22066c00c40a6faba21d4fa1ea7620390", "vehicle_rank": 1, "timestamp": 1789465592.6356921}
+{"event": "request_result", "sample_token": "dddf5124ef2980ca694ac5ff14eae06e54f77818d7aa95695302667d2e17f6e1", "vehicle_rank": 1, "timestamp": 1789465593.4070632, "answer": "A", "latency_seconds": 1.605459165000866}
+{"event": "request_start", "sample_token": "49bf94c278070c3ce6c0aa3a970bec504d09185411190cb4ee9de210419039a9", "vehicle_rank": 1, "timestamp": 1789465593.4685347}
+{"event": "request_result", "sample_token": "e58b328a4a52ecc2064f6f4bad4305e22066c00c40a6faba21d4fa1ea7620390", "vehicle_rank": 1, "timestamp": 1789465594.3331795, "answer": "A", "latency_seconds": 1.6973649029987428}
+{"event": "request_start", "sample_token": "24ca95ab81b40807888c897395dbb639c1ef1b425f4592c1ca7fe75779acd573", "vehicle_rank": 1, "timestamp": 1789465594.391967}
+{"event": "request_result", "sample_token": "49bf94c278070c3ce6c0aa3a970bec504d09185411190cb4ee9de210419039a9", "vehicle_rank": 1, "timestamp": 1789465595.209005, "answer": "A", "latency_seconds": 1.7403398789992934}
+{"event": "request_start", "sample_token": "49bf94c278070c3ce6c0aa3a970bec504d09185411190cb4ee9de210419039a9", "vehicle_rank": 2, "timestamp": 1789465595.2720454}
+{"event": "request_result", "sample_token": "24ca95ab81b40807888c897395dbb639c1ef1b425f4592c1ca7fe75779acd573", "vehicle_rank": 1, "timestamp": 1789465596.0304031, "answer": "A", "latency_seconds": 1.638308096999026}
+{"event": "request_start", "sample_token": "99367d57d9f3a5b0939d2c3afdf5eb4bda2dedb1e3e0347af68dfeca77753bd2", "vehicle_rank": 1, "timestamp": 1789465596.0951118}
+{"event": "request_result", "sample_token": "49bf94c278070c3ce6c0aa3a970bec504d09185411190cb4ee9de210419039a9", "vehicle_rank": 2, "timestamp": 1789465596.8461816, "answer": "A", "latency_seconds": 1.5740106609991926}
+{"event": "request_start", "sample_token": "c335a7a97ad53b315899bae23db575134fc81b2606cc210fec314cd939f8e6d5", "vehicle_rank": 1, "timestamp": 1789465596.9104211}
+{"event": "request_result", "sample_token": "99367d57d9f3a5b0939d2c3afdf5eb4bda2dedb1e3e0347af68dfeca77753bd2", "vehicle_rank": 1, "timestamp": 1789465597.667403, "answer": "A", "latency_seconds": 1.5721149950004474}
+{"event": "request_start", "sample_token": "99367d57d9f3a5b0939d2c3afdf5eb4bda2dedb1e3e0347af68dfeca77753bd2", "vehicle_rank": 2, "timestamp": 1789465597.7301457}
+{"event": "request_result", "sample_token": "c335a7a97ad53b315899bae23db575134fc81b2606cc210fec314cd939f8e6d5", "vehicle_rank": 1, "timestamp": 1789465598.4868639, "answer": "A", "latency_seconds": 1.5762936640003318}
+{"event": "request_start", "sample_token": "c335a7a97ad53b315899bae23db575134fc81b2606cc210fec314cd939f8e6d5", "vehicle_rank": 2, "timestamp": 1789465598.5473862}
+{"event": "request_result", "sample_token": "99367d57d9f3a5b0939d2c3afdf5eb4bda2dedb1e3e0347af68dfeca77753bd2", "vehicle_rank": 2, "timestamp": 1789465599.4030774, "answer": "A", "latency_seconds": 1.672821459998886}
+{"event": "request_start", "sample_token": "54a4a08a864637e04925b611a59cd4d26d0d8dbfe58017be3240557d3b87062d", "vehicle_rank": 1, "timestamp": 1789465599.4651296}
+{"event": "request_result", "sample_token": "c335a7a97ad53b315899bae23db575134fc81b2606cc210fec314cd939f8e6d5", "vehicle_rank": 2, "timestamp": 1789465600.2377505, "answer": "A", "latency_seconds": 1.6902582880011323}
+{"event": "request_start", "sample_token": "e5996a6ca6fab8b8a316b016f34f33b836f8be6a5258f58692266afd6c39f4b9", "vehicle_rank": 1, "timestamp": 1789465600.2995057}
+{"event": "request_result", "sample_token": "54a4a08a864637e04925b611a59cd4d26d0d8dbfe58017be3240557d3b87062d", "vehicle_rank": 1, "timestamp": 1789465601.0905757, "answer": "A", "latency_seconds": 1.6253141420002066}
+{"event": "request_start", "sample_token": "70e6d1546cb060b86ef97f460cf17a3bd50fbafbcd5810622078a2fe8677e41d", "vehicle_rank": 1, "timestamp": 1789465601.1540997}
+{"event": "request_result", "sample_token": "e5996a6ca6fab8b8a316b016f34f33b836f8be6a5258f58692266afd6c39f4b9", "vehicle_rank": 1, "timestamp": 1789465601.8943732, "answer": "A", "latency_seconds": 1.5947333540007094}
+{"event": "request_start", "sample_token": "b66a6e967c3840611a37b7c40fff48e221521bcf6ebd98881b8dbdbf6d9fc153", "vehicle_rank": 1, "timestamp": 1789465601.9562454}
+{"event": "request_result", "sample_token": "70e6d1546cb060b86ef97f460cf17a3bd50fbafbcd5810622078a2fe8677e41d", "vehicle_rank": 1, "timestamp": 1789465602.7305422, "answer": "A", "latency_seconds": 1.5763061590005236}
+{"event": "request_start", "sample_token": "70e6d1546cb060b86ef97f460cf17a3bd50fbafbcd5810622078a2fe8677e41d", "vehicle_rank": 2, "timestamp": 1789465602.7974412}
+{"event": "request_result", "sample_token": "b66a6e967c3840611a37b7c40fff48e221521bcf6ebd98881b8dbdbf6d9fc153", "vehicle_rank": 1, "timestamp": 1789465603.5385025, "answer": "C", "latency_seconds": 1.5821263030011323}
+{"event": "request_start", "sample_token": "b66a6e967c3840611a37b7c40fff48e221521bcf6ebd98881b8dbdbf6d9fc153", "vehicle_rank": 1, "timestamp": 1789465603.5415375}
+{"event": "request_result", "sample_token": "70e6d1546cb060b86ef97f460cf17a3bd50fbafbcd5810622078a2fe8677e41d", "vehicle_rank": 2, "timestamp": 1789465604.3615792, "answer": "A", "latency_seconds": 1.5640099360007298}
+{"event": "request_start", "sample_token": "444949a5bb1ef4f274d25fcc0804048b37eaff9452c2cba40e4b599d10f05dfa", "vehicle_rank": 1, "timestamp": 1789465604.4222426}
+{"event": "request_result", "sample_token": "b66a6e967c3840611a37b7c40fff48e221521bcf6ebd98881b8dbdbf6d9fc153", "vehicle_rank": 1, "timestamp": 1789465605.1794326, "answer": "A", "latency_seconds": 1.637795444999938}
+{"event": "request_start", "sample_token": "0975771dd7c05b53c2950c99d48bfb4c4b5d6ebc346bca8910513caafcb37966", "vehicle_rank": 1, "timestamp": 1789465605.2426805}
+{"event": "request_result", "sample_token": "444949a5bb1ef4f274d25fcc0804048b37eaff9452c2cba40e4b599d10f05dfa", "vehicle_rank": 1, "timestamp": 1789465606.0012789, "answer": "C", "latency_seconds": 1.5788951390004513}
+{"event": "request_start", "sample_token": "444949a5bb1ef4f274d25fcc0804048b37eaff9452c2cba40e4b599d10f05dfa", "vehicle_rank": 1, "timestamp": 1789465606.0055537}
+{"event": "request_result", "sample_token": "0975771dd7c05b53c2950c99d48bfb4c4b5d6ebc346bca8910513caafcb37966", "vehicle_rank": 1, "timestamp": 1789465606.9221466, "answer": "C", "latency_seconds": 1.6793699850004487}
+{"event": "request_start", "sample_token": "0975771dd7c05b53c2950c99d48bfb4c4b5d6ebc346bca8910513caafcb37966", "vehicle_rank": 1, "timestamp": 1789465606.9259858}
+{"event": "request_result", "sample_token": "444949a5bb1ef4f274d25fcc0804048b37eaff9452c2cba40e4b599d10f05dfa", "vehicle_rank": 1, "timestamp": 1789465607.767073, "answer": "A", "latency_seconds": 1.7613231610012008}
+{"event": "request_start", "sample_token": "ef867c897d3753231b790a940846a860664ad5958257f3da2a0a7f2bb2510e22", "vehicle_rank": 1, "timestamp": 1789465607.8299787}
+{"event": "request_result", "sample_token": "0975771dd7c05b53c2950c99d48bfb4c4b5d6ebc346bca8910513caafcb37966", "vehicle_rank": 1, "timestamp": 1789465608.6396632, "answer": "A", "latency_seconds": 1.7135929689993645}
+{"event": "request_start", "sample_token": "ac8ab05dad895aa89946b380b0c4ac667d91583a4062da483e770c82d9800f59", "vehicle_rank": 1, "timestamp": 1789465608.7183025}
+{"event": "request_result", "sample_token": "ef867c897d3753231b790a940846a860664ad5958257f3da2a0a7f2bb2510e22", "vehicle_rank": 1, "timestamp": 1789465609.4818401, "answer": "C", "latency_seconds": 1.6517514740007755}
+{"event": "request_start", "sample_token": "ef867c897d3753231b790a940846a860664ad5958257f3da2a0a7f2bb2510e22", "vehicle_rank": 1, "timestamp": 1789465609.4843829}
+{"event": "request_result", "sample_token": "ac8ab05dad895aa89946b380b0c4ac667d91583a4062da483e770c82d9800f59", "vehicle_rank": 1, "timestamp": 1789465610.304072, "answer": "C", "latency_seconds": 1.5856699039995874}
+{"event": "request_start", "sample_token": "ac8ab05dad895aa89946b380b0c4ac667d91583a4062da483e770c82d9800f59", "vehicle_rank": 1, "timestamp": 1789465610.3083827}
+{"event": "request_result", "sample_token": "ef867c897d3753231b790a940846a860664ad5958257f3da2a0a7f2bb2510e22", "vehicle_rank": 1, "timestamp": 1789465611.148977, "answer": "A", "latency_seconds": 1.6645178199996735}
+{"event": "request_start", "sample_token": "99896b2f996c96671aafff8259139e133360e154edfdb68d6bc67b45f7378853", "vehicle_rank": 1, "timestamp": 1789465611.2364557}
+{"event": "request_result", "sample_token": "ac8ab05dad895aa89946b380b0c4ac667d91583a4062da483e770c82d9800f59", "vehicle_rank": 1, "timestamp": 1789465612.0087473, "answer": "A", "latency_seconds": 1.7002866469993023}
+{"event": "request_start", "sample_token": "9c59016df2ab71e0472fc92e1884ce1eaabc0492faf2912102ada72a42f3eb75", "vehicle_rank": 1, "timestamp": 1789465612.0759788}
+{"event": "request_result", "sample_token": "99896b2f996c96671aafff8259139e133360e154edfdb68d6bc67b45f7378853", "vehicle_rank": 1, "timestamp": 1789465612.8303223, "answer": "C", "latency_seconds": 1.5937051069995505}
+{"event": "request_start", "sample_token": "99896b2f996c96671aafff8259139e133360e154edfdb68d6bc67b45f7378853", "vehicle_rank": 1, "timestamp": 1789465612.8343241}
+{"event": "request_result", "sample_token": "9c59016df2ab71e0472fc92e1884ce1eaabc0492faf2912102ada72a42f3eb75", "vehicle_rank": 1, "timestamp": 1789465613.7128236, "answer": "A", "latency_seconds": 1.6365820870014431}
+{"event": "request_start", "sample_token": "b635cbc9e4d781374f788f1e33c1b381a357a634d6d5333ab6bed82fe2cc1ce9", "vehicle_rank": 1, "timestamp": 1789465613.7788146}
+{"event": "request_result", "sample_token": "99896b2f996c96671aafff8259139e133360e154edfdb68d6bc67b45f7378853", "vehicle_rank": 1, "timestamp": 1789465614.5521514, "answer": "A", "latency_seconds": 1.7177258170013374}
+{"event": "request_start", "sample_token": "822a005649efe9075c28718f8dc4c3e5d8b2c72b1ab00e94a1c16d8e8657f2ce", "vehicle_rank": 1, "timestamp": 1789465614.6204774}
+{"event": "request_result", "sample_token": "b635cbc9e4d781374f788f1e33c1b381a357a634d6d5333ab6bed82fe2cc1ce9", "vehicle_rank": 1, "timestamp": 1789465615.445558, "answer": "A", "latency_seconds": 1.6666501050003717}
+{"event": "request_start", "sample_token": "e523ec2e210ca46691fed92afb720fa27cfea3a17cc5c38099e93184c967d9ce", "vehicle_rank": 1, "timestamp": 1789465615.5091906}
+{"event": "request_result", "sample_token": "822a005649efe9075c28718f8dc4c3e5d8b2c72b1ab00e94a1c16d8e8657f2ce", "vehicle_rank": 1, "timestamp": 1789465616.3982997, "answer": "A", "latency_seconds": 1.7776742930000182}
+{"event": "request_start", "sample_token": "361f7a966583ee2a2c725b48ed94b189825fc339c253681e5f37789ecdda0177", "vehicle_rank": 1, "timestamp": 1789465616.4642942}
+{"event": "request_result", "sample_token": "e523ec2e210ca46691fed92afb720fa27cfea3a17cc5c38099e93184c967d9ce", "vehicle_rank": 1, "timestamp": 1789465617.2000802, "answer": "A", "latency_seconds": 1.690759318000346}
+{"event": "request_start", "sample_token": "e523ec2e210ca46691fed92afb720fa27cfea3a17cc5c38099e93184c967d9ce", "vehicle_rank": 2, "timestamp": 1789465617.2640605}
+{"event": "request_result", "sample_token": "361f7a966583ee2a2c725b48ed94b189825fc339c253681e5f37789ecdda0177", "vehicle_rank": 1, "timestamp": 1789465618.0802166, "answer": "A", "latency_seconds": 1.6157735630004026}
+{"event": "request_start", "sample_token": "361f7a966583ee2a2c725b48ed94b189825fc339c253681e5f37789ecdda0177", "vehicle_rank": 2, "timestamp": 1789465618.1468227}
+{"event": "request_result", "sample_token": "e523ec2e210ca46691fed92afb720fa27cfea3a17cc5c38099e93184c967d9ce", "vehicle_rank": 2, "timestamp": 1789465618.867173, "answer": "A", "latency_seconds": 1.6030102059994533}
+{"event": "request_start", "sample_token": "6f7b3febfc0eee2c35220b77a32724e894fa8c39657623668bc1dac76707293c", "vehicle_rank": 1, "timestamp": 1789465618.936777}
+{"event": "request_result", "sample_token": "361f7a966583ee2a2c725b48ed94b189825fc339c253681e5f37789ecdda0177", "vehicle_rank": 2, "timestamp": 1789465619.7630768, "answer": "A", "latency_seconds": 1.6161349900012283}
+{"event": "request_start", "sample_token": "796a96685119d4504eebb65b701679b510c99cafdfca0c0297546a0ea288cbf5", "vehicle_rank": 1, "timestamp": 1789465619.8321195}
+{"event": "request_result", "sample_token": "6f7b3febfc0eee2c35220b77a32724e894fa8c39657623668bc1dac76707293c", "vehicle_rank": 1, "timestamp": 1789465620.720313, "answer": "A", "latency_seconds": 1.7834259120008937}
+{"event": "request_start", "sample_token": "cd140c76c83fb748706b01bbe32f1052d1aaa6fc99086483515fc90766c6cbc3", "vehicle_rank": 1, "timestamp": 1789465620.7814016}
+{"event": "request_result", "sample_token": "796a96685119d4504eebb65b701679b510c99cafdfca0c0297546a0ea288cbf5", "vehicle_rank": 1, "timestamp": 1789465621.5381088, "answer": "A", "latency_seconds": 1.7058738819996506}
+{"event": "request_start", "sample_token": "9a44bdd551c0a406ec6b5cf35bb0e087d7f65eb18b94eba4674a265deb8e4f40", "vehicle_rank": 1, "timestamp": 1789465621.5980642}
+{"event": "request_result", "sample_token": "cd140c76c83fb748706b01bbe32f1052d1aaa6fc99086483515fc90766c6cbc3", "vehicle_rank": 1, "timestamp": 1789465622.4464483, "answer": "A", "latency_seconds": 1.6649345619989617}
+{"event": "request_start", "sample_token": "c4d71736baf071afac1ae831fa0c035d4516171d34e5145618b04ae2b575ca08", "vehicle_rank": 1, "timestamp": 1789465622.503319}
+{"event": "request_result", "sample_token": "9a44bdd551c0a406ec6b5cf35bb0e087d7f65eb18b94eba4674a265deb8e4f40", "vehicle_rank": 1, "timestamp": 1789465623.2651858, "answer": "B", "latency_seconds": 1.6670210950014734}
+{"event": "request_start", "sample_token": "5ff88713d806c445676322841714c699575800aff583337a26bc4f8a74988910", "vehicle_rank": 1, "timestamp": 1789465623.3272257}
+{"event": "request_result", "sample_token": "c4d71736baf071afac1ae831fa0c035d4516171d34e5145618b04ae2b575ca08", "vehicle_rank": 1, "timestamp": 1789465624.0522573, "answer": "A", "latency_seconds": 1.5488128349988983}
+{"event": "request_start", "sample_token": "35ba786d03032c9a7ea60a35ed096c86ae2b2be8b0cac92adf0790118ee01cf7", "vehicle_rank": 1, "timestamp": 1789465624.1112068}
+{"event": "request_result", "sample_token": "5ff88713d806c445676322841714c699575800aff583337a26bc4f8a74988910", "vehicle_rank": 1, "timestamp": 1789465624.8834095, "answer": "C", "latency_seconds": 1.5560476400005427}
+{"event": "request_start", "sample_token": "5ff88713d806c445676322841714c699575800aff583337a26bc4f8a7498

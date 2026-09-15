@@ -1,0 +1,6 @@
+The red-boxed vehicle is stationary. Look at the whole scene.
+A) An entrance/exit gate, barrier arm, guard booth or toll-style checkpoint is visible, and this vehicle is lined up in a queue of vehicles heading toward it.
+B) No gate, barrier arm, guard booth or checkpoint is visible anywhere in the image.
+C) A gate/barrier/booth is visible, but this vehicle is NOT lined up toward it (it is parked to the side, facing away, or far from the queue).
+D) Cannot tell.
+Answer with one letter.

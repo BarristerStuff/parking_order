@@ -35,9 +35,9 @@ Q3 后预测计数：positive=38，negative=199，uncertain=1。
 
 ### 三个 DEV p01 漏检
 
-- `IMG_007531`：R1 Q1=`B`；检测框数=1；不是 detector 没框到车，而是检测到车辆后 Q1 未答 C。
-- `IMG_007536`：R1 Q1=`B`；检测框数=1；不是 detector 没框到车，而是检测到车辆后 Q1 未答 C。
-- `IMG_007548`：R1 Q1=`B`；检测框数=1；不是 detector 没框到车，而是检测到车辆后 Q1 未答 C。
+- `IMG_007531`：R1 Q1=`A`；检测框数=1；不是 detector 没框到车，而是检测到车辆后 Q1 未答 C。
+- `IMG_007536`：R1 Q1=`A`；检测框数=1；不是 detector 没框到车，而是检测到车辆后 Q1 未答 C。
+- `IMG_007548`：R1 Q1=`A`；检测框数=1；不是 detector 没框到车，而是检测到车辆后 Q1 未答 C。
 
 对应 View A：
 
@@ -60,3 +60,5 @@ u05、u01、u02 均被 Q3 判 B，没有增加 uncertain；Q3 没有改善不确
 - 本实验不修改 Q1 主规则，不创建 Winner，不代表生产候选。
 
 状态：`Q3_DEV_COMPLETED_NOT_PRODUCTION_READY`
+
+> 更正说明（2026-09-15）：经复核 `/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/05_vlm_dev_r1/predictions.jsonl`，IMG_007531、IMG_007536、IMG_007548 的 R1 Q1 实际答案均为 A；此前报告写成 B 是记录错误。
