@@ -1,0 +1,1 @@
+{"endpoint":"http://192.168.20.62:11434","model":"qwen3.5:4b","shadow_min_interval_s":10,"frames_max_bytes":5368709120,"min_free_bytes":16106127360}

@@ -1,0 +1,11 @@
+[Unit]
+Description=v2.1 shadow sidecar (example only; not installed)
+[Service]
+WorkingDirectory=/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/12_shadow_sidecar
+Environment=SHADOW_MQTT_HOST=127.0.0.1
+Environment=SHADOW_MQTT_PORT=1883
+Environment=SHADOW_MQTT_TOPIC=agora/yuv/frame
+ExecStart=/home/yanbo/net_vlm_parking_optimization/12_v2_not_in_bay/12_shadow_sidecar/run.sh
+Restart=on-failure
+[Install]
+WantedBy=default.target

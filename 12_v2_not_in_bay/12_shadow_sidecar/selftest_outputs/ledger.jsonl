@@ -1,0 +1,4 @@
+{"event": "request_start", "sample_token": "selftest_2_2", "vehicle_rank": 1, "question": "q1", "attempt": 1, "timestamp": 1789469585.6202564}
+{"event": "request_result", "sample_token": "selftest_2_2", "vehicle_rank": 1, "question": "q1", "attempt": 1, "timestamp": 1789469596.355963, "answer": "C", "latency_seconds": 10.735532578000857, "schema_success": true}
+{"event": "request_start", "sample_token": "selftest_2_2", "vehicle_rank": 1, "question": "q3", "attempt": 1, "timestamp": 1789469596.356093}
+{"event": "request_result", "sample_token": "selftest_2_2", "vehicle_rank": 1, "question": "q3", "attempt": 1, "timestamp": 1789469618.3245115, "answer": "B", "latency_seconds": 21.968391254999005, "schema_success": true}
