@@ -1,0 +1,25 @@
+{
+  "hashes": {
+    "definition_v2.1.md": "f2f7d762d38e15b69a0f5569e14991f073061f4232316d5fc0df5d28d5d4a155",
+    "formal_media_mapping.csv": "0780f3e659fcae4655ea06b00365f7c8c37c089f44b21453f4eb6acbaa8080a6",
+    "q1_prompt.txt": "76151fc7f028c8274fd6c1a49158452a5b491d272b98effd463d8df2ba3b2eed",
+    "v2_0_gt.csv": "321f0994006d2451352f0c48d73911749f6a471d24c16f25808bbf30c31bd353",
+    "v2_1_val_config.json": "c797a8353ddd2eb949b408a7f1bb791d3b5371e11516e5fe0df57dfe9f43212a",
+    "v2_split.csv": "f531aaff35d3940dd17bd57e1f9825903177dcd91d2f7e41d2a598a5a0cfdb24",
+    "val_allowlist.csv": "6f3097d27649a195db720d2fd9da664caf0104e8800ee4499ffa63b2a7d32148",
+    "val_detector_input.jsonl": "52090feda2ccd2eaffea489810e251640bf43ec8aa69663f4f3ca6d5a6ac657f",
+    "yolo11n.pt": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1"
+  },
+  "holdout_image_reads": 0,
+  "physical_model_requests": 0,
+  "q2_requests": 0,
+  "scope_counts": {
+    "negative": 48,
+    "out_of_scope": 10,
+    "positive": 8,
+    "secondary": 6,
+    "uncertain": 8
+  },
+  "status": "FROZEN_PRE_RUN",
+  "val_count": 80
+}

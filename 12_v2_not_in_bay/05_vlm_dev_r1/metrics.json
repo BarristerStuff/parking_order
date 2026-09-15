@@ -1,0 +1,65 @@
+{
+  "candidate": "V2_PERCEPTION_TWO_VIEW_TWO_QUESTION_R1",
+  "dev_image_count": 238,
+  "elapsed_seconds": 366.580326,
+  "event_definition_version": "v2.0",
+  "focus_metrics": {
+    "hn01_fpr": 0.8333333333333334,
+    "n05_fpr": 0.0,
+    "p01_recall": 0.8695652173913043,
+    "p03_recall": 0.1111111111111111,
+    "p04_fpr": 0.07142857142857142,
+    "p05_recall": 0.1,
+    "p06_fpr": 0.16666666666666666
+  },
+  "formal_geometry_metrics": null,
+  "four_point_six_decision": "TIER_3_CLOSE_SINGLE_RGB_QWEN35_4B_ROUTE",
+  "geometry_second_vote": "NOT_EXECUTED",
+  "holdout_accessed": false,
+  "holdout_image_reads": 0,
+  "logical_latency_p50_seconds": 2.248298,
+  "logical_latency_p95_seconds": 4.847953,
+  "ollama_physical_request_count": 337,
+  "ollama_schema_success_count": 334,
+  "ollama_schema_success_rate": 0.9910979228486647,
+  "primary_binary": {
+    "fn": 28,
+    "fp": 8,
+    "fpr": 0.05517241379310345,
+    "fpr_wilson_95": [
+      0.028218774309542574,
+      0.10508722106232939
+    ],
+    "recall": 0.45098039215686275,
+    "recall_wilson_95": [
+      0.3226751854937402,
+      0.5861529144963119
+    ],
+    "tn": 137,
+    "tp": 23
+  },
+  "production_integration_ready": false,
+  "q1_distribution_in_subgroup_metrics": true,
+  "q1_distribution_unit": "selected_vehicle",
+  "q1_request_logical_count": 294,
+  "q2_request_logical_count": 41,
+  "review_image_count": 5,
+  "selected_vehicle_count": 294,
+  "source_hashes": {
+    "config_sha256": "9a00c1cd62dea272d5a42eb9fc49a5ec0ac06a59698e36e37dae9a6ef4da3dcb",
+    "definition_sha256": "0e9c6b0afc6220f96969ff04f8ed27592c10a64a6e31a7b6cc83d23487032a10",
+    "detector_cache_sha256": "5685faa7c450e598f0e964445178a49bbcdb1d1e6e8fd5688fbdb807188385f9",
+    "gt_sha256": "321f0994006d2451352f0c48d73911749f6a471d24c16f25808bbf30c31bd353",
+    "q1_prompt_sha256": "76151fc7f028c8274fd6c1a49158452a5b491d272b98effd463d8df2ba3b2eed",
+    "q2_prompt_sha256": "5b5febb3ef3b22529f8e64b14f78827c48df1d4d3cb345605e9eb894a21ed789",
+    "spec_sha256": "2e7c915a31a0e50603f1e8a937de6b2a2787ba36d80c04c25f21c4a60aad7e43",
+    "split_sha256": "f531aaff35d3940dd17bd57e1f9825903177dcd91d2f7e41d2a598a5a0cfdb24"
+  },
+  "source_type": "AIGC",
+  "stage": "V2_STEP2_R1",
+  "status": "completed",
+  "subgroup_count": 23,
+  "val_accessed": false,
+  "val_image_reads": 0,
+  "vlm_route": "THIS_IS_THE_AUTHORIZED_V2_R1_VLM_RUN"
+}

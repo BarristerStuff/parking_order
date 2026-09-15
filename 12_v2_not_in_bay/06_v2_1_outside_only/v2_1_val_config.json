@@ -1,0 +1,99 @@
+{
+  "allowed_split": "VAL",
+  "created_date": "2026-09-15",
+  "definition_sha256": "f2f7d762d38e15b69a0f5569e14991f073061f4232316d5fc0df5d28d5d4a155",
+  "detector": {
+    "checkpoint": "/home/yanbo/net_vlm_person_smoking_optimization/00_assets/person_detector/yolo11n.pt",
+    "checkpoint_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+    "classes": {
+      "2": "car",
+      "5": "bus",
+      "7": "truck"
+    },
+    "confidence_threshold": 0.2,
+    "device": "cpu",
+    "inference_size": 640,
+    "python": "/home/yanbo/net_vlm_person_smoking_optimization/.venv_person_detector/bin/python"
+  },
+  "endpoint": "http://192.168.20.62:11434/api/generate",
+  "holdout_access_allowed": false,
+  "image_rule": {
+    "any_C": "positive",
+    "else_any_D_or_failure": "uncertain",
+    "no_eligible_detection": "uncertain",
+    "otherwise": "negative"
+  },
+  "input_hashes": {
+    "formal_media_mapping.csv": "0780f3e659fcae4655ea06b00365f7c8c37c089f44b21453f4eb6acbaa8080a6",
+    "r1_predictions.jsonl": "2e98a2659a91df8ec4ec23ae2d5a337fb43f850f6ddc6a5679959026ebeabe75",
+    "v2_0_gt.csv": "321f0994006d2451352f0c48d73911749f6a471d24c16f25808bbf30c31bd353",
+    "v2_dev_vehicle_detections.jsonl": "5685faa7c450e598f0e964445178a49bbcdb1d1e6e8fd5688fbdb807188385f9",
+    "v2_split.csv": "f531aaff35d3940dd17bd57e1f9825903177dcd91d2f7e41d2a598a5a0cfdb24"
+  },
+  "max_retries": 2,
+  "max_workers": 2,
+  "model": "qwen3.5:4b",
+  "ollama_request": {
+    "format": {
+      "additionalProperties": false,
+      "properties": {
+        "answer": {
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "answer"
+      ],
+      "type": "object"
+    },
+    "keep_alive": "30m",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 32,
+      "temperature": 0,
+      "top_p": 0.9
+    },
+    "stream": false,
+    "think": false
+  },
+  "q1_prompt_sha256": "76151fc7f028c8274fd6c1a49158452a5b491d272b98effd463d8df2ba3b2eed",
+  "q2_enabled": false,
+  "selection": {
+    "classes": [
+      "car",
+      "bus",
+      "truck"
+    ],
+    "edge_margin_pixels": 1,
+    "max_selected": 2,
+    "rank1_always_if_valid": true,
+    "rank2_height_fraction_gte": 0.25,
+    "sort": [
+      "bbox_area_desc",
+      "confidence_desc",
+      "class_id_asc",
+      "bbox_coordinates_asc"
+    ]
+  },
+  "source_type": "AIGC",
+  "stage": "V2_1_OUTSIDE_ONLY_VAL_ONE_SHOT",
+  "timeout_seconds": 240,
+  "val_image_count": 80,
+  "view_a": {
+    "jpeg_quality": 90,
+    "max_long_edge": 896,
+    "target_box_color_rgb": [
+      255,
+      0,
+      0
+    ],
+    "target_box_width": 4,
+    "whole_frame": true
+  }
+}

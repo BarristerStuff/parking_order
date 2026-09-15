@@ -1,0 +1,194 @@
+{
+  "definition": "v2.1_outside_only",
+  "dev_a": {
+    "dataset": "DEV_a_offline_from_frozen_R1_Q1",
+    "fn_media_ids": [
+      "IMG_007531",
+      "IMG_007536",
+      "IMG_007548"
+    ],
+    "fp_media_ids": [
+      "IMG_007433"
+    ],
+    "hn01_fpr": {
+      "denominator": 18,
+      "numerator": 15,
+      "value": 0.8333333333333334,
+      "wilson_95": [
+        0.6077796189608428,
+        0.9416342319413856
+      ]
+    },
+    "images": 238,
+    "negative_fpr": {
+      "denominator": 143,
+      "numerator": 1,
+      "value": 0.006993006993006993,
+      "wilson_95": [
+        0.0012355058901738283,
+        0.03854521317655134
+      ]
+    },
+    "out_of_scope_alert_rate": {
+      "denominator": 30,
+      "numerator": 0,
+      "value": 0.0,
+      "wilson_95": [
+        0.0,
+        0.11351339317396876
+      ]
+    },
+    "p03_alert_rate": {
+      "denominator": 18,
+      "numerator": 0,
+      "value": 0.0,
+      "wilson_95": [
+        0.0,
+        0.17587922364665765
+      ]
+    },
+    "p05_alert_rate": {
+      "denominator": 12,
+      "numerator": 0,
+      "value": 0.0,
+      "wilson_95": [
+        2.7755575615628914e-17,
+        0.24249400665524085
+      ]
+    },
+    "prediction_counts": {
+      "negative": 183,
+      "positive": 54,
+      "uncertain": 1
+    },
+    "recall": {
+      "denominator": 23,
+      "numerator": 20,
+      "value": 0.8695652173913043,
+      "wilson_95": [
+        0.6787251772990404,
+        0.9546234090636876
+      ]
+    },
+    "uncertain_rate_all": {
+      "denominator": 238,
+      "numerator": 1,
+      "value": 0.004201680672268907,
+      "wilson_95": [
+        0.000742085257523166,
+        0.02341199836891201
+      ]
+    },
+    "uncertain_scope_prediction_rate": {
+      "denominator": 24,
+      "numerator": 1,
+      "value": 0.041666666666666664,
+      "wilson_95": [
+        0.0073934561655057685,
+        0.20241806478655938
+      ]
+    }
+  },
+  "human_gold": false,
+  "source_type": "AIGC",
+  "val": {
+    "dataset": "VAL",
+    "detector": {
+      "images": 80,
+      "raw_detection_count": 396
+    },
+    "fn_media_ids": [],
+    "fp_media_ids": [],
+    "hn01_fpr": {
+      "denominator": 6,
+      "numerator": 5,
+      "value": 0.8333333333333334,
+      "wilson_95": [
+        0.43649717781352987,
+        0.9699466302516935
+      ]
+    },
+    "images": 80,
+    "latency_seconds": {
+      "max": 9.867195,
+      "min": 1.575753,
+      "p50": 1.7528855,
+      "p95_nearest_rank": 3.546746
+    },
+    "negative_fpr": {
+      "denominator": 48,
+      "numerator": 0,
+      "value": 0.0,
+      "wilson_95": [
+        6.938893903907228e-18,
+        0.07410012966611748
+      ]
+    },
+    "out_of_scope_alert_rate": {
+      "denominator": 10,
+      "numerator": 0,
+      "value": 0.0,
+      "wilson_95": [
+        0.0,
+        0.2775327998628892
+      ]
+    },
+    "p03_alert_rate": {
+      "denominator": 6,
+      "numerator": 0,
+      "value": 0.0,
+      "wilson_95": [
+        2.7755575615628914e-17,
+        0.3903342879021653
+      ]
+    },
+    "p05_alert_rate": {
+      "denominator": 4,
+      "numerator": 0,
+      "value": 0.0,
+      "wilson_95": [
+        0.0,
+        0.4898908364545973
+      ]
+    },
+    "prediction_counts": {
+      "negative": 61,
+      "positive": 19,
+      "uncertain": 0
+    },
+    "recall": {
+      "denominator": 8,
+      "numerator": 8,
+      "value": 1.0,
+      "wilson_95": [
+        0.6755924351161198,
+        1.0
+      ]
+    },
+    "requests": {
+      "logical_q1": 95,
+      "physical_failures": 0,
+      "physical_http": 95,
+      "q2": 0,
+      "schema_successes": 95
+    },
+    "uncertain_rate_all": {
+      "denominator": 80,
+      "numerator": 0,
+      "value": 0.0,
+      "wilson_95": [
+        0.0,
+        0.0458181295355271
+      ]
+    },
+    "uncertain_scope_prediction_rate": {
+      "denominator": 8,
+      "numerator": 0,
+      "value": 0.0,
+      "wilson_95": [
+        0.0,
+        0.32440756488388023
+      ]
+    }
+  }
+}

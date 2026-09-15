@@ -1,0 +1,26 @@
+{
+  "audit_date": "2026-09-15",
+  "check_count": 13,
+  "checks": {
+    "allowlist_exactly_80_val": true,
+    "consumed_cache_bound": true,
+    "denominators_correct": true,
+    "hash_manifest_excludes_self": true,
+    "hash_manifest_valid": true,
+    "holdout_image_in_allowlist": false,
+    "old_hashes_unchanged": true,
+    "one_shot_locks_completed": true,
+    "physical_requests_95": true,
+    "prediction_exactly_80": true,
+    "prompt_hash_correct": true,
+    "q2_requests_zero": true,
+    "val_error_sets_empty": true
+  },
+  "holdout_image_reads": 0,
+  "holdout_inference": 0,
+  "pass_count": 13,
+  "physical_model_requests": 95,
+  "prior_holdout_metadata_exposure": true,
+  "q2_requests": 0,
+  "status": "PASS"
+}
