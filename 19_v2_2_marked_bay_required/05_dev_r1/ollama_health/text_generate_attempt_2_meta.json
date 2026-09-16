@@ -1,0 +1,10 @@
+{
+  "attempt": 2,
+  "curl_returncode": 0,
+  "http_status": "200",
+  "elapsed_seconds": 0.6319765230000485,
+  "success": true,
+  "response": "OK",
+  "done_reason": "stop",
+  "error": null
+}

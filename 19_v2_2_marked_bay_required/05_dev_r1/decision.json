@@ -1,7 +1,11 @@
 {
-  "FINAL_STATUS": "V2_2_R1_BLOCKED_OLLAMA_TIMEOUT",
-  "R1_GATE_PASS": null,
+  "FINAL_STATUS": "V2_2_R1_DEV_GATE_FAIL",
+  "R1_GATE_PASS": false,
   "DEV_CHAMPION": "NONE",
+  "READY_FOR_NEW_CHALLENGE": false,
   "R2_ALLOWED": false,
-  "technical_resume_only": true
+  "QWEN4B_MARKED_BAY_RELATION_MAJOR_LIMIT": false,
+  "PROMPT_RECALL_IMPROVED_BUT_GATE_NOT_REACHED": false,
+  "VAL_EXECUTED": false,
+  "HOLDOUT_EXECUTED": false
 }

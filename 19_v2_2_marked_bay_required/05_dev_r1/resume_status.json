@@ -1,0 +1,10 @@
+{
+  "stage": "V2_2_R1_RECALL",
+  "ledger_aware_resume": true,
+  "stopped_by_circuit_breaker": false,
+  "prediction_coverage": 238,
+  "unique_predictions": 238,
+  "successful_logical_requests": 441,
+  "consecutive_exhausted_failures": 0,
+  "completed_utc": "2026-09-16T06:57:11Z"
+}

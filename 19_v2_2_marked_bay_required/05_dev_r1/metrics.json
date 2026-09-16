@@ -1,0 +1,96 @@
+{
+  "stage": "V2_2_R1_RECALL",
+  "primary_denominator": 196,
+  "positive_gt": 62,
+  "negative_gt": 134,
+  "TP": 42,
+  "FP": 45,
+  "TN": 89,
+  "FN": 20,
+  "precision": 0.4827586206896552,
+  "recall": 0.6774193548387096,
+  "f1": 0.5637583892617449,
+  "accuracy": 0.6683673469387755,
+  "specificity": 0.664179104477612,
+  "fpr": 0.3358208955223881,
+  "balanced_accuracy": 0.6707992296581609,
+  "recall_wilson95": [
+    0.553680880928481,
+    0.780455093487161
+  ],
+  "fpr_wilson95": [
+    0.2614222426198383,
+    0.4193704566417407
+  ],
+  "model_uncertain_count": 0,
+  "model_uncertain_rate": 0.0,
+  "p01_recall": {
+    "numerator": 21,
+    "denominator": 23,
+    "rate": 0.9130434782608695
+  },
+  "p03_recall": {
+    "numerator": 7,
+    "denominator": 18,
+    "rate": 0.3888888888888889
+  },
+  "unmarked_or_outside_recall": {
+    "numerator": 25,
+    "denominator": 32,
+    "rate": 0.78125
+  },
+  "multibay_recall": {
+    "numerator": 21,
+    "denominator": 39,
+    "rate": 0.5384615384615384
+  },
+  "minor_crossing_fpr": {
+    "numerator": 12,
+    "denominator": 24,
+    "rate": 0.5
+  },
+  "gate_queue_fpr": {
+    "numerator": 0,
+    "denominator": 18,
+    "rate": 0.0
+  },
+  "protocol_success_rate": 1.0,
+  "logical_required_request_count": 441,
+  "logical_successful_request_count": 441,
+  "historical_physical_start_count": 449,
+  "historical_result_count": 447,
+  "historical_schema_success_count": 441,
+  "historical_timeout_count": 6,
+  "gates": {
+    "precision": false,
+    "recall": false,
+    "f1": false,
+    "negative_fpr": false,
+    "p01_recall": true,
+    "p03_recall": false,
+    "minor_crossing_fpr": false,
+    "gate_queue_fpr": true,
+    "protocol_success": true
+  },
+  "gate_pass": false,
+  "r0_baseline": {
+    "TP": 3,
+    "FP": 0,
+    "TN": 134,
+    "FN": 59,
+    "precision": 1.0,
+    "recall": 0.04838709677419355,
+    "f1": 0.09230769230769231,
+    "fpr": 0.0
+  },
+  "r0_to_r1_delta": {
+    "TP": 39,
+    "FP": 45,
+    "FN": -39,
+    "recall": 0.6290322580645161,
+    "fpr": 0.3358208955223881,
+    "f1": 0.4714506969540526,
+    "positive_gt_r0_all_A_to_r1_B_or_C": 40,
+    "negative_gt_r0_all_A_to_r1_B_or_C": 45
+  }
+}

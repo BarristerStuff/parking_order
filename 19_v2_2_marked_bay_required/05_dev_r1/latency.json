@@ -1,0 +1,10 @@
+{
+  "prediction_count": 238,
+  "p50_seconds": 3.305300862004515,
+  "p95_seconds": 6.404562082985649,
+  "max_seconds": 7.2937650789826876,
+  "physical_request_start_count": 449,
+  "physical_request_result_count": 447,
+  "schema_success_result_count": 441,
+  "timeout_result_count": 6
+}

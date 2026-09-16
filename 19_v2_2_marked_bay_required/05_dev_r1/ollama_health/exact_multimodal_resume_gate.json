@@ -1,0 +1,12 @@
+{
+  "sample_token": "35fd6f09cc5058905dacb3e2c3098930ece62568b7cd4693b5e308e5dc326472",
+  "vehicle_rank": 1,
+  "question": "q1",
+  "view_a_sha256": "d0f7cb66eb1e9c4a35cdf86fdeb683e626fc186f4450bda2d86b66082bfacd72",
+  "image_sha256": "35fd6f09cc5058905dacb3e2c3098930ece62568b7cd4693b5e308e5dc326472",
+  "started_utc": "2026-09-16T06:45:51Z",
+  "schema_success": true,
+  "answer": "C",
+  "latency_seconds": 1.5593568299955223,
+  "error": null
+}

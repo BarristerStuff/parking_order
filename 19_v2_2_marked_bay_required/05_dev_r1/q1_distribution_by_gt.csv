@@ -1,0 +1,5 @@
+bucket,vehicle_count,A,B,C,D
+negative,171,120,0,51,0
+positive,77,28,0,49,0
+secondary_gate_queue,21,0,0,21,0
+uncertain,26,1,0,25,0
