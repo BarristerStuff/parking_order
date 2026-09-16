@@ -1,0 +1,2 @@
+media_id,group_key,event_label,stratum,selected_rank,anchor_status,frozen_bbox,local_roi,ground_proxy_area,ground_proxy_centroid,ground_proxy_bbox,bottom_center,component_count
+IMG_007348,hn01-gate-queue,secondary_gate_queue,gate_secondary,2,ANCHOR_INVALID,"[1481.272,71.994,1863.387,519.473]","[1099.157,183.86374999999998,1920,855.0822499999999]",0,[],[],"[1672.3294999999998,519.473]",1

@@ -1,0 +1,15 @@
+{
+  "geometry_pool": [
+    1,
+    2
+  ],
+  "ground_proxy": "bottom 30 percent of matched vehicle mask within frozen bbox y threshold",
+  "local_roi_formula": {
+    "left": "x0-1.0w",
+    "right": "x1+1.0w",
+    "top": "y0+0.25h",
+    "bottom": "y1+0.75h"
+  },
+  "anchor_validity": "MATCHED vehicle, bbox IoU>=0.10, frozen center inside candidate bbox, nonempty ground proxy",
+  "notes": "Raw components are threshold-independent; classification occurs only in frozen calibration grid."
+}

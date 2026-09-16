@@ -1,0 +1,24 @@
+{
+  "FINAL_STATUS": "PARKSCOPE_P1_CALIBRATION_NO_SAFE_GEOMETRY_RULE",
+  "P1_GATE_PASS": false,
+  "READY_FOR_FULL_DEV_GEOMETRY": false,
+  "calibration_gate": "FAIL",
+  "calibration_grid_count": 729,
+  "calibration_safe_config_count": 0,
+  "calibration_config_sha": null,
+  "evaluation_executed": false,
+  "parkscope_inference_reused": true,
+  "parkscope_new_requests": 0,
+  "ollama_requests": 0,
+  "anchor_invalid_count": 1,
+  "geometry_component_count": 228,
+  "calibration_envelope": {
+    "max_precision": 0.5454545454545454,
+    "min_fpr": 0.6666666666666666,
+    "max_recall": 0.8,
+    "max_f1": 0.6486486486486486
+  },
+  "full_dev_executed": false,
+  "val_executed": false,
+  "holdout_executed": false
+}

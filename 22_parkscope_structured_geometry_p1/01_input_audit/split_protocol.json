@@ -1,0 +1,9 @@
+{
+  "seed": "20260916_PARKSCOPE_P1_CAL_EVAL",
+  "method": "sorted media_id within each frozen stratum, Python random.Random(seed).shuffle, first 5 CAL, remaining 5 EVAL",
+  "counts": {
+    "CALIBRATION": 30,
+    "EVALUATION": 30,
+    "GATE_SECONDARY": 10
+  }
+}
