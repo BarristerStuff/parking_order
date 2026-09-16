@@ -1,0 +1,12 @@
+{
+  "revision": "PARKSCOPE_SEGMENTATION_FEASIBILITY_P0",
+  "upstream_repository": "https://github.com/Nanasaki-Ai/ParkScope.git",
+  "upstream_commit": "fbcfac7be597dd263570bbcd0377096c8a43d146",
+  "checkpoint_absolute_path": "/home/yanbo/net_vlm_parkscope_vendor/ParkScope/yolov11/v11n/best.pt",
+  "checkpoint_sha256": "6d70bf088b7c324401afb97e09cf898afcc639d8ac837f4da7ef4afbc38d3d9b",
+  "checkpoint_size_bytes": 5973362,
+  "pilot_manifest_sha256": "be44f0a84221fd54c018a80fe74f0fe8be9a5a50b5bd068bd3651b3db9a4b3c3",
+  "inference_call": {"device":"cpu","save":false,"verbose":false,"other_predict_args":"ultralytics defaults"},
+  "ollama_requests": 0,
+  "single_run": true
+}

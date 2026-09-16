@@ -1,0 +1,11 @@
+{
+  "source": "20_v2_3_decomposed_relation/04_pilot/pilot_manifest.csv",
+  "sha256": "be44f0a84221fd54c018a80fe74f0fe8be9a5a50b5bd068bd3651b3db9a4b3c3",
+  "total_images": 70,
+  "primary_images": 60,
+  "gate_secondary_images": 10,
+  "selected_vehicle_anchor_source": "20_v2_3_decomposed_relation/04_pilot/predictions.jsonl",
+  "expected_selected_vehicles": 89,
+  "actual_selected_vehicles": 89,
+  "resampled": false
+}

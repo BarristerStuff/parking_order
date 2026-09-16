@@ -1,0 +1,24 @@
+{
+  "python_version": "3.10.12",
+  "torch_version": "2.13.0+cpu",
+  "ultralytics_version": "8.4.104",
+  "opencv_version": "5.0.0",
+  "pillow_version": "12.2.0",
+  "device": "cpu",
+  "effective_predictor_args": {
+    "conf": 0.25,
+    "iou": 0.7,
+    "imgsz": 640,
+    "classes": null,
+    "agnostic_nms": false,
+    "augment": false,
+    "device": "cpu",
+    "save": false,
+    "verbose": false
+  },
+  "started_epoch": 1789545158.6848638,
+  "finished_epoch": 1789545170.911036,
+  "total_seconds": 12.22617244720459,
+  "success_images": 70,
+  "technical_error_count": 0
+}

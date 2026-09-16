@@ -1,0 +1,20 @@
+{
+  "runtime_model_names": {
+    "0": "crosswalk",
+    "1": "no parking sign",
+    "2": "parking lot",
+    "3": "vehicle"
+  },
+  "instance_counts": {
+    "0": 1,
+    "1": 112,
+    "2": 81,
+    "3": 284
+  },
+  "image_counts": {
+    "0": 1,
+    "1": 49,
+    "2": 38,
+    "3": 70
+  }
+}

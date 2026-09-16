@@ -1,0 +1,11 @@
+{
+  "class2_instance_count": 81,
+  "class2_image_count": 38,
+  "observed_form_counts": {
+    "PARKING_LINE_LIKE": 71,
+    "PARKING_AREA_LIKE": 10
+  },
+  "CLASS2_OBSERVED_SEMANTICS": "MIXED",
+  "basis": "Visual inspection of all 70 raw/overlay pairs; class 2 appears as both thin line/separator masks and broad parking-space/area masks. Runtime class names were not modified.",
+  "not_human_gold": true
+}

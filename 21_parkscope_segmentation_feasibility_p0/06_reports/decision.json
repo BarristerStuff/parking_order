@@ -1,0 +1,21 @@
+{
+  "final_status": "PARKSCOPE_SEGMENTATION_P0_GO",
+  "parkscope_p0_gate": "GO",
+  "ready_for_p1_structured_geometry": true,
+  "off_the_shelf_parkscope_geometry_not_sufficient": false,
+  "current_development_winner": "NONE",
+  "gate_checks": {
+    "inference_70_of_70": true,
+    "vehicle_mask_usable_rate_gte_0_95": true,
+    "normal_marked_bay_geometry_usable_rate_gte_0_80": true,
+    "p01_outside_evidence_usable_rate_gte_0_80": true,
+    "p03_separator_usable_rate_gte_0_70": true,
+    "catastrophic_wrong_mask_rate_lte_0_10": true
+  },
+  "scope": "segmentation perception feasibility only",
+  "ollama_requests": 0,
+  "full_dev_executed": false,
+  "val_executed": false,
+  "holdout_executed": false,
+  "production_ready": false
+}

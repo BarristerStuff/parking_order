@@ -7,3 +7,8 @@
 12_v2_not_in_bay/13_real_shadow_validation/**/*.jpg
 12_v2_not_in_bay/13_real_shadow_validation/**/*.jpeg
 12_v2_not_in_bay/13_real_shadow_validation/**/*.png
+
+# ParkScope P0 local visual artifacts
+21_parkscope_segmentation_feasibility_p0/_local_overlays/
+21_parkscope_segmentation_feasibility_p0/**/__pycache__/
+21_parkscope_segmentation_feasibility_p0/.venv/

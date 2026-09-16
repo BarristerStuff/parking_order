@@ -1,0 +1,14 @@
+group_key,selected_vehicles,vehicle_mask_usable,vehicle_mask_usable_rate,parking_geometry_usable,parking_geometry_usable_rate,catastrophic_wrong_mask_count
+hn01-gate-queue,12,11,0.9166666666666666,12,1.0,1
+hn02-faded-lines-but-confirmably-inside,4,4,1.0,4,1.0,0
+hn03-perspective-looks-like-crossing,3,3,1.0,3,1.0,0
+hn04-large-vehicle-compliant,1,1,1.0,1,1.0,0
+hn05-adjacent-vehicle-occludes-lines,2,2,1.0,2,1.0,0
+hn06-shadows-cracks-curbs-mimic-lines,5,5,1.0,5,1.0,0
+n01-standard-inside-bay,7,7,1.0,7,1.0,0
+n02-close-to-line-but-inside,6,6,1.0,6,1.0,0
+p01-outside-legal-bay-clear,12,12,1.0,9,0.75,0
+p02-cross-single-boundary-line,10,10,1.0,10,1.0,0
+p03-span-two-bays,12,12,1.0,12,1.0,0
+p04-angled-footprint-outside,8,8,1.0,8,1.0,0
+p05-multi-vehicle-at-least-one-violation,7,7,1.0,7,1.0,0
