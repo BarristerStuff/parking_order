@@ -1,0 +1,13 @@
+media_id,fold,gt,gt_binary,frame_logit,frame_probability,valid_target_count,status,target_probabilities,group_key,winner_threshold,strict_prediction
+IMG_007433,1,negative,0,0.19850148260593414,0.5494630336761475,1,SCORABLE,"[{""selected_rank"":1,""target_probability"":0.5494630336761475}]",n02-close-to-line-but-inside,,N/A_NO_SAFE_THRESHOLD
+IMG_007434,2,negative,0,-0.33785489201545715,0.4163306653499603,1,SCORABLE,"[{""selected_rank"":1,""target_probability"":0.4163306653499603}]",n02-close-to-line-but-inside,,N/A_NO_SAFE_THRESHOLD
+IMG_007437,3,negative,0,-1.1016905307769775,0.24942328035831451,1,SCORABLE,"[{""selected_rank"":1,""target_probability"":0.24942328035831451}]",n02-close-to-line-but-inside,,N/A_NO_SAFE_THRESHOLD
+IMG_007439,4,negative,0,0.24269184470176697,0.5603768825531006,1,SCORABLE,"[{""selected_rank"":1,""target_probability"":0.5603768825531006}]",n02-close-to-line-but-inside,,N/A_NO_SAFE_THRESHOLD
+IMG_007440,3,negative,0,-1.249807357788086,0.2227334827184677,1,SCORABLE,"[{""selected_rank"":1,""target_probability"":0.2227334827184677}]",n02-close-to-line-but-inside,,N/A_NO_SAFE_THRESHOLD
+IMG_007441,0,negative,0,-2.0042226314544678,0.11876028776168823,1,SCORABLE,"[{""selected_rank"":1,""target_probability"":0.11876028776168823}]",n02-close-to-line-but-inside,,N/A_NO_SAFE_THRESHOLD
+IMG_007442,1,negative,0,-0.6789517998695374,0.3364952802658081,1,SCORABLE,"[{""selected_rank"":1,""target_probability"":0.3364952802658081}]",n02-close-to-line-but-inside,,N/A_NO_SAFE_THRESHOLD
+IMG_007444,4,negative,0,-0.7972496747970581,0.3106141686439514,1,SCORABLE,"[{""selected_rank"":1,""target_probability"":0.3106141686439514}]",n02-close-to-line-but-inside,,N/A_NO_SAFE_THRESHOLD
+IMG_007445,2,negative,0,0.060128383338451385,0.5150275230407715,2,SCORABLE,"[{""selected_rank"":1,""target_probability"":0.5147551894187927},{""selected_rank"":2,""target_probability"":0.5150275230407715}]",n02-close-to-line-but-inside,,N/A_NO_SAFE_THRESHOLD
+IMG_007449,2,negative,0,-2.5281178951263428,0.07391037046909332,1,SCORABLE,"[{""selected_rank"":1,""target_probability"":0.07391037046909332}]",n02-close-to-line-but-inside,,N/A_NO_SAFE_THRESHOLD
+IMG_007450,3,negative,0,-0.6798932552337646,0.3362851142883301,1,SCORABLE,"[{""selected_rank"":1,""target_probability"":0.3362851142883301}]",n02-close-to-line-but-inside,,N/A_NO_SAFE_THRESHOLD
+IMG_007454,0,negative,0,-0.923916220664978,0.2841606140136719,1,SCORABLE,"[{""selected_rank"":1,""target_probability"":0.2841606140136719}]",n02-close-to-line-but-inside,,N/A_NO_SAFE_THRESHOLD

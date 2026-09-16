@@ -21,8 +21,49 @@ def calc(rows,t):
 scores=list(csv.DictReader(open(ROOT/'05_oof/oof_scores.csv',newline=''))); man={r['media_id']:r for r in csv.DictReader(open(ROOT/'01_dataset/p3_primary_manifest.csv',newline=''))}
 win=json.load(open(ROOT/'06_threshold/threshold_winner.json')); winner=win['winner']
 if not winner:
- decision={'final_status':'P3_LEARNED_RELATION_HEAD_NO_SAFE_THRESHOLD','p3_oof_gate_pass':False,'ready_for_p3_sealed_eval':False,'safe_threshold_count':0}
- jdump(ROOT/'08_reports/decision.json',decision);(ROOT/'08_reports/P3_OOF_REPORT.md').write_text('# P3 OOF Report\n\nNo preregistered threshold satisfied Precision >= 0.85 and FPR <= 0.10. Sealed EVALUATION remained unopened.\n')
+ # No winner-based classification/subgroup/bootstrap metrics are defined. Preserve N/A rather than inventing a fallback threshold.
+ sc=[r for r in scores if r['status']=='SCORABLE'];ys=[int(r['gt_binary']) for r in sc];ps=[float(r['frame_probability']) for r in sc]
+ roc=float(roc_auc_score(ys,ps));pr=float(average_precision_score(ys,ps))
+ fold_rows=[]
+ for fold in sorted({int(r['fold']) for r in scores}):
+  rs=[r for r in scores if int(r['fold'])==fold];ss=[r for r in rs if r['status']=='SCORABLE'];yy=[int(r['gt_binary']) for r in ss];pp=[float(r['frame_probability']) for r in ss]
+  auc=float(roc_auc_score(yy,pp)) if len(set(yy))==2 else None
+  fold_rows.append({'fold':fold,'positive_count':sum(int(r['gt_binary']) for r in rs),'negative_count':sum(not int(r['gt_binary']) for r in rs),'TP':'N/A','FP':'N/A','TN':'N/A','FN':'N/A','precision':'N/A','recall':'N/A','f1':'N/A','fpr':'N/A','balanced_accuracy':'N/A','coverage':sum(r['status']=='SCORABLE' for r in rs)/len(rs),'auc':auc})
+ write_csv(ROOT/'05_oof/fold_metrics.csv',fold_rows,['fold','positive_count','negative_count','TP','FP','TN','FN','precision','recall','f1','fpr','balanced_accuracy','coverage','auc'])
+ write_csv(ROOT/'07_diagnostics/subgroup_metrics.csv',[],['group_key','total','TP','FP','TN','FN','precision','recall','f1','fpr','balanced_accuracy','coverage','status'])
+ for fn,key in [('p01_cases.csv','p01-outside-legal-bay-clear'),('p03_cases.csv','p03-span-two-bays'),('minor_crossing_cases.csv','n02-close-to-line-but-inside'),('multi_vehicle_cases.csv','p05-multi-vehicle-at-least-one-violation')]:
+  rs=[{**r,'group_key':key,'winner_threshold':'','strict_prediction':'N/A_NO_SAFE_THRESHOLD'} for r in scores if man[r['media_id']]['group_key']==key]
+  write_csv(ROOT/'07_diagnostics'/fn,rs,list(rs[0]) if rs else ['media_id'])
+ un=[r for r in scores if r['status']!='SCORABLE'];write_csv(ROOT/'07_diagnostics/unscorable_frames.csv',un,list(scores[0]))
+ jdump(ROOT/'07_diagnostics/bootstrap_ci.json',{'seed':20260916,'replicates_requested':2000,'status':'NOT_RUN_NO_SAFE_THRESHOLD','ci95':{'precision':'N/A','recall':'N/A','f1':'N/A','fpr':'N/A'}})
+ decision={'final_status':'P3_LEARNED_RELATION_HEAD_NO_SAFE_THRESHOLD','p3_oof_gate_pass':False,'ready_for_p3_sealed_eval':False,'safe_threshold_count':0,'winner_threshold':None,'classification_metrics':'N/A','roc_auc':roc,'pr_auc':pr,'oof_frame_total':len(scores),'oof_frame_scorable':len(sc),'oof_frame_unscorable':len(scores)-len(sc),'oof_frame_coverage':len(sc)/len(scores),'score_min':min(ps),'score_max':max(ps),'sealed_evaluation_executed':False,'ollama_requests':0}
+ jdump(ROOT/'08_reports/decision.json',decision)
+ report=f'''# ParkScope Learned Relation Head P3 OOF Report
+
+## Decision
+
+- Final status: `P3_LEARNED_RELATION_HEAD_NO_SAFE_THRESHOLD`
+- Safe threshold count: `0`
+- P3 OOF gate pass: `false`
+- Ready for sealed EVALUATION: `false`
+- Sealed EVALUATION executed: `false`
+
+## Frozen OOF evidence
+
+- Primary/OOF frames: {len(scores)}
+- Scorable/unscorable: {len(sc)}/{len(scores)-len(sc)}
+- Coverage: {len(sc)/len(scores):.6f}
+- OOF score SHA256: `{hashlib.sha256((ROOT/'05_oof/oof_scores.csv').read_bytes()).hexdigest()}`
+- ROC-AUC (diagnostic): {roc:.6f}
+- PR-AUC (diagnostic): {pr:.6f}
+
+The fixed 19-threshold grid contained no threshold satisfying both Precision >= 0.85 and FPR <= 0.10. Therefore no winner threshold exists and TP/FP/TN/FN, winner-based subgroup metrics, bootstrap confidence intervals, and fold threshold metrics are correctly reported as N/A rather than computed at an unauthorized fallback threshold.
+
+## Boundary
+
+This is frozen synthetic-development OOF feasibility only. No sealed EVALUATION image, GT, ParkScope output, raster, or learned-head prediction was used. No Ollama request was made. No second architecture, threshold, seed, or training run is permitted.
+'''
+ (ROOT/'08_reports/P3_OOF_REPORT.md').write_text(report)
  print(json.dumps(decision,indent=2));sys.exit(0)
 t=float(winner['threshold']);overall=calc(scores,t)
 # subgroup metrics

@@ -1,0 +1,60 @@
+{
+  "architecture": "TINY_MIL_CNN_V1",
+  "models": [
+    {
+      "epoch_count": 100,
+      "fold": 0,
+      "model_path_local": "_local_fold_models/fold_0.pt",
+      "model_sha256": "686aebbd4cb6be488c6683d38f6950c1928188c476cf0e4b6ef43d59b240dba6",
+      "pos_weight": 2.473684210526316,
+      "train_scorable_frames": 132,
+      "train_unscorable_frames": 0,
+      "training_loss_final": 0.7488990408001523,
+      "training_seed": 20260916
+    },
+    {
+      "epoch_count": 100,
+      "fold": 1,
+      "model_path_local": "_local_fold_models/fold_1.pt",
+      "model_sha256": "7fd4c9991fc3ef4e7cd46545aa67c24a3f3253ebbcc6405c6722ac7ec338568d",
+      "pos_weight": 2.5945945945945947,
+      "train_scorable_frames": 133,
+      "train_unscorable_frames": 0,
+      "training_loss_final": 0.8430962804564857,
+      "training_seed": 20260917
+    },
+    {
+      "epoch_count": 100,
+      "fold": 2,
+      "model_path_local": "_local_fold_models/fold_2.pt",
+      "model_sha256": "8feddf9eff96d4e7e6d4101073347d6e2a498c206c9173d190b1ef21360d2655",
+      "pos_weight": 2.5,
+      "train_scorable_frames": 133,
+      "train_unscorable_frames": 0,
+      "training_loss_final": 0.8558441142838701,
+      "training_seed": 20260918
+    },
+    {
+      "epoch_count": 100,
+      "fold": 3,
+      "model_path_local": "_local_fold_models/fold_3.pt",
+      "model_sha256": "d8b39b54c41167d2c0e578ebe5d44b2fa5b90fc31c1b5447f32078b64b892ee3",
+      "pos_weight": 2.6944444444444446,
+      "train_scorable_frames": 133,
+      "train_unscorable_frames": 0,
+      "training_loss_final": 0.7423338338844758,
+      "training_seed": 20260919
+    },
+    {
+      "epoch_count": 100,
+      "fold": 4,
+      "model_path_local": "_local_fold_models/fold_4.pt",
+      "model_sha256": "41ce5db4732dbe2c83ec773786458d40669005b7890c861d7ae0e42f054aca09",
+      "pos_weight": 2.41025641025641,
+      "train_scorable_frames": 133,
+      "train_unscorable_frames": 0,
+      "training_loss_final": 0.7883793353138113,
+      "training_seed": 20260920
+    }
+  ]
+}

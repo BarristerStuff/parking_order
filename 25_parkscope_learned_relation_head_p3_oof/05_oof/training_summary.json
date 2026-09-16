@@ -1,0 +1,52 @@
+{
+  "deterministic_algorithms": true,
+  "device": "cpu",
+  "folds": [
+    {
+      "final_loss": 0.7488990408001523,
+      "fold": 0,
+      "seconds": 13.462063312530518,
+      "train_negative": 94,
+      "train_positive": 38,
+      "validation_frames": 34
+    },
+    {
+      "final_loss": 0.8430962804564857,
+      "fold": 1,
+      "seconds": 13.765732288360596,
+      "train_negative": 96,
+      "train_positive": 37,
+      "validation_frames": 33
+    },
+    {
+      "final_loss": 0.8558441142838701,
+      "fold": 2,
+      "seconds": 13.700812339782715,
+      "train_negative": 95,
+      "train_positive": 38,
+      "validation_frames": 33
+    },
+    {
+      "final_loss": 0.7423338338844758,
+      "fold": 3,
+      "seconds": 13.433131456375122,
+      "train_negative": 97,
+      "train_positive": 36,
+      "validation_frames": 33
+    },
+    {
+      "final_loss": 0.7883793353138113,
+      "fold": 4,
+      "seconds": 13.690478324890137,
+      "train_negative": 94,
+      "train_positive": 39,
+      "validation_frames": 33
+    }
+  ],
+  "global_seed": 20260916,
+  "model_parameter_count": 4313,
+  "numpy_version": "2.2.6",
+  "oof_score_sha256": "a30f4f7d2861a7a8a2b008f7cd469da09406ddf0735a995b2b962bce11e5e68e",
+  "python_version": "3.10.12",
+  "torch_version": "2.13.0+cpu"
+}

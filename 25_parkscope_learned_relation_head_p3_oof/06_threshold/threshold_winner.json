@@ -1,0 +1,12 @@
+{
+  "safe_threshold_count": 0,
+  "selection_order": [
+    "recall desc",
+    "f1 desc",
+    "precision desc",
+    "threshold desc"
+  ],
+  "status": "NO_SAFE_THRESHOLD",
+  "threshold_grid_count": 19,
+  "winner": null
+}
