@@ -20,8 +20,8 @@
   "production_shadow_started": false,
   "production_integration_ready": false,
   "next_stage": "real_robot_shadow_validation",
-  "local_head": "7b31daa24f95cf4b666fbe7ecb423e95bf42a815",
-  "remote_main": "7b31daa24f95cf4b666fbe7ecb423e95bf42a815",
+  "local_head": "b28642145cb62e2c7eb171c9760cdc97cde00cea",
+  "remote_main": "b28642145cb62e2c7eb171c9760cdc97cde00cea",
   "v2_1_1_commit": "7b31daa24f95cf4b666fbe7ecb423e95bf42a815",
-  "handoff_commit": "HANDOFF_COMMIT_PENDING"
+  "handoff_commit": "b28642145cb62e2c7eb171c9760cdc97cde00cea"
 }
