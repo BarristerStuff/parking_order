@@ -1,0 +1,21 @@
+{
+  "rule_version": "PARKSCOPE_CONSERVATIVE_GEOMETRY_P1_1",
+  "outside_fallback_removed": true,
+  "outside_positive_enabled": false,
+  "target_rule": [
+    "invalid anchor -> UNCERTAIN_ANCHOR",
+    "separator and in-bay -> UNCERTAIN_CONFLICT",
+    "separator only -> POSITIVE_MULTIBAY",
+    "in-bay only -> NEGATIVE_IN_BAY",
+    "otherwise -> UNCERTAIN_NO_EVIDENCE"
+  ],
+  "frame_rule": "any positive; else all negative; else uncertain",
+  "parameter_grid": {
+    "line_elongation_min": [2.5, 3.5, 5.0],
+    "line_max_thickness_ratio": [0.15, 0.25, 0.35],
+    "parallel_angle_max": [15, 25, 35],
+    "separator_center_margin": [0.15, 0.25, 0.35],
+    "bracket_max_distance_ratio": [0.75, 1.0, 1.25],
+    "area_support_min": [0.3, 0.5, 0.7]
+  }
+}

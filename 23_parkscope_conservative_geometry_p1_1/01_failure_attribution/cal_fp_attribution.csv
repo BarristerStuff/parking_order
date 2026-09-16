@@ -1,0 +1,16 @@
+media_id,group_key,fp_occurrence_count,fp_occurrence_rate,outside_fallback_occurrences,separator_occurrences,both_occurrences
+IMG_007350,hn02-faded-lines-but-confirmably-inside,162,1.0,162,0,0
+IMG_007359,hn02-faded-lines-but-confirmably-inside,0,0.0,0,0,0
+IMG_007361,hn03-perspective-looks-like-crossing,0,0.0,0,0,0
+IMG_007392,hn06-shadows-cracks-curbs-mimic-lines,0,0.0,0,0,0
+IMG_007396,hn06-shadows-cracks-curbs-mimic-lines,162,1.0,162,0,0
+IMG_007404,n01-standard-inside-bay,0,0.0,0,0,0
+IMG_007413,n01-standard-inside-bay,162,1.0,162,0,0
+IMG_007425,n01-standard-inside-bay,162,1.0,162,0,0
+IMG_007445,n02-close-to-line-but-inside,162,1.0,162,0,0
+IMG_007450,n02-close-to-line-but-inside,162,1.0,162,0,0
+IMG_007562,p02-cross-single-boundary-line,162,1.0,162,0,0
+IMG_007593,p02-cross-single-boundary-line,162,1.0,162,0,0
+IMG_007626,p04-angled-footprint-outside,162,1.0,162,0,0
+IMG_007637,p04-angled-footprint-outside,162,1.0,162,0,0
+IMG_007654,p05-multi-vehicle-at-least-one-violation,0,0.0,0,0,0

@@ -1,0 +1,12 @@
+{
+  "old_p1_min_fp": 10,
+  "old_p1_min_fpr": 0.6666666666666666,
+  "min_fp_config_count": 162,
+  "fp_frame_union_count": 10,
+  "fp_frame_intersection_count": 10,
+  "fp_occurrence_total": 1620,
+  "fp_with_outside_fallback_count": 1620,
+  "fp_with_separator_count": 0,
+  "fp_with_both_count": 0,
+  "count_unit_for_trigger_fields": "configuration-frame FP occurrence"
+}

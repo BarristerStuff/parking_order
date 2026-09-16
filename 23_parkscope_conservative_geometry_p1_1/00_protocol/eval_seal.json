@@ -1,0 +1,7 @@
+{
+  "sealed_at_protocol_freeze": "2026-09-16",
+  "eval_used_for_rule_design": false,
+  "eval_predictions_computed_before_winner_freeze": false,
+  "eval_metrics_computed_before_winner_freeze": false,
+  "required_condition_to_open": "CALIBRATION safe winner frozen with canonical SHA256"
+}
