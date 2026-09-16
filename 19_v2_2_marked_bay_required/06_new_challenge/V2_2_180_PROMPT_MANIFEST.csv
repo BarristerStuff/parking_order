@@ -1,0 +1,181 @@
+image_id,scenario_group,gt,source_type,generation_model,generation_batch,prompt_group,seed,date,prompt,split
+P22_01_001,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260917,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,DEV
+P22_01_002,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260918,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,VAL
+P22_01_003,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260919,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,HOLDOUT
+P22_01_004,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260920,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,DEV
+P22_01_005,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260921,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,VAL
+P22_01_006,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260922,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,HOLDOUT
+P22_01_007,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260923,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,DEV
+P22_01_008,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260924,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,VAL
+P22_01_009,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260925,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,HOLDOUT
+P22_01_010,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260926,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,DEV
+P22_01_011,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260927,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,VAL
+P22_01_012,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260928,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,HOLDOUT
+P22_01_013,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260929,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,DEV
+P22_01_014,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260930,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,VAL
+P22_01_015,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260931,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,HOLDOUT
+P22_01_016,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260932,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,DEV
+P22_01_017,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260933,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,VAL
+P22_01_018,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260934,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,HOLDOUT
+P22_01_019,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260935,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,DEV
+P22_01_020,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260936,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,VAL
+P22_01_021,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260937,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,HOLDOUT
+P22_01_022,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260938,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,DEV
+P22_01_023,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260939,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,VAL
+P22_01_024,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260940,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,HOLDOUT
+P22_01_025,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260941,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,DEV
+P22_01_026,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260942,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,VAL
+P22_01_027,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260943,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,HOLDOUT
+P22_01_028,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260944,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,DEV
+P22_01_029,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260945,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,VAL
+P22_01_030,P22_01,positive,ai_generated,TBD,V22_20260916,P22_01,20260946,2026-09-16,Unmarked curbside or roadside parking; show curb/road edge or one roadside line but no marked bay.,HOLDOUT
+P22_02_001,P22_02,positive,ai_generated,TBD,V22_20260916,P22_02,20260917,2026-09-16,"Vehicle stopped on open pavement or driving aisle, with no marked bay around it.",DEV
+P22_02_002,P22_02,positive,ai_generated,TBD,V22_20260916,P22_02,20260918,2026-09-16,"Vehicle stopped on open pavement or driving aisle, with no marked bay around it.",VAL
+P22_02_003,P22_02,positive,ai_generated,TBD,V22_20260916,P22_02,20260919,2026-09-16,"Vehicle stopped on open pavement or driving aisle, with no marked bay around it.",HOLDOUT
+P22_02_004,P22_02,positive,ai_generated,TBD,V22_20260916,P22_02,20260920,2026-09-16,"Vehicle stopped on open pavement or driving aisle, with no marked bay around it.",DEV
+P22_02_005,P22_02,positive,ai_generated,TBD,V22_20260916,P22_02,20260921,2026-09-16,"Vehicle stopped on open pavement or driving aisle, with no marked bay around it.",VAL
+P22_02_006,P22_02,positive,ai_generated,TBD,V22_20260916,P22_02,20260922,2026-09-16,"Vehicle stopped on open pavement or driving aisle, with no marked bay around it.",HOLDOUT
+P22_02_007,P22_02,positive,ai_generated,TBD,V22_20260916,P22_02,20260923,2026-09-16,"Vehicle stopped on open pavement or driving aisle, with no marked bay around it.",DEV
+P22_02_008,P22_02,positive,ai_generated,TBD,V22_20260916,P22_02,20260924,2026-09-16,"Vehicle stopped on open pavement or driving aisle, with no marked bay around it.",VAL
+P22_02_009,P22_02,positive,ai_generated,TBD,V22_20260916,P22_02,20260925,2026-09-16,"Vehicle stopped on open pavement or driving aisle, with no marked bay around it.",HOLDOUT
+P22_02_010,P22_02,positive,ai_generated,TBD,V22_20260916,P22_02,20260926,2026-09-16,"Vehicle stopped on open pavement or driving aisle, with no marked bay around it.",DEV
+P22_02_011,P22_02,positive,ai_generated,TBD,V22_20260916,P22_02,20260927,2026-09-16,"Vehicle stopped on open pavement or driving aisle, with no marked bay around it.",VAL
+P22_02_012,P22_02,positive,ai_generated,TBD,V22_20260916,P22_02,20260928,2026-09-16,"Vehicle stopped on open pavement or driving aisle, with no marked bay around it.",HOLDOUT
+P22_02_013,P22_02,positive,ai_generated,TBD,V22_20260916,P22_02,20260929,2026-09-16,"Vehicle stopped on open pavement or driving aisle, with no marked bay around it.",DEV
+P22_02_014,P22_02,positive,ai_generated,TBD,V22_20260916,P22_02,20260930,2026-09-16,"Vehicle stopped on open pavement or driving aisle, with no marked bay around it.",VAL
+P22_02_015,P22_02,positive,ai_generated,TBD,V22_20260916,P22_02,20260931,2026-09-16,"Vehicle stopped on open pavement or driving aisle, with no marked bay around it.",HOLDOUT
+P22_03_001,P22_03,positive,ai_generated,TBD,V22_20260916,P22_03,20260917,2026-09-16,Vehicle clearly spans substantial parts of two marked parking bays.,DEV
+P22_03_002,P22_03,positive,ai_generated,TBD,V22_20260916,P22_03,20260918,2026-09-16,Vehicle clearly spans substantial parts of two marked parking bays.,VAL
+P22_03_003,P22_03,positive,ai_generated,TBD,V22_20260916,P22_03,20260919,2026-09-16,Vehicle clearly spans substantial parts of two marked parking bays.,HOLDOUT
+P22_03_004,P22_03,positive,ai_generated,TBD,V22_20260916,P22_03,20260920,2026-09-16,Vehicle clearly spans substantial parts of two marked parking bays.,DEV
+P22_03_005,P22_03,positive,ai_generated,TBD,V22_20260916,P22_03,20260921,2026-09-16,Vehicle clearly spans substantial parts of two marked parking bays.,VAL
+P22_03_006,P22_03,positive,ai_generated,TBD,V22_20260916,P22_03,20260922,2026-09-16,Vehicle clearly spans substantial parts of two marked parking bays.,HOLDOUT
+P22_03_007,P22_03,positive,ai_generated,TBD,V22_20260916,P22_03,20260923,2026-09-16,Vehicle clearly spans substantial parts of two marked parking bays.,DEV
+P22_03_008,P22_03,positive,ai_generated,TBD,V22_20260916,P22_03,20260924,2026-09-16,Vehicle clearly spans substantial parts of two marked parking bays.,VAL
+P22_03_009,P22_03,positive,ai_generated,TBD,V22_20260916,P22_03,20260925,2026-09-16,Vehicle clearly spans substantial parts of two marked parking bays.,HOLDOUT
+P22_03_010,P22_03,positive,ai_generated,TBD,V22_20260916,P22_03,20260926,2026-09-16,Vehicle clearly spans substantial parts of two marked parking bays.,DEV
+P22_03_011,P22_03,positive,ai_generated,TBD,V22_20260916,P22_03,20260927,2026-09-16,Vehicle clearly spans substantial parts of two marked parking bays.,VAL
+P22_03_012,P22_03,positive,ai_generated,TBD,V22_20260916,P22_03,20260928,2026-09-16,Vehicle clearly spans substantial parts of two marked parking bays.,HOLDOUT
+P22_03_013,P22_03,positive,ai_generated,TBD,V22_20260916,P22_03,20260929,2026-09-16,Vehicle clearly spans substantial parts of two marked parking bays.,DEV
+P22_03_014,P22_03,positive,ai_generated,TBD,V22_20260916,P22_03,20260930,2026-09-16,Vehicle clearly spans substantial parts of two marked parking bays.,VAL
+P22_03_015,P22_03,positive,ai_generated,TBD,V22_20260916,P22_03,20260931,2026-09-16,Vehicle clearly spans substantial parts of two marked parking bays.,HOLDOUT
+P22_04_001,P22_04,positive,ai_generated,TBD,V22_20260916,P22_04,20260917,2026-09-16,Vehicle clearly outside all established marked parking bays.,DEV
+P22_04_002,P22_04,positive,ai_generated,TBD,V22_20260916,P22_04,20260918,2026-09-16,Vehicle clearly outside all established marked parking bays.,VAL
+P22_04_003,P22_04,positive,ai_generated,TBD,V22_20260916,P22_04,20260919,2026-09-16,Vehicle clearly outside all established marked parking bays.,HOLDOUT
+P22_04_004,P22_04,positive,ai_generated,TBD,V22_20260916,P22_04,20260920,2026-09-16,Vehicle clearly outside all established marked parking bays.,DEV
+P22_04_005,P22_04,positive,ai_generated,TBD,V22_20260916,P22_04,20260921,2026-09-16,Vehicle clearly outside all established marked parking bays.,VAL
+P22_04_006,P22_04,positive,ai_generated,TBD,V22_20260916,P22_04,20260922,2026-09-16,Vehicle clearly outside all established marked parking bays.,HOLDOUT
+P22_04_007,P22_04,positive,ai_generated,TBD,V22_20260916,P22_04,20260923,2026-09-16,Vehicle clearly outside all established marked parking bays.,DEV
+P22_04_008,P22_04,positive,ai_generated,TBD,V22_20260916,P22_04,20260924,2026-09-16,Vehicle clearly outside all established marked parking bays.,VAL
+P22_04_009,P22_04,positive,ai_generated,TBD,V22_20260916,P22_04,20260925,2026-09-16,Vehicle clearly outside all established marked parking bays.,HOLDOUT
+P22_04_010,P22_04,positive,ai_generated,TBD,V22_20260916,P22_04,20260926,2026-09-16,Vehicle clearly outside all established marked parking bays.,DEV
+P22_04_011,P22_04,positive,ai_generated,TBD,V22_20260916,P22_04,20260927,2026-09-16,Vehicle clearly outside all established marked parking bays.,VAL
+P22_04_012,P22_04,positive,ai_generated,TBD,V22_20260916,P22_04,20260928,2026-09-16,Vehicle clearly outside all established marked parking bays.,HOLDOUT
+P22_04_013,P22_04,positive,ai_generated,TBD,V22_20260916,P22_04,20260929,2026-09-16,Vehicle clearly outside all established marked parking bays.,DEV
+P22_04_014,P22_04,positive,ai_generated,TBD,V22_20260916,P22_04,20260930,2026-09-16,Vehicle clearly outside all established marked parking bays.,VAL
+P22_04_015,P22_04,positive,ai_generated,TBD,V22_20260916,P22_04,20260931,2026-09-16,Vehicle clearly outside all established marked parking bays.,HOLDOUT
+N22_01_001,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260917,2026-09-16,Vehicle clearly belongs within one marked parking bay.,DEV
+N22_01_002,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260918,2026-09-16,Vehicle clearly belongs within one marked parking bay.,VAL
+N22_01_003,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260919,2026-09-16,Vehicle clearly belongs within one marked parking bay.,HOLDOUT
+N22_01_004,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260920,2026-09-16,Vehicle clearly belongs within one marked parking bay.,DEV
+N22_01_005,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260921,2026-09-16,Vehicle clearly belongs within one marked parking bay.,VAL
+N22_01_006,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260922,2026-09-16,Vehicle clearly belongs within one marked parking bay.,HOLDOUT
+N22_01_007,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260923,2026-09-16,Vehicle clearly belongs within one marked parking bay.,DEV
+N22_01_008,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260924,2026-09-16,Vehicle clearly belongs within one marked parking bay.,VAL
+N22_01_009,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260925,2026-09-16,Vehicle clearly belongs within one marked parking bay.,HOLDOUT
+N22_01_010,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260926,2026-09-16,Vehicle clearly belongs within one marked parking bay.,DEV
+N22_01_011,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260927,2026-09-16,Vehicle clearly belongs within one marked parking bay.,VAL
+N22_01_012,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260928,2026-09-16,Vehicle clearly belongs within one marked parking bay.,HOLDOUT
+N22_01_013,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260929,2026-09-16,Vehicle clearly belongs within one marked parking bay.,DEV
+N22_01_014,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260930,2026-09-16,Vehicle clearly belongs within one marked parking bay.,VAL
+N22_01_015,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260931,2026-09-16,Vehicle clearly belongs within one marked parking bay.,HOLDOUT
+N22_01_016,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260932,2026-09-16,Vehicle clearly belongs within one marked parking bay.,DEV
+N22_01_017,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260933,2026-09-16,Vehicle clearly belongs within one marked parking bay.,VAL
+N22_01_018,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260934,2026-09-16,Vehicle clearly belongs within one marked parking bay.,HOLDOUT
+N22_01_019,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260935,2026-09-16,Vehicle clearly belongs within one marked parking bay.,DEV
+N22_01_020,N22_01,negative,ai_generated,TBD,V22_20260916,N22_01,20260936,2026-09-16,Vehicle clearly belongs within one marked parking bay.,VAL
+N22_02_001,N22_02,negative,ai_generated,TBD,V22_20260916,N22_02,20260917,2026-09-16,Faded or partial painted markings still clearly establish one bay around the vehicle.,DEV
+N22_02_002,N22_02,negative,ai_generated,TBD,V22_20260916,N22_02,20260918,2026-09-16,Faded or partial painted markings still clearly establish one bay around the vehicle.,VAL
+N22_02_003,N22_02,negative,ai_generated,TBD,V22_20260916,N22_02,20260919,2026-09-16,Faded or partial painted markings still clearly establish one bay around the vehicle.,HOLDOUT
+N22_02_004,N22_02,negative,ai_generated,TBD,V22_20260916,N22_02,20260920,2026-09-16,Faded or partial painted markings still clearly establish one bay around the vehicle.,DEV
+N22_02_005,N22_02,negative,ai_generated,TBD,V22_20260916,N22_02,20260921,2026-09-16,Faded or partial painted markings still clearly establish one bay around the vehicle.,VAL
+N22_02_006,N22_02,negative,ai_generated,TBD,V22_20260916,N22_02,20260922,2026-09-16,Faded or partial painted markings still clearly establish one bay around the vehicle.,HOLDOUT
+N22_02_007,N22_02,negative,ai_generated,TBD,V22_20260916,N22_02,20260923,2026-09-16,Faded or partial painted markings still clearly establish one bay around the vehicle.,DEV
+N22_02_008,N22_02,negative,ai_generated,TBD,V22_20260916,N22_02,20260924,2026-09-16,Faded or partial painted markings still clearly establish one bay around the vehicle.,VAL
+N22_02_009,N22_02,negative,ai_generated,TBD,V22_20260916,N22_02,20260925,2026-09-16,Faded or partial painted markings still clearly establish one bay around the vehicle.,HOLDOUT
+N22_02_010,N22_02,negative,ai_generated,TBD,V22_20260916,N22_02,20260926,2026-09-16,Faded or partial painted markings still clearly establish one bay around the vehicle.,DEV
+N22_02_011,N22_02,negative,ai_generated,TBD,V22_20260916,N22_02,20260927,2026-09-16,Faded or partial painted markings still clearly establish one bay around the vehicle.,VAL
+N22_02_012,N22_02,negative,ai_generated,TBD,V22_20260916,N22_02,20260928,2026-09-16,Faded or partial painted markings still clearly establish one bay around the vehicle.,HOLDOUT
+N22_02_013,N22_02,negative,ai_generated,TBD,V22_20260916,N22_02,20260929,2026-09-16,Faded or partial painted markings still clearly establish one bay around the vehicle.,DEV
+N22_02_014,N22_02,negative,ai_generated,TBD,V22_20260916,N22_02,20260930,2026-09-16,Faded or partial painted markings still clearly establish one bay around the vehicle.,VAL
+N22_02_015,N22_02,negative,ai_generated,TBD,V22_20260916,N22_02,20260931,2026-09-16,Faded or partial painted markings still clearly establish one bay around the vehicle.,HOLDOUT
+N22_03_001,N22_03,negative,ai_generated,TBD,V22_20260916,N22_03,20260917,2026-09-16,"Minor line touch, slight tire crossing, bumper overhang, or mild angle while overall in one bay.",DEV
+N22_03_002,N22_03,negative,ai_generated,TBD,V22_20260916,N22_03,20260918,2026-09-16,"Minor line touch, slight tire crossing, bumper overhang, or mild angle while overall in one bay.",VAL
+N22_03_003,N22_03,negative,ai_generated,TBD,V22_20260916,N22_03,20260919,2026-09-16,"Minor line touch, slight tire crossing, bumper overhang, or mild angle while overall in one bay.",HOLDOUT
+N22_03_004,N22_03,negative,ai_generated,TBD,V22_20260916,N22_03,20260920,2026-09-16,"Minor line touch, slight tire crossing, bumper overhang, or mild angle while overall in one bay.",DEV
+N22_03_005,N22_03,negative,ai_generated,TBD,V22_20260916,N22_03,20260921,2026-09-16,"Minor line touch, slight tire crossing, bumper overhang, or mild angle while overall in one bay.",VAL
+N22_03_006,N22_03,negative,ai_generated,TBD,V22_20260916,N22_03,20260922,2026-09-16,"Minor line touch, slight tire crossing, bumper overhang, or mild angle while overall in one bay.",HOLDOUT
+N22_03_007,N22_03,negative,ai_generated,TBD,V22_20260916,N22_03,20260923,2026-09-16,"Minor line touch, slight tire crossing, bumper overhang, or mild angle while overall in one bay.",DEV
+N22_03_008,N22_03,negative,ai_generated,TBD,V22_20260916,N22_03,20260924,2026-09-16,"Minor line touch, slight tire crossing, bumper overhang, or mild angle while overall in one bay.",VAL
+N22_03_009,N22_03,negative,ai_generated,TBD,V22_20260916,N22_03,20260925,2026-09-16,"Minor line touch, slight tire crossing, bumper overhang, or mild angle while overall in one bay.",HOLDOUT
+N22_03_010,N22_03,negative,ai_generated,TBD,V22_20260916,N22_03,20260926,2026-09-16,"Minor line touch, slight tire crossing, bumper overhang, or mild angle while overall in one bay.",DEV
+N22_03_011,N22_03,negative,ai_generated,TBD,V22_20260916,N22_03,20260927,2026-09-16,"Minor line touch, slight tire crossing, bumper overhang, or mild angle while overall in one bay.",VAL
+N22_03_012,N22_03,negative,ai_generated,TBD,V22_20260916,N22_03,20260928,2026-09-16,"Minor line touch, slight tire crossing, bumper overhang, or mild angle while overall in one bay.",HOLDOUT
+N22_03_013,N22_03,negative,ai_generated,TBD,V22_20260916,N22_03,20260929,2026-09-16,"Minor line touch, slight tire crossing, bumper overhang, or mild angle while overall in one bay.",DEV
+N22_03_014,N22_03,negative,ai_generated,TBD,V22_20260916,N22_03,20260930,2026-09-16,"Minor line touch, slight tire crossing, bumper overhang, or mild angle while overall in one bay.",VAL
+N22_03_015,N22_03,negative,ai_generated,TBD,V22_20260916,N22_03,20260931,2026-09-16,"Minor line touch, slight tire crossing, bumper overhang, or mild angle while overall in one bay.",HOLDOUT
+N22_04_001,N22_04,negative,ai_generated,TBD,V22_20260916,N22_04,20260917,2026-09-16,"Strong perspective makes lines look crossed, but vehicle is clearly normal in one bay.",DEV
+N22_04_002,N22_04,negative,ai_generated,TBD,V22_20260916,N22_04,20260918,2026-09-16,"Strong perspective makes lines look crossed, but vehicle is clearly normal in one bay.",VAL
+N22_04_003,N22_04,negative,ai_generated,TBD,V22_20260916,N22_04,20260919,2026-09-16,"Strong perspective makes lines look crossed, but vehicle is clearly normal in one bay.",HOLDOUT
+N22_04_004,N22_04,negative,ai_generated,TBD,V22_20260916,N22_04,20260920,2026-09-16,"Strong perspective makes lines look crossed, but vehicle is clearly normal in one bay.",DEV
+N22_04_005,N22_04,negative,ai_generated,TBD,V22_20260916,N22_04,20260921,2026-09-16,"Strong perspective makes lines look crossed, but vehicle is clearly normal in one bay.",VAL
+N22_04_006,N22_04,negative,ai_generated,TBD,V22_20260916,N22_04,20260922,2026-09-16,"Strong perspective makes lines look crossed, but vehicle is clearly normal in one bay.",HOLDOUT
+N22_04_007,N22_04,negative,ai_generated,TBD,V22_20260916,N22_04,20260923,2026-09-16,"Strong perspective makes lines look crossed, but vehicle is clearly normal in one bay.",DEV
+N22_04_008,N22_04,negative,ai_generated,TBD,V22_20260916,N22_04,20260924,2026-09-16,"Strong perspective makes lines look crossed, but vehicle is clearly normal in one bay.",VAL
+N22_04_009,N22_04,negative,ai_generated,TBD,V22_20260916,N22_04,20260925,2026-09-16,"Strong perspective makes lines look crossed, but vehicle is clearly normal in one bay.",HOLDOUT
+N22_04_010,N22_04,negative,ai_generated,TBD,V22_20260916,N22_04,20260926,2026-09-16,"Strong perspective makes lines look crossed, but vehicle is clearly normal in one bay.",DEV
+N22_05_001,N22_05,negative,ai_generated,TBD,V22_20260916,N22_05,20260917,2026-09-16,Large vehicle near boundary but clearly compliant within one bay.,DEV
+N22_05_002,N22_05,negative,ai_generated,TBD,V22_20260916,N22_05,20260918,2026-09-16,Large vehicle near boundary but clearly compliant within one bay.,VAL
+N22_05_003,N22_05,negative,ai_generated,TBD,V22_20260916,N22_05,20260919,2026-09-16,Large vehicle near boundary but clearly compliant within one bay.,HOLDOUT
+N22_05_004,N22_05,negative,ai_generated,TBD,V22_20260916,N22_05,20260920,2026-09-16,Large vehicle near boundary but clearly compliant within one bay.,DEV
+N22_05_005,N22_05,negative,ai_generated,TBD,V22_20260916,N22_05,20260921,2026-09-16,Large vehicle near boundary but clearly compliant within one bay.,VAL
+N22_05_006,N22_05,negative,ai_generated,TBD,V22_20260916,N22_05,20260922,2026-09-16,Large vehicle near boundary but clearly compliant within one bay.,HOLDOUT
+N22_05_007,N22_05,negative,ai_generated,TBD,V22_20260916,N22_05,20260923,2026-09-16,Large vehicle near boundary but clearly compliant within one bay.,DEV
+N22_05_008,N22_05,negative,ai_generated,TBD,V22_20260916,N22_05,20260924,2026-09-16,Large vehicle near boundary but clearly compliant within one bay.,VAL
+N22_05_009,N22_05,negative,ai_generated,TBD,V22_20260916,N22_05,20260925,2026-09-16,Large vehicle near boundary but clearly compliant within one bay.,HOLDOUT
+N22_05_010,N22_05,negative,ai_generated,TBD,V22_20260916,N22_05,20260926,2026-09-16,Large vehicle near boundary but clearly compliant within one bay.,DEV
+N22_06_001,N22_06,negative,ai_generated,TBD,V22_20260916,N22_06,20260917,2026-09-16,Normal gate/barrier queue heading toward checkpoint.,DEV
+N22_06_002,N22_06,negative,ai_generated,TBD,V22_20260916,N22_06,20260918,2026-09-16,Normal gate/barrier queue heading toward checkpoint.,VAL
+N22_06_003,N22_06,negative,ai_generated,TBD,V22_20260916,N22_06,20260919,2026-09-16,Normal gate/barrier queue heading toward checkpoint.,HOLDOUT
+N22_06_004,N22_06,negative,ai_generated,TBD,V22_20260916,N22_06,20260920,2026-09-16,Normal gate/barrier queue heading toward checkpoint.,DEV
+N22_06_005,N22_06,negative,ai_generated,TBD,V22_20260916,N22_06,20260921,2026-09-16,Normal gate/barrier queue heading toward checkpoint.,VAL
+U22_01_001,U22_01,uncertain,ai_generated,TBD,V22_20260916,U22_01,20260917,2026-09-16,Markings heavily occluded; cannot determine whether one marked bay exists.,DEV
+U22_01_002,U22_01,uncertain,ai_generated,TBD,V22_20260916,U22_01,20260918,2026-09-16,Markings heavily occluded; cannot determine whether one marked bay exists.,VAL
+U22_01_003,U22_01,uncertain,ai_generated,TBD,V22_20260916,U22_01,20260919,2026-09-16,Markings heavily occluded; cannot determine whether one marked bay exists.,HOLDOUT
+U22_01_004,U22_01,uncertain,ai_generated,TBD,V22_20260916,U22_01,20260920,2026-09-16,Markings heavily occluded; cannot determine whether one marked bay exists.,DEV
+U22_01_005,U22_01,uncertain,ai_generated,TBD,V22_20260916,U22_01,20260921,2026-09-16,Markings heavily occluded; cannot determine whether one marked bay exists.,VAL
+U22_01_006,U22_01,uncertain,ai_generated,TBD,V22_20260916,U22_01,20260922,2026-09-16,Markings heavily occluded; cannot determine whether one marked bay exists.,HOLDOUT
+U22_01_007,U22_01,uncertain,ai_generated,TBD,V22_20260916,U22_01,20260923,2026-09-16,Markings heavily occluded; cannot determine whether one marked bay exists.,DEV
+U22_01_008,U22_01,uncertain,ai_generated,TBD,V22_20260916,U22_01,20260924,2026-09-16,Markings heavily occluded; cannot determine whether one marked bay exists.,VAL
+U22_01_009,U22_01,uncertain,ai_generated,TBD,V22_20260916,U22_01,20260925,2026-09-16,Markings heavily occluded; cannot determine whether one marked bay exists.,HOLDOUT
+U22_01_010,U22_01,uncertain,ai_generated,TBD,V22_20260916,U22_01,20260926,2026-09-16,Markings heavily occluded; cannot determine whether one marked bay exists.,DEV
+U22_02_001,U22_02,uncertain,ai_generated,TBD,V22_20260916,U22_02,20260917,2026-09-16,"Night, blur, or vehicle cutoff prevents reliable bay judgment.",DEV
+U22_02_002,U22_02,uncertain,ai_generated,TBD,V22_20260916,U22_02,20260918,2026-09-16,"Night, blur, or vehicle cutoff prevents reliable bay judgment.",VAL
+U22_02_003,U22_02,uncertain,ai_generated,TBD,V22_20260916,U22_02,20260919,2026-09-16,"Night, blur, or vehicle cutoff prevents reliable bay judgment.",HOLDOUT
+U22_02_004,U22_02,uncertain,ai_generated,TBD,V22_20260916,U22_02,20260920,2026-09-16,"Night, blur, or vehicle cutoff prevents reliable bay judgment.",DEV
+U22_02_005,U22_02,uncertain,ai_generated,TBD,V22_20260916,U22_02,20260921,2026-09-16,"Night, blur, or vehicle cutoff prevents reliable bay judgment.",VAL
+U22_02_006,U22_02,uncertain,ai_generated,TBD,V22_20260916,U22_02,20260922,2026-09-16,"Night, blur, or vehicle cutoff prevents reliable bay judgment.",HOLDOUT
+U22_02_007,U22_02,uncertain,ai_generated,TBD,V22_20260916,U22_02,20260923,2026-09-16,"Night, blur, or vehicle cutoff prevents reliable bay judgment.",DEV
+U22_02_008,U22_02,uncertain,ai_generated,TBD,V22_20260916,U22_02,20260924,2026-09-16,"Night, blur, or vehicle cutoff prevents reliable bay judgment.",VAL
+U22_02_009,U22_02,uncertain,ai_generated,TBD,V22_20260916,U22_02,20260925,2026-09-16,"Night, blur, or vehicle cutoff prevents reliable bay judgment.",HOLDOUT
+U22_02_010,U22_02,uncertain,ai_generated,TBD,V22_20260916,U22_02,20260926,2026-09-16,"Night, blur, or vehicle cutoff prevents reliable bay judgment.",DEV
+U22_03_001,U22_03,uncertain,ai_generated,TBD,V22_20260916,U22_03,20260917,2026-09-16,Roadside marking and parking context remain ambiguous.,DEV
+U22_03_002,U22_03,uncertain,ai_generated,TBD,V22_20260916,U22_03,20260918,2026-09-16,Roadside marking and parking context remain ambiguous.,VAL
+U22_03_003,U22_03,uncertain,ai_generated,TBD,V22_20260916,U22_03,20260919,2026-09-16,Roadside marking and parking context remain ambiguous.,HOLDOUT
+U22_03_004,U22_03,uncertain,ai_generated,TBD,V22_20260916,U22_03,20260920,2026-09-16,Roadside marking and parking context remain ambiguous.,DEV
+U22_03_005,U22_03,uncertain,ai_generated,TBD,V22_20260916,U22_03,20260921,2026-09-16,Roadside marking and parking context remain ambiguous.,VAL
+U22_03_006,U22_03,uncertain,ai_generated,TBD,V22_20260916,U22_03,20260922,2026-09-16,Roadside marking and parking context remain ambiguous.,HOLDOUT
+U22_03_007,U22_03,uncertain,ai_generated,TBD,V22_20260916,U22_03,20260923,2026-09-16,Roadside marking and parking context remain ambiguous.,DEV
+U22_03_008,U22_03,uncertain,ai_generated,TBD,V22_20260916,U22_03,20260924,2026-09-16,Roadside marking and parking context remain ambiguous.,VAL
+U22_03_009,U22_03,uncertain,ai_generated,TBD,V22_20260916,U22_03,20260925,2026-09-16,Roadside marking and parking context remain ambiguous.,HOLDOUT
+U22_03_010,U22_03,uncertain,ai_generated,TBD,V22_20260916,U22_03,20260926,2026-09-16,Roadside marking and parking context remain ambiguous.,DEV

@@ -1,0 +1,22 @@
+The red-boxed vehicle is stationary.
+
+Judge whether this vehicle clearly belongs to ONE MARKED parking bay.
+
+A) IN ONE MARKED BAY:
+Visible painted parking markings, including clear partial or faded fragments, establish one parking bay around this vehicle.
+The vehicle clearly belongs to that single bay.
+Minor line touching, a small tire crossing, slight bumper overhang, or mild angle still count as A.
+
+B) SPANS MULTIPLE MARKED BAYS:
+A painted separator passes under or through the vehicle's ground footprint, or the vehicle clearly occupies substantial parts of two or more marked bays.
+Do NOT choose B for a tiny line touch.
+
+C) NOT IN A MARKED BAY:
+The vehicle is on open pavement, a driving aisle, roadside, curbside, shoulder, or other area where no marked parking bay is established around it.
+A curb, road edge, or a single roadside line by itself is NOT a marked parking bay.
+Do not assume an invisible parking bay.
+
+D) CANNOT TELL:
+The markings or parking context are too occluded, faded, missing, blurred, dark, or cut off to determine reliably whether a marked parking bay exists.
+
+Answer with exactly one letter: A, B, C, or D.
