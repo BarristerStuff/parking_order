@@ -1,0 +1,6 @@
+media_id,group_key,stratum,gt,prediction,target_count,target_decisions
+IMG_007530,p01-outside-legal-bay-clear,positive_p01,positive,negative,2,"[""NEGATIVE"",""NEGATIVE""]"
+IMG_007533,p01-outside-legal-bay-clear,positive_p01,positive,negative,1,"[""NEGATIVE""]"
+IMG_007534,p01-outside-legal-bay-clear,positive_p01,positive,negative,1,"[""NEGATIVE""]"
+IMG_007542,p01-outside-legal-bay-clear,positive_p01,positive,negative,1,"[""NEGATIVE""]"
+IMG_007556,p01-outside-legal-bay-clear,positive_p01,positive,negative,2,"[""NEGATIVE"",""NEGATIVE""]"

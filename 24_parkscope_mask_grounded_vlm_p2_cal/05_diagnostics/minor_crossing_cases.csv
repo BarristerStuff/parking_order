@@ -1,0 +1,3 @@
+media_id,group_key,stratum,gt,prediction,target_count,target_decisions
+IMG_007445,n02-close-to-line-but-inside,negative_ordinary,negative,negative,2,"[""NEGATIVE"",""NEGATIVE""]"
+IMG_007450,n02-close-to-line-but-inside,negative_ordinary,negative,negative,1,"[""NEGATIVE""]"

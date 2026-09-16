@@ -1,0 +1,29 @@
+{
+  "cal_only_request_media_ids": true,
+  "eval_seal": {
+    "evaluation_composites_generated": false,
+    "evaluation_count": 30,
+    "evaluation_predictions_generated": 0,
+    "evaluation_requests_sent": 0,
+    "evaluation_used_for_design": false,
+    "sealed_at_utc": "2026-09-16T09:44:57Z"
+  },
+  "evaluation_request_count": 0,
+  "frame_count": 30,
+  "freeze_commit": "c284cd16d77b559b848ad963d9ee8abf273fa534",
+  "gate_secondary_request_count": 0,
+  "logical_request_count": 42,
+  "physical_attempt_count": 42,
+  "prediction_count": 42,
+  "prediction_sha256": "e15e02cb84915eb6104977e42c097537ce66b128191abddc3ed95236196b5393",
+  "protocol_components_unchanged_since_freeze_commit": true,
+  "recomputed_confusion": {
+    "fn_strict": 15,
+    "fp": 0,
+    "tn_explicit": 15,
+    "tp": 0
+  },
+  "schema_success_count": 42,
+  "timeout_count": 0,
+  "validation_pass": true
+}

@@ -1,0 +1,5 @@
+subgroup,count,positive_predictions,negative_predictions,uncertain_predictions,recall_if_positive,fpr_if_negative
+positive_other,5,0,5,0,0.0,
+negative_ordinary,5,0,5,0,,0.0
+negative_hard,5,0,5,0,,0.0
+negative_adjudicated,5,0,5,0,,0.0

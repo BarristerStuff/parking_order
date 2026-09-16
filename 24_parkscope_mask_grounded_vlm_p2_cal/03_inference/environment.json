@@ -1,0 +1,9 @@
+{
+  "concurrency": 2,
+  "endpoint": "http://192.168.20.62:11434",
+  "model": "qwen3.5:4b",
+  "pillow_version": "12.3.0",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "python_executable": "/home/yanbo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "python_version": "3.12.14"
+}

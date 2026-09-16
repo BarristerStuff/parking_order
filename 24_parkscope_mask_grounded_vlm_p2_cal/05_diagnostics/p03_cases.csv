@@ -1,0 +1,6 @@
+media_id,group_key,stratum,gt,prediction,target_count,target_decisions
+IMG_007598,p03-span-two-bays,positive_p03,positive,negative,1,"[""NEGATIVE""]"
+IMG_007602,p03-span-two-bays,positive_p03,positive,negative,1,"[""NEGATIVE""]"
+IMG_007608,p03-span-two-bays,positive_p03,positive,negative,1,"[""NEGATIVE""]"
+IMG_007612,p03-span-two-bays,positive_p03,positive,negative,1,"[""NEGATIVE""]"
+IMG_007617,p03-span-two-bays,positive_p03,positive,negative,1,"[""NEGATIVE""]"

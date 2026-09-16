@@ -1,0 +1,17 @@
+{
+  "clearly_outside_marked_bay": {
+    "NO": 42,
+    "UNCERTAIN": 0,
+    "YES": 0
+  },
+  "one_marked_bay": {
+    "NO": 0,
+    "UNCERTAIN": 0,
+    "YES": 42
+  },
+  "separator_through_vehicle": {
+    "NO": 42,
+    "UNCERTAIN": 0,
+    "YES": 0
+  }
+}
