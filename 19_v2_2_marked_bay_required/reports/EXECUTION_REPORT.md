@@ -2,30 +2,20 @@
 
 Date: 2026-09-16 (Asia/Shanghai)
 
-## Verified facts
+FINAL_STATUS=V2_2_R0_DEV_GATE_FAIL_R1_RECALL_ALLOWED
+READY_FOR_R0=true
+R0_EXECUTED=true
+DEV_CHAMPION=NONE
+R1_ALLOWED=true
+R1_RECOMMENDED=RECALL
+R1_EXECUTED=false
 
-- Repository: `/home/yanbo/net_vlm_parking_optimization`.
-- Pre-change `main` was clean and `HEAD == origin/main == 9ae06828441e49b502f9c050acd084bbf9f3cbfd`.
-- Required v2.1.1 commit `7b31daa24f95cf4b666fbe7ecb423e95bf42a815` is an ancestor.
-- Existing numeric directories reached `18_*`; therefore the new revision is `19_v2_2_marked_bay_required`, not `14_*`.
-- The v2.1.1 pipeline remains untouched. Q3 bytes are identical (SHA256 `5cc5e33ac9e7a9f99b77100fcb4a83ad557d80901369e593f8cca7d7e2197cdc`).
-- No v2.2 180-image challenge images were present at the start of this task.
+The required DEV visual review covered exactly 53 images: 21 positive, 32 negative, 0 uncertain. The review was performed from source images by `codex_visual_review`, uses `v2.2_visual_adjudication`, and is explicitly `NOT_HUMAN_GOLD=true`.
 
-## Implemented
+The frozen shadow DEV GT contains 238 unique DEV media IDs: positive=62, negative=134, uncertain=24, secondary_gate_queue=18. Independent GT validation reported `error_count=0`. Shared dataset labels were not modified.
 
-- Frozen v2.2 definition.
-- Forked pipeline under `02_pipeline/`.
-- Changed only Q1 semantic prompt and the direct Q1/Q3 fusion/request condition; YOLO, selection, View A, Q3, Ollama settings and checkpoint remain copied/frozen.
-- Added complete Q1/Q3 truth-table and frame-priority tests; bundled Python unittest: 2 tests passed.
-- Added legacy DEV shadow GT migration. High-confidence groups are mapped; p02/p04/p05/p06 and all uncertain groups remain explicitly `needs_human_review`; formal labels were not modified.
-- Added the required 180-row collection plan and complete prompt/provenance manifest. It is plan-only and contains no images.
+R0 primary denominator=196 (uncertain and gate secondary excluded): TP=3, FP=0, TN=134, FN=59; precision=1.0, recall=0.048387, F1=0.092308, FPR=0, balanced accuracy=0.524194. p01 recall=3/23; p03 recall=0/18; minor-crossing FPR=0/24; gate-queue FPR=0/18; protocol success=326/326. The frozen Gate failed Recall, F1, p01 Recall, and p03 Recall.
 
-## Stop state
+A first local invocation failed all items before any model request because system Pillow 9.0.1 lacks `Image.Resampling`. This was preserved as pre-request environment evidence. The actual R0 used the bundled runtime with Pillow 12.3.0 and made 326 successful physical requests. No prompt, rules, config, inputs, model, or server state changed.
 
-`FINAL_STATUS=V2_2_SCAFFOLD_READY_GT_REVIEW_REQUIRED`
-
-This status records scaffold readiness only: R0 was **not** executed because the required p02/p04/p05/p06 legacy DEV visual review is unresolved. The DEV review and R0 may proceed without waiting for the separate fresh challenge set. No old VAL or HOLDOUT was run or reinterpreted. No production project, MQTT, robot, TTS, alerting, shadow canary, or SSH tunnel was touched.
-
-## Required gates not yet evidenced
-
-`READY_FOR_R0=false`; `R0_EXECUTED=false`; `DEV_CHAMPION=NONE`; `NEW_CHALLENGE_IMAGES_AVAILABLE=false`; `NEW_CHALLENGE_TOTAL=0`; `VAL_EXECUTED=false`; `HOLDOUT_EXECUTED=false`; `OFFLINE_SUBMISSION_READY=false`; `REAL_ROBOT_VALIDATED=false`; `PRODUCTION_READY=false`.
+No R1, VAL, HOLDOUT, production integration, robot shadow, MQTT, SSH tunnel, or server modification was performed. `NEW_CHALLENGE_PLANNED=180`; `NEW_CHALLENGE_IMAGES_AVAILABLE=0`.

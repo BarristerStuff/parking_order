@@ -1,0 +1,16 @@
+{
+  "status": "FROZEN",
+  "date": "2026-09-16",
+  "scope": "shadow_development_gt_only",
+  "dev_total": 238,
+  "counts": {
+    "positive": 62,
+    "negative": 134,
+    "secondary_gate_queue": 18,
+    "uncertain": 24
+  },
+  "sha256": "413d0226b0eb8c13f388f3adb051844b0fe6d30b1b06ebc833b614beaffd1e56",
+  "reviewer": "codex_visual_review",
+  "not_human_gold": true,
+  "formal_shared_labels_modified": false
+}

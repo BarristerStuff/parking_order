@@ -24,5 +24,9 @@
   "handoff_commit": "b28642145cb62e2c7eb171c9760cdc97cde00cea",
   "state_snapshot_commit": "3eb6621468f18ed9d98055e405caf58a066d0f34",
   "stage_b1_status": "STAGE_B1_BLOCKED_REAL_INPUT",
-  "stage_b1_commit": "PENDING"
+  "stage_b1_commit": "PENDING",
+  "v2_2_status": "DEV_GATE_FAIL_R1_RECALL_ALLOWED",
+  "v2_2_definition": "vehicle_not_in_marked_bay_v2.2",
+  "v2_2_champion": "NONE",
+  "v2_2_next_stage": "R1_RECALL_REQUIRES_SEPARATE_EXECUTION_AUTHORIZATION"
 }

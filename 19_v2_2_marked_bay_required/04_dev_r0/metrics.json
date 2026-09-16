@@ -1,0 +1,74 @@
+{
+  "stage": "V2_2_R0_MINIMAL_SEMANTIC_CHANGE",
+  "primary_denominator": 196,
+  "positive_gt": 62,
+  "negative_gt": 134,
+  "TP": 3,
+  "FP": 0,
+  "TN": 134,
+  "FN": 59,
+  "precision": 1.0,
+  "recall": 0.04838709677419355,
+  "f1": 0.09230769230769231,
+  "accuracy": 0.6989795918367347,
+  "specificity": 1.0,
+  "fpr": 0.0,
+  "balanced_accuracy": 0.5241935483870968,
+  "recall_wilson95": [
+    0.016591685850580726,
+    0.1328803792732396
+  ],
+  "fpr_wilson95": [
+    0.0,
+    0.027868675023899322
+  ],
+  "model_uncertain_count": 6,
+  "model_uncertain_rate": 0.025210084033613446,
+  "p01_recall": {
+    "numerator": 3,
+    "denominator": 23,
+    "rate": 0.13043478260869565
+  },
+  "p03_recall": {
+    "numerator": 0,
+    "denominator": 18,
+    "rate": 0.0
+  },
+  "minor_crossing_fpr": {
+    "numerator": 0,
+    "denominator": 24,
+    "rate": 0.0
+  },
+  "gate_queue_fpr": {
+    "numerator": 0,
+    "denominator": 18,
+    "rate": 0.0
+  },
+  "marked_bay_recall": 1.0,
+  "unmarked_or_outside_recall": {
+    "numerator": 3,
+    "denominator": 32,
+    "rate": 0.09375
+  },
+  "multibay_recall": {
+    "numerator": 0,
+    "denominator": 39,
+    "rate": 0.0
+  },
+  "protocol_success_rate": 1.0,
+  "physical_request_count": 326,
+  "logical_expected_request_count": 326,
+  "request_result_count": 326,
+  "gates": {
+    "precision": true,
+    "recall": false,
+    "f1": false,
+    "negative_fpr": true,
+    "p01_recall": false,
+    "p03_recall": false,
+    "minor_crossing_fpr": true,
+    "gate_queue_fpr": true,
+    "protocol_success": true
+  },
+  "gate_pass": false
+}

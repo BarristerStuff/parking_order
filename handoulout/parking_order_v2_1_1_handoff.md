@@ -100,3 +100,14 @@ DEV 是开发集结果；独立 VAL 为 8/8，独立 HOLDOUT 为 8/8，FPR 与 g
 ## 14. Git
 
 v2.1.1 commit：`7b31daa24f95cf4b666fbe7ecb423e95bf42a815`。Stage A handoff commit 在文档首次提交前为 `HANDOFF_COMMIT_PENDING`，最终 SHA 见 `current_state.json` 的后续提交更新。
+
+
+## 15. v2.2 successor status (2026-09-16)
+
+- `v2_2_status=DEV_GATE_FAIL_R1_RECALL_ALLOWED`
+- `v2_2_definition=vehicle_not_in_marked_bay_v2.2`
+- `v2_2_champion=NONE`
+- `v2_2_next_stage=R1_RECALL_REQUIRES_SEPARATE_EXECUTION_AUTHORIZATION`
+- R0 DEV: TP=3, FP=0, TN=134, FN=59; recall=4.84%, FPR=0%.
+- R0 failed the frozen Recall/F1/p01/p03 gates. R1 was not run.
+- Existing v2.1.1 remains the historical active champion, but its outside-only semantics do not satisfy the current v2.2 business definition. No historical VAL/HOLDOUT was rerun.
