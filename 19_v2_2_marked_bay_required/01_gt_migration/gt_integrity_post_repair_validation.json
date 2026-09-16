@@ -1,0 +1,16 @@
+{
+  "validator": "read_only_post_repair_equivalent_to_freeze_dev_gt_coverage_checks",
+  "error_count": 0,
+  "errors": [],
+  "dev_total": 238,
+  "unique_media_ids": 238,
+  "counts": {
+    "positive": 62,
+    "negative": 134,
+    "secondary_gate_queue": 18,
+    "uncertain": 24
+  },
+  "val_items": 0,
+  "holdout_items": 0,
+  "gt_sha256": "413d0226b0eb8c13f388f3adb051844b0fe6d30b1b06ebc833b614beaffd1e56"
+}

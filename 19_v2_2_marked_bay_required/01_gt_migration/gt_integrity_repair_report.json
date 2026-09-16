@@ -1,0 +1,26 @@
+{
+  "repair_authorized": true,
+  "repair_mode": "restore_canonical_crlf_bytes",
+  "cause": "06af643_line_ending_normalization_after_freeze",
+  "semantic_change": false,
+  "gt_relabeling": false,
+  "pre_repair_sha256": "f3ae6abb5e0a1d1c363b2fb8ca879952347b0ca33bbab32821be097bb681518f",
+  "post_repair_sha256": "413d0226b0eb8c13f388f3adb051844b0fe6d30b1b06ebc833b614beaffd1e56",
+  "canonical_expected_sha256": "413d0226b0eb8c13f388f3adb051844b0fe6d30b1b06ebc833b614beaffd1e56",
+  "semantic_row_equality": true,
+  "row_order_equality": true,
+  "field_equality": true,
+  "dev_total": 238,
+  "counts": {
+    "positive": 62,
+    "negative": 134,
+    "uncertain": 24,
+    "secondary_gate_queue": 18
+  },
+  "unique_media_ids": 238,
+  "validation_error_count": 0,
+  "r0_independent_validation_gt_sha256": "413d0226b0eb8c13f388f3adb051844b0fe6d30b1b06ebc833b614beaffd1e56",
+  "r0_gt_binding_restored": true,
+  "r0_rerun": false,
+  "model_requests_sent": 0
+}
