@@ -1,0 +1,45 @@
+{
+  "fallback_order": [
+    5,
+    4,
+    3
+  ],
+  "fold_class_counts": {
+    "0": {
+      "negative": 25,
+      "positive": 9
+    },
+    "1": {
+      "negative": 23,
+      "positive": 10
+    },
+    "2": {
+      "negative": 24,
+      "positive": 9
+    },
+    "3": {
+      "negative": 22,
+      "positive": 11
+    },
+    "4": {
+      "negative": 25,
+      "positive": 8
+    }
+  },
+  "group_leakage_count": 0,
+  "group_priority": [
+    "generation_group",
+    "scenario_group",
+    "source_group",
+    "batch_group",
+    "media_id"
+  ],
+  "method": "StratifiedGroupKFold",
+  "n_splits": 5,
+  "one_oof_prediction_per_primary_frame": true,
+  "random_state": 20260916,
+  "sealed_eval_overlap": 0,
+  "selected_group_field": "media_id",
+  "selected_group_reason": "No valid non-label per-image frozen group exists; generation_group is event subtype/group_key and forbidden, capture batch is constant. Authorized media_id fallback used.",
+  "shuffle": true
+}

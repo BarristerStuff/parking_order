@@ -14,3 +14,9 @@
 21_parkscope_segmentation_feasibility_p0/.venv/
 
 22_parkscope_structured_geometry_p1/.venv/
+
+# ParkScope learned relation head P3 local-only artifacts
+25_parkscope_learned_relation_head_p3_oof/_local_rasters/
+25_parkscope_learned_relation_head_p3_oof/_local_fold_models/
+25_parkscope_learned_relation_head_p3_oof/**/__pycache__/
+25_parkscope_learned_relation_head_p3_oof/.venv/

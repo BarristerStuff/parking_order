@@ -1,0 +1,21 @@
+{
+  "actual_primary_pool": 166,
+  "cal_eval_split_sha256": "bf8d5ba02dc0a2c5a0f1384ca0dfacd9afe3dcdbd440c7775b9cdd943d68b332",
+  "cv_group_audit": {
+    "batch_group": "single constant capture batch; infeasible",
+    "generation_group": "available only as event subtype/group_key; forbidden",
+    "reason": "authorized fallback and prevents shared-ID leakage",
+    "scenario_group": "not available for frozen DEV",
+    "selected_field": "media_id",
+    "source_group": "single constant capture batch; infeasible"
+  },
+  "gate_secondary_excluded": 18,
+  "gt_sha256": "413d0226b0eb8c13f388f3adb051844b0fe6d30b1b06ebc833b614beaffd1e56",
+  "historical_r0_r1_bbox_mismatch_count": 0,
+  "primary_negative": 119,
+  "primary_positive": 47,
+  "sealed_evaluation_excluded": 30,
+  "target_count": 213,
+  "total_frozen_dev": 238,
+  "uncertain_excluded": 24
+}

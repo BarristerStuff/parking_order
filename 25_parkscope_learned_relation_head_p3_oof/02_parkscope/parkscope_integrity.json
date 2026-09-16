@@ -1,0 +1,27 @@
+{
+  "checkpoint_sha256": "6d70bf088b7c324401afb97e09cf898afcc639d8ac837f4da7ef4afbc38d3d9b",
+  "device": "cpu",
+  "effective_predict_args": {
+    "agnostic_nms": false,
+    "augment": false,
+    "classes": null,
+    "conf": 0.25,
+    "device": "cpu",
+    "imgsz": 640,
+    "iou": 0.7,
+    "save": false,
+    "verbose": false
+  },
+  "elapsed_seconds": 11.74891185760498,
+  "new_image_count": 136,
+  "numpy_version": "2.2.6",
+  "opencv_version": "5.0.0",
+  "primary_images": 166,
+  "python_version": "3.10.12",
+  "reused_image_count": 30,
+  "skipped_sealed_p0_records_without_json_parse": 30,
+  "technical_errors": 0,
+  "torch_version": "2.13.0+cpu",
+  "ultralytics_version": "8.4.104",
+  "unified_success_images": 166
+}

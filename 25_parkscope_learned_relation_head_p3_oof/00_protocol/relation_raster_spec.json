@@ -1,0 +1,35 @@
+{
+  "augmentation": false,
+  "channels": {
+    "0": "target ParkScope class3 instance mask",
+    "1": "union of all ParkScope class1 and class2 masks",
+    "2": "Euclidean distance to nearest channel1 pixel; clip 24 px; divide by 24; all ones when geometry absent",
+    "3": "union of all non-target ParkScope class3 masks"
+  },
+  "crop": {
+    "bottom": "y1+0.75*h",
+    "boundary": "clip to image",
+    "left": "x0-1.0*w",
+    "right": "x1+1.0*w",
+    "top": "y0-0.75*h"
+  },
+  "dtype": "float32",
+  "forbidden_features": [
+    "elongation",
+    "thickness ratio",
+    "PCA",
+    "signed offset",
+    "separator score",
+    "bracket score",
+    "area support",
+    "outside fallback",
+    "ground proxy"
+  ],
+  "resize": "nearest-neighbor",
+  "sealed_evaluation_rasters_generated": false,
+  "shape": [
+    4,
+    96,
+    96
+  ]
+}

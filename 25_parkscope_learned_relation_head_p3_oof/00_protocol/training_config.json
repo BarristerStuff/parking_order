@@ -1,0 +1,19 @@
+{
+  "augmentation": false,
+  "batch_unit": "frame",
+  "deterministic_algorithms": true,
+  "device": "cpu",
+  "early_stopping": false,
+  "epochs": 100,
+  "fold_seed": "20260916 + fold_id",
+  "frame_batch_size": 8,
+  "global_seed": 20260916,
+  "learning_rate": 0.001,
+  "loss": "BCEWithLogitsLoss",
+  "optimizer": "Adam",
+  "pos_weight": "training-fold negative scorable frame count / positive scorable frame count",
+  "selected_epoch": 100,
+  "unscorable_training": "skip loss",
+  "unscorable_validation": "retain; positive=>FN, negative=>non-FP",
+  "weight_decay": 0.0001
+}

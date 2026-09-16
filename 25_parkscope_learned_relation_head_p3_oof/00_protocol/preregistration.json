@@ -1,0 +1,30 @@
+{
+  "artifacts": {
+    "00_protocol/P3_OOF_PROTOCOL.md": "96b46841a62fdb1d690ca405af9e8d8c647cc5f0262376be0c46a8f7853e221b",
+    "00_protocol/eval_seal.json": "7e6b913a301cad2c4505e729ef5c67e161111bd89c24ea2243687abb8fbb2851",
+    "00_protocol/model_architecture.json": "6c6436659d6daa1c5af158f09e8e290bf9ee5a0394093e7f745dbd4d345b8994",
+    "00_protocol/oof_protocol.json": "f54693e996199da8d88a15b58a39bf6e3b0ce296a857f55a2e54618520105cbb",
+    "00_protocol/relation_raster_spec.json": "b37471d82fd6d9b28269f6766a74ee2be99ae934b42a6a2f1524425fae47c2f0",
+    "00_protocol/threshold_protocol.json": "179a21f2f274a6de4fcaf3150ee03ad16fd813665f948858555d98757f86772d",
+    "00_protocol/training_config.json": "fd9121cfa43aa77e0452f4fdf0ad4d49543f23726999d69be01129279b42230f",
+    "01_dataset/p3_primary_manifest.csv": "3123c9dcb336122c916d1bf12e39d505d9d85a1b1297f426a723b3351182ae0b",
+    "03_target_binding/frozen_target_manifest.csv": "8cf9fe036594d5f57eafba05a794d719036973438c5ec8925f1c2681830419a3",
+    "04_relation_rasters/raster_determinism.json": "0174845d00227e48df9aea18bc1cc343b915cf17109ca042e874617fdccc07c9",
+    "04_relation_rasters/raster_manifest.csv": "7186864b1711e41fe77e968512ee5cf59a32fd4808019550ab67630e6ac1e0cb",
+    "05_oof/oof_folds.csv": "b2f23efe3ae0cb653484d90a2a860dbf5eb16913253039a1d2e832f215e3a718"
+  },
+  "environment": {
+    "device": "cpu",
+    "numpy_version": "2.2.6",
+    "opencv_version": "5.0.0",
+    "python_version": "3.10.12",
+    "sklearn_version": "1.7.2",
+    "torch_version": "2.13.0+cpu"
+  },
+  "frozen_at_date": "2026-09-16",
+  "ollama_requests": 0,
+  "oof_folds_sha256": "b2f23efe3ae0cb653484d90a2a860dbf5eb16913253039a1d2e832f215e3a718",
+  "sealed_evaluation_accessed": false,
+  "target_manifest_sha256": "8cf9fe036594d5f57eafba05a794d719036973438c5ec8925f1c2681830419a3",
+  "training_started": false
+}

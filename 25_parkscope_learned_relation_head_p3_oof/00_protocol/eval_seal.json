@@ -1,0 +1,10 @@
+{
+  "access_policy": "Only partition==EVALUATION media_id values read from frozen split to create exclusion set; sealed prediction JSON records skipped before JSON decoding.",
+  "gt_read_for_model_selection": false,
+  "parkscope_inference_executed": false,
+  "predictions_generated": false,
+  "rasters_generated": false,
+  "sealed_evaluation_count": 30,
+  "used_for_oof": false,
+  "used_for_training": false
+}
