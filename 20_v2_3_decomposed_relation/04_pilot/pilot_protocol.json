@@ -1,0 +1,35 @@
+{
+  "revision": "V2_3_DECOMPOSED_MARKED_BAY_RELATION",
+  "seed": 230316,
+  "pilot_total": 70,
+  "pilot_primary": 60,
+  "pilot_gate_secondary": 10,
+  "frozen_hashes": {
+    "q_outside_sha": "99f9c72864c3a134e0798a9ced8d8ed419dccbc022f226fef2f16329a6287bb8",
+    "q_multibay_sha": "cdec629f921d3490f23719939f1abab17b1a2bf57e84c65bd7b08f593f21ccef",
+    "q_gate_sha": "5cc5e33ac9e7a9f99b77100fcb4a83ad557d80901369e593f8cca7d7e2197cdc",
+    "yolo_sha": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+    "gt_sha": "413d0226b0eb8c13f388f3adb051844b0fe6d30b1b06ebc833b614beaffd1e56",
+    "pilot_manifest_sha": "be44f0a84221fd54c018a80fe74f0fe8be9a5a50b5bd068bd3651b3db9a4b3c3"
+  },
+  "view_a": {
+    "max_long_edge": 896,
+    "jpeg_quality": 90
+  },
+  "view_b": {
+    "expand_x_bbox_width": 1.0,
+    "expand_y_bbox_height": 0.75,
+    "max_long_edge": 896,
+    "jpeg_quality": 90
+  },
+  "gate": {
+    "recall_gte": 0.75,
+    "negative_fpr_lte": 0.15,
+    "p01_recall_gte": 0.8,
+    "p03_recall_gte": 0.7,
+    "minor_crossing_fpr_lte": 0.2,
+    "gate_queue_fpr_eq": 0,
+    "protocol_success_eq": 1.0
+  },
+  "full_dev_not_authorized_this_run": true
+}

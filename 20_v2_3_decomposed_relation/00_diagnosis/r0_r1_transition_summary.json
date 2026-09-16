@@ -1,0 +1,18 @@
+{
+  "r1_vehicle_q1_counts": {
+    "C": 146,
+    "A": 149
+  },
+  "B_COUNT": 0,
+  "D_COUNT": 0,
+  "positive_gt_r0_A_to_r1_C": 40,
+  "negative_gt_r0_A_to_r1_C": 45,
+  "r1_false_negative_group_distribution": {
+    "p01-outside-legal-bay-clear": 2,
+    "p02-cross-single-boundary-line": 2,
+    "p03-span-two-bays": 11,
+    "p04-angled-footprint-outside": 3,
+    "p05-multi-vehicle-at-least-one-violation": 2
+  },
+  "source_only_no_model_requests": true
+}

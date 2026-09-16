@@ -1,0 +1,8 @@
+{
+  "FINAL_STATUS": "V2_3_PILOT_FAIL",
+  "READY_FOR_FULL_DEV": false,
+  "FULL_DEV_EXECUTED": false,
+  "VAL_EXECUTED": false,
+  "HOLDOUT_EXECUTED": false,
+  "ACTIVE_CHAMPION_CHANGED": false
+}

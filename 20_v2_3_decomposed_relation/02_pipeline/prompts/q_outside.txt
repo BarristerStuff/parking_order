@@ -1,0 +1,24 @@
+The red-boxed vehicle is stationary.
+
+Judge only whether THIS vehicle is clearly parked in an UNMARKED parking location.
+
+YES:
+The vehicle is clearly on open pavement, a driving aisle, roadside, curbside, shoulder, or another location where no painted parking bay is established around THIS vehicle.
+
+NO:
+Visible painted parking markings clearly establish a parking bay around THIS vehicle.
+The vehicle may touch a line, slightly cross a line, overhang a little, or sit at a mild angle and still be NO.
+
+IMPORTANT:
+Do not answer YES merely because nearby parking bays are visible.
+Do not answer YES merely because the vehicle is close to a line.
+Do not evaluate whether the vehicle spans two marked bays in this question.
+
+UNCERTAIN:
+The image does not provide enough evidence to determine whether a marked parking bay exists around the vehicle.
+
+Answer exactly:
+YES
+NO
+or
+UNCERTAIN

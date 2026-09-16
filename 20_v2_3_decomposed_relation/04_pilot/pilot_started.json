@@ -1,0 +1,58 @@
+{
+  "PILOT_STARTED": true,
+  "timestamp_utc": "2026-09-16T07:14:58Z",
+  "frozen_hashes": {
+    "q_outside_sha": "99f9c72864c3a134e0798a9ced8d8ed419dccbc022f226fef2f16329a6287bb8",
+    "q_multibay_sha": "cdec629f921d3490f23719939f1abab17b1a2bf57e84c65bd7b08f593f21ccef",
+    "q_gate_sha": "5cc5e33ac9e7a9f99b77100fcb4a83ad557d80901369e593f8cca7d7e2197cdc",
+    "yolo_sha": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+    "gt_sha": "413d0226b0eb8c13f388f3adb051844b0fe6d30b1b06ebc833b614beaffd1e56",
+    "pilot_manifest_sha": "be44f0a84221fd54c018a80fe74f0fe8be9a5a50b5bd068bd3651b3db9a4b3c3"
+  },
+  "config": {
+    "revision": "V2_3_DECOMPOSED_MARKED_BAY_RELATION",
+    "endpoint": "http://192.168.20.62:11434",
+    "model": "qwen3.5:4b",
+    "concurrency": 2,
+    "timeout_seconds": 240,
+    "max_retries": 2,
+    "temperature": 0,
+    "num_predict": 32,
+    "think": false,
+    "view_a": {
+      "max_long_edge": 896,
+      "jpeg_quality": 90,
+      "box_color": [
+        255,
+        0,
+        0
+      ],
+      "box_width": 4
+    },
+    "view_b": {
+      "expand_x_bbox_width": 1.0,
+      "expand_y_bbox_height": 0.75,
+      "max_long_edge": 896,
+      "jpeg_quality": 90,
+      "box_color": [
+        255,
+        0,
+        0
+      ],
+      "box_width": 4
+    },
+    "selection": {
+      "edge_margin_pixels": 1,
+      "max_selected": 2,
+      "rank1_always_if_valid": true,
+      "rank2_height_fraction_gte": 0.25
+    },
+    "detector": {
+      "checkpoint": "assets/yolo11n.pt",
+      "checkpoint_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+      "conf": 0.2,
+      "imgsz": 640,
+      "device": "cpu"
+    }
+  }
+}

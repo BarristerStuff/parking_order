@@ -1,0 +1,15 @@
+{
+  "revision":"V2_3_DECOMPOSED_MARKED_BAY_RELATION",
+  "endpoint":"http://192.168.20.62:11434",
+  "model":"qwen3.5:4b",
+  "concurrency":2,
+  "timeout_seconds":240,
+  "max_retries":2,
+  "temperature":0,
+  "num_predict":32,
+  "think":false,
+  "view_a":{"max_long_edge":896,"jpeg_quality":90,"box_color":[255,0,0],"box_width":4},
+  "view_b":{"expand_x_bbox_width":1.0,"expand_y_bbox_height":0.75,"max_long_edge":896,"jpeg_quality":90,"box_color":[255,0,0],"box_width":4},
+  "selection":{"edge_margin_pixels":1,"max_selected":2,"rank1_always_if_valid":true,"rank2_height_fraction_gte":0.25},
+  "detector":{"checkpoint":"assets/yolo11n.pt","checkpoint_sha256":"0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1","conf":0.2,"imgsz":640,"device":"cpu"}
+}

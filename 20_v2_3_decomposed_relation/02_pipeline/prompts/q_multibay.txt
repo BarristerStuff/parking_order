@@ -1,0 +1,24 @@
+The red-boxed vehicle is stationary.
+
+Judge ONLY whether this vehicle clearly occupies TWO OR MORE PAINTED parking bays.
+
+YES:
+A painted parking-bay separator clearly passes under or through the vehicle's parking footprint, or the vehicle clearly occupies substantial areas on both sides of a separator between two marked bays.
+
+NO:
+The vehicle clearly belongs to one marked bay, even if it touches a line, slightly crosses a boundary, has a small bumper overhang, or is mildly angled.
+
+Also answer NO if the vehicle is simply parked in an unmarked roadside or open-pavement area. That is handled by another question.
+
+UNCERTAIN:
+The relevant separator or parking lines cannot be seen well enough to decide.
+
+IMPORTANT:
+A tiny tire touch or minor line crossing is NOT enough for YES.
+YES requires clear substantial occupancy of multiple marked bays.
+
+Answer exactly:
+YES
+NO
+or
+UNCERTAIN

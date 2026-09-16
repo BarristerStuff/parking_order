@@ -1,0 +1,11 @@
+{
+  "dev_images": 238,
+  "selected_vehicle_count": 295,
+  "crop_within_bounds": true,
+  "target_bbox_visible": true,
+  "target_bbox_intersection_gte_95pct": true,
+  "image_nonempty": true,
+  "determinism_repeat_count": 10,
+  "deterministic_bytes": true,
+  "validation_pass": true
+}
