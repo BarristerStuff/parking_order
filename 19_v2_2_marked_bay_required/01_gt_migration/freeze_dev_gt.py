@@ -19,11 +19,11 @@ for s in split:
  else: raise SystemExit(f'unmapped {mid} {g}')
  rows.append({'media_id':mid,'group_key':g,'split':'DEV','event_label':label,'gt_source':source,'not_human_gold':'true' if source=='v2.2_visual_adjudication' else ''})
 path=out/'v2_2_dev_gt.csv'; fields=list(rows[0])
-with path.open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(rows)
+with path.open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=fields,lineterminator='\n');w.writeheader();w.writerows(rows)
 sha=hashlib.sha256(path.read_bytes()).hexdigest();(out/'v2_2_dev_gt.csv.sha256').write_text(f'{sha}  v2_2_dev_gt.csv\n')
 counts=collections.Counter(r['event_label'] for r in rows); groups=collections.Counter((r['group_key'],r['event_label']) for r in rows)
 with (out/'v2_2_dev_gt_statistics.csv').open('w',newline='') as f:
- w=csv.writer(f);w.writerow(['group_key','event_label','count'])
+ w=csv.writer(f,lineterminator='\n');w.writerow(['group_key','event_label','count'])
  for (g,l),n in sorted(groups.items()):w.writerow([g,l,n])
 freeze={'status':'FROZEN','date':'2026-09-16','scope':'shadow_development_gt_only','dev_total':len(rows),'counts':counts,'sha256':sha,'reviewer':'codex_visual_review','not_human_gold':True,'formal_shared_labels_modified':False}
 (out/'v2_2_dev_gt_freeze.json').write_text(json.dumps(freeze,indent=2,ensure_ascii=False)+'\n')

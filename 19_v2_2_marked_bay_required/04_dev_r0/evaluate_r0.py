@@ -52,9 +52,9 @@ for g in sorted({r['group_key'] for r in enriched}):
  for label in ('positive','negative','uncertain','secondary_gate_queue'):
   rr=[r for r in enriched if r['group_key']==g and r['gt']==label]
   if rr:subrows.append({'subgroup':g+('_'+label if g.startswith('p0') and label in ('positive','negative') else ''),'gt_label':label,'count':len(rr),'pred_positive':sum(binpred(x)=='positive' for x in rr),'pred_negative':sum(binpred(x)=='negative' for x in rr),'pred_uncertain':sum(binpred(x)=='uncertain' for x in rr),'positive_rate':div(sum(binpred(x)=='positive' for x in rr),len(rr))})
-with (OUT/'subgroup_metrics.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=subrows[0]);w.writeheader();w.writerows(subrows)
+with (OUT/'subgroup_metrics.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=subrows[0],lineterminator='\n');w.writeheader();w.writerows(subrows)
 lat={'count':len(lats),'p50_seconds':statistics.median(lats),'p95_seconds':sorted(lats)[math.ceil(.95*len(lats))-1],'max_seconds':max(lats),'physical_request_count':len(starts),'q1_request_count':sum(r.get('question')=='q1' for r in starts),'q3_request_count':sum(r.get('question')=='q3' for r in starts)};(OUT/'latency.json').write_text(json.dumps(lat,indent=2)+'\n')
-with (OUT/'errors.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=['sample_token','error']);w.writeheader();w.writerows([{'sample_token':e.get('sample_token',''),'error':e['error']} for e in errors])
+with (OUT/'errors.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=['sample_token','error'],lineterminator='\n');w.writeheader();w.writerows([{'sample_token':e.get('sample_token',''),'error':e['error']} for e in errors])
 validation={'error_count':len(errors),'prediction_count':len(preds),'source_bound_count':len(enriched),'unique_media_ids':len({r['media_id_actual'] for r in enriched}),'gt_sha256':hashlib.sha256((ROOT/'19_v2_2_marked_bay_required/01_gt_migration/v2_2_dev_gt.csv').read_bytes()).hexdigest(),'recomputed_metrics':metrics,'ledger_request_starts':len(starts),'ledger_results':len(results),'ledger_successes':len(success)};(OUT/'independent_validation.json').write_text(json.dumps(validation,indent=2)+'\n')
 # failure taxonomy
 if not metrics['gate_pass']:
@@ -64,7 +64,7 @@ if not metrics['gate_pass']:
   if not wrong:continue
   vs=r.get('vehicles',[]); kind='protocol_error' if r.get('status')!='ok' else 'detector_no_vehicle' if not vs else 'multi_vehicle_fusion_error' if len(vs)>1 else 'q1_D_uncertain' if any(v.get('q1')=='D' for v in vs) else 'q3_gate_false_suppression' if r['gt']=='positive' and any(v.get('q3')=='A' for v in vs) else 'q3_gate_false_positive' if r['gt']=='secondary_gate_queue' and any(v.get('q3') in ('B','C') for v in vs) else 'q1_A_false_negative' if r['gt']=='positive' and all(v.get('q1')=='A' for v in vs) else 'q1_B_false_positive' if any(v.get('q1')=='B' for v in vs) else 'q1_C_false_positive' if any(v.get('q1')=='C' for v in vs) else 'selection_wrong_vehicle'
   tax.append({'media_id':r['media_id_actual'],'group_key':r['group_key'],'gt':r['gt'],'prediction':binpred(r),'taxonomy':kind})
- with (OUT/'failure_taxonomy.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=tax[0] if tax else ['media_id','group_key','gt','prediction','taxonomy']);w.writeheader();w.writerows(tax)
+ with (OUT/'failure_taxonomy.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=tax[0] if tax else ['media_id','group_key','gt','prediction','taxonomy'],lineterminator='\n');w.writeheader();w.writerows(tax)
 # R1 conclusion
 if recall<.75 and fpr>.10:r1_allowed=False;r1='NONE';status='V2_2_MINIMAL_SUCCESSOR_NOT_VIABLE'
 elif recall<.85 and fpr<=.05:r1_allowed=True;r1='RECALL';status='V2_2_R0_DEV_GATE_FAIL_R1_RECALL_ALLOWED'

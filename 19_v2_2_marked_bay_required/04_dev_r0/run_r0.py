@@ -13,7 +13,7 @@ if len(source)!=238:raise SystemExit(f'input count {len(source)}')
 frozen={'stage':'V2_2_R0_MINIMAL_SEMANTIC_CHANGE','pipeline_config':cfg,'q1_sha256':hashlib.sha256((PIPE/'prompts/q1.txt').read_bytes()).hexdigest(),'q3_sha256':hashlib.sha256((PIPE/'prompts/q3.txt').read_bytes()).hexdigest(),'pipeline_tree':'19_v2_2_marked_bay_required/02_pipeline','cached_detector_source':'12_v2_not_in_bay/03_debug/v2_dev_inference_input.jsonl','cached_detector_allowed_fields':['sample_token','image_path','image_sha256','detections'],'input_count':len(source),'start_utc':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime())}
 (OUT/'frozen_config.json').write_text(json.dumps(frozen,indent=2)+'\n')
 with (OUT/'manifest.csv').open('w',newline='') as f:
- w=csv.DictWriter(f,fieldnames=['sample_token','image_path','image_sha256']);w.writeheader()
+ w=csv.DictWriter(f,fieldnames=['sample_token','image_path','image_sha256'],lineterminator='\n');w.writeheader()
  for r in source:w.writerow({k:r[k] for k in w.fieldnames})
 # validate hashes before requests
 for r in source:
