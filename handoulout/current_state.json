@@ -19,9 +19,10 @@
   "holdout_rerun_allowed": false,
   "production_shadow_started": false,
   "production_integration_ready": false,
-  "next_stage": "real_robot_shadow_validation",
-  "local_head": "b28642145cb62e2c7eb171c9760cdc97cde00cea",
-  "remote_main": "b28642145cb62e2c7eb171c9760cdc97cde00cea",
+  "next_stage": "real_robot_shadow_validation_blocked_real_input",
   "v2_1_1_commit": "7b31daa24f95cf4b666fbe7ecb423e95bf42a815",
-  "handoff_commit": "b28642145cb62e2c7eb171c9760cdc97cde00cea"
+  "handoff_commit": "b28642145cb62e2c7eb171c9760cdc97cde00cea",
+  "state_snapshot_commit": "3eb6621468f18ed9d98055e405caf58a066d0f34",
+  "stage_b1_status": "STAGE_B1_BLOCKED_REAL_INPUT",
+  "stage_b1_commit": "PENDING"
 }

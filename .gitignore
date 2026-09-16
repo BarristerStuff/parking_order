@@ -1,3 +1,9 @@
 **pycache**/
 *.pyc
 .pytest_cache/
+
+# Real robot shadow canary raw frames (never commit)
+12_v2_not_in_bay/13_real_shadow_validation/**/frames/
+12_v2_not_in_bay/13_real_shadow_validation/**/*.jpg
+12_v2_not_in_bay/13_real_shadow_validation/**/*.jpeg
+12_v2_not_in_bay/13_real_shadow_validation/**/*.png
