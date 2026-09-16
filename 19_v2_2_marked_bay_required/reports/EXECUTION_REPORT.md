@@ -22,10 +22,10 @@ Date: 2026-09-16 (Asia/Shanghai)
 
 ## Stop state
 
-`FINAL_STATUS=V2_2_DEV_CHAMPION_READY_NEEDS_NEW_CHALLENGE_IMAGES`
+`FINAL_STATUS=V2_2_SCAFFOLD_READY_GT_REVIEW_REQUIRED`
 
-This status is intentionally conservative: R0 was **not** executed because the required p02/p04/p05/p06 legacy DEV visual review is unresolved and the task's next required evidence is a fresh independent challenge set. No old VAL or HOLDOUT was run or reinterpreted. No production project, MQTT, robot, TTS, alerting, shadow canary, or SSH tunnel was touched.
+This status records scaffold readiness only: R0 was **not** executed because the required p02/p04/p05/p06 legacy DEV visual review is unresolved. The DEV review and R0 may proceed without waiting for the separate fresh challenge set. No old VAL or HOLDOUT was run or reinterpreted. No production project, MQTT, robot, TTS, alerting, shadow canary, or SSH tunnel was touched.
 
 ## Required gates not yet evidenced
 
-`R0_EXECUTED=false`; `DEV_CHAMPION=NONE`; `NEW_CHALLENGE_IMAGES_AVAILABLE=false`; `NEW_CHALLENGE_TOTAL=0`; `VAL_EXECUTED=false`; `HOLDOUT_EXECUTED=false`; `OFFLINE_SUBMISSION_READY=false`; `REAL_ROBOT_VALIDATED=false`; `PRODUCTION_READY=false`.
+`READY_FOR_R0=false`; `R0_EXECUTED=false`; `DEV_CHAMPION=NONE`; `NEW_CHALLENGE_IMAGES_AVAILABLE=false`; `NEW_CHALLENGE_TOTAL=0`; `VAL_EXECUTED=false`; `HOLDOUT_EXECUTED=false`; `OFFLINE_SUBMISSION_READY=false`; `REAL_ROBOT_VALIDATED=false`; `PRODUCTION_READY=false`.
