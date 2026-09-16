@@ -1,0 +1,71 @@
+{
+  "stage": "V2_2_R1_RECALL",
+  "R1_STARTED": true,
+  "pipeline_config": {
+    "pipeline_version": "v2.2_marked_bay_required",
+    "endpoint": "http://192.168.20.62:11434",
+    "model": "qwen3.5:4b",
+    "concurrency": 2,
+    "timeout_seconds": 240,
+    "max_retries": 2,
+    "temperature": 0,
+    "num_predict": 32,
+    "think": false,
+    "detector": {
+      "checkpoint": "assets/yolo11n.pt",
+      "checkpoint_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+      "classes": {
+        "2": "car",
+        "5": "bus",
+        "7": "truck"
+      },
+      "conf": 0.2,
+      "imgsz": 640,
+      "device": "cpu"
+    },
+    "selection": {
+      "edge_margin_pixels": 1,
+      "max_selected": 2,
+      "rank1_always_if_valid": true,
+      "rank2_height_fraction_gte": 0.25,
+      "sort": [
+        "bbox_area_desc",
+        "confidence_desc",
+        "class_id_asc",
+        "bbox_coordinates_asc"
+      ]
+    },
+    "view_a": {
+      "max_long_edge": 896,
+      "jpeg_quality": 90,
+      "box_color": [
+        255,
+        0,
+        0
+      ],
+      "box_width": 4
+    },
+    "prompts": {
+      "q1.txt": {
+        "sha256": "12c64bbf69915ac181a91adda39a8bd95ec26528d44f978e1eca6ad475a1cc9e"
+      },
+      "q3.txt": {
+        "sha256": "5cc5e33ac9e7a9f99b77100fcb4a83ad557d80901369e593f8cca7d7e2197cdc"
+      }
+    }
+  },
+  "q1_sha256": "12c64bbf69915ac181a91adda39a8bd95ec26528d44f978e1eca6ad475a1cc9e",
+  "q3_sha256": "5cc5e33ac9e7a9f99b77100fcb4a83ad557d80901369e593f8cca7d7e2197cdc",
+  "yolo_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "gt_sha256": "413d0226b0eb8c13f388f3adb051844b0fe6d30b1b06ebc833b614beaffd1e56",
+  "pipeline_tree": "19_v2_2_marked_bay_required/05_dev_r1/pipeline_snapshot",
+  "cached_detector_source": "12_v2_not_in_bay/03_debug/v2_dev_inference_input.jsonl",
+  "cached_detector_allowed_fields": [
+    "sample_token",
+    "image_path",
+    "image_sha256",
+    "detections"
+  ],
+  "input_count": 238,
+  "start_utc": "2026-09-16T06:22:29Z"
+}

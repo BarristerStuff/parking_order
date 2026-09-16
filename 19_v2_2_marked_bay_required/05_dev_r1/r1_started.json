@@ -1,0 +1,10 @@
+{
+  "R1_STARTED": true,
+  "timestamp_utc": "2026-09-16T06:22:29Z",
+  "GT_SHA": "413d0226b0eb8c13f388f3adb051844b0fe6d30b1b06ebc833b614beaffd1e56",
+  "R1_Q1_SHA": "12c64bbf69915ac181a91adda39a8bd95ec26528d44f978e1eca6ad475a1cc9e",
+  "Q3_SHA": "5cc5e33ac9e7a9f99b77100fcb4a83ad557d80901369e593f8cca7d7e2197cdc",
+  "YOLO_SHA": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "pipeline_revision": "V2_2_R1_RECALL",
+  "runtime": "/home/yanbo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3"
+}

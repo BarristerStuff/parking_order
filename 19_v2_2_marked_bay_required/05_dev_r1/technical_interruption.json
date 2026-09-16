@@ -1,0 +1,31 @@
+{
+  "status": "V2_2_R1_BLOCKED_OLLAMA_TIMEOUT",
+  "date": "2026-09-16",
+  "R1_STARTED": true,
+  "R1_EXECUTED": false,
+  "resume_allowed": "identical_configuration_technical_resume_only",
+  "semantic_retry_allowed": false,
+  "endpoint": "http://192.168.20.62:11434",
+  "model": "qwen3.5:4b",
+  "concurrency": 2,
+  "timeout_seconds": 240,
+  "request_start_count": 8,
+  "request_result_count": 6,
+  "schema_success_count": 0,
+  "timeout_result_count": 6,
+  "affected_sample_tokens": [
+    "0ac07929df37198dc40d070eae1572dc3dc0f3c40e6051a5fca984e999030676",
+    "262716fe416364a2a3c92434537b2182f1149ccca9ca2e6ec445c234da511fb1",
+    "2e417531062eed85ca3d715a29639e0b2722bdc5346a948272de66c159b70e28",
+    "35fd6f09cc5058905dacb3e2c3098930ece62568b7cd4693b5e308e5dc326472"
+  ],
+  "prediction_coverage": 0,
+  "gt_sha256": "413d0226b0eb8c13f388f3adb051844b0fe6d30b1b06ebc833b614beaffd1e56",
+  "r1_q1_sha256": "12c64bbf69915ac181a91adda39a8bd95ec26528d44f978e1eca6ad475a1cc9e",
+  "q3_sha256": "5cc5e33ac9e7a9f99b77100fcb4a83ad557d80901369e593f8cca7d7e2197cdc",
+  "yolo_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "val_executed": false,
+  "holdout_executed": false,
+  "server_modified": false,
+  "note": "The first six completed HTTP attempts each timed out after 240 seconds. Two additional attempts were in flight when the client was interrupted to prevent an unbounded all-DEV timeout run. No successful prediction was produced."
+}

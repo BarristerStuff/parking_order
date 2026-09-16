@@ -1,0 +1,9 @@
+scope,image_count,ALL_Q1_A_COUNT,ANY_Q1_B_COUNT,ANY_Q1_C_COUNT,ANY_Q1_D_COUNT,NO_SELECTED_VEHICLE_COUNT,selected_vehicle_total,q3_total,frame_decisions
+positive_all,62,59,0,3,0,0,77,4,"{""negative"": 59, ""positive"": 3}"
+negative_all,134,134,0,0,0,0,171,0,"{""negative"": 134}"
+p01,23,20,0,3,0,0,26,4,"{""negative"": 20, ""positive"": 3}"
+p02-positive,12,12,0,0,0,0,16,0,"{""negative"": 12}"
+p03,18,18,0,0,0,0,22,0,"{""negative"": 18}"
+p04-positive,5,5,0,0,0,0,6,0,"{""negative"": 5}"
+p05-positive,4,4,0,0,0,0,7,0,"{""negative"": 4}"
+p06-positive,0,0,0,0,0,0,0,0,{}

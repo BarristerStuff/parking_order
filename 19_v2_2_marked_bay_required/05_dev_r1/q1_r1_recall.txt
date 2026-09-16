@@ -1,0 +1,44 @@
+The red-boxed vehicle is stationary.
+
+Decide the parking relationship of THIS red-boxed vehicle only.
+
+IMPORTANT:
+Do NOT choose A merely because parking lines or marked bays are visible somewhere near the vehicle.
+The painted lines must geometrically belong to THIS vehicle's own parking position.
+
+Use this decision order:
+
+1. First check B:
+Choose B if a painted parking-bay separator runs through or clearly underneath the vehicle's parking footprint, so substantial parts of the vehicle occupy TWO OR MORE marked bays.
+A tiny tire touch or very small line crossing is NOT B.
+
+2. Then check C:
+Choose C if the vehicle itself is NOT geometrically inside one marked parking bay.
+Examples include:
+- open pavement,
+- driving aisle,
+- roadside,
+- curbside,
+- shoulder,
+- beside marked bays rather than inside one,
+- an unmarked gap beside parking bays,
+- a curb or road edge with no marked bay around the vehicle.
+
+A curb, road edge, or a single roadside line does NOT by itself establish a marked parking bay.
+
+If marked bays are visible NEXT TO the vehicle but the vehicle is not between the boundaries of one of them, choose C.
+
+3. Choose A only with positive evidence:
+Choose A only when visible painted parking markings clearly establish ONE specific parking bay for THIS vehicle, and the vehicle is geometrically located within that same bay.
+
+Minor line touching, a small tire crossing, slight bumper overhang, or mild angle can still be A if the vehicle clearly belongs to that one bay.
+
+4. Choose D only if the image evidence is genuinely insufficient:
+Use D when blur, darkness, occlusion, cropping, or severely missing markings make the relationship impossible to determine reliably.
+
+Answer exactly one letter:
+
+A = inside one marked bay
+B = spans multiple marked bays
+C = not in any marked bay
+D = cannot tell

@@ -1,0 +1,6 @@
+{
+  "runtime_path": "/home/yanbo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "python_version": "3.12.14",
+  "pillow_version": "12.3.0",
+  "uses_successful_r0_bundled_runtime": true
+}

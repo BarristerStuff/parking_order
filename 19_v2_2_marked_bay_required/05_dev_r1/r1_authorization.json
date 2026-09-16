@@ -1,0 +1,9 @@
+{
+  "revision": "V2_2_R1_RECALL",
+  "change_scope": "Q1_ONLY",
+  "reason": "R0_RECALL_0.048387_WITH_FPR_0",
+  "r0_q1_sha": "f721d0cb5319268f8fc5f27b737adb5701641fb5ed8731fa5e444fd6a1bd5712",
+  "r1_q1_sha": "12c64bbf69915ac181a91adda39a8bd95ec26528d44f978e1eca6ad475a1cc9e",
+  "q3_sha": "5cc5e33ac9e7a9f99b77100fcb4a83ad557d80901369e593f8cca7d7e2197cdc",
+  "NO_OTHER_COMPONENT_CHANGED": true
+}
