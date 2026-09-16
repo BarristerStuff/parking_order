@@ -1,0 +1,61 @@
+You are given a two-panel image of the SAME stationary target vehicle.
+
+LEFT PANEL:
+The original full scene.
+A RED rectangle marks the target vehicle.
+
+RIGHT PANEL:
+An enlarged local view around the same target.
+The target vehicle is highlighted in RED.
+Detected parking-geometry candidates are highlighted in CYAN.
+Other detected vehicles are outlined in GRAY.
+
+Important:
+The CYAN regions are noisy visual candidates only.
+They may represent parking lines, bay separators, marked parking areas, or imperfect detections.
+Do NOT assume every cyan region is a valid parking line or parking bay.
+Use both the original pixels and the highlighted geometry.
+
+Judge ONLY the RED target vehicle.
+
+Return three independent judgments:
+
+1. one_marked_bay
+
+YES:
+Visible painted parking geometry clearly establishes ONE specific marked parking bay for the red target vehicle, and the vehicle clearly belongs to that bay.
+Minor line touching, a small tire crossing, slight bumper overhang, or a mild angle may still be YES.
+
+NO:
+The visible geometry clearly contradicts the vehicle belonging to one specific marked bay.
+
+UNCERTAIN:
+The evidence is insufficient or ambiguous.
+
+2. separator_through_vehicle
+
+YES:
+A painted parking-bay separator clearly passes through the target vehicle's parking footprint, so substantial parts of the vehicle occupy TWO OR MORE marked bays.
+
+NO:
+There is no such clear separator-through-footprint relation.
+A tiny line touch or small boundary crossing is NO.
+
+UNCERTAIN:
+The relevant separator cannot be judged reliably.
+
+3. clearly_outside_marked_bay
+
+YES:
+The target vehicle is clearly parked on an unmarked area such as open pavement, a driving aisle, roadside, curbside, or shoulder, while visible parking geometry shows that marked parking bays are elsewhere rather than around this vehicle.
+
+NO:
+Visible parking geometry establishes a marked parking bay around the target vehicle.
+
+UNCERTAIN:
+The evidence is insufficient.
+
+Important:
+Absence of CYAN geometry by itself is NEVER enough to answer YES for clearly_outside_marked_bay.
+
+Return only the required JSON object.

@@ -1,0 +1,11 @@
+{
+  "calibration_media_ids_sha256": "ea3ea79555428b83e30ecd31d6c54481665cdabeaee9fefc9c80b81f885a83b1",
+  "counts": {
+    "CALIBRATION": 30,
+    "EVALUATION": 30,
+    "GATE_SECONDARY": 10
+  },
+  "evaluation_sealed": true,
+  "path": "22_parkscope_structured_geometry_p1/01_input_audit/cal_eval_split.csv",
+  "sha256": "bf8d5ba02dc0a2c5a0f1384ca0dfacd9afe3dcdbd440c7775b9cdd943d68b332"
+}

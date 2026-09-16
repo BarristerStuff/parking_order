@@ -1,0 +1,17 @@
+{
+  "target_rule": [
+    {"if": "anchor_invalid", "decision": "UNCERTAIN_ANCHOR"},
+    {"if": "one_marked_bay=YES AND (separator_through_vehicle=YES OR clearly_outside_marked_bay=YES)", "decision": "UNCERTAIN_CONFLICT"},
+    {"if": "separator_through_vehicle=YES OR clearly_outside_marked_bay=YES", "decision": "POSITIVE"},
+    {"if": "one_marked_bay=YES AND separator_through_vehicle=NO AND clearly_outside_marked_bay=NO", "decision": "NEGATIVE"},
+    {"if": "otherwise", "decision": "UNCERTAIN"}
+  ],
+  "frame_rule": [
+    {"if": "any target POSITIVE", "decision": "positive"},
+    {"if": "all targets NEGATIVE", "decision": "negative"},
+    {"if": "otherwise", "decision": "uncertain"}
+  ],
+  "strict_confusion": {"gt_positive": {"positive": "TP", "negative_or_uncertain": "FN"}, "gt_negative": {"positive": "FP", "negative": "TN_EXPLICIT", "uncertain": "NON_FP_UNCERTAIN"}},
+  "inbay_discrimination_weak_diagnostic": "negative_target_one_marked_bay_yes_rate - positive_target_one_marked_bay_yes_rate < 0.20",
+  "diagnostic_note": "The source instruction used qualitative wording for this diagnostic; this deterministic criterion is preregistered before requests and does not affect the CAL gate."
+}

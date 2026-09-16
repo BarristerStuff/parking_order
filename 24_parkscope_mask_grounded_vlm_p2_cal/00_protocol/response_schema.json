@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "one_marked_bay": {
+      "type": "string",
+      "enum": ["YES", "NO", "UNCERTAIN"]
+    },
+    "separator_through_vehicle": {
+      "type": "string",
+      "enum": ["YES", "NO", "UNCERTAIN"]
+    },
+    "clearly_outside_marked_bay": {
+      "type": "string",
+      "enum": ["YES", "NO", "UNCERTAIN"]
+    }
+  },
+  "required": [
+    "one_marked_bay",
+    "separator_through_vehicle",
+    "clearly_outside_marked_bay"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,18 @@
+{
+  "revision": "PARKSCOPE_MASK_GROUNDED_VLM_P2_CAL",
+  "final_size": [1792, 672],
+  "panel_size": [896, 672],
+  "letterbox_fill_rgb": [0, 0, 0],
+  "left": {"full_image": true, "target_bbox_rgb": [255, 0, 0], "target_bbox_width": 5},
+  "right_crop_expansion": {"left_bbox_width": 1.0, "right_bbox_width": 1.0, "top_bbox_height": 0.75, "bottom_bbox_height": 0.75},
+  "right_background_multiplier": 0.45,
+  "parking_geometry_class_ids": [1, 2],
+  "colors": {"target_rgb": [255, 48, 48], "parking_geometry_rgb": [0, 216, 255], "other_vehicle_rgb": [160, 160, 160]},
+  "render_order": ["dim_background", "other_vehicle_outline", "target_fill", "parking_geometry_fill_and_boundary", "target_boundary"],
+  "other_vehicle_outline_width": 2,
+  "target_fill_alpha": 0.30,
+  "parking_geometry_fill_alpha": 0.55,
+  "parking_geometry_boundary_width": 3,
+  "target_boundary_width": 4,
+  "jpeg": {"quality": 90, "subsampling": 0, "optimize": false, "progressive": false}
+}

@@ -1,0 +1,12 @@
+{
+  "endpoint": "http://192.168.20.62:11434",
+  "api": "/api/generate",
+  "model": "qwen3.5:4b",
+  "stream": false,
+  "think": false,
+  "options": {"temperature": 0, "top_p": 0.9, "num_predict": 64},
+  "timeout_seconds": 240,
+  "max_retries": 2,
+  "concurrency": 2,
+  "keep_alive": "30m"
+}

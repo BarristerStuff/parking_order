@@ -1,0 +1,12 @@
+{
+  "cal_images": 30,
+  "cal_invalid_targets": 0,
+  "cal_selected_targets": 42,
+  "cal_valid_targets": 42,
+  "parkscope_new_requests": 0,
+  "parkscope_predictions_path": "21_parkscope_segmentation_feasibility_p0/03_inference/parkscope_predictions.jsonl",
+  "parkscope_predictions_sha256": "6bf5dcfb85c702a4e60af811748ea517c167449cdc8fc825b92f5423007762f0",
+  "selected_vehicle_binding_path": "21_parkscope_segmentation_feasibility_p0/02_input_audit/selected_vehicle_binding.csv",
+  "selected_vehicle_binding_sha256": "49d1428ba5babbe80af296a6044c4787b87623730e011071f38bf43694a1b2e4",
+  "split_sha256": "bf8d5ba02dc0a2c5a0f1384ca0dfacd9afe3dcdbd440c7775b9cdd943d68b332"
+}
