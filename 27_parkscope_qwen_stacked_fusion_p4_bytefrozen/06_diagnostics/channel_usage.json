@@ -1,0 +1,5 @@
+{
+  "criterion": "all outer folds standardized abs(coef) < 0.05",
+  "p3_channel_unused": false,
+  "qwen_channel_unused": false
+}

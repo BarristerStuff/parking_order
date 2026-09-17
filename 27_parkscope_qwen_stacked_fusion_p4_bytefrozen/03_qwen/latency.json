@@ -1,0 +1,12 @@
+{
+  "latency_max_seconds": 7.1491284119993,
+  "latency_p50_seconds": 1.7382910759997685,
+  "latency_p95_seconds": 1.972897757249666,
+  "mean_requests_per_frame": 1.7590361445783131,
+  "physical_attempts": 292,
+  "q1_logical_requests": 213,
+  "q3_logical_requests": 79,
+  "schema_successes": 292,
+  "timeouts": 0,
+  "total_logical_requests": 292
+}

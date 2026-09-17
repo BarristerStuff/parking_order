@@ -1,0 +1,15 @@
+{
+  "FN": 17,
+  "FP": 37,
+  "TN": 82,
+  "TP": 30,
+  "f1": 0.5263157894736842,
+  "fpr": 0.31092436974789917,
+  "gt_join_after_qwen_feature_freeze": true,
+  "minor_crossing_fpr": 0.25,
+  "p01_recall": 0.8888888888888888,
+  "p03_recall": 0.3076923076923077,
+  "precision": 0.44776119402985076,
+  "qwen_feature_sha256": "419c57defe0fd548a416de1893a9cd944c10087157718ecd82b35af1483ce999",
+  "recall": 0.6382978723404256
+}

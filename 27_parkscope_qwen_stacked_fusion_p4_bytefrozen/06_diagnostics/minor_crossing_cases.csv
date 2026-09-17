@@ -1,0 +1,13 @@
+media_id,outer_fold,p3_probability,qwen_frame_positive,qwen_candidate_fraction,p4_hybrid_probability,label_binary,group_key,winner_threshold,strict_prediction
+IMG_007433,1,0.5494630336761475,1.0,1.0,0.7483269875948603,0,n02-close-to-line-but-inside,0.85,negative
+IMG_007434,2,0.4163306653499603,0.0,0.0,0.23844319413369275,0,n02-close-to-line-but-inside,0.85,negative
+IMG_007437,3,0.24942328035831451,0.0,0.0,0.3008338628103648,0,n02-close-to-line-but-inside,0.85,negative
+IMG_007439,4,0.5603768825531006,0.0,0.0,0.4020746737633047,0,n02-close-to-line-but-inside,0.85,negative
+IMG_007440,3,0.2227334827184677,1.0,1.0,0.6397774780106248,0,n02-close-to-line-but-inside,0.85,negative
+IMG_007441,0,0.11876028776168823,1.0,1.0,0.622591473679717,0,n02-close-to-line-but-inside,0.85,negative
+IMG_007442,1,0.3364952802658081,0.0,0.0,0.2782118821945132,0,n02-close-to-line-but-inside,0.85,negative
+IMG_007444,4,0.3106141686439514,0.0,0.0,0.2910586282251718,0,n02-close-to-line-but-inside,0.85,negative
+IMG_007445,2,0.5150275230407715,0.0,0.0,0.3138545330519791,0,n02-close-to-line-but-inside,0.85,negative
+IMG_007449,2,0.07391037046909332,0.0,0.0,0.07752948402309216,0,n02-close-to-line-but-inside,0.85,negative
+IMG_007450,3,0.3362851142883301,0.0,0.0,0.31749981727328996,0,n02-close-to-line-but-inside,0.85,negative
+IMG_007454,0,0.2841606140136719,0.0,0.0,0.2764505684333756,0,n02-close-to-line-but-inside,0.85,negative

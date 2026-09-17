@@ -1,0 +1,12 @@
+media_id,outer_fold,p3_probability,qwen_frame_positive,qwen_candidate_fraction,p4_hybrid_probability,label_binary,group_key,winner_threshold,strict_prediction
+IMG_007647,4,0.8488371968269348,1.0,0.5,0.6739189027024791,0,p05-multi-vehicle-at-least-one-violation,0.85,negative
+IMG_007648,0,0.17686590552330017,0.0,0.0,0.2530102644457216,0,p05-multi-vehicle-at-least-one-violation,0.85,negative
+IMG_007650,1,0.7533811330795288,0.0,0.0,0.42393542684139945,1,p05-multi-vehicle-at-least-one-violation,0.85,negative
+IMG_007652,2,0.7634498476982117,0.0,0.0,0.5428886473724214,0,p05-multi-vehicle-at-least-one-violation,0.85,negative
+IMG_007654,3,0.08424940705299377,1.0,0.5,0.360115807822178,0,p05-multi-vehicle-at-least-one-violation,0.85,negative
+IMG_007655,4,0.2807186543941498,1.0,0.5,0.4021809602423485,0,p05-multi-vehicle-at-least-one-violation,0.85,negative
+IMG_007656,0,0.6929114460945129,0.0,0.0,0.37680353872182265,1,p05-multi-vehicle-at-least-one-violation,0.85,negative
+IMG_007658,1,0.5449380278587341,1.0,1.0,0.7470026596257545,1,p05-multi-vehicle-at-least-one-violation,0.85,negative
+IMG_007659,3,0.4672362506389618,1.0,0.5,0.4425668999668889,1,p05-multi-vehicle-at-least-one-violation,0.85,negative
+IMG_007661,2,0.7168611288070679,1.0,0.5,0.7431422965597339,0,p05-multi-vehicle-at-least-one-violation,0.85,negative
+IMG_007665,4,0.7241849303245544,0.0,0.0,0.48170412713010635,0,p05-multi-vehicle-at-least-one-violation,0.85,negative
