@@ -1,0 +1,18 @@
+{
+  "C": 1.0,
+  "class_weight": "balanced",
+  "feature_dim": 3,
+  "features": [
+    "p3_probability",
+    "qwen_frame_positive",
+    "qwen_candidate_fraction"
+  ],
+  "max_iter": 1000,
+  "penalty": "l2",
+  "pipeline": [
+    "StandardScaler",
+    "LogisticRegression"
+  ],
+  "random_state": "20260916 + outer_fold_id",
+  "solver": "liblinear"
+}

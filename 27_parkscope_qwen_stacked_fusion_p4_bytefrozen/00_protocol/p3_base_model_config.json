@@ -1,0 +1,28 @@
+{
+  "augmentation": false,
+  "best_epoch": false,
+  "device": "cpu",
+  "early_stopping": false,
+  "epochs": 100,
+  "frame_batch_size": 8,
+  "input": "byte-frozen vault only",
+  "layers": [
+    "Conv2d(4,8,5,stride=2,padding=2)",
+    "ReLU",
+    "Conv2d(8,16,3,stride=2,padding=1)",
+    "ReLU",
+    "Conv2d(16,16,3,stride=2,padding=1)",
+    "ReLU",
+    "AdaptiveAvgPool2d((1,1))",
+    "Flatten",
+    "Linear(16,1)"
+  ],
+  "learning_rate": 0.001,
+  "loss": "BCEWithLogitsLoss",
+  "mil": "max(target_logits)",
+  "name": "TINY_MIL_CNN_V1",
+  "optimizer": "Adam",
+  "pos_weight": "training negatives / positives",
+  "seed_sweep": false,
+  "weight_decay": 0.0001
+}

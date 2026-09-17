@@ -1,0 +1,16 @@
+{
+  "array_sanity_pass_count": 213,
+  "artifact_freeze_sha256": "87048575b39dd4c7a6f5cea40db00e29f43ad6bc4919b3459f38acf312d5549a",
+  "artifact_manifest_sha256": "b9e145b83c079456b8cf9a00bb4dd6f1105693ce7ff5a4209a82aff6feef7372",
+  "artifact_set_sha256": "793943921e40653e10f4ff79cad9c8277962c1853c1ed6d54a9cf45252f07c79",
+  "dest_raster_count": 213,
+  "dest_raster_sha_match_count": 213,
+  "distance_transform_calls_for_p4_input": 0,
+  "file_mode": "0444",
+  "p3_byte_frozen_artifact_ready": true,
+  "p3_raster_regenerations": 0,
+  "parkscope_new_requests": 0,
+  "second_verification_match_count": 213,
+  "source_raster_count": 213,
+  "source_raster_sha_match_count": 213
+}

@@ -1,0 +1,43 @@
+{
+  "hard_gate": {
+    "f1_gte": 0.75,
+    "fpr_lte": 0.1,
+    "minor_crossing_fpr_lte": 0.1,
+    "oof_coverage_eq": 1.0,
+    "p01_recall_gte": 0.6,
+    "p03_recall_gte": 0.6,
+    "precision_gte": 0.85,
+    "recall_gte": 0.7
+  },
+  "safe_gate": {
+    "fpr_lte": 0.1,
+    "precision_gte": 0.85
+  },
+  "thresholds": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "winner_order": [
+    "recall_desc",
+    "f1_desc",
+    "precision_desc",
+    "threshold_desc"
+  ]
+}

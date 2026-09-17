@@ -1,0 +1,10 @@
+{
+  "absolute_vault_path": "/home/yanbo/net_vlm_frozen_artifacts/parking_order/p3_relation_rasters_v1",
+  "artifact_manifest_sha256": "b9e145b83c079456b8cf9a00bb4dd6f1105693ce7ff5a4209a82aff6feef7372",
+  "artifact_name": "P3_RELATION_RASTERS_V1_BYTE_FROZEN",
+  "artifact_set_sha256": "793943921e40653e10f4ff79cad9c8277962c1853c1ed6d54a9cf45252f07c79",
+  "count": 213,
+  "recomputation_allowed": false,
+  "source_git_commit": "5e0a1b241b1e2ca7091ef3afccc9c64e86f34c94",
+  "source_raster_manifest_sha256": "7186864b1711e41fe77e968512ee5cf59a32fd4808019550ab67630e6ac1e0cb"
+}

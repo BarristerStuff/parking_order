@@ -1,0 +1,9 @@
+_local_view_a/
+_local_models/
+*.jpg
+*.jpeg
+*.png
+*.npy
+*.pt
+__pycache__/
+*.pyc

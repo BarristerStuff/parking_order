@@ -1,0 +1,18 @@
+{
+  "concurrency": 2,
+  "cuda_visible_devices": false,
+  "endpoint": "http://192.168.20.62:11434",
+  "features": [
+    "qwen_frame_positive",
+    "qwen_candidate_fraction"
+  ],
+  "fixed_gpu": false,
+  "max_retries": 2,
+  "model": "qwen3.5:4b",
+  "num_predict": 32,
+  "role": "FROZEN_SEMANTIC_FEATURE_CHANNEL",
+  "ssh_tunnel": false,
+  "temperature": 0,
+  "think": false,
+  "timeout_seconds": 240
+}

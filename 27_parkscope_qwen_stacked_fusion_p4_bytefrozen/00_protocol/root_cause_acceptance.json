@@ -1,0 +1,7 @@
+{
+  "accepted_root_cause": "OPENCV_DIST_MASK_PRECISE_FLOAT32_CROSS_PROCESS_NONDETERMINISM",
+  "canonical_relation_input": "exact retained P3 .npy bytes",
+  "p3_raster_artifact_valid": true,
+  "p3_repro_root_cause_accepted": true,
+  "recomputation_prohibited": true
+}

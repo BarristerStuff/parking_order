@@ -1,0 +1,18 @@
+{
+  "bbox_width": 4,
+  "crop": false,
+  "determinism_repeat_count": 20,
+  "gt": false,
+  "jpeg_quality": 90,
+  "mask_overlay": false,
+  "max_long_edge": 896,
+  "scene": "full RGB",
+  "subtype": false,
+  "target_bbox_color_rgb": [
+    255,
+    0,
+    0
+  ],
+  "target_count": 213,
+  "text": false
+}

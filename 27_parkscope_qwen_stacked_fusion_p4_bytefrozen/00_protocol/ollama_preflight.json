@@ -1,0 +1,6 @@
+{
+  "endpoint": "http://192.168.20.62:11434",
+  "generate_requests": 0,
+  "model": "qwen3.5:4b",
+  "tags_preflight": true
+}

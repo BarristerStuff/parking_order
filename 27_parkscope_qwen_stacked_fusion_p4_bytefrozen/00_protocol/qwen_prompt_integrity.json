@@ -1,0 +1,11 @@
+{
+  "integrity_pass": true,
+  "p2_route_prohibited": true,
+  "prompt_source": "/home/yanbo/net_vlm_parking_p4_clean_v2/19_v2_2_marked_bay_required/05_dev_r1/pipeline_snapshot/prompts",
+  "q1_expected_sha256": "12c64bbf69915ac181a91adda39a8bd95ec26528d44f978e1eca6ad475a1cc9e",
+  "q1_filename": "q1.txt",
+  "q1_sha256": "12c64bbf69915ac181a91adda39a8bd95ec26528d44f978e1eca6ad475a1cc9e",
+  "q3_expected_sha256": "5cc5e33ac9e7a9f99b77100fcb4a83ad557d80901369e593f8cca7d7e2197cdc",
+  "q3_filename": "q3.txt",
+  "q3_sha256": "5cc5e33ac9e7a9f99b77100fcb4a83ad557d80901369e593f8cca7d7e2197cdc"
+}

@@ -1,0 +1,14 @@
+{
+  "inner_model_seed": "20260916 + outer_fold_id*100 + inner_fold_id",
+  "inner_n_splits": 4,
+  "inner_random_state": "20260916 + outer_fold_id",
+  "inner_splitter": "StratifiedKFold",
+  "outer_folds_source": "/home/yanbo/net_vlm_parking_p4_clean_v2/25_parkscope_learned_relation_head_p3_oof/05_oof/oof_folds.csv",
+  "outer_frame_count": 166,
+  "outer_model_seed": "20260916 + outer_fold_id",
+  "outer_n_splits": 5,
+  "outer_validation_gt_forbidden_for_fit": true,
+  "required_oof_coverage": 1.0,
+  "score_freeze_before_global_gt_join": true,
+  "shuffle": true
+}

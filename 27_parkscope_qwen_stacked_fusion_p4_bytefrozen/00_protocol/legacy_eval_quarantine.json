@@ -1,0 +1,8 @@
+{
+  "allowed_use": "media_id exclusion only",
+  "legacy_eval_count": 30,
+  "permanently_quarantined": true,
+  "provenance_compromised": true,
+  "qwen_requests": 0,
+  "used_for_p4": false
+}

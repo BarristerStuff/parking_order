@@ -1,0 +1,12 @@
+{
+  "gt_sha256": "413d0226b0eb8c13f388f3adb051844b0fe6d30b1b06ebc833b614beaffd1e56",
+  "legacy_eval_count": 30,
+  "outer_fold_count": 5,
+  "outer_fold_frame_count": 166,
+  "primary_legacy_eval_overlap": 0,
+  "primary_negative": 119,
+  "primary_positive": 47,
+  "primary_total": 166,
+  "selected_target_count": 213,
+  "target_manifest_sha256": "8cf9fe036594d5f57eafba05a794d719036973438c5ec8925f1c2681830419a3"
+}

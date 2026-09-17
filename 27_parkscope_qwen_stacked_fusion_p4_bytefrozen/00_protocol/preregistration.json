@@ -1,0 +1,22 @@
+{
+  "baseline_commit": "5e0a1b241b1e2ca7091ef3afccc9c64e86f34c94",
+  "distance_transform_calls_for_p4_input": 0,
+  "experiment": "P4_BYTE_FROZEN_P3_RASTER_PLUS_QWEN_STACKED_OOF",
+  "holdout_executed": false,
+  "independent_eval_executed": false,
+  "legal_terminal_statuses": [
+    "P4_QWEN_STACKED_FUSION_OOF_PASS",
+    "P4_QWEN_STACKED_FUSION_OOF_FAIL",
+    "P4_QWEN_STACKED_FUSION_NO_SAFE_THRESHOLD",
+    "P4_BYTE_FROZEN_BLOCKED_*"
+  ],
+  "p3_raster_regenerations": 0,
+  "parkscope_new_requests": 0,
+  "phase_a_complete": true,
+  "primary_total": 166,
+  "production_modified": false,
+  "qwen_requests_before_protocol_push": 0,
+  "selected_target_count": 213,
+  "training_before_protocol_push": false,
+  "val_executed": false
+}
